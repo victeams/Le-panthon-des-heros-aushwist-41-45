@@ -1,0 +1,247 @@
+{
+  "title": "Base documentaire d’Auschwitz",
+  "version": "2026-08-19",
+  "record_count": 10270,
+  "category_count": 26,
+  "methodology": "Les niveaux de certitude et les liens de source sont conservés. Les corpus qui se chevauchent ne doivent pas être additionnés.",
+  "categories": [
+    {
+      "slug": "camps",
+      "title": "Camps principaux",
+      "description": "Auschwitz I, Birkenau et Monowitz.",
+      "count": 3,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/camps.json"
+    },
+    {
+      "slug": "vie-quotidienne",
+      "title": "Vie quotidienne",
+      "description": "Conditions de détention, faim, travail forcé, appels et résistance.",
+      "count": 12,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/vie-quotidienne.json"
+    },
+    {
+      "slug": "lieux-historiques",
+      "title": "Lieux historiques",
+      "description": "Installations, fonctions, périodes et devenir des lieux.",
+      "count": 17,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/lieux-historiques.json"
+    },
+    {
+      "slug": "femmes-31000",
+      "title": "Femmes du convoi des 31 000",
+      "description": "Liste nominative de travail avec matricules et état de vérification.",
+      "count": 231,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/femmes-31000.json"
+    },
+    {
+      "slug": "hommes-45000",
+      "title": "Hommes du convoi des 45 000",
+      "description": "Liste nominative de travail avec matricules et état de vérification.",
+      "count": 182,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/hommes-45000.json"
+    },
+    {
+      "slug": "personnes",
+      "title": "Personnes documentées",
+      "description": "Notices nominatives complémentaires présentes dans la base historique.",
+      "count": 36,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/personnes.json"
+    },
+    {
+      "slug": "verifications-nominatives",
+      "title": "Vérifications nominatives",
+      "description": "Journal des identités et matricules rapprochés des sources.",
+      "count": 31,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/verifications-nominatives.json"
+    },
+    {
+      "slug": "sous-camps",
+      "title": "Sous-camps",
+      "description": "Sous-camps du complexe, périodes, travail et effectifs documentés.",
+      "count": 45,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/sous-camps.json"
+    },
+    {
+      "slug": "chronologie",
+      "title": "Chronologie",
+      "description": "Événements datés de l’histoire du complexe d’Auschwitz.",
+      "count": 37,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/chronologie.json"
+    },
+    {
+      "slug": "transports",
+      "title": "Transports",
+      "description": "Origines, dates, effectifs et statuts documentaires des convois.",
+      "count": 17,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/transports.json"
+    },
+    {
+      "slug": "statistiques-victimes",
+      "title": "Statistiques des victimes",
+      "description": "Ordres de grandeur conservant leur niveau de précision.",
+      "count": 5,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/statistiques-victimes.json"
+    },
+    {
+      "slug": "origines-juives",
+      "title": "Origines des déportés juifs",
+      "description": "Estimations par pays ou origine, avec sources et niveaux de confiance.",
+      "count": 14,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/origines-juives.json"
+    },
+    {
+      "slug": "experiences-medicales",
+      "title": "Expériences médicales",
+      "description": "Lieux, responsables, groupes victimes et conséquences documentées.",
+      "count": 7,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/experiences-medicales.json"
+    },
+    {
+      "slug": "responsables",
+      "title": "Responsables",
+      "description": "Fonctions, périodes et devenir après-guerre des responsables documentés.",
+      "count": 11,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/responsables.json"
+    },
+    {
+      "slug": "glossaire",
+      "title": "Glossaire historique",
+      "description": "Définitions des termes utilisés dans la base documentaire.",
+      "count": 25,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/glossaire.json"
+    },
+    {
+      "slug": "sources",
+      "title": "Sources de la base",
+      "description": "Institutions, titres, liens et appréciation de fiabilité.",
+      "count": 31,
+      "source": "Base SQL",
+      "file": "data/base-documentaire/sources.json"
+    },
+    {
+      "slug": "batiments",
+      "title": "Bâtiments et installations",
+      "description": "Inventaire détaillé des bâtiments des trois camps principaux.",
+      "count": 63,
+      "source": "Classeur maître",
+      "file": "data/base-documentaire/batiments.json"
+    },
+    {
+      "slug": "personnel-cle",
+      "title": "Personnel de direction et fonctions clés",
+      "description": "Sélection structurante, non exhaustive, des fonctions documentées.",
+      "count": 22,
+      "source": "Classeur maître",
+      "file": "data/base-documentaire/personnel-cle.json"
+    },
+    {
+      "slug": "personnel-feminin",
+      "title": "Personnel féminin au service de la SS",
+      "description": "Surveillantes, opératrices radio et infirmières documentées.",
+      "count": 25,
+      "source": "Classeur maître",
+      "file": "data/base-documentaire/personnel-feminin.json"
+    },
+    {
+      "slug": "personnel-ss",
+      "title": "Registre du personnel SS",
+      "description": "Index public des 8 502 fiches du registre IPN, chargé uniquement sur demande.",
+      "count": 8502,
+      "source": "Classeur maître · registre IPN",
+      "files": [
+        "data/base-documentaire/personnel-ss-001.json",
+        "data/base-documentaire/personnel-ss-002.json",
+        "data/base-documentaire/personnel-ss-003.json",
+        "data/base-documentaire/personnel-ss-004.json",
+        "data/base-documentaire/personnel-ss-005.json",
+        "data/base-documentaire/personnel-ss-006.json",
+        "data/base-documentaire/personnel-ss-007.json",
+        "data/base-documentaire/personnel-ss-008.json",
+        "data/base-documentaire/personnel-ss-009.json",
+        "data/base-documentaire/personnel-ss-010.json",
+        "data/base-documentaire/personnel-ss-011.json",
+        "data/base-documentaire/personnel-ss-012.json",
+        "data/base-documentaire/personnel-ss-013.json",
+        "data/base-documentaire/personnel-ss-014.json",
+        "data/base-documentaire/personnel-ss-015.json",
+        "data/base-documentaire/personnel-ss-016.json",
+        "data/base-documentaire/personnel-ss-017.json",
+        "data/base-documentaire/personnel-ss-018.json",
+        "data/base-documentaire/personnel-ss-019.json",
+        "data/base-documentaire/personnel-ss-020.json",
+        "data/base-documentaire/personnel-ss-021.json",
+        "data/base-documentaire/personnel-ss-022.json",
+        "data/base-documentaire/personnel-ss-023.json",
+        "data/base-documentaire/personnel-ss-024.json",
+        "data/base-documentaire/personnel-ss-025.json"
+      ]
+    },
+    {
+      "slug": "documents-judiciaires",
+      "title": "Documents judiciaires liés au personnel SS",
+      "description": "Décisions et pièces judiciaires reliées aux notices IPN.",
+      "count": 884,
+      "source": "Classeur maître · registre IPN",
+      "files": [
+        "data/base-documentaire/documents-judiciaires-001.json",
+        "data/base-documentaire/documents-judiciaires-002.json",
+        "data/base-documentaire/documents-judiciaires-003.json"
+      ]
+    },
+    {
+      "slug": "tatoueurs-detenus",
+      "title": "Tatoueurs détenus",
+      "description": "Identités documentées et limites des archives, sans les confondre avec le personnel SS.",
+      "count": 13,
+      "source": "Classeur maître",
+      "file": "data/base-documentaire/tatoueurs-detenus.json"
+    },
+    {
+      "slug": "lieux-tatouage",
+      "title": "Lieux du tatouage",
+      "description": "Lieux et périodes documentés du tatouage des matricules.",
+      "count": 12,
+      "source": "Classeur maître",
+      "file": "data/base-documentaire/lieux-tatouage.json"
+    },
+    {
+      "slug": "securite-installations",
+      "title": "Sécurité et installations",
+      "description": "Clôtures, miradors, sanitaires, crématoires et autres installations documentées.",
+      "count": 25,
+      "source": "Classeur maître",
+      "file": "data/base-documentaire/securite-installations.json"
+    },
+    {
+      "slug": "transferts-recents",
+      "title": "Transferts et ajouts récents",
+      "description": "Corpus récemment identifiés et pistes de recherche documentées.",
+      "count": 8,
+      "source": "Classeur maître",
+      "file": "data/base-documentaire/transferts-recents.json"
+    },
+    {
+      "slug": "personnes-verifiees",
+      "title": "Personnes nouvellement vérifiées",
+      "description": "Identités récemment rapprochées de sources institutionnelles.",
+      "count": 12,
+      "source": "Classeur maître",
+      "file": "data/base-documentaire/personnes-verifiees.json"
+    }
+  ]
+}

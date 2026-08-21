@@ -1,6 +1,6 @@
 # Le Panthéon des héros 1939-1945
 
-Site mémoriel publié gratuitement avec GitHub Pages. Les biographies sont classées automatiquement entre les femmes du convoi des 31000 et les hommes du convoi des 45000.
+Site mémoriel publié gratuitement avec GitHub Pages. Les biographies sont classées automatiquement entre les femmes du convoi des 31000 et les hommes du convoi des 45000. Une base documentaire statique permet aussi de consulter les camps, bâtiments, convois, personnes, sources et inventaires historiques sans VPS.
 
 ## Ajouter une nouvelle biographie depuis Android
 
@@ -36,5 +36,14 @@ ou
 - `site-data.json` : moteur de recherche ;
 - `sitemap.xml` et `robots.txt` : découverte par Google ;
 - `a_verifier.txt` : fiches ambiguës, images manquantes et doublons possibles.
+
+## Mettre à jour la base documentaire
+
+La base SQL de référence se trouve dans `sources/` :
+
+- `base-complete-auschwitz.sql` : données historiques, listes nominatives, chronologie et sources ;
+- `inventaire-auschwitz-base-maitre.xlsx` : classeur maître facultatif utilisé pour régénérer les bâtiments, installations et personnels documentés.
+
+Les données du classeur maître sont déjà converties dans `data/base-documentaire/`. Depuis Android, vous pourrez déposer une nouvelle version du classeur sous le nom exact `sources/inventaire-auschwitz-base-maitre.xlsx` lorsque vous voudrez les actualiser. En son absence, l’automatisation conserve les catégories déjà générées. GitHub Actions reconstruit automatiquement `base-documentaire.html` et les fichiers JSON découpés. Le visiteur ne charge qu’une catégorie à la fois, ce qui évite de télécharger immédiatement les 8 502 notices du registre du personnel SS.
 
 Le script ne déplace et ne supprime aucune biographie existante. Les contrôles peuvent également être lancés manuellement depuis l’onglet **Actions** de GitHub.

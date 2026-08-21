@@ -25,7 +25,7 @@ DEFAULT_BASE_URL = (
     "https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45"
 )
 DEFAULT_GOOGLE_VERIFICATION = "ag4W_c6-FAZV00AVo1jU8mvPpiRYZbypbN6FLHfmds0"
-GENERATED_HTML = {"index.html", "femmes.html", "hommes.html"}
+GENERATED_HTML = {"index.html", "femmes.html", "hommes.html", "base-documentaire.html"}
 EXCLUDED_DIRS = {".git", ".github", "scripts", "tests", "portraits"}
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
 # Exception historique : cette fiche publiée ne contient ni matricule ni
@@ -397,7 +397,7 @@ FILTER_SCRIPT = """
 """.strip()
 
 
-def collection_page(base_url: str, people: list[Biography], group: str) -> str:
+def collection_page(base_url: str, people: list[Biography], group: str, database_available: bool = False) -> str:
     is_women = group == "femmes"
     label = "Femmes du convoi des 31000" if is_women else "Hommes du convoi des 45000"
     intro = (
@@ -419,6 +419,7 @@ def collection_page(base_url: str, people: list[Biography], group: str) -> str:
     cards = "\n".join(card_markup(person) for person in people)
     if not cards:
         cards = '<p class="empty">Aucune fiche n’est encore publiée dans cette section.</p>'
+    database_link = '<a href="base-documentaire.html">Base documentaire</a>' if database_available else ""
     return f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -430,7 +431,7 @@ def collection_page(base_url: str, people: list[Biography], group: str) -> str:
     <p class="eyebrow">Mémoire • Résistance • Déportation</p>
     <h1>{escape(label)}</h1>
     <p class="intro">{escape(intro)}</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a></nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}</nav>
     <div class="stats"><span class="stat"><strong>{len(people)}</strong> fiche{'s' if len(people) != 1 else ''}</span></div>
   </header>
   <main>
@@ -474,7 +475,13 @@ HOME_SEARCH_SCRIPT = """
 """.strip()
 
 
-def home_page(base_url: str, women: list[Biography], men: list[Biography], verification: str) -> str:
+def home_page(
+    base_url: str,
+    women: list[Biography],
+    men: list[Biography],
+    verification: str,
+    database_records: int | None = None,
+) -> str:
     total = len(women) + len(men)
     title = "Le Panthéon des héros 1939-1945"
     description = "Portraits et biographies documentées de femmes et d’hommes résistants et déportés, afin de préserver leur histoire et transmettre leur mémoire."
@@ -486,6 +493,12 @@ def home_page(base_url: str, women: list[Biography], men: list[Biography], verif
         "url": f"{base_url}/",
         "inLanguage": "fr",
     }
+    database_link = '<a href="base-documentaire.html">Base documentaire</a>' if database_records is not None else ""
+    database_card = (
+        f'<article class="collection"><h2>Base documentaire d’Auschwitz</h2><p>{database_records} notices réparties par corpus, avec leurs sources et niveaux de certitude.</p><a class="button" href="base-documentaire.html">Explorer la base</a></article>'
+        if database_records is not None
+        else ""
+    )
     return f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -497,13 +510,14 @@ def home_page(base_url: str, women: list[Biography], men: list[Biography], verif
     <p class="eyebrow">Mémoire • Résistance • Déportation</p>
     <h1>{title}</h1>
     <p class="intro">{description}</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a></nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}</nav>
     <div class="stats"><span class="stat"><strong>{total}</strong> fiches</span><span class="stat"><strong>{len(women)}</strong> femmes</span><span class="stat"><strong>{len(men)}</strong> hommes</span></div>
   </header>
   <main>
     <section class="collections" aria-label="Collections">
       <article class="collection"><h2>Femmes du convoi des 31000</h2><p>{len(women)} biographies actuellement accessibles.</p><a class="button" href="femmes.html">Découvrir les femmes</a></article>
       <article class="collection"><h2>Hommes du convoi des 45000</h2><p>{len(men)} biographie{'s' if len(men) != 1 else ''} actuellement accessible{'s' if len(men) != 1 else ''}.</p><a class="button" href="hommes.html">Découvrir les hommes</a></article>
+      {database_card}
     </section>
     <section aria-labelledby="search-title" style="margin-top:38px">
       <h2 id="search-title">Rechercher dans toutes les biographies</h2>
@@ -520,12 +534,14 @@ def home_page(base_url: str, women: list[Biography], men: list[Biography], verif
 """
 
 
-def sitemap_xml(base_url: str, people: list[Biography]) -> str:
+def sitemap_xml(base_url: str, people: list[Biography], database_available: bool = False) -> str:
     entries: list[tuple[str, str | None]] = [
         (f"{base_url}/", None),
         (url_for(base_url, "femmes.html"), None),
         (url_for(base_url, "hommes.html"), None),
     ]
+    if database_available:
+        entries.append((url_for(base_url, "base-documentaire.html"), None))
     entries.extend((url_for(base_url, person.file), url_for(base_url, person.portrait) if person.portrait else None) for person in people)
     body: list[str] = []
     for location, image in entries:
@@ -562,6 +578,14 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
     women = [person for person in biographies if person.group == "femmes"]
     men = [person for person in biographies if person.group == "hommes"]
 
+    database_records: int | None = None
+    manifest_path = root / "data" / "base-documentaire" / "manifest.json"
+    if manifest_path.is_file() and (root / "base-documentaire.html").is_file():
+        try:
+            database_records = int(json.loads(manifest_path.read_text(encoding="utf-8"))["record_count"])
+        except (KeyError, TypeError, ValueError, json.JSONDecodeError):
+            warnings.append("BASE DOCUMENTAIRE — manifeste invalide")
+
     seen: dict[tuple[str, str], str] = {}
     for person in biographies:
         if not person.matricule:
@@ -572,10 +596,19 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
         else:
             seen[key] = person.file
 
-    (root / "index.html").write_text(home_page(base_url, women, men, verification), encoding="utf-8")
-    (root / "femmes.html").write_text(collection_page(base_url, women, "femmes"), encoding="utf-8")
-    (root / "hommes.html").write_text(collection_page(base_url, men, "hommes"), encoding="utf-8")
-    (root / "sitemap.xml").write_text(sitemap_xml(base_url, biographies), encoding="utf-8")
+    database_available = database_records is not None
+    (root / "index.html").write_text(
+        home_page(base_url, women, men, verification, database_records), encoding="utf-8"
+    )
+    (root / "femmes.html").write_text(
+        collection_page(base_url, women, "femmes", database_available), encoding="utf-8"
+    )
+    (root / "hommes.html").write_text(
+        collection_page(base_url, men, "hommes", database_available), encoding="utf-8"
+    )
+    (root / "sitemap.xml").write_text(
+        sitemap_xml(base_url, biographies, database_available), encoding="utf-8"
+    )
     (root / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {base_url}/sitemap.xml\n", encoding="utf-8")
     public_data = [
         {
