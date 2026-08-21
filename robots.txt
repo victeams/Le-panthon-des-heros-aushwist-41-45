@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45/sitemap.xml
