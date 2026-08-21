@@ -101,6 +101,28 @@ class BuildSiteTests(unittest.TestCase):
             self.assertFalse(first[2])
             self.assertFalse(second[2])
 
+    def test_links_documentary_database_when_manifest_is_present(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            manifest = root / "data" / "base-documentaire"
+            manifest.mkdir(parents=True)
+            (manifest / "manifest.json").write_text(
+                json.dumps({"record_count": 1234}), encoding="utf-8"
+            )
+            (root / "base-documentaire.html").write_text(
+                "<!doctype html><title>Base documentaire</title>", encoding="utf-8"
+            )
+
+            women, men, warnings = build(root, "https://example.test", "test")
+
+            self.assertEqual((women, men), (0, 0))
+            self.assertFalse(warnings)
+            self.assertIn("Base documentaire", (root / "index.html").read_text(encoding="utf-8"))
+            self.assertIn(
+                "base-documentaire.html",
+                (root / "sitemap.xml").read_text(encoding="utf-8"),
+            )
+
 
 if __name__ == "__main__":
     unittest.main()
