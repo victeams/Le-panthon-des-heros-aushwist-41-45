@@ -1,43 +1,77 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+# Classe les biographies, reconstruit le référencement et publie GitHub Pages.
+name: Classer et publier le site
 
 on:
-  # Runs on pushes targeting the default branch
   push:
+    branches:
+      - main
+      - "codex/**"
+  pull_request:
     branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: "pages"
+  group: "site-${{ github.ref }}"
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Télécharger le dépôt
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tester l’automatisation
+        run: python -m unittest discover -s tests -v
+
+      - name: Classer les fiches et reconstruire le site
+        run: python scripts/build_site.py
+
+      - name: Vérifier les fichiers générés
+        run: git diff --check
+
+      - name: Enregistrer automatiquement les index et miniatures
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- index.html femmes.html hommes.html sitemap.xml robots.txt site-data.json a_verifier.txt portraits
+          if ! git diff --cached --quiet; then
+            git commit -m "Mise à jour automatique des catalogues et du SEO [skip ci]"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Configurer GitHub Pages
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
+      - name: Préparer les fichiers du site
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
   deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && github.actor != 'github-actions[bot]'
+    needs: build
+    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
+      - name: Publier GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
