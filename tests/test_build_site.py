@@ -84,6 +84,23 @@ class BuildSiteTests(unittest.TestCase):
             self.assertFalse(warnings)
             self.assertIn("Jeannine EXEMPLE", (root / "femmes.html").read_text(encoding="utf-8"))
 
+    def test_documented_legacy_exception_survives_every_rebuild(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            filename = "jeannine_dite_jeanne_herschtel.html"
+            (root / filename).write_text(
+                biography("Jeannine dite Jeanne HERSCHTEL", None, "Notice commémorative"),
+                encoding="utf-8",
+            )
+
+            first = build(root, "https://example.test", "test")
+            second = build(root, "https://example.test", "test")
+
+            self.assertEqual(first[:2], (1, 0))
+            self.assertEqual(second[:2], (1, 0))
+            self.assertFalse(first[2])
+            self.assertFalse(second[2])
+
 
 if __name__ == "__main__":
     unittest.main()
