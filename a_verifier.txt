@@ -1,7 +1,7 @@
 RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
-Femmes 31000 : 102
+Femmes 31000 : 101
 Hommes 45000 : 0
-À vérifier : 0
+À vérifier : 1
 
-Aucune anomalie détectée.
+NON CLASSÉ — jeannine_dite_jeanne_herschtel.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
