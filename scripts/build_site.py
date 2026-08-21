@@ -28,6 +28,12 @@ DEFAULT_GOOGLE_VERIFICATION = "8ZWZ2TUItfXBP_MwRb8098PQh9k3_s_3DjEDckqp2D8"
 GENERATED_HTML = {"index.html", "femmes.html", "hommes.html"}
 EXCLUDED_DIRS = {".git", ".github", "scripts", "tests", "portraits"}
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
+# Exception historique : cette fiche publiée ne contient ni matricule ni
+# balise de convoi. La conserver explicitement rend les reconstructions
+# successives idempotentes, même après le remplacement de l'ancien index.
+LEGACY_GROUPS = {
+    "jeannine_dite_jeanne_herschtel.html": "femmes",
+}
 
 
 def clean_text(value: str) -> str:
@@ -297,6 +303,8 @@ def parse_biography(root: Path, path: Path, old_map: dict[str, str]) -> tuple[Bi
     # celle de Jeannine Herschtel, lors de la première reconstruction.
     if not group and relative in old_map:
         group, reason = "femmes", "index historique des 31000"
+    if not group and relative.casefold() in LEGACY_GROUPS:
+        group, reason = LEGACY_GROUPS[relative.casefold()], "exception historique documentée"
     if not group:
         return None, reason
 
