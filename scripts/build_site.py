@@ -24,7 +24,7 @@ from urllib.parse import quote
 DEFAULT_BASE_URL = (
     "https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45"
 )
-DEFAULT_GOOGLE_VERIFICATION = "8ZWZ2TUItfXBP_MwRb8098PQh9k3_s_3DjEDckqp2D8"
+DEFAULT_GOOGLE_VERIFICATION = "ag4W_c6-FAZV00AVo1jU8mvPpiRYZbypbN6FLHfmds0"
 GENERATED_HTML = {"index.html", "femmes.html", "hommes.html"}
 EXCLUDED_DIRS = {".git", ".github", "scripts", "tests", "portraits"}
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
