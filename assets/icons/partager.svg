@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Partager le site</title>
+  <g fill="none" stroke="#d5ad61" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <circle cx="48" cy="14" r="7"/>
+    <circle cx="16" cy="32" r="7"/>
+    <circle cx="48" cy="50" r="7"/>
+    <path d="m22 29 20-11M22 35l20 11"/>
+  </g>
+</svg>

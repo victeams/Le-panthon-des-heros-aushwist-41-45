@@ -147,6 +147,20 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("2 photographies", home)
             self.assertIn("photos.html", (root / "sitemap.xml").read_text(encoding="utf-8"))
 
+    def test_links_support_page_without_classifying_it_as_biography(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "soutien.html").write_text(
+                "<!doctype html><title>Soutenir le travail de mémoire</title>", encoding="utf-8"
+            )
+
+            women, men, warnings = build(root, "https://example.test", "test")
+
+            self.assertEqual((women, men), (0, 0))
+            self.assertFalse(warnings)
+            self.assertIn("Soutenir", (root / "index.html").read_text(encoding="utf-8"))
+            self.assertIn("soutien.html", (root / "sitemap.xml").read_text(encoding="utf-8"))
+
 
 if __name__ == "__main__":
     unittest.main()

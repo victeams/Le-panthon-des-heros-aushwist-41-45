@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Rédaction des portraits</title>
+  <g fill="none" stroke="#d5ad61" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <path d="M12 8h31l9 9v39H12V8Z"/>
+    <path d="M43 8v10h9"/>
+    <circle cx="27" cy="27" r="6"/>
+    <path d="M17 43c2-6 6-9 10-9s8 3 10 9"/>
+    <path d="m39 46 13-13 5 5-13 13-7 2 2-7Z"/>
+  </g>
+</svg>

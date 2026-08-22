@@ -57,6 +57,7 @@ class BuildDatabaseTests(unittest.TestCase):
             page = (root / "base-documentaire.html").read_text(encoding="utf-8")
             self.assertIn("sans serveur payant", page)
             self.assertIn("application/ld+json", page)
+            self.assertIn("soutien.html", page)
 
 
 if __name__ == "__main__":

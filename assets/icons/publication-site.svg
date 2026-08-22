@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Publication et maintenance du site</title>
+  <g fill="none" stroke="#d5ad61" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <circle cx="31" cy="32" r="24"/>
+    <path d="M7 32h48M31 8c7 7 11 15 11 24S38 49 31 56M31 8C24 15 20 23 20 32s4 17 11 24"/>
+    <path d="M48 18h10V8M58 8 44 22"/>
+  </g>
+</svg>

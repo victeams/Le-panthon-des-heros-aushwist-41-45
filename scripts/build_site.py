@@ -31,6 +31,7 @@ GENERATED_HTML = {
     "hommes.html",
     "base-documentaire.html",
     "photos.html",
+    "soutien.html",
 }
 EXCLUDED_DIRS = {".git", ".github", "scripts", "tests", "portraits"}
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
@@ -346,10 +347,10 @@ COMMON_CSS = """
 .hero{padding:56px 22px 38px;text-align:center;border-bottom:1px solid var(--line)}.eyebrow{margin:0 0 10px;color:var(--gold);font-size:.82rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}.hero h1{max-width:900px;margin:0 auto;font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.8rem);line-height:1.1}.intro{max-width:780px;margin:20px auto 0;color:var(--muted);font-size:1.05rem}
 .nav{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin:25px auto 0}.nav a,.button{display:inline-block;padding:10px 15px;border:1px solid #5b5140;border-radius:999px;color:var(--gold);text-decoration:none;font-weight:700}.nav a:hover,.button:hover{background:#d4ad6217}
 .stats{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:26px auto 0}.stat{min-width:130px;padding:10px 16px;background:#11151a;border:1px solid var(--line);border-radius:999px}.stat strong{color:var(--gold)}
-main{max-width:1180px;margin:0 auto;padding:34px 22px 64px}.collections{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}.collection{overflow:hidden;background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:15px;box-shadow:0 12px 30px #0004;transition:transform .2s,border-color .2s}.collection:hover{transform:translateY(-4px);border-color:#706141}.collection-visual{position:relative;display:block;height:210px;overflow:hidden;background:#080a0c}.collection-visual::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 46%,#11151ac9)}.collection-visual img{width:100%;height:100%;display:block;object-fit:cover;filter:grayscale(1) contrast(1.08);transition:transform .45s,filter .3s}.collection:hover .collection-visual img{transform:scale(1.04);filter:grayscale(.45) contrast(1.1)}.collection-body{padding:24px 26px 28px}.collection h2{margin:0 0 9px;font-family:Georgia,serif;font-size:1.7rem}.collection p{color:var(--muted)}.collection-credit{display:inline-block;margin:0 0 18px;color:#9ca4ae;font-size:.76rem;text-decoration:none}.collection-credit:hover{color:var(--gold);text-decoration:underline}
+main{max-width:1180px;margin:0 auto;padding:34px 22px 64px}.collections{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}.collection{overflow:hidden;background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:15px;box-shadow:0 12px 30px #0004;transition:transform .2s,border-color .2s}.collection:hover{transform:translateY(-4px);border-color:#706141}.collection-visual{position:relative;display:block;height:210px;overflow:hidden;background:#080a0c}.collection-visual::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 46%,#11151ac9)}.collection-visual img{width:100%;height:100%;display:block;object-fit:cover;filter:grayscale(1) contrast(1.08);transition:transform .45s,filter .3s}.collection:hover .collection-visual img{transform:scale(1.04);filter:grayscale(.45) contrast(1.1)}.collection-body{padding:24px 26px 28px}.collection h2{margin:0 0 9px;font-family:Georgia,serif;font-size:1.7rem}.collection p{color:var(--muted)}.collection-credit{display:inline-block;margin:0 0 18px;color:#9ca4ae;font-size:.76rem;text-decoration:none}.collection-credit:hover{color:var(--gold);text-decoration:underline}.support-banner{display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center;margin-top:20px;padding:22px 25px;background:linear-gradient(135deg,#211d17,#15191f);border:1px solid #5d5039;border-radius:15px}.support-banner img{width:62px;height:62px}.support-banner h2{margin:0 0 5px;font:1.55rem/1.2 Georgia,serif}.support-banner p{margin:0;color:var(--muted)}
 .tools{position:sticky;top:0;z-index:5;padding:14px 0;background:linear-gradient(var(--bg) 75%,transparent)}label.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}input{width:100%;padding:15px 18px;border:1px solid #414b58;border-radius:12px;background:#101419;color:var(--text);font-size:1rem;outline:none}input:focus{border-color:var(--gold);box-shadow:0 0 0 3px #d4ad6224}.result{margin:7px 4px 0;color:var(--muted);font-size:.92rem}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px;margin-top:18px}.card{display:flex;min-height:405px;flex-direction:column;padding:0 22px 22px;overflow:hidden;background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 30px #0004;transition:transform .18s,border-color .18s}.card:hover{transform:translateY(-3px);border-color:#706141}.card[hidden]{display:none}.portrait-link{display:block;height:230px;margin:0 -22px 18px;overflow:hidden;background:#080a0c}.portrait{width:100%;height:100%;object-fit:contain;display:block}.portrait-missing{display:flex;height:100%;align-items:center;justify-content:center;color:#79818b;text-align:center;padding:20px}.badge{display:inline-block;padding:4px 9px;border-radius:999px;font-size:.73rem;font-weight:700}.survivor{color:#baf2cb;background:#173824}.death{color:#ffd2d6;background:#412329}.other{color:#d7dde5;background:#303844}.card h2{margin:15px 0 8px;font-family:Georgia,serif;font-size:1.35rem;line-height:1.25}.card p{margin:0 0 18px;color:var(--muted)}.card>a:last-child{margin-top:auto;color:var(--gold);font-weight:700;text-decoration:none}.empty{padding:40px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}footer{padding:24px;text-align:center;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
-@media(max-width:560px){.hero{padding-top:42px}.stat{min-width:105px}.grid{grid-template-columns:1fr}.card{min-height:200px}}
+@media(max-width:680px){.support-banner{grid-template-columns:auto 1fr}.support-banner .button{grid-column:1/-1;text-align:center}}@media(max-width:560px){.hero{padding-top:42px}.stat{min-width:105px}.grid{grid-template-columns:1fr}.card{min-height:200px}}
 """.strip()
 
 
@@ -409,6 +410,7 @@ def collection_page(
     group: str,
     database_available: bool = False,
     photo_gallery_available: bool = False,
+    support_available: bool = False,
 ) -> str:
     is_women = group == "femmes"
     label = "Femmes du convoi des 31000" if is_women else "Hommes du convoi des 45000"
@@ -433,6 +435,7 @@ def collection_page(
         cards = '<p class="empty">Aucune fiche n’est encore publiée dans cette section.</p>'
     database_link = '<a href="base-documentaire.html">Base documentaire</a>' if database_available else ""
     gallery_link = '<a href="photos.html">Photothèque</a>' if photo_gallery_available else ""
+    support_link = '<a href="soutien.html">Soutenir</a>' if support_available else ""
     return f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -444,7 +447,7 @@ def collection_page(
     <p class="eyebrow">Mémoire • Résistance • Déportation</p>
     <h1>{escape(label)}</h1>
     <p class="intro">{escape(intro)}</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}</nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{support_link}</nav>
     <div class="stats"><span class="stat"><strong>{len(people)}</strong> fiche{'s' if len(people) != 1 else ''}</span></div>
   </header>
   <main>
@@ -495,6 +498,7 @@ def home_page(
     verification: str,
     database_records: int | None = None,
     photo_records: int | None = None,
+    support_available: bool = False,
 ) -> str:
     total = len(women) + len(men)
     title = "Le Panthéon des héros 1939-1945"
@@ -509,6 +513,7 @@ def home_page(
     }
     database_link = '<a href="base-documentaire.html">Base documentaire</a>' if database_records is not None else ""
     gallery_link = '<a href="photos.html">Photothèque</a>' if photo_records is not None else ""
+    support_link = '<a href="soutien.html">Soutenir</a>' if support_available else ""
     database_card = (
         f'''<article class="collection"><a class="collection-visual" href="base-documentaire.html" aria-label="Explorer la base documentaire"><img src="https://encyclopedia.ushmm.org/images/large/c0eae056-c536-42d8-8feb-954cf93f2d3b.jpeg" alt="Vue aérienne des baraques d’Auschwitz-Birkenau" loading="lazy"></a><div class="collection-body"><h2>Base documentaire d’Auschwitz</h2><p>{database_records} notices réparties par corpus, avec leurs sources et niveaux de certitude.</p><a class="collection-credit" href="https://encyclopedia.ushmm.org/content/fr/photo/barracks-in-auschwitz-birkenau" target="_blank" rel="noopener">Photographie : notice et crédits</a><br><a class="button" href="base-documentaire.html">Explorer la base</a></div></article>'''
         if database_records is not None
@@ -517,6 +522,11 @@ def home_page(
     gallery_card = (
         f'''<article class="collection"><a class="collection-visual" href="photos.html" aria-label="Ouvrir la photothèque historique"><img src="https://encyclopedia.ushmm.org/images/large/64903df2-0191-4d48-bb5c-7e6c8528c1da.jpeg" alt="Un enfant rescapé est emmené hors d’un baraquement à Auschwitz" loading="lazy"></a><div class="collection-body"><h2>Photothèque historique</h2><p>{photo_records} photographies avec leur nom, leur description et leur notice source.</p><a class="collection-credit" href="https://encyclopedia.ushmm.org/content/fr/photo/a-child-survivor-is-carried-out-of-barracks-at-auschwitz" target="_blank" rel="noopener">Photographie : Rafael Abramovich Mazelev</a><br><a class="button" href="photos.html">Voir les photographies</a></div></article>'''
         if photo_records is not None
+        else ""
+    )
+    support_banner = (
+        '<section class="support-banner" aria-label="Soutenir le projet"><img src="assets/icons/coeur-soutien.svg" alt=""><div><h2>Soutenir ce travail de mémoire</h2><p>Découvrez le travail réalisé au quotidien et les façons simples d’aider à transmettre ces histoires.</p></div><a class="button" href="soutien.html">Découvrir la page de soutien</a></section>'
+        if support_available
         else ""
     )
     return f"""<!DOCTYPE html>
@@ -530,7 +540,7 @@ def home_page(
     <p class="eyebrow">Mémoire • Résistance • Déportation</p>
     <h1>{title}</h1>
     <p class="intro">{description}</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}</nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{support_link}</nav>
     <div class="stats"><span class="stat"><strong>{total}</strong> fiches</span><span class="stat"><strong>{len(women)}</strong> femmes</span><span class="stat"><strong>{len(men)}</strong> hommes</span></div>
   </header>
   <main>
@@ -540,6 +550,7 @@ def home_page(
       {database_card}
       {gallery_card}
     </section>
+    {support_banner}
     <section aria-labelledby="search-title" style="margin-top:38px">
       <h2 id="search-title">Rechercher dans toutes les biographies</h2>
       <label class="visually-hidden" for="global-search">Nom ou matricule</label>
@@ -560,6 +571,7 @@ def sitemap_xml(
     people: list[Biography],
     database_available: bool = False,
     photo_gallery_available: bool = False,
+    support_available: bool = False,
 ) -> str:
     entries: list[tuple[str, str | None]] = [
         (f"{base_url}/", None),
@@ -570,6 +582,8 @@ def sitemap_xml(
         entries.append((url_for(base_url, "base-documentaire.html"), None))
     if photo_gallery_available:
         entries.append((url_for(base_url, "photos.html"), None))
+    if support_available:
+        entries.append((url_for(base_url, "soutien.html"), None))
     entries.extend((url_for(base_url, person.file), url_for(base_url, person.portrait) if person.portrait else None) for person in people)
     body: list[str] = []
     for location, image in entries:
@@ -647,24 +661,48 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
 
     database_available = database_records is not None
     photo_gallery_available = photo_records is not None
+    support_available = (root / "soutien.html").is_file()
     (root / "index.html").write_text(
-        home_page(base_url, women, men, verification, database_records, photo_records), encoding="utf-8"
+        home_page(
+            base_url,
+            women,
+            men,
+            verification,
+            database_records,
+            photo_records,
+            support_available,
+        ),
+        encoding="utf-8",
     )
     (root / "femmes.html").write_text(
         collection_page(
-            base_url, women, "femmes", database_available, photo_gallery_available
+            base_url,
+            women,
+            "femmes",
+            database_available,
+            photo_gallery_available,
+            support_available,
         ),
         encoding="utf-8",
     )
     (root / "hommes.html").write_text(
         collection_page(
-            base_url, men, "hommes", database_available, photo_gallery_available
+            base_url,
+            men,
+            "hommes",
+            database_available,
+            photo_gallery_available,
+            support_available,
         ),
         encoding="utf-8",
     )
     (root / "sitemap.xml").write_text(
         sitemap_xml(
-            base_url, biographies, database_available, photo_gallery_available
+            base_url,
+            biographies,
+            database_available,
+            photo_gallery_available,
+            support_available,
         ),
         encoding="utf-8",
     )
