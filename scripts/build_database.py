@@ -147,6 +147,12 @@ LABELS = {
     "count_departed": "Nombre au départ",
     "count_registered": "Nombre enregistré",
     "count_murdered_on_arrival": "Nombre assassiné à l’arrivée",
+    "count_survivors_known": "Survivants connus / libérés",
+    "count_later_deaths": "Décès ultérieurs du convoi",
+    "count_fate_unknown": "Destin inconnu",
+    "coverage": "Couverture",
+    "source_institution": "Institution source",
+    "source_title": "Titre de la source",
     "group_name": "Groupe",
     "deported_min": "Déportés — minimum",
     "deported_max": "Déportés — maximum",
@@ -257,7 +263,14 @@ def sql_records(path: Path) -> dict[str, list[dict[str, object]]]:
         assert section.table
         if not table_exists(database, section.table):
             continue
-        rows = database.execute(f'SELECT * FROM "{section.table}"').fetchall()
+        if section.slug == "transports":
+            rows = database.execute(
+                'SELECT t.*, s.institution AS source_institution, '
+                's.title AS source_title, s.url AS source_url '
+                'FROM transports AS t LEFT JOIN sources AS s ON s.source_id = t.source_id'
+            ).fetchall()
+        else:
+            rows = database.execute(f'SELECT * FROM "{section.table}"').fetchall()
         result[section.slug] = [
             make_record(dict(row), f"{section.slug}-{index:05d}")
             for index, row in enumerate(rows, start=1)
@@ -345,7 +358,7 @@ def database_page(base_url: str, record_count: int, category_count: int) -> str:
             "description": description,
             "url": canonical,
             "inLanguage": "fr",
-            "version": "2026-08-19",
+            "version": "2026-08-22",
             "isAccessibleForFree": True,
         },
         ensure_ascii=False,
@@ -450,7 +463,7 @@ def build_database(root: Path, sql_path: Path, workbook_path: Path, output_dir: 
     record_count = sum(int(category["count"]) for category in categories)
     manifest: dict[str, object] = {
         "title": "Base documentaire d’Auschwitz",
-        "version": "2026-08-19",
+        "version": "2026-08-22",
         "record_count": record_count,
         "category_count": len(categories),
         "methodology": "Les niveaux de certitude et les liens de source sont conservés. Les corpus qui se chevauchent ne doivent pas être additionnés.",

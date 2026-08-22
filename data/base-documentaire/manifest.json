@@ -1,7 +1,7 @@
 {
   "title": "Base documentaire d’Auschwitz",
-  "version": "2026-08-19",
-  "record_count": 10270,
+  "version": "2026-08-22",
+  "record_count": 10358,
   "category_count": 26,
   "methodology": "Les niveaux de certitude et les liens de source sont conservés. Les corpus qui se chevauchent ne doivent pas être additionnés.",
   "categories": [
@@ -81,7 +81,7 @@
       "slug": "transports",
       "title": "Transports",
       "description": "Origines, dates, effectifs et statuts documentaires des convois.",
-      "count": 17,
+      "count": 64,
       "source": "Base SQL",
       "file": "data/base-documentaire/transports.json"
     },
@@ -129,7 +129,7 @@
       "slug": "sources",
       "title": "Sources de la base",
       "description": "Institutions, titres, liens et appréciation de fiabilité.",
-      "count": 31,
+      "count": 72,
       "source": "Base SQL",
       "file": "data/base-documentaire/sources.json"
     },
