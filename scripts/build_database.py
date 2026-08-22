@@ -381,7 +381,7 @@ def database_page(base_url: str, record_count: int, category_count: int) -> str:
     <p class="eyebrow">Archives • Sources • Mémoire</p>
     <h1>Base documentaire d’Auschwitz</h1>
     <p class="intro">Explorez les camps, bâtiments, convois, personnes, chronologies et sources réunis pour le projet. La recherche fonctionne directement dans votre navigateur, sans serveur payant.</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a><a href="photos.html">Photothèque</a><a href="soutien.html">Soutenir</a></nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a><a href="photos.html">Photothèque</a><a href="tiktok.html">Chaîne TikTok</a><a href="soutien.html">Soutenir</a></nav>
     <div class="stats"><span class="stat"><strong id="total">{record_count:,}</strong> notices</span><span class="stat"><strong id="categories">{category_count}</strong> catégories</span><span class="stat"><strong>0 €</strong> d’hébergement supplémentaire</span></div>
   </header>
   <main>

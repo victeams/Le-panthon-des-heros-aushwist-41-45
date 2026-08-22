@@ -32,6 +32,7 @@ GENERATED_HTML = {
     "base-documentaire.html",
     "photos.html",
     "soutien.html",
+    "tiktok.html",
 }
 EXCLUDED_DIRS = {".git", ".github", "scripts", "tests", "portraits"}
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
@@ -344,7 +345,7 @@ def biography_paths(root: Path) -> list[Path]:
 COMMON_CSS = """
 :root{color-scheme:dark;--bg:#0b0d10;--panel:#15191f;--panel2:#1c222a;--text:#f4f1e8;--muted:#b9c0c8;--gold:#d4ad62;--line:#303844;--green:#8fd3a8;--rose:#e6a6ad}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 20% 0,#202630 0,transparent 35%),var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit}
-.hero{padding:56px 22px 38px;text-align:center;border-bottom:1px solid var(--line)}.eyebrow{margin:0 0 10px;color:var(--gold);font-size:.82rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}.hero h1{max-width:900px;margin:0 auto;font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.8rem);line-height:1.1}.intro{max-width:780px;margin:20px auto 0;color:var(--muted);font-size:1.05rem}
+.hero{padding:56px 22px 38px;text-align:center;border-bottom:1px solid var(--line)}.brand-link{display:inline-block;margin:0 auto 20px;border-radius:50%;line-height:0}.brand-logo{width:clamp(118px,20vw,168px);height:auto;aspect-ratio:1;border:3px solid #8b7449;border-radius:50%;object-fit:cover;box-shadow:0 14px 38px #0008}.eyebrow{margin:0 0 10px;color:var(--gold);font-size:.82rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase}.hero h1{max-width:900px;margin:0 auto;font-family:Georgia,serif;font-size:clamp(2rem,5vw,3.8rem);line-height:1.1}.intro{max-width:780px;margin:20px auto 0;color:var(--muted);font-size:1.05rem}
 .nav{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin:25px auto 0}.nav a,.button{display:inline-block;padding:10px 15px;border:1px solid #5b5140;border-radius:999px;color:var(--gold);text-decoration:none;font-weight:700}.nav a:hover,.button:hover{background:#d4ad6217}
 .stats{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:26px auto 0}.stat{min-width:130px;padding:10px 16px;background:#11151a;border:1px solid var(--line);border-radius:999px}.stat strong{color:var(--gold)}
 main{max-width:1180px;margin:0 auto;padding:34px 22px 64px}.collections{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}.collection{overflow:hidden;background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:15px;box-shadow:0 12px 30px #0004;transition:transform .2s,border-color .2s}.collection:hover{transform:translateY(-4px);border-color:#706141}.collection-visual{position:relative;display:block;height:210px;overflow:hidden;background:#080a0c}.collection-visual::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 46%,#11151ac9)}.collection-visual img{width:100%;height:100%;display:block;object-fit:cover;filter:grayscale(1) contrast(1.08);transition:transform .45s,filter .3s}.collection:hover .collection-visual img{transform:scale(1.04);filter:grayscale(.45) contrast(1.1)}.collection-body{padding:24px 26px 28px}.collection h2{margin:0 0 9px;font-family:Georgia,serif;font-size:1.7rem}.collection p{color:var(--muted)}.collection-credit{display:inline-block;margin:0 0 18px;color:#9ca4ae;font-size:.76rem;text-decoration:none}.collection-credit:hover{color:var(--gold);text-decoration:underline}.support-banner{display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center;margin-top:20px;padding:22px 25px;background:linear-gradient(135deg,#211d17,#15191f);border:1px solid #5d5039;border-radius:15px}.support-banner img{width:62px;height:62px}.support-banner h2{margin:0 0 5px;font:1.55rem/1.2 Georgia,serif}.support-banner p{margin:0;color:var(--muted)}
@@ -411,6 +412,7 @@ def collection_page(
     database_available: bool = False,
     photo_gallery_available: bool = False,
     support_available: bool = False,
+    tiktok_available: bool = False,
 ) -> str:
     is_women = group == "femmes"
     label = "Femmes du convoi des 31000" if is_women else "Hommes du convoi des 45000"
@@ -436,6 +438,7 @@ def collection_page(
     database_link = '<a href="base-documentaire.html">Base documentaire</a>' if database_available else ""
     gallery_link = '<a href="photos.html">Photothèque</a>' if photo_gallery_available else ""
     support_link = '<a href="soutien.html">Soutenir</a>' if support_available else ""
+    tiktok_link = '<a href="tiktok.html">Chaîne TikTok</a>' if tiktok_available else ""
     return f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -447,7 +450,7 @@ def collection_page(
     <p class="eyebrow">Mémoire • Résistance • Déportation</p>
     <h1>{escape(label)}</h1>
     <p class="intro">{escape(intro)}</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{support_link}</nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{tiktok_link}{support_link}</nav>
     <div class="stats"><span class="stat"><strong>{len(people)}</strong> fiche{'s' if len(people) != 1 else ''}</span></div>
   </header>
   <main>
@@ -499,6 +502,7 @@ def home_page(
     database_records: int | None = None,
     photo_records: int | None = None,
     support_available: bool = False,
+    tiktok_available: bool = False,
 ) -> str:
     total = len(women) + len(men)
     title = "Le Panthéon des héros 1939-1945"
@@ -514,6 +518,12 @@ def home_page(
     database_link = '<a href="base-documentaire.html">Base documentaire</a>' if database_records is not None else ""
     gallery_link = '<a href="photos.html">Photothèque</a>' if photo_records is not None else ""
     support_link = '<a href="soutien.html">Soutenir</a>' if support_available else ""
+    tiktok_link = '<a href="tiktok.html">Chaîne TikTok</a>' if tiktok_available else ""
+    brand_logo = (
+        '<a class="brand-link" href="tiktok.html" aria-label="Découvrir la chaîne TikTok Résistants3945"><img class="brand-logo" src="assets/logo-resistants3945.webp" width="690" height="690" alt="Logo Femmes d’Auschwitz, Résistance et Vie"></a>'
+        if tiktok_available
+        else ""
+    )
     database_card = (
         f'''<article class="collection"><a class="collection-visual" href="base-documentaire.html" aria-label="Explorer la base documentaire"><img src="https://encyclopedia.ushmm.org/images/large/c0eae056-c536-42d8-8feb-954cf93f2d3b.jpeg" alt="Vue aérienne des baraques d’Auschwitz-Birkenau" loading="lazy"></a><div class="collection-body"><h2>Base documentaire d’Auschwitz</h2><p>{database_records} notices réparties par corpus, avec leurs sources et niveaux de certitude.</p><a class="collection-credit" href="https://encyclopedia.ushmm.org/content/fr/photo/barracks-in-auschwitz-birkenau" target="_blank" rel="noopener">Photographie : notice et crédits</a><br><a class="button" href="base-documentaire.html">Explorer la base</a></div></article>'''
         if database_records is not None
@@ -537,10 +547,11 @@ def home_page(
 </head>
 <body>
   <header class="hero">
+    {brand_logo}
     <p class="eyebrow">Mémoire • Résistance • Déportation</p>
     <h1>{title}</h1>
     <p class="intro">{description}</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{support_link}</nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{tiktok_link}{support_link}</nav>
     <div class="stats"><span class="stat"><strong>{total}</strong> fiches</span><span class="stat"><strong>{len(women)}</strong> femmes</span><span class="stat"><strong>{len(men)}</strong> hommes</span></div>
   </header>
   <main>
@@ -572,6 +583,7 @@ def sitemap_xml(
     database_available: bool = False,
     photo_gallery_available: bool = False,
     support_available: bool = False,
+    tiktok_available: bool = False,
 ) -> str:
     entries: list[tuple[str, str | None]] = [
         (f"{base_url}/", None),
@@ -584,6 +596,8 @@ def sitemap_xml(
         entries.append((url_for(base_url, "photos.html"), None))
     if support_available:
         entries.append((url_for(base_url, "soutien.html"), None))
+    if tiktok_available:
+        entries.append((url_for(base_url, "tiktok.html"), url_for(base_url, "assets/logo-resistants3945.webp")))
     entries.extend((url_for(base_url, person.file), url_for(base_url, person.portrait) if person.portrait else None) for person in people)
     body: list[str] = []
     for location, image in entries:
@@ -662,6 +676,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
     database_available = database_records is not None
     photo_gallery_available = photo_records is not None
     support_available = (root / "soutien.html").is_file()
+    tiktok_available = (root / "tiktok.html").is_file()
     (root / "index.html").write_text(
         home_page(
             base_url,
@@ -671,6 +686,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             database_records,
             photo_records,
             support_available,
+            tiktok_available,
         ),
         encoding="utf-8",
     )
@@ -682,6 +698,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             database_available,
             photo_gallery_available,
             support_available,
+            tiktok_available,
         ),
         encoding="utf-8",
     )
@@ -693,6 +710,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             database_available,
             photo_gallery_available,
             support_available,
+            tiktok_available,
         ),
         encoding="utf-8",
     )
@@ -703,6 +721,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             database_available,
             photo_gallery_available,
             support_available,
+            tiktok_available,
         ),
         encoding="utf-8",
     )

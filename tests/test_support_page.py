@@ -19,7 +19,8 @@ class SupportPageTests(unittest.TestCase):
         self.assertIn("Le travail réalisé au quotidien", page)
         self.assertIn("Aucune adresse de paiement", page)
         self.assertIn("navigator.share", page)
-        self.assertIn("@resistants3945", page)
+        self.assertIn("tiktok.html", page)
+        self.assertIn("assets/logo-resistants3945.webp", page)
 
 
 if __name__ == "__main__":
