@@ -40,4 +40,3 @@ fetch('data/base-documentaire/manifest.json').then(response=>response.json()).th
 select.addEventListener('change',()=>loadCategory().catch(error=>{summary.textContent=`Impossible de charger cette catégorie : ${error.message}`;}));search.addEventListener('input',filter);previous.addEventListener('click',()=>{page--;render();window.scrollTo({top:document.querySelector('.tools').offsetTop,behavior:'smooth'});});next.addEventListener('click',()=>{page++;render();window.scrollTo({top:document.querySelector('.tools').offsetTop,behavior:'smooth'});});</script>
 </body>
 </html>
-
