@@ -1,0 +1,29 @@
+{
+  "source_name": "United States Holocaust Memorial Museum",
+  "source_url": "https://encyclopedia.ushmm.org/fr/a-z/photo",
+  "terms_url": "https://www.ushmm.org/copyright-and-legal-information/terms-of-use",
+  "generated_at": "2026-08-22T10:27:55+00:00",
+  "count": 1575,
+  "expected_count": 1575,
+  "partial": false,
+  "usage_notice": "Miniatures distantes présentées à des fins documentaires. La notice source liée à chaque image contient les crédits détaillés et les éventuelles restrictions d'utilisation.",
+  "files": [
+    "photos-001.json",
+    "photos-002.json",
+    "photos-003.json",
+    "photos-004.json",
+    "photos-005.json",
+    "photos-006.json",
+    "photos-007.json",
+    "photos-008.json",
+    "photos-009.json",
+    "photos-010.json",
+    "photos-011.json",
+    "photos-012.json",
+    "photos-013.json",
+    "photos-014.json",
+    "photos-015.json",
+    "photos-016.json"
+  ],
+  "shard_size": 100
+}

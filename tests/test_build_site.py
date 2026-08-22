@@ -123,6 +123,30 @@ class BuildSiteTests(unittest.TestCase):
                 (root / "sitemap.xml").read_text(encoding="utf-8"),
             )
 
+    def test_links_photo_gallery_when_photo_data_is_present(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            data = root / "data" / "ushmm-photos"
+            data.mkdir(parents=True)
+            (data / "photos-001.json").write_text(
+                json.dumps([{}, {}]), encoding="utf-8"
+            )
+            (data / "manifest.json").write_text(
+                json.dumps({"count": 2, "files": ["photos-001.json"]}), encoding="utf-8"
+            )
+            (root / "photos.html").write_text(
+                "<!doctype html><title>Photothèque historique</title>", encoding="utf-8"
+            )
+
+            women, men, warnings = build(root, "https://example.test", "test")
+
+            self.assertEqual((women, men), (0, 0))
+            self.assertFalse(warnings)
+            home = (root / "index.html").read_text(encoding="utf-8")
+            self.assertIn("Photothèque historique", home)
+            self.assertIn("2 photographies", home)
+            self.assertIn("photos.html", (root / "sitemap.xml").read_text(encoding="utf-8"))
+
 
 if __name__ == "__main__":
     unittest.main()

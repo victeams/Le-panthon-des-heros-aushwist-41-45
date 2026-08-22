@@ -2,6 +2,8 @@
 
 Site mémoriel publié gratuitement avec GitHub Pages. Les biographies sont classées automatiquement entre les femmes du convoi des 31000 et les hommes du convoi des 45000. Une base documentaire statique permet aussi de consulter les camps, bâtiments, convois, personnes, sources et inventaires historiques sans VPS.
 
+La page `photos.html` présente également une photothèque historique issue de l’index français de l’United States Holocaust Memorial Museum. Les images restent hébergées à leur adresse d’origine ; chaque carte renvoie vers la notice, les crédits et les éventuelles restrictions d’utilisation.
+
 ## Ajouter une nouvelle biographie depuis Android
 
 1. Ouvrir le dépôt GitHub.
@@ -47,3 +49,16 @@ La base SQL de référence se trouve dans `sources/` :
 Les données du classeur maître sont déjà converties dans `data/base-documentaire/`. Depuis Android, vous pourrez déposer une nouvelle version du classeur sous le nom exact `sources/inventaire-auschwitz-base-maitre.xlsx` lorsque vous voudrez les actualiser. En son absence, l’automatisation conserve les catégories déjà générées. GitHub Actions reconstruit automatiquement `base-documentaire.html` et les fichiers JSON découpés. Le visiteur ne charge qu’une catégorie à la fois, ce qui évite de télécharger immédiatement les 8 502 notices du registre du personnel SS.
 
 Le script ne déplace et ne supprime aucune biographie existante. Les contrôles peuvent également être lancés manuellement depuis l’onglet **Actions** de GitHub.
+
+## Actualiser la photothèque
+
+Depuis l’onglet **Actions**, ouvrir **Actualiser la photothèque historique**, puis utiliser **Run workflow**. Le script Python parcourt toutes les pages du catalogue, détecte les nouveaux résultats, évite les doublons et reconstruit la galerie.
+
+La même opération peut être lancée sur un ordinateur avec Python 3, sans installer de bibliothèque supplémentaire :
+
+```bash
+python scripts/scrape_ushmm_photos.py
+python scripts/build_site.py
+```
+
+La sortie `data/ushmm-photos/` contient, pour chaque photographie, le nom de la notice, une description courte, les mots-clés, l’URL de la miniature, l’URL d’affichage et le lien vers la source. Les notices sont réparties en petits fichiers afin de rester rapides à charger et simples à publier sur GitHub.
