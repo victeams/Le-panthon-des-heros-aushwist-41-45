@@ -33,6 +33,7 @@ GENERATED_HTML = {
     "photos.html",
     "soutien.html",
     "tiktok.html",
+    "a-propos.html",
 }
 EXCLUDED_DIRS = {".git", ".github", "scripts", "tests", "portraits"}
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
@@ -355,6 +356,12 @@ main{max-width:1180px;margin:0 auto;padding:34px 22px 64px}.collections{display:
 """.strip()
 
 
+HOME_EXTRA_CSS = """
+.home-hero{position:relative;min-height:560px;background:linear-gradient(180deg,rgba(5,7,10,.86) 0%,rgba(5,7,10,.7) 45%,rgba(11,13,16,.96) 100%),url("https://upload.wikimedia.org/wikipedia/commons/e/ed/Gate_of_Auschwitz_II%2C_28_November_2007_%283%29.jpg") center 52%/cover no-repeat;box-shadow:inset 0 -70px 90px #0b0d10}.home-hero .intro{color:#d5d9df;text-shadow:0 2px 10px #000}.content-notice{max-width:760px;margin:14px auto 0;padding:8px 12px;border:1px solid #ffffff24;border-radius:8px;background:#05070ac9;color:#d7dbe1;font-size:.76rem;line-height:1.45}.free-notice{display:flex;max-width:920px;align-items:center;justify-content:center;gap:15px;margin:19px auto 0;padding:14px 16px;border:1px solid #8b744970;border-radius:12px;background:#080a0cdb;color:#dce0e5;font-size:.9rem}.free-notice strong{display:block;color:#f4f1e8}.free-notice span{display:block}.free-notice .button{flex:0 0 auto;background:#d4ad6220}.hero-credit{display:inline-block;margin-top:15px;color:#aeb4bc;font-size:.68rem;text-decoration:none}.hero-credit:hover{color:var(--gold);text-decoration:underline}.sister-site{display:flex;max-width:920px;align-items:center;justify-content:space-between;gap:18px;margin:16px auto 0;padding:15px 18px;border:1px solid #5d5039;border-left:4px solid var(--gold);border-radius:12px;background:#11151ae8;text-align:left}.sister-site p{margin:0;color:#dce0e5}.sister-site strong{display:block;color:var(--text)}.sister-site .button{flex:0 0 auto;text-align:center}
+@media(max-width:680px){.free-notice,.sister-site{align-items:stretch;flex-direction:column}.free-notice .button,.sister-site .button{text-align:center}}
+""".strip()
+
+
 def head_markup(title: str, description: str, canonical: str, structured: dict, verification: str | None = None) -> str:
     verification_tag = (
         f'\n  <meta name="google-site-verification" content="{escape(verification, quote=True)}">'
@@ -413,6 +420,7 @@ def collection_page(
     photo_gallery_available: bool = False,
     support_available: bool = False,
     tiktok_available: bool = False,
+    about_available: bool = False,
 ) -> str:
     is_women = group == "femmes"
     label = "Femmes du convoi des 31000" if is_women else "Hommes du convoi des 45000"
@@ -439,6 +447,7 @@ def collection_page(
     gallery_link = '<a href="photos.html">Photothèque</a>' if photo_gallery_available else ""
     support_link = '<a href="soutien.html">Soutenir</a>' if support_available else ""
     tiktok_link = '<a href="tiktok.html">Chaîne TikTok</a>' if tiktok_available else ""
+    about_link = '<a href="a-propos.html">À propos</a>' if about_available else ""
     return f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -450,7 +459,7 @@ def collection_page(
     <p class="eyebrow">Mémoire • Résistance • Déportation</p>
     <h1>{escape(label)}</h1>
     <p class="intro">{escape(intro)}</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{tiktok_link}{support_link}</nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{tiktok_link}{about_link}{support_link}</nav>
     <div class="stats"><span class="stat"><strong>{len(people)}</strong> fiche{'s' if len(people) != 1 else ''}</span></div>
   </header>
   <main>
@@ -503,6 +512,7 @@ def home_page(
     photo_records: int | None = None,
     support_available: bool = False,
     tiktok_available: bool = False,
+    about_available: bool = False,
 ) -> str:
     total = len(women) + len(men)
     title = "Le Panthéon des héros 1939-1945"
@@ -519,6 +529,7 @@ def home_page(
     gallery_link = '<a href="photos.html">Photothèque</a>' if photo_records is not None else ""
     support_link = '<a href="soutien.html">Soutenir</a>' if support_available else ""
     tiktok_link = '<a href="tiktok.html">Chaîne TikTok</a>' if tiktok_available else ""
+    about_link = '<a href="a-propos.html">À propos</a>' if about_available else ""
     brand_logo = (
         '<a class="brand-link" href="tiktok.html" aria-label="Découvrir la chaîne TikTok Résistants3945"><img class="brand-logo" src="assets/logo-resistants3945.webp" width="690" height="690" alt="Logo Femmes d’Auschwitz, Résistance et Vie"></a>'
         if tiktok_available
@@ -539,20 +550,30 @@ def home_page(
         if support_available
         else ""
     )
+    free_notice = (
+        '<div class="free-notice" role="note"><div><strong>Un site sans publicité, entièrement gratuit.</strong><span>Votre visite ne génère aucun revenu publicitaire. Si vous souhaitez aider à poursuivre les recherches et améliorer le projet, vous pouvez apporter un soutien libre par PayPal.</span></div><a class="button" href="soutien.html">Faire un don par PayPal</a></div>'
+        if support_available
+        else ""
+    )
     return f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
   {head_markup(title, description, f"{base_url}/", structured, verification)}
-  <style>{COMMON_CSS}</style>
+  <style>{COMMON_CSS}
+{HOME_EXTRA_CSS}</style>
 </head>
 <body>
-  <header class="hero">
+  <header class="hero home-hero">
     {brand_logo}
     <p class="eyebrow">Mémoire • Résistance • Déportation</p>
     <h1>{title}</h1>
     <p class="intro">{description}</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{tiktok_link}{support_link}</nav>
+    <p class="content-notice" role="note">Avertissement : certaines photographies d’archives documentées peuvent heurter la sensibilité, notamment celle des enfants.</p>
+    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{tiktok_link}{about_link}{support_link}<a href="https://victeams.github.io/enfants-deportes-1939-1945/">Enfants déportés ↗</a></nav>
     <div class="stats"><span class="stat"><strong>{total}</strong> fiches</span><span class="stat"><strong>{len(women)}</strong> femmes</span><span class="stat"><strong>{len(men)}</strong> hommes</span></div>
+    {free_notice}
+    <div class="sister-site" role="note"><p><strong>Découvrez aussi : Enfants déportés 1939-1945</strong>Un mémorial numérique consacré aux visages et aux histoires des enfants déportés.</p><a class="button" href="https://victeams.github.io/enfants-deportes-1939-1945/">Ouvrir le mémorial →</a></div>
+    <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:Gate_of_Auschwitz_II,_28_November_2007_(3).jpg" target="_blank" rel="noopener noreferrer">Photographie d’arrière-plan : Auschwitz II-Birkenau, vue depuis les rails, Logaritmo, domaine public.</a>
   </header>
   <main>
     <section class="collections" aria-label="Collections">
@@ -570,7 +591,7 @@ def home_page(
       <div class="grid" id="global-grid"></div>
     </section>
   </main>
-  <footer>Préserver leur histoire, transmettre leur mémoire.</footer>
+  <footer>Préserver leur histoire, transmettre leur mémoire. · <a href="https://victeams.github.io/enfants-deportes-1939-1945/">Enfants déportés 1939-1945</a></footer>
   <script>{HOME_SEARCH_SCRIPT}</script>
 </body>
 </html>
@@ -584,6 +605,7 @@ def sitemap_xml(
     photo_gallery_available: bool = False,
     support_available: bool = False,
     tiktok_available: bool = False,
+    about_available: bool = False,
 ) -> str:
     entries: list[tuple[str, str | None]] = [
         (f"{base_url}/", None),
@@ -598,6 +620,8 @@ def sitemap_xml(
         entries.append((url_for(base_url, "soutien.html"), None))
     if tiktok_available:
         entries.append((url_for(base_url, "tiktok.html"), url_for(base_url, "assets/logo-resistants3945.webp")))
+    if about_available:
+        entries.append((url_for(base_url, "a-propos.html"), None))
     entries.extend((url_for(base_url, person.file), url_for(base_url, person.portrait) if person.portrait else None) for person in people)
     body: list[str] = []
     for location, image in entries:
@@ -677,6 +701,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
     photo_gallery_available = photo_records is not None
     support_available = (root / "soutien.html").is_file()
     tiktok_available = (root / "tiktok.html").is_file()
+    about_available = (root / "a-propos.html").is_file()
     (root / "index.html").write_text(
         home_page(
             base_url,
@@ -687,6 +712,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             photo_records,
             support_available,
             tiktok_available,
+            about_available,
         ),
         encoding="utf-8",
     )
@@ -699,6 +725,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             photo_gallery_available,
             support_available,
             tiktok_available,
+            about_available,
         ),
         encoding="utf-8",
     )
@@ -711,6 +738,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             photo_gallery_available,
             support_available,
             tiktok_available,
+            about_available,
         ),
         encoding="utf-8",
     )
@@ -722,6 +750,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             photo_gallery_available,
             support_available,
             tiktok_available,
+            about_available,
         ),
         encoding="utf-8",
     )

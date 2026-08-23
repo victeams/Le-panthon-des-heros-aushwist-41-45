@@ -17,10 +17,18 @@ class SupportPageTests(unittest.TestCase):
     def test_support_page_is_transparent_and_has_working_non_payment_actions(self):
         page = (ROOT / "soutien.html").read_text(encoding="utf-8")
         self.assertIn("Le travail réalisé au quotidien", page)
-        self.assertIn("Aucune adresse de paiement", page)
         self.assertIn("navigator.share", page)
         self.assertIn("tiktok.html", page)
         self.assertIn("assets/logo-resistants3945.webp", page)
+
+    def test_paypal_support_is_external_and_transparent(self):
+        page = (ROOT / "soutien.html").read_text(encoding="utf-8")
+        self.assertIn("https://www.paypal.com/donate/", page)
+        self.assertIn('target="_blank"', page)
+        self.assertIn('rel="noopener noreferrer"', page)
+        self.assertIn("le montant est libre", page)
+        self.assertIn("aucune donnée bancaire n’est collectée par ce site", page)
+        self.assertIn("ne donne pas lieu à un reçu fiscal", page)
 
 
 if __name__ == "__main__":

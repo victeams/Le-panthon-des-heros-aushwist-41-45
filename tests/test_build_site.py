@@ -158,7 +158,10 @@ class BuildSiteTests(unittest.TestCase):
 
             self.assertEqual((women, men), (0, 0))
             self.assertFalse(warnings)
-            self.assertIn("Soutenir", (root / "index.html").read_text(encoding="utf-8"))
+            home = (root / "index.html").read_text(encoding="utf-8")
+            self.assertIn("Soutenir", home)
+            self.assertIn("Un site sans publicité", home)
+            self.assertIn("Faire un don par PayPal", home)
             self.assertIn("soutien.html", (root / "sitemap.xml").read_text(encoding="utf-8"))
 
     def test_links_tiktok_page_and_logo_without_classifying_it_as_biography(self):
@@ -178,6 +181,33 @@ class BuildSiteTests(unittest.TestCase):
             sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
             self.assertIn("tiktok.html", sitemap)
             self.assertIn("assets/logo-resistants3945.webp", sitemap)
+
+    def test_preserves_and_links_about_page_without_classifying_it(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "a-propos.html").write_text(
+                "<!doctype html><title>À propos du projet</title>", encoding="utf-8"
+            )
+
+            women, men, warnings = build(root, "https://example.test", "test")
+
+            self.assertEqual((women, men), (0, 0))
+            self.assertFalse(warnings)
+            self.assertIn("a-propos.html", (root / "index.html").read_text(encoding="utf-8"))
+            self.assertIn("a-propos.html", (root / "femmes.html").read_text(encoding="utf-8"))
+            self.assertIn("a-propos.html", (root / "sitemap.xml").read_text(encoding="utf-8"))
+
+    def test_home_keeps_memorial_warning_and_sister_site(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+
+            build(root, "https://example.test", "test")
+
+            home = (root / "index.html").read_text(encoding="utf-8")
+            self.assertIn("certaines photographies d’archives", home)
+            self.assertIn("Enfants déportés 1939-1945", home)
+            self.assertIn("Photographie d’arrière-plan", home)
+            self.assertIn("domaine public", home)
 
 
 if __name__ == "__main__":
