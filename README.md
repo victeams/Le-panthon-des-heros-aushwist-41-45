@@ -56,7 +56,22 @@ Le script ne déplace et ne supprime aucune biographie existante. Les contrôles
 
 ## Logiciel Windows d’envoi des fiches
 
-Le dossier `outil-envoi-fiches` contient un petit logiciel Windows pour sélectionner plusieurs fiches sur un ordinateur, reconnaître leur catégorie et les envoyer dans le bon emplacement GitHub. Double-cliquer sur `Lancer-Outil.cmd`, puis suivre les deux boutons numérotés. Aucun mot de passe n’est enregistré par l’outil.
+Le dossier [`outil-envoi-fiches`](outil-envoi-fiches/) contient un logiciel Windows pour sélectionner plusieurs fiches HTML sur un ordinateur, reconnaître leur catégorie et les envoyer dans le bon emplacement GitHub. Une copie peut être installée sur le Bureau avec le raccourci **Envoyer fiches GitHub**. Aucun mot de passe n’est enregistré par l’outil.
+
+### Utilisation
+
+1. Double-cliquer sur **Envoyer fiches GitHub** sur le Bureau ou sur `outil-envoi-fiches/Lancer-Outil.cmd`.
+2. Lors de la première utilisation, cliquer sur **Préparer**. Le dépôt est téléchargé dans le dossier Documents de l’ordinateur.
+3. Laisser le classement sur **Automatique** et cliquer sur **1. Choisir les fiches HTML**. Plusieurs fiches peuvent être sélectionnées ensemble.
+4. Vérifier la catégorie indiquée à côté de chaque fichier : **Femme 31000** ou **Homme 45000**. Si elle n’est pas reconnue, choisir manuellement la bonne catégorie dans la liste.
+5. Cliquer sur **2. Envoyer les fiches sur GitHub**. Lors du premier envoi, Git pour Windows peut demander une connexion au compte GitHub `victeams`.
+
+Le logiciel applique automatiquement les destinations suivantes :
+
+- **Femme 31000** : fiche déposée à la racine du dépôt ;
+- **Homme 45000** : fiche déposée dans le dossier `hommes/`.
+
+Après l’envoi, GitHub reconstruit les catalogues Femmes et Hommes, les compteurs, les portraits, la recherche et le référencement. Le fichier [`outil-envoi-fiches/MODE-D-EMPLOI.txt`](outil-envoi-fiches/MODE-D-EMPLOI.txt) contient également ces instructions pour une consultation hors ligne.
 
 ## Actualiser la photothèque
 
