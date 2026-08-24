@@ -240,6 +240,9 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("archives retrouvées après la libération du camp", women)
             self.assertIn("images d’identité sont beaucoup plus rares", men)
             self.assertIn("chambres à gaz", men)
+            self.assertIn("plusieurs listes et sites spécialisés", men)
+            self.assertIn("davantage de témoignages", men)
+            self.assertIn("plus de photographies", men)
             self.assertIn("moururent de faim", men)
             self.assertIn("archives retrouvées après la libération du camp", men)
 
