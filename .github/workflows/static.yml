@@ -46,6 +46,9 @@ jobs:
       - name: Classer les fiches et reconstruire le site
         run: python scripts/build_site.py
 
+      - name: Contrôler les catalogues Femmes et Hommes
+        run: python scripts/verify_catalogs.py
+
       - name: Vérifier les fichiers générés
         run: git diff --check
 

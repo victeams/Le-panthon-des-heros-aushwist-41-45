@@ -11,6 +11,10 @@ La page `photos.html` présente également une photothèque historique issue de 
 3. Pour un homme du convoi des 45000, ouvrir le dossier `hommes/` et y déposer la fiche HTML. Pour une femme du convoi des 31000, déposer la fiche à la racine du dépôt.
 4. Valider l’ajout sur la branche `main`.
 
+### Règle permanente de mise à jour
+
+Chaque ajout ou modification d’une fiche reconstruit obligatoirement **les deux catalogues** : `femmes.html` et `hommes.html`. Les compteurs de l’accueil, le moteur de recherche, les portraits et le référencement sont actualisés pendant la même opération. Un contrôle automatique bloque la publication si une fiche reconnue manque dans son catalogue ou si un compteur Femmes/Hommes est incorrect.
+
 L’automatisation lit le matricule dans le nom du fichier ou dans la fiche :
 
 - un matricule `31xxx` classe la personne dans `femmes.html` ;
