@@ -34,6 +34,68 @@ function Get-FicheCategory {
     return "a_choisir"
 }
 
+function Get-FicheMatricule {
+    param(
+        [Parameter(Mandatory)] [string]$Path,
+        [Parameter(Mandatory)] [string]$Category
+    )
+
+    $name = [IO.Path]::GetFileNameWithoutExtension($Path)
+    $content = ""
+    if (Test-Path -LiteralPath $Path -PathType Leaf) {
+        $content = Get-Content -LiteralPath $Path -Raw -Encoding UTF8
+    }
+    $matches = [regex]::Matches("$name`n$content", '(?<!\d)(?:31|45|46)\d{3}(?!\d)')
+    $numbers = @($matches | ForEach-Object { $_.Value } | Select-Object -Unique)
+    if ($Category -eq "femmes") {
+        $numbers = @($numbers | Where-Object { $_ -like '31*' -and $_ -ne '31000' })
+    } elseif ($Category -eq "hommes") {
+        $numbers = @($numbers | Where-Object { ($_ -like '45*' -or $_ -like '46*') -and $_ -ne '45000' })
+    }
+    if ($numbers.Count -eq 1) { return $numbers[0] }
+    return $null
+}
+
+function Get-ExistingFicheMap {
+    param([Parameter(Mandatory)] [string]$Repository)
+
+    $map = @{}
+    $dataPath = Join-Path $Repository "site-data.json"
+    if (-not (Test-Path -LiteralPath $dataPath -PathType Leaf)) { return $map }
+    try {
+        $records = Get-Content -LiteralPath $dataPath -Raw -Encoding UTF8 | ConvertFrom-Json
+        foreach ($record in $records) {
+            if (-not $record.group -or -not $record.matricule -or -not $record.file) { continue }
+            $key = "$($record.group)|$($record.matricule)"
+            if ($map.ContainsKey($key)) {
+                $map[$key] = "$($map[$key]), $($record.file)"
+            } else {
+                $map[$key] = [string]$record.file
+            }
+        }
+    } catch { }
+    return $map
+}
+
+function Write-AlreadyPresentReport {
+    param([Parameter(Mandatory)] [object[]]$Entries)
+
+    $reportPath = Join-Path ([Environment]::GetFolderPath("Desktop")) "Fiches deja presentes.txt"
+    $lines = @(
+        "FICHES DEJA PRESENTES SUR GITHUB",
+        "=================================",
+        "Controle du $(Get-Date -Format 'dd/MM/yyyy HH:mm')",
+        "Nombre : $($Entries.Count)",
+        ""
+    )
+    foreach ($entry in $Entries) {
+        $number = if ($entry.Matricule) { "matricule $($entry.Matricule)" } else { "matricule non trouve" }
+        $lines += "$([IO.Path]::GetFileName($entry.Source)) | $number | deja sur GitHub : $($entry.ExistingFile)"
+    }
+    $lines | Set-Content -LiteralPath $reportPath -Encoding UTF8
+    return $reportPath
+}
+
 function Get-GitExecutable {
     $command = Get-Command git.exe -ErrorAction SilentlyContinue
     if ($command) { return $command.Source }
@@ -126,6 +188,12 @@ if ($SelfTest) {
         if ((Get-FicheCategory $man) -ne "hommes") { throw "Test homme en échec" }
         if ((Get-FicheCategory $unknown) -ne "a_choisir") { throw "Test fiche ambiguë en échec" }
         if ((Get-FicheCategory $unknown "Hommes 45000") -ne "hommes") { throw "Test choix manuel en échec" }
+        if ((Get-FicheMatricule $woman "femmes") -ne "31802") { throw "Test matricule femme en echec" }
+        if ((Get-FicheMatricule $man "hommes") -ne $null) { throw "Test matricule de convoi en echec" }
+        @([PSCustomObject]@{ group = "femmes"; matricule = "31802"; file = "alice_31802.html" }) |
+            ConvertTo-Json | Set-Content -LiteralPath (Join-Path $testDirectory "site-data.json") -Encoding UTF8
+        $existingTest = Get-ExistingFicheMap -Repository $testDirectory
+        if (-not $existingTest.ContainsKey("femmes|31802")) { throw "Test liste deja presente en echec" }
         $git = Get-GitExecutable
         $gitTest = Join-Path $testDirectory "depot-test"
         [void](Invoke-Git $git @("init", "-b", "main", $gitTest))
@@ -229,9 +297,11 @@ $list.GridLines = $true
 $list.Location = New-Object Drawing.Point(25, 235)
 $list.Size = New-Object Drawing.Size(835, 220)
 $list.Anchor = "Top,Bottom,Left,Right"
-[void]$list.Columns.Add("Fichier", 360)
-[void]$list.Columns.Add("Catégorie", 150)
-[void]$list.Columns.Add("Destination", 275)
+[void]$list.Columns.Add("Fichier", 265)
+[void]$list.Columns.Add("Catégorie", 120)
+[void]$list.Columns.Add("Matricule", 85)
+[void]$list.Columns.Add("État", 180)
+[void]$list.Columns.Add("Destination", 165)
 $form.Controls.Add($list)
 
 $sendButton = New-Object Windows.Forms.Button
@@ -280,6 +350,10 @@ function Add-Log {
 
 function Refresh-FileList {
     $list.Items.Clear()
+    $repository = $repoText.Text.Trim()
+    $existingMap = if ($repository -and (Test-Path -LiteralPath (Join-Path $repository "site-data.json"))) {
+        Get-ExistingFicheMap -Repository $repository
+    } else { @{} }
     foreach ($path in $script:selectedFiles) {
         $category = Get-FicheCategory -Path $path -ForcedCategory $categoryBox.SelectedItem
         $categoryText = switch ($category) {
@@ -287,9 +361,15 @@ function Refresh-FileList {
             "hommes" { "Homme 45000" }
             default { "À choisir" }
         }
+        $matricule = if ($category -eq "femmes" -or $category -eq "hommes") { Get-FicheMatricule -Path $path -Category $category } else { $null }
         $destination = if ($category -eq "hommes") { "hommes/" + [IO.Path]::GetFileName($path) } elseif ($category -eq "femmes") { [IO.Path]::GetFileName($path) } else { "Choisissez la catégorie ci-dessus" }
+        $key = if ($matricule) { "$category|$matricule" } else { $null }
+        $exactExists = $repository -and (Test-Path -LiteralPath (Join-Path $repository ($destination -replace '/', '\')) -PathType Leaf)
+        $state = if (($key -and $existingMap.ContainsKey($key)) -or $exactExists) { "Déjà présente" } elseif ($category -eq "a_choisir") { "À choisir" } else { "Nouveau" }
         $item = New-Object Windows.Forms.ListViewItem([IO.Path]::GetFileName($path))
         [void]$item.SubItems.Add($categoryText)
+        [void]$item.SubItems.Add($(if ($matricule) { $matricule } else { "-" }))
+        [void]$item.SubItems.Add($state)
         [void]$item.SubItems.Add($destination)
         $item.Tag = $path
         [void]$list.Items.Add($item)
@@ -390,7 +470,8 @@ $sendButton.Add_Click({
                 throw "La catégorie de $([IO.Path]::GetFileName($source)) est inconnue. Choisissez Femmes 31000 ou Hommes 45000 dans la liste."
             }
             $relative = if ($category -eq "hommes") { "hommes/" + [IO.Path]::GetFileName($source) } else { [IO.Path]::GetFileName($source) }
-            $entries += [PSCustomObject]@{ Source = $source; Relative = $relative; Category = $category }
+            $matricule = Get-FicheMatricule -Path $source -Category $category
+            $entries += [PSCustomObject]@{ Source = $source; Relative = $relative; Category = $category; Matricule = $matricule }
         }
 
         $git = Get-GitExecutable
@@ -402,25 +483,51 @@ $sendButton.Add_Click({
         [void](Invoke-Git $git @("-C", $repository, "switch", "main"))
         Add-Log (Invoke-Git $git @("-C", $repository, "pull", "--rebase", "origin", "main")).Output
 
-        $existing = @($entries | Where-Object { Test-Path -LiteralPath (Join-Path $repository ($_.Relative -replace '/', '\')) })
-        if ($existing.Count -gt 0) {
-            $visibleNames = @($existing | Select-Object -First 6 | ForEach-Object { $_.Relative })
-            $names = $visibleNames -join "`r`n"
-            $hiddenCount = $existing.Count - $visibleNames.Count
-            $more = if ($hiddenCount -gt 0) { "`r`n... et $hiddenCount autre(s) fiche(s)." } else { "" }
-            $message = "$($existing.Count) fiche(s) existent déjà et seront remplacées :`r`n`r`n$names$more`r`n`r`nVoulez-vous continuer ?"
-            $answer = [Windows.Forms.MessageBox]::Show(
-                $message,
-                "Confirmation des doublons",
-                [Windows.Forms.MessageBoxButtons]::YesNo,
-                [Windows.Forms.MessageBoxIcon]::Warning,
-                [Windows.Forms.MessageBoxDefaultButton]::Button1
-            )
-            if ($answer -ne "Yes") { throw "Envoi annulé : aucune fiche n’a été remplacée." }
+        $existingMap = Get-ExistingFicheMap -Repository $repository
+        $alreadyPresent = @()
+        $newEntries = @()
+        $seenSelection = @{}
+        foreach ($entry in $entries) {
+            $key = if ($entry.Matricule) { "$($entry.Category)|$($entry.Matricule)" } else { $null }
+            $exactDestination = Test-Path -LiteralPath (Join-Path $repository ($entry.Relative -replace '/', '\'))
+            $existingFile = $null
+            if ($key -and $existingMap.ContainsKey($key)) {
+                $existingFile = $existingMap[$key]
+            } elseif ($exactDestination) {
+                $existingFile = $entry.Relative
+            } elseif ($key -and $seenSelection.ContainsKey($key)) {
+                $existingFile = "déjà dans cette sélection : $($seenSelection[$key])"
+            }
+
+            if ($existingFile) {
+                $alreadyPresent += [PSCustomObject]@{
+                    Source = $entry.Source
+                    Relative = $entry.Relative
+                    Category = $entry.Category
+                    Matricule = $entry.Matricule
+                    ExistingFile = $existingFile
+                }
+                Add-Log "Déjà présente, ignorée : $($entry.Relative)"
+            } else {
+                $newEntries += $entry
+                if ($key) { $seenSelection[$key] = $entry.Relative }
+            }
+        }
+
+        $reportPath = $null
+        if ($alreadyPresent.Count -gt 0) {
+            $reportPath = Write-AlreadyPresentReport -Entries $alreadyPresent
+            Add-Log "Liste des fiches déjà présentes : $reportPath"
+        }
+        if ($newEntries.Count -eq 0) {
+            $statusLabel.Text = "Toutes les fiches sont déjà présentes."
+            Refresh-FileList
+            [Windows.Forms.MessageBox]::Show("Aucune fiche n’a été renvoyée car elles sont toutes déjà sur GitHub.`r`n`r`nLa liste a été créée sur le Bureau :`r`n$reportPath", "Fiches déjà faites", "OK", "Information") | Out-Null
+            return
         }
 
         $statusLabel.Text = "Copie et envoi des fiches…"
-        foreach ($entry in $entries) {
+        foreach ($entry in $newEntries) {
             $destination = Join-Path $repository ($entry.Relative -replace '/', '\')
             $destinationDirectory = Split-Path -Parent $destination
             New-Item -ItemType Directory -Path $destinationDirectory -Force | Out-Null
@@ -428,7 +535,7 @@ $sendButton.Add_Click({
             Add-Log "Ajout : $($entry.Relative)"
         }
 
-        $relativePaths = @($entries | ForEach-Object { $_.Relative })
+        $relativePaths = @($newEntries | ForEach-Object { $_.Relative })
         [void](Invoke-Git $git (@("-C", $repository, "add", "--") + $relativePaths))
         $staged = Invoke-Git $git @("-C", $repository, "diff", "--cached", "--quiet") -AllowFailure
         if ($staged.ExitCode -eq 0) {
@@ -437,13 +544,14 @@ $sendButton.Add_Click({
             return
         }
 
-        $message = "Ajouter $($entries.Count) fiche(s) depuis l'outil Windows"
+        $message = "Ajouter $($newEntries.Count) fiche(s) depuis l'outil Windows"
         Add-Log (Invoke-Git $git @("-C", $repository, "commit", "-m", $message)).Output
         Add-Log (Invoke-Git $git @("-C", $repository, "push", "origin", "main")).Output
         $statusLabel.Text = "Envoi réussi. GitHub met maintenant le site à jour."
         $script:selectedFiles.Clear()
         Refresh-FileList
-        [Windows.Forms.MessageBox]::Show("Les fiches ont été envoyées sur GitHub.`r`nLe site sera mis à jour automatiquement dans quelques instants.", "Envoi réussi", "OK", "Information") | Out-Null
+        $skippedMessage = if ($alreadyPresent.Count -gt 0) { "`r`n$($alreadyPresent.Count) fiche(s) déjà faite(s) ont été ignorées.`r`nListe sur le Bureau : Fiches deja presentes.txt" } else { "" }
+        [Windows.Forms.MessageBox]::Show("$($newEntries.Count) nouvelle(s) fiche(s) ont été envoyées sur GitHub.$skippedMessage`r`nLe site sera mis à jour automatiquement dans quelques instants.", "Envoi réussi", "OK", "Information") | Out-Null
     } catch {
         $statusLabel.Text = "Envoi interrompu."
         Add-Log $_.Exception.Message

@@ -66,6 +66,8 @@ Le dossier [`outil-envoi-fiches`](outil-envoi-fiches/) contient un logiciel Wind
 4. Vérifier la catégorie indiquée à côté de chaque fichier : **Femme 31000** ou **Homme 45000**. Si elle n’est pas reconnue, choisir manuellement la bonne catégorie dans la liste.
 5. Cliquer sur **2. Envoyer les fiches sur GitHub**. Lors du premier envoi, Git pour Windows peut demander une connexion au compte GitHub `victeams`.
 
+La colonne **État** indique **Nouveau** ou **Déjà présente**. Le logiciel compare les matricules des femmes et des hommes avec les fiches déjà publiées, ignore automatiquement celles qui sont déjà faites et envoie uniquement les nouvelles. Une liste `Fiches deja presentes.txt` est créée sur le Bureau après chaque détection.
+
 Le logiciel applique automatiquement les destinations suivantes :
 
 - **Femme 31000** : fiche déposée à la racine du dépôt ;

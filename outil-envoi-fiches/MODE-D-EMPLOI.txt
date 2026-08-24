@@ -7,7 +7,12 @@ OUTIL D'ENVOI DES FICHES VERS GITHUB
    Ne remplacez pas ce chemin par le dossier qui contient vos fiches HTML.
 3. Laissez « Automatique » puis cliquez sur « Choisir les fiches HTML ».
 4. Vérifiez la catégorie affichée : Femme 31000 ou Homme 45000.
+   La colonne État indique « Nouveau » ou « Déjà présente ».
 5. Cliquez sur « Envoyer les fiches sur GitHub ».
+
+Les fiches déjà présentes (même matricule ou même nom de fichier) ne sont pas
+renvoyées. Le logiciel place leur liste dans « Fiches deja presentes.txt » sur
+le Bureau et envoie uniquement les nouvelles fiches.
 
 CLASSEMENT
 ----------
