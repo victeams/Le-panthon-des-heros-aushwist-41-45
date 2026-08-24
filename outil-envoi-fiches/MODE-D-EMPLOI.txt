@@ -4,6 +4,7 @@ OUTIL D'ENVOI DES FICHES VERS GITHUB
 1. Double-cliquez sur Lancer-Outil.cmd.
 2. La première fois, cliquez sur Préparer.
    L'outil télécharge le dépôt GitHub dans vos Documents.
+   Ne remplacez pas ce chemin par le dossier qui contient vos fiches HTML.
 3. Laissez « Automatique » puis cliquez sur « Choisir les fiches HTML ».
 4. Vérifiez la catégorie affichée : Femme 31000 ou Homme 45000.
 5. Cliquez sur « Envoyer les fiches sur GitHub ».

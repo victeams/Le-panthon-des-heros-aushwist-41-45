@@ -67,7 +67,14 @@ function Get-SavedRepository {
     if (Test-Path -LiteralPath $ConfigPath) {
         try {
             $config = Get-Content -LiteralPath $ConfigPath -Raw -Encoding UTF8 | ConvertFrom-Json
-            if ($config.repository) { return [string]$config.repository }
+            if ($config.repository) {
+                $saved = [string]$config.repository
+                $isRepository = Test-Path -LiteralPath (Join-Path $saved ".git") -PathType Container
+                $isNewLocation = -not (Test-Path -LiteralPath $saved)
+                $isEmptyLocation = (Test-Path -LiteralPath $saved -PathType Container) -and
+                    (@(Get-ChildItem -LiteralPath $saved -Force).Count -eq 0)
+                if ($isRepository -or $isNewLocation -or $isEmptyLocation) { return $saved }
+            }
         } catch { }
     }
     return $DefaultRepository
@@ -127,7 +134,7 @@ $subtitle.Location = New-Object Drawing.Point(25, 57)
 $form.Controls.Add($subtitle)
 
 $repoLabel = New-Object Windows.Forms.Label
-$repoLabel.Text = "Dossier GitHub sur cet ordinateur"
+$repoLabel.Text = "Dossier GitHub sur cet ordinateur (ne pas choisir le dossier contenant vos fiches)"
 $repoLabel.AutoSize = $true
 $repoLabel.Location = New-Object Drawing.Point(25, 94)
 $form.Controls.Add($repoLabel)
@@ -256,7 +263,7 @@ function Refresh-FileList {
 function Assert-Repository {
     param([string]$Repository)
     if (-not (Test-Path -LiteralPath (Join-Path $Repository ".git") -PathType Container)) {
-        throw "Le dossier GitHub n’est pas encore préparé. Cliquez d’abord sur Préparer."
+        throw "Le vrai dossier GitHub n’est pas encore préparé. Ne choisissez pas votre dossier de fiches : gardez le chemin proposé dans Documents, puis cliquez sur Préparer."
     }
 }
 
@@ -286,7 +293,7 @@ $prepareRepo.Add_Click({
             Add-Log $result.Output
         } elseif (-not (Test-Path -LiteralPath (Join-Path $repository ".git") -PathType Container)) {
             $existing = @(Get-ChildItem -LiteralPath $repository -Force)
-            if ($existing.Count -gt 0) { throw "Le dossier choisi n’est pas vide et n’est pas un dépôt GitHub." }
+            if ($existing.Count -gt 0) { throw "Ce dossier contient vos fichiers mais ce n’est pas le dépôt GitHub. Gardez le chemin proposé dans Documents, puis cliquez sur Préparer." }
             Add-Log "Téléchargement du dépôt GitHub…"
             $result = Invoke-Git $git @("clone", $RepositoryUrl, $repository)
             Add-Log $result.Output
