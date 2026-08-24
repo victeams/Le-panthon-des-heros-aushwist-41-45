@@ -55,8 +55,17 @@ function Invoke-Git {
         [switch]$AllowFailure
     )
 
-    $output = & $Git @Arguments 2>&1 | Out-String
-    $exitCode = $LASTEXITCODE
+    # Git écrit certains messages normaux (par exemple « Already on main »)
+    # sur la sortie d'erreur. Windows PowerShell ne doit pas les transformer
+    # en exception tant que le code de retour de Git est égal à zéro.
+    $previousErrorAction = $ErrorActionPreference
+    $ErrorActionPreference = "Continue"
+    try {
+        $output = & $Git @Arguments 2>&1 | Out-String
+        $exitCode = $LASTEXITCODE
+    } finally {
+        $ErrorActionPreference = $previousErrorAction
+    }
     if ($exitCode -ne 0 -and -not $AllowFailure) {
         throw "Commande Git impossible :`r`n$output"
     }
@@ -100,7 +109,17 @@ if ($SelfTest) {
         if ((Get-FicheCategory $man) -ne "hommes") { throw "Test homme en échec" }
         if ((Get-FicheCategory $unknown) -ne "a_choisir") { throw "Test fiche ambiguë en échec" }
         if ((Get-FicheCategory $unknown "Hommes 45000") -ne "hommes") { throw "Test choix manuel en échec" }
-        Write-Host "Autotest réussi : détection Femmes/Hommes opérationnelle."
+        $git = Get-GitExecutable
+        $gitTest = Join-Path $testDirectory "depot-test"
+        [void](Invoke-Git $git @("init", "-b", "main", $gitTest))
+        [void](Invoke-Git $git @("-C", $gitTest, "config", "user.name", "Autotest"))
+        [void](Invoke-Git $git @("-C", $gitTest, "config", "user.email", "autotest@example.invalid"))
+        "test" | Set-Content -LiteralPath (Join-Path $gitTest "test.txt") -Encoding ASCII
+        [void](Invoke-Git $git @("-C", $gitTest, "add", "test.txt"))
+        [void](Invoke-Git $git @("-C", $gitTest, "commit", "-m", "Autotest"))
+        $normalMessage = Invoke-Git $git @("-C", $gitTest, "switch", "main")
+        if ($normalMessage.ExitCode -ne 0) { throw "Test du message Git normal en échec" }
+        Write-Host "Autotest réussi : détection et messages Git opérationnels."
         exit 0
     } finally {
         Remove-Item -LiteralPath $testDirectory -Recurse -Force -ErrorAction SilentlyContinue
