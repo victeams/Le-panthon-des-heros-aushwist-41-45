@@ -12,6 +12,18 @@
     "search": "31 836 convoi 31000 notice commemorative"
   },
   {
+    "name": "31 843 ?",
+    "file": "31-843-31000.html",
+    "group": "femmes",
+    "matricule": null,
+    "subtitle": "Convoi 31000",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/31-843-31000.png",
+    "description": "Pas de texte",
+    "search": "31 843 convoi 31000 notice commemorative"
+  },
+  {
     "name": "Abel DELATTRE",
     "file": "hommes/abel-delattre-45437.html",
     "group": "hommes",
@@ -900,6 +912,18 @@
     "search": "angele dite daniele leduc nee denonne 31841 matricule 31841 morte en deportation"
   },
   {
+    "name": "Angèle Dite Renée GIRARD",
+    "file": "angele-dite-renee-girard-31632%20%281%29.html",
+    "group": "femmes",
+    "matricule": "31632",
+    "subtitle": "Matricule 31632",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/angele-dite-renee-girard-31632%20%281%29.jpg",
+    "description": "Angèle, Mélanie, Girard naît le 11 décembre 1894, à Paris 10e, fille unique de Gustave Girard, 26 ans, garçon de magasin, et d’Antoinette Dubois, 22 ans…",
+    "search": "angele dite renee girard 31632 matricule 31632 notice commemorative"
+  },
+  {
     "name": "Angèle, dite Renée, GIRARD",
     "file": "angele_dite_renee_girard_31632.html",
     "group": "femmes",
@@ -1320,6 +1344,18 @@
     "search": "bernard chauveau 45364 matricule 45364 notice commemorative"
   },
   {
+    "name": "Berthe LAPEYRADE",
+    "file": "berthe-lapeyrade-31721.html",
+    "group": "femmes",
+    "matricule": "31721",
+    "subtitle": "Matricule 31721",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/berthe-lapeyrade-31721.png",
+    "description": "Berthe Lescure naît le 26 avril 1895 au Passage (Lot-et-Garonne – 47). Ses parents s’installent ensuite à Cenon, en face de Bordeaux sur l’autre rive de la…",
+    "search": "berthe lapeyrade 31721 matricule 31721 notice commemorative"
+  },
+  {
     "name": "Berthe SABOURAULT, née Fays",
     "file": "berthe_sabourault_nee_fays_31683.html",
     "group": "femmes",
@@ -1534,6 +1570,18 @@
     "portrait": "portraits/charlotte_henriette_dupuis_dite_mauricette_31751.jpg",
     "description": "Charlotte Clémence Henriette Dupuis naît le février à Champvallon Yonne aînée de trois enfants dont les parents sont cultivateurs. La notice biographique…",
     "search": "charlotte henriette dupuis dite mauricette 31751 matricule 31751 morte en deportation"
+  },
+  {
+    "name": "Charlotte LESCURE",
+    "file": "charlotte-lescure-31733.html",
+    "group": "femmes",
+    "matricule": "31733",
+    "subtitle": "Matricule 31733",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charlotte-lescure-31733.jpg",
+    "description": "Charlotte Zanker naît le 31 mai 1902 à Saint-Paul (Gironde – 33).",
+    "search": "charlotte lescure 31733 matricule 31733 notice commemorative"
   },
   {
     "name": "Christiane « Cécile » BORRÁS",
@@ -2004,6 +2052,18 @@
     "search": "fernand tilliet 46148 matricule 46148 notice commemorative"
   },
   {
+    "name": "Fernande LAURENT",
+    "file": "fernande-laurent-31748.html",
+    "group": "femmes",
+    "matricule": "31748",
+    "subtitle": "Matricule 31748",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/fernande-laurent-31748.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz avant l’évacuation du camp en janvier 1945. Réalisé le 3 février 1943, le portrait…",
+    "search": "fernande laurent 31748 matricule 31748 notice commemorative"
+  },
+  {
     "name": "Franciska Dite Cica GOUTAYER",
     "file": "franciska-dite-cica-goutayer-31780.html",
     "group": "femmes",
@@ -2268,6 +2328,18 @@
     "search": "germaine girard 31706 matricule 31706 morte en deportation"
   },
   {
+    "name": "Germaine JAUNAY",
+    "file": "germaine-jaunay-31782.html",
+    "group": "femmes",
+    "matricule": "31782",
+    "subtitle": "Matricule 31782",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/germaine-jaunay-31782.jpg",
+    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+    "search": "germaine jaunay 31782 matricule 31782 notice commemorative"
+  },
+  {
     "name": "Germaine MAURICE",
     "file": "germaine-maurice-31788.html",
     "group": "femmes",
@@ -2302,6 +2374,18 @@
     "portrait": "portraits/gilberte-tamise-31715.jpg",
     "description": "Marie, Gilberte Tamisé naît le le 3 février 1912. Son père est bottier à Caudéran, dans la proche banlieue de Bordeaux (Gironde – 33). Le 28 février 1922…",
     "search": "gilberte tamise 31715 matricule 31715 notice commemorative"
+  },
+  {
+    "name": "Gisèle LAGUESSE",
+    "file": "gisele-laguesse-31667.html",
+    "group": "femmes",
+    "matricule": "31667",
+    "subtitle": "Matricule 31667",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/gisele-laguesse-31667.jpg",
+    "description": "Gisèle, Henriette, Lung naît le 29 janvier 1915 à Poitiers (Vienne). Elle grandit à Levallois-Perret (Hauts-de-Seine), où elle va à l’école communale. Elle…",
+    "search": "gisele laguesse 31667 matricule 31667 notice commemorative"
   },
   {
     "name": "Héléna FOURNIER",
@@ -2424,6 +2508,18 @@
     "search": "henri soupion 46110 matricule 46110 notice commemorative"
   },
   {
+    "name": "Henriette L’HUILLIER",
+    "file": "henriette-l-huillier-31688.html",
+    "group": "femmes",
+    "matricule": "31688",
+    "subtitle": "Matricule 31688",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/henriette-l-huillier-31688.jpg",
+    "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
+    "search": "henriette l huillier 31688 matricule 31688 notice commemorative"
+  },
+  {
     "name": "Henriette MAUVAIS",
     "file": "henriette_mauvais_31674.html",
     "group": "femmes",
@@ -2460,6 +2556,18 @@
     "search": "irina karchewska 31698 matricule 31698 morte en deportation"
   },
   {
+    "name": "Jacqueline QUATREMAIRE",
+    "file": "jacqueline-quatremaire-31641.html",
+    "group": "femmes",
+    "matricule": "31641",
+    "subtitle": "Matricule 31641",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jacqueline-quatremaire-31641.jpg",
+    "description": "Jacqueline Quatremaire naît le 17 octobre 1918 à Igé (Orne), fille unique d’Henri Quatremaire, 21 ans, peintre en bâtiment, et de Germaine Bruhce, qui se…",
+    "search": "jacqueline quatremaire 31641 matricule 31641 notice commemorative"
+  },
+  {
     "name": "Jacques FAIPEUR",
     "file": "hommes/jacques-faipeur-45525.html",
     "group": "hommes",
@@ -2470,6 +2578,18 @@
     "portrait": "portraits/jacques-faipeur-45525.jpg",
     "description": "Jacques, Alexandre, Faipeur naît le 13 mars 1906 à Paris 20e, chez ses parents, Alfred Alexandre Faipeur, 26 ans, tourneur, et Émilie Victorine Carlu, 21…",
     "search": "jacques faipeur 45525 matricule 45525 notice commemorative"
+  },
+  {
+    "name": "Jakoba Van Der LEE",
+    "file": "jakoba-van-der-lee-31697.html",
+    "group": "femmes",
+    "matricule": "31697",
+    "subtitle": "Matricule 31697",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jakoba-van-der-lee-31697.jpg",
+    "description": "Très jeune, Jakoba Van Der Lee se marie avec un prince arabe qui l’emmène dans son pays et l’enferme dans son harem. Elle ne s’attend pas à cette vie de…",
+    "search": "jakoba van der lee 31697 matricule 31697 notice commemorative"
   },
   {
     "name": "Jean CAZORLA",
@@ -2593,6 +2713,18 @@
   },
   {
     "name": "Jeanne COUTEAU",
+    "file": "jeanne-couteau-31772.html",
+    "group": "femmes",
+    "matricule": "31772",
+    "subtitle": "Matricule 31772",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jeanne-couteau-31772.jpg",
+    "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
+    "search": "jeanne couteau 31772 matricule 31772 notice commemorative"
+  },
+  {
+    "name": "Jeanne COUTEAU",
     "file": "jeanne_couteau_31772.html",
     "group": "femmes",
     "matricule": "31772",
@@ -2602,6 +2734,18 @@
     "portrait": "portraits/jeanne_couteau_31772.jpg",
     "description": "Jeanne Louise Couteau naît le 13 juillet 1901 à Paris, de père non déclaré. Elle grandit à Bagnoles-de-l’Orne et obtient son certificat d’études. En 1923…",
     "search": "jeanne couteau 31772 matricule 31772 morte en deportation"
+  },
+  {
+    "name": "Jeanne Dite Carmen SERRE",
+    "file": "jeanne-dite-carmen-serre-31637.html",
+    "group": "femmes",
+    "matricule": "31637",
+    "subtitle": "Matricule 31637",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jeanne-dite-carmen-serre-31637.jpg",
+    "description": "Deux sœurs rescapées d’Auschwitz",
+    "search": "jeanne dite carmen serre 31637 matricule 31637 notice commemorative"
   },
   {
     "name": "Jeanne GRANDPERRET",
@@ -2652,6 +2796,18 @@
     "search": "jeanne humbert 31813 matricule 31813 notice commemorative"
   },
   {
+    "name": "Jeanne Marie THIÉBAULT",
+    "file": "jeanne-marie-thiebault-31640.html",
+    "group": "femmes",
+    "matricule": "31640",
+    "subtitle": "Matricule 31640",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jeanne-marie-thiebault-31640.jpg",
+    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+    "search": "jeanne marie thiebault 31640 matricule 31640 notice commemorative"
+  },
+  {
     "name": "Jeannine, dite “Jeanne”, HERSCHTEL",
     "file": "jeannine_dite_jeanne_herschtel.html",
     "group": "femmes",
@@ -2674,6 +2830,18 @@
     "portrait": "portraits/josephine_umido_31848.jpg",
     "description": "Joséphine, ou Giuseppina, Bizzarri naît le 21 septembre 1903 à Roquefort-la-Bédoule, dans les Bouches-du-Rhône. Ses parents, Ruffino Bizzarri et Caroline…",
     "search": "josephine umido 31848 matricule 31848 morte en deportation"
+  },
+  {
+    "name": "Julia SLUSARCZYK",
+    "file": "julia-slusarczyk-31823.html",
+    "group": "femmes",
+    "matricule": "31823",
+    "subtitle": "Matricule 31823",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/julia-slusarczyk-31823.jpg",
+    "description": "La vie d’une immigrée polonaise",
+    "search": "julia slusarczyk 31823 matricule 31823 notice commemorative"
   },
   {
     "name": "Julien Bessey Ou BECET",
@@ -2710,6 +2878,18 @@
     "portrait": "portraits/laure_gatet_31833.jpg",
     "description": "Laure Constance Pierrette Gatet naît le juillet à la Maison-Dieu commune de Boussac-Bourg Creuse dans une famille d’enseignants. La notice biographique…",
     "search": "laure gatet 31833 matricule 31833 morte en deportation"
+  },
+  {
+    "name": "Léa LAMBERT",
+    "file": "lea-lambert-31821.html",
+    "group": "femmes",
+    "matricule": "31821",
+    "subtitle": "Matricule 31821",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/lea-lambert-31821.jpg",
+    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+    "search": "lea lambert 31821 matricule 31821 notice commemorative"
   },
   {
     "name": "Léa LAMBERT, née Durbeck",
@@ -2772,6 +2952,18 @@
     "search": "leona bouillard 31815 matricule 31815 notice commemorative"
   },
   {
+    "name": "Léone SEIGNOLLE",
+    "file": "leone-seignolle-31752.html",
+    "group": "femmes",
+    "matricule": "31752",
+    "subtitle": "Matricule 31752",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/leone-seignolle-31752.jpg",
+    "description": "Léone Seignolle arrive à Romainville le 21 octobre 1942.",
+    "search": "leone seignolle 31752 matricule 31752 notice commemorative"
+  },
+  {
     "name": "Léonie SABAIL",
     "file": "leonie_sabail_31745.html",
     "group": "femmes",
@@ -2782,6 +2974,18 @@
     "portrait": "portraits/leonie_sabail_31745.jpg",
     "description": "Léonie Daubigny naît le 5 avril 1891 à Châtellerault. Elle épouse Jean Sabail et le couple a une fille, déjà mariée en 1942, et un fils de quinze ans. Tous…",
     "search": "leonie sabail 31745 matricule 31745 morte en deportation"
+  },
+  {
+    "name": "Lina KUHN",
+    "file": "lina-kuhn-31795.html",
+    "group": "femmes",
+    "matricule": "31795",
+    "subtitle": "Matricule 31795",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/lina-kuhn-31795.jpg",
+    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+    "search": "lina kuhn 31795 matricule 31795 notice commemorative"
   },
   {
     "name": "Lina KUHN ou KUHNE",
@@ -2844,6 +3048,18 @@
     "search": "louis villeminot 46193 matricule 46193 notice commemorative"
   },
   {
+    "name": "Louise Dite Louisette LOSSERAND",
+    "file": "louise-dite-louisette-losserand-31757.html",
+    "group": "femmes",
+    "matricule": "31757",
+    "subtitle": "Matricule 31757",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/louise-dite-louisette-losserand-31757.jpg",
+    "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
+    "search": "louise dite louisette losserand 31757 matricule 31757 notice commemorative"
+  },
+  {
     "name": "Louise LAVIGNE",
     "file": "louise_lavigne_31669.html",
     "group": "femmes",
@@ -2854,6 +3070,30 @@
     "portrait": "portraits/louise_lavigne_31669.jpg",
     "description": "Louise Amand, dite « Anaïse » ou « Nayette », naît le 17 mars 1904 à Iteuil, dans la Vienne, au sein d’une famille nombreuse et très pauvre. Elle quitte…",
     "search": "louise lavigne 31669 matricule 31669 morte en deportation"
+  },
+  {
+    "name": "Louise LOQUET",
+    "file": "louise-loquet-31828.html",
+    "group": "femmes",
+    "matricule": "31828",
+    "subtitle": "Matricule 31828",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/louise-loquet-31828.jpg",
+    "description": "Orpheline à 8 ans",
+    "search": "louise loquet 31828 matricule 31828 notice commemorative"
+  },
+  {
+    "name": "Louise MAGADUR",
+    "file": "louise-magadur-31673.html",
+    "group": "femmes",
+    "matricule": "31673",
+    "subtitle": "Matricule 31673",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/louise-magadur-31673.jpg",
+    "description": "Photo anthropométrique prise le 17 mars 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police (APP), Paris.",
+    "search": "louise magadur 31673 matricule 31673 notice commemorative"
   },
   {
     "name": "Lucette Suzanne HERBASSIER",
@@ -2914,6 +3154,42 @@
     "portrait": "portraits/lucie_mansuy_31648.jpg",
     "description": "Lucienne Jeanne Caccia naît le 3 juin 1915 à Gérardmer, dans une famille de quatre enfants issue de l’immigration italienne. Son père travaille comme chef…",
     "search": "lucienne dite lucie mansuy 31648 matricule 31648 rescapee"
+  },
+  {
+    "name": "Lucienne Dite Nicole LAUTISSIER",
+    "file": "lucienne-dite-nicole-lautissier-31726.html",
+    "group": "femmes",
+    "matricule": "31726",
+    "subtitle": "Matricule 31726",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/lucienne-dite-nicole-lautissier-31726.jpg",
+    "description": "Lucienne Michaud nait le 4 avril 1923 au Creusot.",
+    "search": "lucienne dite nicole lautissier 31726 matricule 31726 notice commemorative"
+  },
+  {
+    "name": "Lucienne LEBRETON",
+    "file": "lucienne-lebreton-31692.html",
+    "group": "femmes",
+    "matricule": "31692",
+    "subtitle": "Matricule 31692",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/lucienne-lebreton-31692.jpg",
+    "description": "Lucienne Lebreton en 1934. © Archives de la RATP.",
+    "search": "lucienne lebreton 31692 matricule 31692 notice commemorative"
+  },
+  {
+    "name": "Lucienne PALLUY",
+    "file": "lucienne-palluy-31689.html",
+    "group": "femmes",
+    "matricule": "31689",
+    "subtitle": "Matricule 31689",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/lucienne-palluy-31689.jpg",
+    "description": "Un grand-père, du côté paternel, communard, a disparu pendant la Semaine sanglante. Son père, vieux socialiste, avait adhéré au parti communiste après la…",
+    "search": "lucienne palluy 31689 matricule 31689 notice commemorative"
   },
   {
     "name": "Luz MARTOS, née Goni",
@@ -2986,6 +3262,18 @@
     "portrait": "portraits/madeleine_dite_michele_laffitte_nee_guitton_31666.jpg",
     "description": "Madeleine Noémie Eugénie Marie Guitton naît le octobre au Longeron Maine-et-Loire fille d’Eugène Guitton artisan mécanicien et de Noémie Piffeteau…",
     "search": "madeleine dite michele laffitte nee guitton 31666 matricule 31666 morte en deportation"
+  },
+  {
+    "name": "Madeleine JÉGOUZO",
+    "file": "madeleine-jegouzo-31668.html",
+    "group": "femmes",
+    "matricule": "31668",
+    "subtitle": "Matricule 31668",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/madeleine-jegouzo-31668.jpg",
+    "description": "Madeleine Jégouzo, née Passot, vient au monde dans le 15ème arrondissement dans une famille de tradition socialiste. Elle adhère au Parti communiste en…",
+    "search": "madeleine jegouzo 31668 matricule 31668 notice commemorative"
   },
   {
     "name": "Madeleine ZANI, née Davy",
@@ -3109,6 +3397,18 @@
   },
   {
     "name": "Marcelle BUREAU",
+    "file": "marcelle-bureau-31000%20%281%29.html",
+    "group": "femmes",
+    "matricule": null,
+    "subtitle": "Convoi 31000",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/marcelle-bureau-31000%20%281%29.png",
+    "description": "Marcelle Bureau, née le 7 avril 1923 à Étaules (Charente-Maritime), domiciliée à Étaules, morte au camp de femmes de Birkenau le 13 avril 1943.",
+    "search": "marcelle bureau convoi 31000 notice commemorative"
+  },
+  {
+    "name": "Marcelle BUREAU",
     "file": "marcelle_bureau_31808.html",
     "group": "femmes",
     "matricule": "31808",
@@ -3142,6 +3442,18 @@
     "portrait": "portraits/marcelle_fuglesang_31826.jpg",
     "description": "Marcelle Fuglesang naît dans le faubourg de Christiana à Oslo Norvège le février fille de Jørgan Jacob Fuglesang ans Norvégien installé à Paris où il…",
     "search": "marcelle fuglesang 31826 matricule 31826 morte en deportation"
+  },
+  {
+    "name": "Marcelle LAURILLOU",
+    "file": "marcelle-laurillou-31785.html",
+    "group": "femmes",
+    "matricule": "31785",
+    "subtitle": "Matricule 31785",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/marcelle-laurillou-31785.jpg",
+    "description": "Marcelle, Fernande, Micheline, Mardelle naît le 19 novembre 1914 à Perrusson, près de Loches (Indre-et-Loire), fille de Marcel Mardelle, 30 ans…",
+    "search": "marcelle laurillou 31785 matricule 31785 notice commemorative"
   },
   {
     "name": "Marcelle LEMASSON",
@@ -3202,6 +3514,18 @@
     "portrait": "portraits/marguerite_lermite_nee_joubert_31835.jpg",
     "description": "Marguerite Marie Philomène Henriette Joubert nait le février à Vallet Loire-Inférieure Loire-Atlantique fille de Pierre Joubert ans ouvrier-maçon puis…",
     "search": "marguerite lermite nee joubert 31835 matricule 31835 morte en deportation"
+  },
+  {
+    "name": "Marguerite Maria KOTLEREWSKY",
+    "file": "marguerite-maria-kotlerewsky-31814.html",
+    "group": "femmes",
+    "matricule": "31814",
+    "subtitle": "Matricule 31814",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/marguerite-maria-kotlerewsky-31814.png",
+    "description": "Marguerite, Maria KOTLEREWSKY, née Urgon, vient au monde le 15 février 1903 ; son père travaille à Paris, boulevard Voltaire dans le 11ème arrondissement.…",
+    "search": "marguerite maria kotlerewsky 31814 matricule 31814 notice commemorative"
   },
   {
     "name": "Marguerite RICHIER",
@@ -4224,6 +4548,18 @@
     "search": "sophie gigand 31844 matricule 31844 notice commemorative"
   },
   {
+    "name": "Sophie LICHT",
+    "file": "sophie-licht-31803.html",
+    "group": "femmes",
+    "matricule": "31803",
+    "subtitle": "Matricule 31803",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/sophie-licht-31803.jpg",
+    "description": "Sophie Schaub naît le 11 juin 1905 à Welferding ( Wölferdingen ) [1], en Moselle alors annexée par l’Empire allemand depuis 1871 (traité de Francfort).…",
+    "search": "sophie licht 31803 matricule 31803 notice commemorative"
+  },
+  {
     "name": "Suzanne COSTENTIN",
     "file": "suzanne-costentin-31765.html",
     "group": "femmes",
@@ -4522,6 +4858,18 @@
     "portrait": "portraits/yvonne-emorine-31662.jpg",
     "description": "Photo anthropométrique prise le 17 février 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police, Paris.",
     "search": "yvonne emorine 31662 matricule 31662 notice commemorative"
+  },
+  {
+    "name": "Yvonne GALLOIS",
+    "file": "yvonne-gallois-31849.html",
+    "group": "femmes",
+    "matricule": "31849",
+    "subtitle": "Matricule 31849",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/yvonne-gallois-31849.jpg",
+    "description": "Yvonne, Renée, Lucie, Gallois naît le 25 avril 1921 à Sorel-Moussel [1], petit village sur les bords de l’Eure, 13 km au Nord de Dreux (Eure-et-Loir)…",
+    "search": "yvonne gallois 31849 matricule 31849 notice commemorative"
   },
   {
     "name": "Yvonne GALLOIS",
