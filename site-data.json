@@ -1620,6 +1620,78 @@
     "search": "raymonde sergent 31790 matricule 31790 morte en deportation"
   },
   {
+    "name": "René CARON",
+    "file": "hommes/rene-caron-45334.html",
+    "group": "hommes",
+    "matricule": "45334",
+    "subtitle": "Matricule 45334",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/rene-caron-45334.jpg",
+    "description": "René, Armand, Caron naît le 10 avril 1914 à Alfortville [1] (Seine / Val-de-Marne – 94), chez ses parents, James Caron, 34 ans, boucher, et Hélène…",
+    "search": "rene caron 45334 matricule 45334 notice commemorative"
+  },
+  {
+    "name": "René DESCHAMPS",
+    "file": "hommes/rene-deschamps-45000.html",
+    "group": "hommes",
+    "matricule": null,
+    "subtitle": "Convoi 45000",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/rene-deschamps-45000.jpg",
+    "description": "René, Auguste, Deschamps naît le 2 octobre 1902 à Poitiers (Vienne – 86), chez ses parents, Joseph Deschamps, 30 ans, domestique, et Justine Chambaudry…",
+    "search": "rene deschamps convoi 45000 notice commemorative"
+  },
+  {
+    "name": "René FAYOLLE",
+    "file": "hommes/rene-fayolle-45532.html",
+    "group": "hommes",
+    "matricule": "45532",
+    "subtitle": "Matricule 45532",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/rene-fayolle-45532.jpg",
+    "description": "René, Henri, Émile, Alfred, Fayolle naît le 23 février 1922 à Lens (Pas-de-Calais – 62), fils aîné de César Fayolle, né en 1897 à Outreau (62), et…",
+    "search": "rene fayolle 45532 matricule 45532 notice commemorative"
+  },
+  {
+    "name": "René JODON",
+    "file": "hommes/rene-jodon-45688.html",
+    "group": "hommes",
+    "matricule": "45688",
+    "subtitle": "Matricule 45688",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/rene-jodon-45688.jpg",
+    "description": "René, Alfred, Jodon naît le 7 décembre 1908 à Boulogne-sur-Seine [1] (Seine / Hauts-de-Seine – 92), chez ses parents, Alcide Jodon, 40 ans, cocher, et…",
+    "search": "rene jodon 45688 matricule 45688 notice commemorative"
+  },
+  {
+    "name": "René MAILLARD",
+    "file": "hommes/rene-maillard-45814.html",
+    "group": "hommes",
+    "matricule": "45814",
+    "subtitle": "Matricule 45814",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/rene-maillard-45814.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "rene maillard 45814 matricule 45814 notice commemorative"
+  },
+  {
+    "name": "René MANCEAU",
+    "file": "hommes/rene-manceau-45821.html",
+    "group": "hommes",
+    "matricule": "45821",
+    "subtitle": "Matricule 45821",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/rene-manceau-45821.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "rene manceau 45821 matricule 45821 notice commemorative"
+  },
+  {
     "name": "Robert COURTAS",
     "file": "hommes/robert-courtas-45406.html",
     "group": "hommes",
@@ -1632,6 +1704,30 @@
     "search": "robert courtas 45406 matricule 45406 notice commemorative"
   },
   {
+    "name": "Robert HENRY",
+    "file": "hommes/robert-henry-45658.html",
+    "group": "hommes",
+    "matricule": "45658",
+    "subtitle": "Matricule 45658",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/robert-henry-45658.jpg",
+    "description": "Robert, André, HENRY naît le 29 ou 30 avril 1917 à Fouquerolles (Oise – 60). Sa mère, Palmyre Gasté, née en 1882, est veuve en 1921 ; elle est alors…",
+    "search": "robert henry 45658 matricule 45658 notice commemorative"
+  },
+  {
+    "name": "Robert MORICCI",
+    "file": "hommes/robert-moricci-45897.html",
+    "group": "hommes",
+    "matricule": "45897",
+    "subtitle": "Matricule 45897",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/robert-moricci-45897.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "robert moricci 45897 matricule 45897 notice commemorative"
+  },
+  {
     "name": "Roger Alexandre KINSBOURG",
     "file": "hommes/roger-alexandre-kinsbourg-46287.html",
     "group": "hommes",
@@ -1642,6 +1738,30 @@
     "portrait": "portraits/roger-alexandre-kinsbourg-46287.jpg",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
     "search": "roger alexandre kinsbourg 46287 matricule 46287 notice commemorative"
+  },
+  {
+    "name": "Roger CERVEAUX",
+    "file": "hommes/roger-cerveaux-45348.html",
+    "group": "hommes",
+    "matricule": "45348",
+    "subtitle": "Matricule 45348",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/roger-cerveaux-45348.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "roger cerveaux 45348 matricule 45348 notice commemorative"
+  },
+  {
+    "name": "Roger CHAPUT",
+    "file": "hommes/roger-chaput-45352.html",
+    "group": "hommes",
+    "matricule": "45352",
+    "subtitle": "Matricule 45352",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/roger-chaput-45352.jpg",
+    "description": "Auschwitz, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+    "search": "roger chaput 45352 matricule 45352 notice commemorative"
   },
   {
     "name": "Roger COLLIGNON",
@@ -1666,6 +1786,42 @@
     "portrait": "portraits/roger-desmonts-45520.png",
     "description": "Roger, Alexandre, Desmonts naît le 8 novembre 1911 au village d’Ormes (Eure), fils d’Eugène Desmonts, 35 ans, et d’Angèle Sochomer, son épouse, 32 ans…",
     "search": "roger desmonts 45520 matricule 45520 notice commemorative"
+  },
+  {
+    "name": "Roger LEVACHÉ",
+    "file": "hommes/roger-levache-45791.html",
+    "group": "hommes",
+    "matricule": "45791",
+    "subtitle": "Matricule 45791",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/roger-levache-45791.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "roger levache 45791 matricule 45791 notice commemorative"
+  },
+  {
+    "name": "Roger MARIVET",
+    "file": "hommes/roger-marivet-45836.html",
+    "group": "hommes",
+    "matricule": "45836",
+    "subtitle": "Matricule 45836",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/roger-marivet-45836.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "roger marivet 45836 matricule 45836 notice commemorative"
+  },
+  {
+    "name": "Roland SOYER",
+    "file": "hommes/roland-soyer-46112.html",
+    "group": "hommes",
+    "matricule": "46112",
+    "subtitle": "Matricule 46112",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/roland-soyer-46112.jpg",
+    "description": "Roland Soyer en 1931. © Collection Michel Winkel, son neveu.",
+    "search": "roland soyer 46112 matricule 46112 notice commemorative"
   },
   {
     "name": "Rosa-Michelle, dite »Rosie » FLOC’H",
@@ -1848,6 +2004,30 @@
     "search": "victor dieulesaint 45477 matricule 45477 notice commemorative"
   },
   {
+    "name": "Victor JARDIN",
+    "file": "hommes/victor-jardin-45684.html",
+    "group": "hommes",
+    "matricule": "45684",
+    "subtitle": "Matricule 45684",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/victor-jardin-45684.jpg",
+    "description": "En juillet 1937… © RATP/Archives définitives.",
+    "search": "victor jardin 45684 matricule 45684 notice commemorative"
+  },
+  {
+    "name": "Victor MARTIN",
+    "file": "hommes/victor-martin-45846.html",
+    "group": "hommes",
+    "matricule": "45846",
+    "subtitle": "Matricule 45846",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/victor-martin-45846.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "victor martin 45846 matricule 45846 notice commemorative"
+  },
+  {
     "name": "Yvette FEUILLET",
     "file": "yvette_feuillet_31663.html",
     "group": "femmes",
@@ -1918,5 +2098,17 @@
     "portrait": "portraits/yvonne_souchaud_nee_houdayer_31791.jpg",
     "description": "Yvonne SOUCHAUD née Houdayer appartient au groupe des femmes françaises déportées depuis Compiègne vers Auschwitz en janvier. La notice biographique…",
     "search": "yvonne souchaud nee houdayer 31791 matricule 31791 morte en deportation"
+  },
+  {
+    "name": "Zéphirin Marcel TOILLON",
+    "file": "hommes/zephirin-marcel-toillon-46150.html",
+    "group": "hommes",
+    "matricule": "46150",
+    "subtitle": "Matricule 46150",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/zephirin-marcel-toillon-46150.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "zephirin marcel toillon 46150 matricule 46150 notice commemorative"
   }
 ]
