@@ -41,12 +41,21 @@ function Get-FicheMatricule {
     )
 
     $name = [IO.Path]::GetFileNameWithoutExtension($Path)
+    $nameMatches = [regex]::Matches($name, '(?<!\d)(?:31|45|46)\d{3}(?!\d)')
+    $numbers = @($nameMatches | ForEach-Object { $_.Value } | Select-Object -Unique)
+    if ($Category -eq "femmes") {
+        $numbers = @($numbers | Where-Object { $_ -like '31*' -and $_ -ne '31000' })
+    } elseif ($Category -eq "hommes") {
+        $numbers = @($numbers | Where-Object { ($_ -like '45*' -or $_ -like '46*') -and $_ -ne '45000' })
+    }
+    if ($numbers.Count -eq 1) { return $numbers[0] }
+
     $content = ""
     if (Test-Path -LiteralPath $Path -PathType Leaf) {
         $content = Get-Content -LiteralPath $Path -Raw -Encoding UTF8
     }
-    $matches = [regex]::Matches("$name`n$content", '(?<!\d)(?:31|45|46)\d{3}(?!\d)')
-    $numbers = @($matches | ForEach-Object { $_.Value } | Select-Object -Unique)
+    $contentMatches = [regex]::Matches($content, '(?<!\d)(?:31|45|46)\d{3}(?!\d)')
+    $numbers = @($contentMatches | ForEach-Object { $_.Value } | Select-Object -Unique)
     if ($Category -eq "femmes") {
         $numbers = @($numbers | Where-Object { $_ -like '31*' -and $_ -ne '31000' })
     } elseif ($Category -eq "hommes") {
@@ -181,7 +190,7 @@ if ($SelfTest) {
         $woman = Join-Path $testDirectory "alice_31802.html"
         $man = Join-Path $testDirectory "pierre.html"
         $unknown = Join-Path $testDirectory "notice.html"
-        '<html><body>Matricule 31802</body></html>' | Set-Content -LiteralPath $woman -Encoding UTF8
+        '<html><body>Matricule 31802. Une source mentionne aussi le matricule 31799.</body></html>' | Set-Content -LiteralPath $woman -Encoding UTF8
         '<html><head><meta name="convoi" content="45000"></head></html>' | Set-Content -LiteralPath $man -Encoding UTF8
         '<html><body>Notice</body></html>' | Set-Content -LiteralPath $unknown -Encoding UTF8
         if ((Get-FicheCategory $woman) -ne "femmes") { throw "Test femme en échec" }
