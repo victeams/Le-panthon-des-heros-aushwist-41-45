@@ -385,8 +385,18 @@ $sendButton.Add_Click({
 
         $existing = @($entries | Where-Object { Test-Path -LiteralPath (Join-Path $repository ($_.Relative -replace '/', '\')) })
         if ($existing.Count -gt 0) {
-            $names = ($existing | ForEach-Object { $_.Relative }) -join "`r`n"
-            $answer = [Windows.Forms.MessageBox]::Show("Ces fiches existent déjà et seront remplacées :`r`n`r`n$names`r`n`r`nContinuer ?", "Confirmation", "YesNo", "Warning")
+            $visibleNames = @($existing | Select-Object -First 6 | ForEach-Object { $_.Relative })
+            $names = $visibleNames -join "`r`n"
+            $hiddenCount = $existing.Count - $visibleNames.Count
+            $more = if ($hiddenCount -gt 0) { "`r`n... et $hiddenCount autre(s) fiche(s)." } else { "" }
+            $message = "$($existing.Count) fiche(s) existent déjà et seront remplacées :`r`n`r`n$names$more`r`n`r`nVoulez-vous continuer ?"
+            $answer = [Windows.Forms.MessageBox]::Show(
+                $message,
+                "Confirmation des doublons",
+                [Windows.Forms.MessageBoxButtons]::YesNo,
+                [Windows.Forms.MessageBoxIcon]::Warning,
+                [Windows.Forms.MessageBoxDefaultButton]::Button1
+            )
             if ($answer -ne "Yes") { throw "Envoi annulé : aucune fiche n’a été remplacée." }
         }
 
