@@ -1,0 +1,27 @@
+OUTIL D'ENVOI DES FICHES VERS GITHUB
+====================================
+
+1. Double-cliquez sur Lancer-Outil.cmd.
+2. La première fois, cliquez sur Préparer.
+   L'outil télécharge le dépôt GitHub dans vos Documents.
+3. Laissez « Automatique » puis cliquez sur « Choisir les fiches HTML ».
+4. Vérifiez la catégorie affichée : Femme 31000 ou Homme 45000.
+5. Cliquez sur « Envoyer les fiches sur GitHub ».
+
+CLASSEMENT
+----------
+
+- Les fiches Femmes 31000 sont placées à la racine du site.
+- Les fiches Hommes 45000 sont placées dans le dossier hommes.
+- Si la détection automatique ne trouve pas la catégorie, choisissez-la
+  manuellement dans la liste avant l'envoi.
+
+CONNEXION GITHUB
+----------------
+
+L'outil ne conserve aucun mot de passe. Lors du premier envoi, Git pour Windows
+peut ouvrir une page de connexion GitHub. Connectez-vous au compte victeams,
+puis revenez dans l'outil.
+
+Après l'envoi, GitHub reconstruit automatiquement les catalogues Femmes et
+Hommes, les compteurs, les portraits et le moteur de recherche.

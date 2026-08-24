@@ -54,6 +54,10 @@ Les données du classeur maître sont déjà converties dans `data/base-document
 
 Le script ne déplace et ne supprime aucune biographie existante. Les contrôles peuvent également être lancés manuellement depuis l’onglet **Actions** de GitHub.
 
+## Logiciel Windows d’envoi des fiches
+
+Le dossier `outil-envoi-fiches` contient un petit logiciel Windows pour sélectionner plusieurs fiches sur un ordinateur, reconnaître leur catégorie et les envoyer dans le bon emplacement GitHub. Double-cliquer sur `Lancer-Outil.cmd`, puis suivre les deux boutons numérotés. Aucun mot de passe n’est enregistré par l’outil.
+
 ## Actualiser la photothèque
 
 Depuis l’onglet **Actions**, ouvrir **Actualiser la photothèque historique**, puis utiliser **Run workflow**. Le script Python parcourt toutes les pages du catalogue, détecte les nouveaux résultats, évite les doublons et reconstruit la galerie.
