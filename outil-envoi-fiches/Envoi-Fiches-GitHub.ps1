@@ -72,6 +72,23 @@ function Invoke-Git {
     return [PSCustomObject]@{ ExitCode = $exitCode; Output = $output.Trim() }
 }
 
+function Set-GitIdentity {
+    param(
+        [Parameter(Mandatory)] [string]$Git,
+        [Parameter(Mandatory)] [string]$Repository
+    )
+
+    $name = Invoke-Git $Git @("-C", $Repository, "config", "--local", "--get", "user.name") -AllowFailure
+    if ($name.ExitCode -ne 0 -or -not $name.Output) {
+        [void](Invoke-Git $Git @("-C", $Repository, "config", "--local", "user.name", "victeams"))
+    }
+
+    $email = Invoke-Git $Git @("-C", $Repository, "config", "--local", "--get", "user.email") -AllowFailure
+    if ($email.ExitCode -ne 0 -or -not $email.Output) {
+        [void](Invoke-Git $Git @("-C", $Repository, "config", "--local", "user.email", "victeams@users.noreply.github.com"))
+    }
+}
+
 function Get-SavedRepository {
     if (Test-Path -LiteralPath $ConfigPath) {
         try {
@@ -324,6 +341,7 @@ $prepareRepo.Add_Click({
             $result = Invoke-Git $git @("-C", $repository, "pull", "--rebase", "origin", "main")
             Add-Log $result.Output
         }
+        Set-GitIdentity -Git $git -Repository $repository
         Save-Repository $repository
         $statusLabel.Text = "Dépôt prêt. Vous pouvez choisir les fiches."
         [Windows.Forms.MessageBox]::Show("Le dossier GitHub est prêt.", "Préparation réussie", "OK", "Information") | Out-Null
@@ -376,6 +394,7 @@ $sendButton.Add_Click({
         }
 
         $git = Get-GitExecutable
+        Set-GitIdentity -Git $git -Repository $repository
         $dirty = Invoke-Git $git @("-C", $repository, "status", "--porcelain")
         if ($dirty.Output) { throw "Le dossier GitHub contient déjà des modifications. Envoyez-les ou annulez-les avant d’ajouter de nouvelles fiches." }
 
