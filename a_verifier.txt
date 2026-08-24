@@ -1,7 +1,16 @@
 RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
-Femmes 31000 : 162
+Femmes 31000 : 172
 Hommes 45000 : 208
-À vérifier : 0
+À vérifier : 10
 
-Aucune anomalie détectée.
+DOUBLON À VÉRIFIER — matricule 31650 — christiane_borras_31650.html / christiane-charua-31650.html
+DOUBLON À VÉRIFIER — matricule 31664 — claudine-guerin-31664.html / claudine_guerin_31664.html
+DOUBLON À VÉRIFIER — matricule 31780 — franciska-dite-cica-goutayer-31780.html / franciska_dite_cica_goutayer_31780.html
+DOUBLON À VÉRIFIER — matricule 31706 — germaine-girard-31706.html / germaine_girard_31706.html
+DOUBLON À VÉRIFIER — matricule 31807 — helene-allaire-31807.html / helene_allaire_31807.html
+DOUBLON À VÉRIFIER — matricule 31755 — helene-hascoet-31755.html / helene_hascoet_31755.html
+DOUBLON À VÉRIFIER — matricule 31729 — marie-aminthe-guillon-31729.html / marie_aminthe_guillon_nee_auger_31729.html
+DOUBLON À VÉRIFIER — matricule 31693 — marie-dubois-31693.html / marie_dubois_31693.html
+DOUBLON À VÉRIFIER — matricule 31651 — marie-jeanne-bauer-31651.html / marie_jeanne_bauer_nee_gantou_31651.html
+DOUBLON À VÉRIFIER — matricule 31765 — suzanne-costentin-31765.html / suzanne_costentin_31765.html
