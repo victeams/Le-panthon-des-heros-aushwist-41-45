@@ -56,6 +56,25 @@ class BuildSiteTests(unittest.TestCase):
             self.assertEqual((women, men), (0, 1))
             self.assertFalse(warnings)
 
+    def test_men_folder_classifies_page_without_matricule(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            men_folder = root / "hommes"
+            men_folder.mkdir()
+            (men_folder / "homme_sans_numero.html").write_text(
+                biography("Homme SANS NUMÉRO", None, "Notice commémorative"),
+                encoding="utf-8",
+            )
+
+            women, men, warnings = build(root, "https://example.test", "test")
+
+            self.assertEqual((women, men), (0, 1))
+            self.assertFalse(warnings)
+            self.assertIn(
+                "hommes/homme_sans_numero.html",
+                (root / "hommes.html").read_text(encoding="utf-8"),
+            )
+
     def test_ambiguous_page_is_reported_without_breaking_site(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

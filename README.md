@@ -8,7 +8,7 @@ La page `photos.html` présente également une photothèque historique issue de 
 
 1. Ouvrir le dépôt GitHub.
 2. Utiliser **Add file → Upload files**.
-3. Déposer la fiche HTML à la racine du dépôt, à côté des autres biographies.
+3. Pour un homme du convoi des 45000, ouvrir le dossier `hommes/` et y déposer la fiche HTML. Pour une femme du convoi des 31000, déposer la fiche à la racine du dépôt.
 4. Valider l’ajout sur la branche `main`.
 
 L’automatisation lit le matricule dans le nom du fichier ou dans la fiche :
