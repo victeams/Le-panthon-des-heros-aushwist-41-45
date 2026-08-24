@@ -228,6 +228,21 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("Photographie d’arrière-plan", home)
             self.assertIn("domaine public", home)
 
+    def test_collection_pages_explain_portraits_and_testimonies(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+
+            build(root, "https://example.test", "test")
+
+            women = (root / "femmes.html").read_text(encoding="utf-8")
+            men = (root / "hommes.html").read_text(encoding="utf-8")
+            self.assertIn("témoignages de survivantes", women)
+            self.assertIn("archives retrouvées après la libération du camp", women)
+            self.assertIn("images d’identité sont beaucoup plus rares", men)
+            self.assertIn("chambres à gaz", men)
+            self.assertIn("moururent de faim", men)
+            self.assertIn("archives retrouvées après la libération du camp", men)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -350,6 +350,7 @@ COMMON_CSS = """
 .nav{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin:25px auto 0}.nav a,.button{display:inline-block;padding:10px 15px;border:1px solid #5b5140;border-radius:999px;color:var(--gold);text-decoration:none;font-weight:700}.nav a:hover,.button:hover{background:#d4ad6217}
 .stats{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:26px auto 0}.stat{min-width:130px;padding:10px 16px;background:#11151a;border:1px solid var(--line);border-radius:999px}.stat strong{color:var(--gold)}
 main{max-width:1180px;margin:0 auto;padding:34px 22px 64px}.collections{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}.collection{overflow:hidden;background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:15px;box-shadow:0 12px 30px #0004;transition:transform .2s,border-color .2s}.collection:hover{transform:translateY(-4px);border-color:#706141}.collection-visual{position:relative;display:block;height:210px;overflow:hidden;background:#080a0c}.collection-visual::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 46%,#11151ac9)}.collection-visual img{width:100%;height:100%;display:block;object-fit:cover;filter:grayscale(1) contrast(1.08);transition:transform .45s,filter .3s}.collection:hover .collection-visual img{transform:scale(1.04);filter:grayscale(.45) contrast(1.1)}.collection-body{padding:24px 26px 28px}.collection h2{margin:0 0 9px;font-family:Georgia,serif;font-size:1.7rem}.collection p{color:var(--muted)}.collection-credit{display:inline-block;margin:0 0 18px;color:#9ca4ae;font-size:.76rem;text-decoration:none}.collection-credit:hover{color:var(--gold);text-decoration:underline}.support-banner{display:grid;grid-template-columns:auto 1fr auto;gap:20px;align-items:center;margin-top:20px;padding:22px 25px;background:linear-gradient(135deg,#211d17,#15191f);border:1px solid #5d5039;border-radius:15px}.support-banner img{width:62px;height:62px}.support-banner h2{margin:0 0 5px;font:1.55rem/1.2 Georgia,serif}.support-banner p{margin:0;color:var(--muted)}
+.archive-note{margin:0 0 22px;padding:24px 28px;border:1px solid #5d5039;border-left:5px solid var(--gold);border-radius:14px;background:linear-gradient(135deg,#211d17,#15191f);box-shadow:0 12px 30px #0003}.archive-note h2{margin:0 0 10px;font:1.55rem/1.2 Georgia,serif;color:var(--text)}.archive-note p{margin:8px 0 0;color:#d3d7dc}.archive-note strong{color:var(--gold)}
 .tools{position:sticky;top:0;z-index:5;padding:14px 0;background:linear-gradient(var(--bg) 75%,transparent)}label.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}input{width:100%;padding:15px 18px;border:1px solid #414b58;border-radius:12px;background:#101419;color:var(--text);font-size:1rem;outline:none}input:focus{border-color:var(--gold);box-shadow:0 0 0 3px #d4ad6224}.result{margin:7px 4px 0;color:var(--muted);font-size:.92rem}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px;margin-top:18px}.card{display:flex;min-height:405px;flex-direction:column;padding:0 22px 22px;overflow:hidden;background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 30px #0004;transition:transform .18s,border-color .18s}.card:hover{transform:translateY(-3px);border-color:#706141}.card[hidden]{display:none}.portrait-link{display:block;height:230px;margin:0 -22px 18px;overflow:hidden;background:#080a0c}.portrait{width:100%;height:100%;object-fit:contain;display:block}.portrait-missing{display:flex;height:100%;align-items:center;justify-content:center;color:#79818b;text-align:center;padding:20px}.badge{display:inline-block;padding:4px 9px;border-radius:999px;font-size:.73rem;font-weight:700}.survivor{color:#baf2cb;background:#173824}.death{color:#ffd2d6;background:#412329}.other{color:#d7dde5;background:#303844}.card h2{margin:15px 0 8px;font-family:Georgia,serif;font-size:1.35rem;line-height:1.25}.card p{margin:0 0 18px;color:var(--muted)}.card>a:last-child{margin-top:auto;color:var(--gold);font-weight:700;text-decoration:none}.empty{padding:40px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}footer{padding:24px;text-align:center;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
 @media(max-width:680px){.support-banner{grid-template-columns:auto 1fr}.support-banner .button{grid-column:1/-1;text-align:center}}@media(max-width:560px){.hero{padding-top:42px}.stat{min-width:105px}.grid{grid-template-columns:1fr}.card{min-height:200px}}
@@ -429,6 +430,19 @@ def collection_page(
         if is_women
         else "Retrouvez les biographies commémoratives des hommes déportés dans le convoi dit des 45000 vers Auschwitz le 6 juillet 1942."
     )
+    archive_note = (
+        """<section class="archive-note" aria-labelledby="archive-note-title">
+      <h2 id="archive-note-title">À propos des portraits et des récits</h2>
+      <p>Plusieurs femmes ne disposent d’aucune photographie individuelle connue. Les <strong>portraits d’immatriculation d’Auschwitz</strong> présentés dans ce catalogue proviennent des archives retrouvées après la libération du camp.</p>
+      <p>Les récits ont été reconstitués à partir de documents et des témoignages de survivantes ou de personnes ayant connu leur parcours. Quand une image manque, la fiche conserve leur nom, leur histoire et les traces disponibles.</p>
+    </section>"""
+        if is_women
+        else """<section class="archive-note" aria-labelledby="archive-note-title">
+      <h2 id="archive-note-title">Des images et des traces beaucoup plus rares</h2>
+      <p>Pour les hommes du convoi des 45000, les images d’identité sont beaucoup plus rares : de nombreux papiers, photographies familiales et effets personnels ont été perdus ou détruits. Beaucoup furent assassinés, notamment dans les chambres à gaz, ou moururent de faim, de maladie, d’épuisement et des violences du système concentrationnaire.</p>
+      <p>Les <strong>portraits d’immatriculation d’Auschwitz</strong> présentés ici proviennent des archives retrouvées après la libération du camp. Lorsqu’aucune image n’est connue, les documents et témoignages disponibles permettent malgré tout de préserver leur mémoire.</p>
+    </section>"""
+    )
     filename = f"{group}.html"
     canonical = url_for(base_url, filename)
     structured = {
@@ -463,6 +477,7 @@ def collection_page(
     <div class="stats"><span class="stat"><strong>{len(people)}</strong> fiche{'s' if len(people) != 1 else ''}</span></div>
   </header>
   <main>
+    {archive_note}
     <div class="tools">
       <label class="visually-hidden" for="search">Rechercher une personne ou un matricule</label>
       <input id="search" type="search" placeholder="Rechercher un nom ou un matricule…" autocomplete="off">
