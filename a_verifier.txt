@@ -1,7 +1,8 @@
 RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
-Femmes 31000 : 186
-Hommes 45000 : 208
-À vérifier : 0
+Femmes 31000 : 225
+Hommes 45000 : 355
+À vérifier : 2
 
-Aucune anomalie détectée.
+NON CLASSÉ — convoi-des-45000.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+IMAGE MANQUANTE — hommes/angele-dite-renee-girard-31632.html
