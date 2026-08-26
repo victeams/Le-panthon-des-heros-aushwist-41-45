@@ -24,7 +24,7 @@ from urllib.parse import quote
 DEFAULT_BASE_URL = (
     "https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45"
 )
-DEFAULT_GOOGLE_VERIFICATION = "ag4W_c6-FAZV00AVo1jU8mvPpiRYZbypbN6FLHfmds0"
+DEFAULT_GOOGLE_VERIFICATION = "Ps2YA3umzm7WkI3vXbghKUg9ybi9iYKRJ7PONsI-8vU"
 GENERATED_HTML = {
     "index.html",
     "femmes.html",
@@ -337,7 +337,15 @@ def biography_paths(root: Path) -> list[Path]:
     result: list[Path] = []
     for path in root.rglob("*.html"):
         relative = path.relative_to(root)
-        if path.name in GENERATED_HTML or any(part in EXCLUDED_DIRS for part in relative.parts[:-1]):
+        is_google_verification = (
+            len(relative.parts) == 1
+            and re.fullmatch(r"google[a-z0-9_-]+\.html", path.name.casefold()) is not None
+        )
+        if (
+            path.name in GENERATED_HTML
+            or is_google_verification
+            or any(part in EXCLUDED_DIRS for part in relative.parts[:-1])
+        ):
             continue
         result.append(path)
     return sorted(result, key=lambda item: normalized(item.as_posix()))

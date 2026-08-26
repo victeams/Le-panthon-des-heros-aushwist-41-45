@@ -86,6 +86,21 @@ class BuildSiteTests(unittest.TestCase):
             self.assertEqual(len(warnings), 1)
             self.assertIn("NON CLASSÉ", (root / "a_verifier.txt").read_text(encoding="utf-8"))
 
+    def test_google_verification_file_is_not_treated_as_a_biography(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            verification = root / "googleee168e6072006973.html"
+            verification.write_text(
+                "google-site-verification: googleee168e6072006973.html\n",
+                encoding="utf-8",
+            )
+
+            women, men, warnings = build(root, "https://example.test", "verification-test")
+
+            self.assertEqual((women, men), (0, 0))
+            self.assertFalse(warnings)
+            self.assertTrue(verification.is_file())
+
     def test_page_from_historical_women_index_is_preserved_without_matricule(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
