@@ -34,6 +34,7 @@ GENERATED_HTML = {
     "soutien.html",
     "tiktok.html",
     "a-propos.html",
+    "convoi-des-45000.html",
 }
 EXCLUDED_DIRS = {".git", ".github", "scripts", "tests", "portraits"}
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
@@ -630,31 +631,41 @@ def sitemap_xml(
     support_available: bool = False,
     tiktok_available: bool = False,
     about_available: bool = False,
+    convoi_available: bool = False,
 ) -> str:
-    entries: list[tuple[str, str | None]] = [
-        (f"{base_url}/", None),
-        (url_for(base_url, "femmes.html"), None),
-        (url_for(base_url, "hommes.html"), None),
+    entries: list[str] = [
+        f"{base_url}/",
+        url_for(base_url, "femmes.html"),
+        url_for(base_url, "hommes.html"),
     ]
     if database_available:
-        entries.append((url_for(base_url, "base-documentaire.html"), None))
+        entries.append(url_for(base_url, "base-documentaire.html"))
     if photo_gallery_available:
-        entries.append((url_for(base_url, "photos.html"), None))
+        entries.append(url_for(base_url, "photos.html"))
     if support_available:
-        entries.append((url_for(base_url, "soutien.html"), None))
+        entries.append(url_for(base_url, "soutien.html"))
     if tiktok_available:
-        entries.append((url_for(base_url, "tiktok.html"), url_for(base_url, "assets/logo-resistants3945.webp")))
+        entries.append(url_for(base_url, "tiktok.html"))
     if about_available:
-        entries.append((url_for(base_url, "a-propos.html"), None))
-    entries.extend((url_for(base_url, person.file), url_for(base_url, person.portrait) if person.portrait else None) for person in people)
-    body: list[str] = []
-    for location, image in entries:
-        image_markup = f"<image:image><image:loc>{escape(image)}</image:loc></image:image>" if image else ""
-        body.append(f"  <url><loc>{escape(location)}</loc>{image_markup}</url>")
+        entries.append(url_for(base_url, "a-propos.html"))
+    if convoi_available:
+        entries.append(url_for(base_url, "convoi-des-45000.html"))
+
+    root_files = {Path(person.file).name for person in people if "/" not in person.file}
+    entries.extend(
+        url_for(base_url, person.file)
+        for person in people
+        if not (
+            person.file.startswith("hommes/")
+            and Path(person.file).name in root_files
+        )
+    )
+    unique_entries = list(dict.fromkeys(entries))
+    body = [f"  <url><loc>{escape(location)}</loc></url>" for location in unique_entries]
     return "\n".join(
         [
             '<?xml version="1.0" encoding="UTF-8"?>',
-            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
             *body,
             "</urlset>",
             "",
@@ -726,6 +737,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
     support_available = (root / "soutien.html").is_file()
     tiktok_available = (root / "tiktok.html").is_file()
     about_available = (root / "a-propos.html").is_file()
+    convoi_available = (root / "convoi-des-45000.html").is_file()
     (root / "index.html").write_text(
         home_page(
             base_url,
@@ -775,6 +787,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             support_available,
             tiktok_available,
             about_available,
+            convoi_available,
         ),
         encoding="utf-8",
     )

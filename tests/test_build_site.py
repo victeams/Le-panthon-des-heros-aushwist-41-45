@@ -75,6 +75,21 @@ class BuildSiteTests(unittest.TestCase):
                 (root / "hommes.html").read_text(encoding="utf-8"),
             )
 
+    def test_sitemap_excludes_duplicate_copy_from_hommes_folder(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            men_folder = root / "hommes"
+            men_folder.mkdir()
+            content = biography("Alice EXEMPLE", "31802", "Morte en déportation")
+            (root / "alice-31802.html").write_text(content, encoding="utf-8")
+            (men_folder / "alice-31802.html").write_text(content, encoding="utf-8")
+
+            build(root, "https://example.test", "test")
+
+            sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
+            self.assertIn("https://example.test/alice-31802.html", sitemap)
+            self.assertNotIn("https://example.test/hommes/alice-31802.html", sitemap)
+
     def test_ambiguous_page_is_reported_without_breaking_site(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -198,7 +213,7 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("Faire un don par PayPal", home)
             self.assertIn("soutien.html", (root / "sitemap.xml").read_text(encoding="utf-8"))
 
-    def test_links_tiktok_page_and_logo_without_classifying_it_as_biography(self):
+    def test_links_tiktok_page_without_image_markup(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / "tiktok.html").write_text(
@@ -214,7 +229,8 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("assets/logo-resistants3945.webp", home)
             sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
             self.assertIn("tiktok.html", sitemap)
-            self.assertIn("assets/logo-resistants3945.webp", sitemap)
+            self.assertNotIn("<image:image>", sitemap)
+            self.assertNotIn("assets/logo-resistants3945.webp", sitemap)
 
     def test_preserves_and_links_about_page_without_classifying_it(self):
         with tempfile.TemporaryDirectory() as directory:
