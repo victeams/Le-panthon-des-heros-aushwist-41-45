@@ -144,6 +144,18 @@
     "search": "adolphe schwarc 46309 matricule 46309 notice commemorative"
   },
   {
+    "name": "Adolphe VASNIER",
+    "file": "hommes/adolphe-vasnier-46178.html",
+    "group": "hommes",
+    "matricule": "46178",
+    "subtitle": "Matricule 46178",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/adolphe-vasnier-46178.jpg",
+    "description": "Adolphe, Émile, Désiré, Vasnier naît le 17 août 1902 à Ouistreham (Calvados – 14), chez ses parents, Dominique Désiré Vasnier, 39 ans, cultivateur…",
+    "search": "adolphe vasnier 46178 matricule 46178 notice commemorative"
+  },
+  {
     "name": "Adrien COLLAS",
     "file": "hommes/adrien-collas-45382.html",
     "group": "hommes",
@@ -154,6 +166,18 @@
     "portrait": "portraits/adrien-collas-45382.jpg",
     "description": "Auschwitz-I, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "adrien collas 45382 matricule 45382 notice commemorative"
+  },
+  {
+    "name": "Adrien DELCROS",
+    "file": "hommes/adrien-delcros-45443.html",
+    "group": "hommes",
+    "matricule": "45443",
+    "subtitle": "Matricule 45443",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/adrien-delcros-45443.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "adrien delcros 45443 matricule 45443 notice commemorative"
   },
   {
     "name": "Adrien DUFUMIER",
@@ -276,6 +300,30 @@
     "search": "albert beugnet 45243 matricule 45243 notice commemorative"
   },
   {
+    "name": "Albert BONVALET",
+    "file": "hommes/albert-bonvalet-45274.html",
+    "group": "hommes",
+    "matricule": "45274",
+    "subtitle": "Matricule 45274",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/albert-bonvalet-45274.jpg",
+    "description": "Albert, Jules, Désiré, Bonvalet naît le 25 janvier 1893 à Fleury (Aisne – 02), fils d’Achille Bonvalet, 32 ans 1/2, manouvrier, et de Constance Duclos, son…",
+    "search": "albert bonvalet 45274 matricule 45274 notice commemorative"
+  },
+  {
+    "name": "Albert COISPEAU",
+    "file": "hommes/albert-coispeau-45377.html",
+    "group": "hommes",
+    "matricule": "45377",
+    "subtitle": "Matricule 45377",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/albert-coispeau-45377.jpg",
+    "description": "Albert, Auguste, Ernest, Coispeau naît le 25 février 1895 à Sargé-sur-Braye (Loir-et-Cher), fils d’Hippolyte Coispeau, 26 ans, journalier, et de Marie…",
+    "search": "albert coispeau 45377 matricule 45377 notice commemorative"
+  },
+  {
     "name": "Albert DÉBUT",
     "file": "hommes/albert-debut-45430.html",
     "group": "hommes",
@@ -346,6 +394,18 @@
     "portrait": "portraits/albert-morin-45898.jpg",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
     "search": "albert morin 45898 matricule 45898 notice commemorative"
+  },
+  {
+    "name": "Albert STOLTZ",
+    "file": "hommes/albert-stoltz-46123.html",
+    "group": "hommes",
+    "matricule": "46123",
+    "subtitle": "Matricule 46123",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/albert-stoltz-46123.jpg",
+    "description": "Albert, Charles, Stoltz naît le 11 novembre 1905 à Mulhouse-Dornach (Haut-Rhin), fils d’Albert Stoltz, ouvrier d’usine, et de Caroline Scleich, son épouse.",
+    "search": "albert stoltz 46123 matricule 46123 notice commemorative"
   },
   {
     "name": "Albert VALLET",
@@ -442,6 +502,18 @@
     "portrait": "portraits/alexandre-hurel-45677.jpg",
     "description": "Alexandre, Élie, Hurel naît le 26 juin 1890 à Paris 10e – 265 faubourg-Saint-Martin (vers la place de Stalingrad) -, fils d’Alexandre, Eugène, Hurel, 21…",
     "search": "alexandre hurel 45677 matricule 45677 notice commemorative"
+  },
+  {
+    "name": "Alexis CHAUSSINAND",
+    "file": "hommes/alexis-chaussinand-45363.html",
+    "group": "hommes",
+    "matricule": "45363",
+    "subtitle": "Matricule 45363",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/alexis-chaussinand-45363.jpg",
+    "description": "Alexis, Clovis, Henri, Chaussinand, né le 20 mai 1907 à Saint-Florent-sur-Auzonnet (Gard), fils de Pierre Chaussinand, ouvrier-mineur devenu employé des…",
+    "search": "alexis chaussinand 45363 matricule 45363 notice commemorative"
   },
   {
     "name": "Alfred JOLY",
@@ -732,6 +804,18 @@
     "search": "andre breancon 45298 matricule 45298 notice commemorative"
   },
   {
+    "name": "André CAYZAC",
+    "file": "hommes/andre-cayzac-45344.html",
+    "group": "hommes",
+    "matricule": "45344",
+    "subtitle": "Matricule 45344",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/andre-cayzac-45344.jpg",
+    "description": "André, Albert, Cayzac naît le 20 juillet 1899 à Paris 14e, à la maternité de Port-Royal, au seins d’une famille nombreuse, fils de Frédéric Cayzac, 32 ans…",
+    "search": "andre cayzac 45344 matricule 45344 notice commemorative"
+  },
+  {
     "name": "André DESSAUX",
     "file": "hommes/andre-dessaux-45468.html",
     "group": "hommes",
@@ -912,6 +996,18 @@
     "search": "andre lecompte 45750 matricule 45750 notice commemorative"
   },
   {
+    "name": "André LERMITE",
+    "file": "hommes/andre-lermite-45785.html",
+    "group": "hommes",
+    "matricule": "45785",
+    "subtitle": "Matricule 45785",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/andre-lermite-45785.jpg",
+    "description": "Collection André Lermite – Droits réservés.",
+    "search": "andre lermite 45785 matricule 45785 notice commemorative"
+  },
+  {
     "name": "André LIORET",
     "file": "hommes/andre-lioret-45000.html",
     "group": "hommes",
@@ -1054,6 +1150,18 @@
     "portrait": "portraits/andree-gigand-31845.jpg",
     "description": "Andrée Gigand naît le 4 mars 1921 au lieu-dit la Montagne à Ressons-le-Long (Aisne – 02), fille d’Alphonse Gigand, chauffeur, et de Sophie Richet, son…",
     "search": "andree gigand convoi 31000 notice commemorative"
+  },
+  {
+    "name": "Angel BOLOGNINI",
+    "file": "hommes/angel-bolognini-45265.html",
+    "group": "hommes",
+    "matricule": "45265",
+    "subtitle": "Matricule 45265",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/angel-bolognini-45265.jpg",
+    "description": "Angelo (Angel), Ermino, Bolognini naît le 2 mai 1913 à Sotto il Monte (Italie), fils aîné de Giovanni Bolognini et de Maria Rigamonti. Il aura un frère et…",
+    "search": "angel bolognini 45265 matricule 45265 notice commemorative"
   },
   {
     "name": "Angel MARTIN",
@@ -1464,6 +1572,18 @@
     "search": "arthur lalleve 45717 matricule 45717 notice commemorative"
   },
   {
+    "name": "Arthur LEPETIT",
+    "file": "hommes/arthur-lepetit-45782.html",
+    "group": "hommes",
+    "matricule": "45782",
+    "subtitle": "Matricule 45782",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/arthur-lepetit-45782.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "arthur lepetit 45782 matricule 45782 notice commemorative"
+  },
+  {
     "name": "Auguste ARCHEN",
     "file": "hommes/auguste-archen-45177.html",
     "group": "hommes",
@@ -1764,6 +1884,18 @@
     "search": "camille nivault 45928 matricule 45928 notice commemorative"
   },
   {
+    "name": "Camille SALESSE",
+    "file": "hommes/camille-salesse-46091.html",
+    "group": "hommes",
+    "matricule": "46091",
+    "subtitle": "Matricule 46091",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/camille-salesse-46091.jpg",
+    "description": "Camille, Édouard, Alexis, Salesse naît le 27 juin 1912 à Condat(-en-Féniers) (Cantal), dans la maison de ses parents, Jean-Baptiste Salesse, 38 ans…",
+    "search": "camille salesse 46091 matricule 46091 notice commemorative"
+  },
+  {
     "name": "Camille WATREMEZ",
     "file": "hommes/camille-watremez-46207.html",
     "group": "hommes",
@@ -1798,6 +1930,18 @@
     "portrait": "portraits/chaim-ou-haim-levinsky-46296.jpg",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
     "search": "chaim ou haim levinsky 46296 matricule 46296 notice commemorative"
+  },
+  {
+    "name": "Charles ALBAN",
+    "file": "hommes/charles-alban-45160.html",
+    "group": "hommes",
+    "matricule": "45160",
+    "subtitle": "Matricule 45160",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-alban-45160.jpg",
+    "description": "Auschwitz-I, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+    "search": "charles alban 45160 matricule 45160 notice commemorative"
   },
   {
     "name": "Charles BACHELET",
@@ -1836,6 +1980,66 @@
     "search": "charles delaby 45435 matricule 45435 notice commemorative"
   },
   {
+    "name": "Charles DUGNY",
+    "file": "hommes/charles-dugny-45502.html",
+    "group": "hommes",
+    "matricule": "45502",
+    "subtitle": "Matricule 45502",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-dugny-45502.jpg",
+    "description": "Léon, Charles , Dugny naît le 21 septembre 1905 à Lérouville (Meuse – 55).",
+    "search": "charles dugny 45502 matricule 45502 notice commemorative"
+  },
+  {
+    "name": "Charles FOURMENTIN",
+    "file": "hommes/charles-fourmentin-45556.html",
+    "group": "hommes",
+    "matricule": "45556",
+    "subtitle": "Matricule 45556",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-fourmentin-45556.jpg",
+    "description": "Charles, André, René, Fourmentin naît le 9 février 1898 au hameau du Fresnoy, sur la commune de Salins (Seine-et-Marne – 77), chez ses parents, Lucien…",
+    "search": "charles fourmentin 45556 matricule 45556 notice commemorative"
+  },
+  {
+    "name": "Charles GARRE",
+    "file": "hommes/charles-garre-45570.html",
+    "group": "hommes",
+    "matricule": "45570",
+    "subtitle": "Matricule 45570",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-garre-45570.jpg",
+    "description": "Charles, Noël, Garre naît le 11 décembre 1907 à Cannes (Alpes-Maritimes), fils de Joseph Garre, 33 ans, facteur des postes, et de Clotilde Rugial, 32 ans…",
+    "search": "charles garre 45570 matricule 45570 notice commemorative"
+  },
+  {
+    "name": "Charles GODOT",
+    "file": "hommes/charles-godot-45613.html",
+    "group": "hommes",
+    "matricule": "45613",
+    "subtitle": "Matricule 45613",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-godot-45613.jpg",
+    "description": "Charles, Émile, Désiré, Godot naît le 23 décembre 1908 à Clichy( -la-Garenne ) [1] (Seine / Hauts-de-Seine), chez ses parents, Charles, Émile, Marie…",
+    "search": "charles godot 45613 matricule 45613 notice commemorative"
+  },
+  {
+    "name": "Charles HADJADJE",
+    "file": "hommes/charles-hadjadje-46282.html",
+    "group": "hommes",
+    "matricule": "46282",
+    "subtitle": "Matricule 46282",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-hadjadje-46282.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "charles hadjadje 46282 matricule 46282 notice commemorative"
+  },
+  {
     "name": "Charles LEGAC",
     "file": "hommes/charles-legac-45770.html",
     "group": "hommes",
@@ -1846,6 +2050,102 @@
     "portrait": "portraits/charles-legac-45770.jpg",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
     "search": "charles legac 45770 matricule 45770 notice commemorative"
+  },
+  {
+    "name": "Charles LELANDAIS",
+    "file": "hommes/charles-lelandais-45774.html",
+    "group": "hommes",
+    "matricule": "45774",
+    "subtitle": "Matricule 45774",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-lelandais-45774.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "charles lelandais 45774 matricule 45774 notice commemorative"
+  },
+  {
+    "name": "Charles LEMAY",
+    "file": "hommes/charles-lemay-45777.html",
+    "group": "hommes",
+    "matricule": "45777",
+    "subtitle": "Matricule 45777",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-lemay-45777.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "charles lemay 45777 matricule 45777 notice commemorative"
+  },
+  {
+    "name": "Charles LIMOUSIN",
+    "file": "hommes/charles-limousin-45796.html",
+    "group": "hommes",
+    "matricule": "45796",
+    "subtitle": "Matricule 45796",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-limousin-45796.jpg",
+    "description": "Charles Limousin naît le 27 juillet 1906 à Châtellerault (Vienne – 86), fils de Jean Limousin, tailleur de pierre, et de Marie Angèle Moussineau, son…",
+    "search": "charles limousin 45796 matricule 45796 notice commemorative"
+  },
+  {
+    "name": "Charles MARY",
+    "file": "hommes/charles-mary-45854.html",
+    "group": "hommes",
+    "matricule": "45854",
+    "subtitle": "Matricule 45854",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-mary-45854.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "charles mary 45854 matricule 45854 notice commemorative"
+  },
+  {
+    "name": "Charles MAUGER",
+    "file": "hommes/charles-mauger-45864.html",
+    "group": "hommes",
+    "matricule": "45864",
+    "subtitle": "Matricule 45864",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-mauger-45864.jpg",
+    "description": "Charles, Louis, Henri, Mauger naît le 17 avril 1900 à Cherbourg (Manche – 50), chez ses parents, Louis Mauger, 38 ans, et Marie Hubert, son épouse, 35 ans…",
+    "search": "charles mauger 45864 matricule 45864 notice commemorative"
+  },
+  {
+    "name": "Charles MIGEOT",
+    "file": "hommes/charles-migeot-45879.html",
+    "group": "hommes",
+    "matricule": "45879",
+    "subtitle": "Matricule 45879",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-migeot-45879.jpg",
+    "description": "Charles, Edmond, Migeot naît le 4 avril 1889 à Larivière [1] (Haute-Marne – 52), à 44 km au Sud-Est de Chaumont, fils d’Adeline Migeot, quarante ans…",
+    "search": "charles migeot 45879 matricule 45879 notice commemorative"
+  },
+  {
+    "name": "Charles RENAUD",
+    "file": "hommes/charles-renaud-46047.html",
+    "group": "hommes",
+    "matricule": "46047",
+    "subtitle": "Matricule 46047",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-renaud-46047.jpg",
+    "description": "Charles Renaud naît le 7 avril 1898 à Palinges (Saône-et-Loire – 71), fils de Jean-Baptiste Renaud, 36 ans, tourneur en grès demeurant au Montet, et de…",
+    "search": "charles renaud 46047 matricule 46047 notice commemorative"
+  },
+  {
+    "name": "Charles WINGERT",
+    "file": "hommes/charles-wingert-46206.html",
+    "group": "hommes",
+    "matricule": "46206",
+    "subtitle": "Matricule 46206",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/charles-wingert-46206.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "charles wingert 46206 matricule 46206 notice commemorative"
   },
   {
     "name": "Charlotte DECOCK",
@@ -1992,6 +2292,18 @@
     "search": "christiane charua convoi 31000 notice commemorative"
   },
   {
+    "name": "Cipriano BONAZZOLI",
+    "file": "hommes/cipriano-bonazzoli-45266.html",
+    "group": "hommes",
+    "matricule": "45266",
+    "subtitle": "Matricule 45266",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/cipriano-bonazzoli-45266.jpg",
+    "description": "Cipriano, Ernesto, Bonazolli naît le 11 août 1890 à Drizzona (Italie).",
+    "search": "cipriano bonazzoli 45266 matricule 45266 notice commemorative"
+  },
+  {
     "name": "Claudine BLATEAU",
     "file": "claudine-blateau-31737.html",
     "group": "femmes",
@@ -2040,6 +2352,18 @@
     "search": "claudine guerin convoi 31000 notice commemorative"
   },
   {
+    "name": "Clément BRIOUDE",
+    "file": "hommes/clement-brioude-45303.html",
+    "group": "hommes",
+    "matricule": "45303",
+    "subtitle": "Matricule 45303",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/clement-brioude-45303.jpg",
+    "description": "Clément Brioude(s) naît le 16 août 1904 à Paris 15e, fils de Camille Brioude(s) et Élise Martini. L’administration française orthographiera généralement…",
+    "search": "clement brioude 45303 matricule 45303 notice commemorative"
+  },
+  {
     "name": "Clément CADET",
     "file": "hommes/clement-cadet-45322.html",
     "group": "hommes",
@@ -2050,6 +2374,30 @@
     "portrait": "portraits/clement-cadet-45322.jpg",
     "description": "Clément, Auguste, Alexandre, Cadet naît le 29 septembre 1903 à Condé-sur-Seulles (Calvados – 14), chez ses parents, Casimir Cadet, 29 ans, domestique, et…",
     "search": "clement cadet 45322 matricule 45322 notice commemorative"
+  },
+  {
+    "name": "Clément COUDERT",
+    "file": "hommes/clement-coudert-45402.html",
+    "group": "hommes",
+    "matricule": "45402",
+    "subtitle": "Matricule 45402",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/clement-coudert-45402.jpg",
+    "description": "Clément Coudert naît le 22 février 1908 à Chavigny (Meurthe-et-Moselle – 54) chez ses parents, Henri Coudert, 32 ans, ouvrier mineur, et Anna Renel, 26…",
+    "search": "clement coudert 45402 matricule 45402 notice commemorative"
+  },
+  {
+    "name": "Clément PELLERIN",
+    "file": "hommes/clement-pellerin-45958.html",
+    "group": "hommes",
+    "matricule": "45958",
+    "subtitle": "Matricule 45958",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/clement-pellerin-45958.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "clement pellerin 45958 matricule 45958 notice commemorative"
   },
   {
     "name": "Constance RAPPENAU",
@@ -2088,6 +2436,18 @@
     "search": "convoi des convoi 31000 notice commemorative"
   },
   {
+    "name": "Cyprien DEPARDIEU",
+    "file": "hommes/cyprien-depardieu-45470.html",
+    "group": "hommes",
+    "matricule": "45470",
+    "subtitle": "Matricule 45470",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/cyprien-depardieu-45470.jpg",
+    "description": "Cyprien Depardieu dans les années 1930. © Collection Marie-Paule Pivain.",
+    "search": "cyprien depardieu 45470 matricule 45470 notice commemorative"
+  },
+  {
     "name": "Cyrille De FOOR",
     "file": "hommes/cyrille-de-foor-45431.html",
     "group": "hommes",
@@ -2098,6 +2458,54 @@
     "portrait": "portraits/cyrille-de-foor-45431.jpg",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
     "search": "cyrille de foor 45431 matricule 45431 notice commemorative"
+  },
+  {
+    "name": "Cyrus GENOU",
+    "file": "hommes/cyrus-genou-45587.html",
+    "group": "hommes",
+    "matricule": "45587",
+    "subtitle": "Matricule 45587",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/cyrus-genou-45587.jpg",
+    "description": "Cyrus, Maxime, Amédée, Genou naît le 3 mars 1899 à Neuville-aux-Bois (Loiret), au domicile de ses parents, Adelmard Genou, 38 ans, journalier, et d’Eugénie…",
+    "search": "cyrus genou 45587 matricule 45587 notice commemorative"
+  },
+  {
+    "name": "Daniel GERMA",
+    "file": "hommes/daniel-germa-45594.html",
+    "group": "hommes",
+    "matricule": "45594",
+    "subtitle": "Matricule 45594",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/daniel-germa-45594.jpg",
+    "description": "Daniel Germa naît le 27 décembre 1923 à Vitry-sur-Seine [1] (Seine / Val-de-Marne). Son père, Pierre Germa, décède prématurément en 1934, des graves…",
+    "search": "daniel germa 45594 matricule 45594 notice commemorative"
+  },
+  {
+    "name": "Daniel NAGLIOUCK",
+    "file": "hommes/daniel-nagliouck-45916.html",
+    "group": "hommes",
+    "matricule": "45916",
+    "subtitle": "Matricule 45916",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/daniel-nagliouck-45916.jpg",
+    "description": "Daniel Nagliouck naît le 18 octobre 1897 à Kolki, située à 50 km au nord-est de Loutsk, capitale administrative de l’oblast de Volhynie (alors en Ukraine…",
+    "search": "daniel nagliouck 45916 matricule 45916 notice commemorative"
+  },
+  {
+    "name": "Daniel PESSON",
+    "file": "hommes/daniel-pesson-45972.html",
+    "group": "hommes",
+    "matricule": "45972",
+    "subtitle": "Matricule 45972",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/daniel-pesson-45972.jpg",
+    "description": "Daniel Pesson naît le 25 février 1903 à Gièvres (Loir-et-Cher – 41), fils de Louis Pesson, cultivateur, et de Séraphine Chollet, cultivatrice, son épouse.…",
+    "search": "daniel pesson 45972 matricule 45972 notice commemorative"
   },
   {
     "name": "Daniel YOL",
@@ -2134,6 +2542,18 @@
     "portrait": "portraits/danielle-casanova-31655.jpg",
     "description": "La dirigeante des Jeunesses Communistes",
     "search": "danielle casanova convoi 31000 notice commemorative"
+  },
+  {
+    "name": "David BADACHE",
+    "file": "hommes/david-badache-46267.html",
+    "group": "hommes",
+    "matricule": "46267",
+    "subtitle": "Matricule 46267",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/david-badache-46267.jpg",
+    "description": "David Badache naît le 28 avril 1918 à Vilno (Lituanie).",
+    "search": "david badache 46267 matricule 46267 notice commemorative"
   },
   {
     "name": "Delphine PRESSET, née Jallat",
@@ -2184,6 +2604,42 @@
     "search": "denise roucayrol convoi 31000 notice commemorative"
   },
   {
+    "name": "Désiré SILLIEN",
+    "file": "hommes/desire-sillien-46104.html",
+    "group": "hommes",
+    "matricule": "46104",
+    "subtitle": "Matricule 46104",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/desire-sillien-46104.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "desire sillien 46104 matricule 46104 notice commemorative"
+  },
+  {
+    "name": "Dino TAMANI",
+    "file": "hommes/dino-tamani-45000.html",
+    "group": "hommes",
+    "matricule": null,
+    "subtitle": "Convoi 45000",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/dino-tamani-45000.png",
+    "description": "Dino Tamani naît le 9 avril 1914 à Joeuf (Meurthe-et-Moselle – 54), fils de François Tamani et de Marie Paganelli.",
+    "search": "dino tamani convoi 45000 notice commemorative"
+  },
+  {
+    "name": "Edmond DUBOIS",
+    "file": "hommes/edmond-dubois-45487.html",
+    "group": "hommes",
+    "matricule": "45487",
+    "subtitle": "Matricule 45487",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/edmond-dubois-45487.jpg",
+    "description": "Edmond, Émilien, Dubois naît le 2 janvier 1890 à Angers (Maine-et-Loire – 49).",
+    "search": "edmond dubois 45487 matricule 45487 notice commemorative"
+  },
+  {
     "name": "Edmond GENTIL",
     "file": "hommes/edmond-gentil-45589.html",
     "group": "hommes",
@@ -2196,6 +2652,54 @@
     "search": "edmond gentil 45589 matricule 45589 notice commemorative"
   },
   {
+    "name": "Edmond LAISNÉ",
+    "file": "hommes/edmond-laisne-45716.html",
+    "group": "hommes",
+    "matricule": "45716",
+    "subtitle": "Matricule 45716",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/edmond-laisne-45716.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "edmond laisne 45716 matricule 45716 notice commemorative"
+  },
+  {
+    "name": "Édouard BEAULIEU",
+    "file": "hommes/edouard-beaulieu-45212.html",
+    "group": "hommes",
+    "matricule": "45212",
+    "subtitle": "Matricule 45212",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/edouard-beaulieu-45212.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "edouard beaulieu 45212 matricule 45212 notice commemorative"
+  },
+  {
+    "name": "Édouard DUFOUR",
+    "file": "hommes/edouard-dufour-45497.html",
+    "group": "hommes",
+    "matricule": "45497",
+    "subtitle": "Matricule 45497",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/edouard-dufour-45497.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "edouard dufour 45497 matricule 45497 notice commemorative"
+  },
+  {
+    "name": "Édouard DUMOULIN",
+    "file": "hommes/edouard-dumoulin-45506.html",
+    "group": "hommes",
+    "matricule": "45506",
+    "subtitle": "Matricule 45506",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/edouard-dumoulin-45506.jpg",
+    "description": "Édouard François Dumoulin naît le 5 juin 1902 à Doullens (Somme), fils d’Alfred Victor Dumoulin, 36 ans, domestique, et de Marie Hortensia Dessinge, son…",
+    "search": "edouard dumoulin 45506 matricule 45506 notice commemorative"
+  },
+  {
     "name": "Édouard HOYER",
     "file": "hommes/edouard-hoyer-45670.html",
     "group": "hommes",
@@ -2206,6 +2710,30 @@
     "portrait": "portraits/edouard-hoyer-45670.jpg",
     "description": "Édouard, André, Hoyer naît le 21 décembre 1893 à Paris 19e arrondissement, chez ses parents, Étienne Hoyer, 27 ans, boutonnier, et Marie Bichot, son…",
     "search": "edouard hoyer 45670 matricule 45670 notice commemorative"
+  },
+  {
+    "name": "Édouard LECHEVALIER",
+    "file": "hommes/edouard-lechevalier-45747.html",
+    "group": "hommes",
+    "matricule": "45747",
+    "subtitle": "Matricule 45747",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/edouard-lechevalier-45747.png",
+    "description": "Édouard, Hippolyte, Georges, Lechevalier naît le 14 janvier 1889 à Nantes (Loire-Atlantique – 44), chez ses parents, Édouard, Hyacinthe, Lechevalier, 36…",
+    "search": "edouard lechevalier 45747 matricule 45747 notice commemorative"
+  },
+  {
+    "name": "Élie BATÔT",
+    "file": "hommes/elie-batot-45205.html",
+    "group": "hommes",
+    "matricule": "45205",
+    "subtitle": "Matricule 45205",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/elie-batot-45205.jpg",
+    "description": "Élie Batôt naît le 22 octobre 1891 au lieu-dit La Truche, à Plainfaing, près de Fraize (Vosges – 88), au domicile de ses parents, Émile Bâtot, 36 ans…",
+    "search": "elie batot 45205 matricule 45205 notice commemorative"
   },
   {
     "name": "Élisabeth DUPEYRON",
@@ -2280,6 +2808,18 @@
     "search": "emile bouchacourt 45277 matricule 45277 notice commemorative"
   },
   {
+    "name": "Émile BOURSET",
+    "file": "hommes/emile-bourset-45291.html",
+    "group": "hommes",
+    "matricule": "45291",
+    "subtitle": "Matricule 45291",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/emile-bourset-45291.jpg",
+    "description": "© Collection Jeannine Chalié.",
+    "search": "emile bourset 45291 matricule 45291 notice commemorative"
+  },
+  {
     "name": "Émile BUREAU",
     "file": "hommes/emile-bureau-45311.html",
     "group": "hommes",
@@ -2302,6 +2842,78 @@
     "portrait": "portraits/emile-cavigioli-45343.jpg",
     "description": "Émile, André, Cavigioli naît le 3 septembre 1903 à Lausanne (Suisse).",
     "search": "emile cavigioli 45343 matricule 45343 notice commemorative"
+  },
+  {
+    "name": "Émile FROMENTIN",
+    "file": "hommes/emile-fromentin-45562.html",
+    "group": "hommes",
+    "matricule": "45562",
+    "subtitle": "Matricule 45562",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/emile-fromentin-45562.jpg",
+    "description": "Émile, Jean, Fromentin naît le 5 décembre 1887 à Brest-Recouvrance (Finistère), fils de Jean Fromentin, 33 ans, deuxième maître magasinier de la Flotte, et…",
+    "search": "emile fromentin 45562 matricule 45562 notice commemorative"
+  },
+  {
+    "name": "Émile ISIDOR",
+    "file": "hommes/emile-isidor-45679.html",
+    "group": "hommes",
+    "matricule": "45679",
+    "subtitle": "Matricule 45679",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/emile-isidor-45679.jpg",
+    "description": "Émile Gustave Léon Isidor naît le 30 juin 1907 au Torquesne (Calvados – 14), à l’Ouest de la route Pont-l’Évêque-Lisieux, chez ses parents, Isidor Gustave…",
+    "search": "emile isidor 45679 matricule 45679 notice commemorative"
+  },
+  {
+    "name": "Émile LEHMANN",
+    "file": "hommes/emile-lehmann-46246.html",
+    "group": "hommes",
+    "matricule": "46246",
+    "subtitle": "Matricule 46246",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/emile-lehmann-46246.jpg",
+    "description": "© Collection Aurélien Gachon.",
+    "search": "emile lehmann 46246 matricule 46246 notice commemorative"
+  },
+  {
+    "name": "Émile MAILLARD",
+    "file": "hommes/emile-maillard-45815.html",
+    "group": "hommes",
+    "matricule": "45815",
+    "subtitle": "Matricule 45815",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/emile-maillard-45815.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "emile maillard 45815 matricule 45815 notice commemorative"
+  },
+  {
+    "name": "Émile STEVANCE",
+    "file": "hommes/emile-stevance-46121.html",
+    "group": "hommes",
+    "matricule": "46121",
+    "subtitle": "Matricule 46121",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/emile-stevance-46121.png",
+    "description": "Émile, Georges, Stévance naît le 25 février 1905 à Wassigny (Aisne – 02), fils d’Émile Stévance, 35 ans, manouvrier, et de Marie Dujardin, 32 ans, son…",
+    "search": "emile stevance 46121 matricule 46121 notice commemorative"
+  },
+  {
+    "name": "Émile TUNESI",
+    "file": "hommes/emile-tunesi-46163.html",
+    "group": "hommes",
+    "matricule": "46163",
+    "subtitle": "Matricule 46163",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/emile-tunesi-46163.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "emile tunesi 46163 matricule 46163 notice commemorative"
   },
   {
     "name": "Émilia Dite Léa KÉRISIT",
@@ -2364,6 +2976,66 @@
     "search": "emma bolleau convoi 31000 notice commemorative"
   },
   {
+    "name": "Emmanuel DESBIOT",
+    "file": "hommes/emmanuel-desbiot-45459.html",
+    "group": "hommes",
+    "matricule": "45459",
+    "subtitle": "Matricule 45459",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/emmanuel-desbiot-45459.jpg",
+    "description": "Emmanuel, Louis, Florentin, Marie, Desbiot naît le 10 décembre 1890 à Rennes (Ille-et-Vilaine – 35), chez ses parents, Emmanuel, Célestin, Desbiot, 25 ans…",
+    "search": "emmanuel desbiot 45459 matricule 45459 notice commemorative"
+  },
+  {
+    "name": "Emmanuel ROSENBLATT",
+    "file": "hommes/emmanuel-rosenblatt-46306.html",
+    "group": "hommes",
+    "matricule": "46306",
+    "subtitle": "Matricule 46306",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/emmanuel-rosenblatt-46306.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "emmanuel rosenblatt 46306 matricule 46306 notice commemorative"
+  },
+  {
+    "name": "Ernest GOURICHON",
+    "file": "hommes/ernest-gourichon-45623.html",
+    "group": "hommes",
+    "matricule": "45623",
+    "subtitle": "Matricule 45623",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/ernest-gourichon-45623.jpg",
+    "description": "Ernest, Émile , Gourichon naît le 9 novembre 1904 à Charbonnier-les-Mines, commune de Fournols (Puy-de-Dôme), fils d’Alphonse Gourichon, 32 ans, ouvrier…",
+    "search": "ernest gourichon 45623 matricule 45623 notice commemorative"
+  },
+  {
+    "name": "Ernest NEVEUX",
+    "file": "hommes/ernest-neveux-45921.html",
+    "group": "hommes",
+    "matricule": "45921",
+    "subtitle": "Matricule 45921",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/ernest-neveux-45921.jpg",
+    "description": "Ernest Neveux naît le 9 mai 1906 à Mareuil-les-Meaux (Seine-et-Marne – 77), fils de Jules Neveux, né en 1870 à Mareuil, ouvrier agricole puis manouvrier à…",
+    "search": "ernest neveux 45921 matricule 45921 notice commemorative"
+  },
+  {
+    "name": "Ernest REPIQUET",
+    "file": "hommes/ernest-repiquet-46051.html",
+    "group": "hommes",
+    "matricule": "46051",
+    "subtitle": "Matricule 46051",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/ernest-repiquet-46051.jpg",
+    "description": "Ernest Repiquet naît le 21 novembre 1896 à Saussey (Côte-d’Or – 21), de Jacques Repiquet, 34 ans, cultivateur maréchal-ferrant, socialiste, et de Marie…",
+    "search": "ernest repiquet 46051 matricule 46051 notice commemorative"
+  },
+  {
     "name": "Ernest TRÉSEUX",
     "file": "hommes/ernest-treseux-46156.html",
     "group": "hommes",
@@ -2374,6 +3046,30 @@
     "portrait": "portraits/ernest-treseux-46156.jpg",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
     "search": "ernest treseux 46156 matricule 46156 notice commemorative"
+  },
+  {
+    "name": "Ernest VAJDA",
+    "file": "hommes/ernest-vajda-46311.html",
+    "group": "hommes",
+    "matricule": "46311",
+    "subtitle": "Matricule 46311",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/ernest-vajda-46311.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "ernest vajda 46311 matricule 46311 notice commemorative"
+  },
+  {
+    "name": "Esprit JOURDAIN",
+    "file": "hommes/esprit-jourdain-45694.html",
+    "group": "hommes",
+    "matricule": "45694",
+    "subtitle": "Matricule 45694",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/esprit-jourdain-45694.jpg",
+    "description": "Esprit, Henri, Jourdain naît le 23 octobre 1913 à Concarneau (Finistère – 29), fils de Joseph Louis Jourdain, 22 ans, “boitier”, et de Victoria Charlotte…",
+    "search": "esprit jourdain 45694 matricule 45694 notice commemorative"
   },
   {
     "name": "Esterina Ou Estellina RUJU",
@@ -2400,6 +3096,18 @@
     "search": "esterina ou estellina ruju convoi 31000 notice commemorative"
   },
   {
+    "name": "Étienne CARDIN",
+    "file": "hommes/etienne-cardin-45329.html",
+    "group": "hommes",
+    "matricule": "45329",
+    "subtitle": "Matricule 45329",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/etienne-cardin-45329.jpg",
+    "description": "Étienne, Aimable, Jules, Cardin naît le 12 janvier 1893 à Auvers (Manche – 50), chez ses parents, Étienne Louis Cardin, 35 ans, journalier, et Augustine…",
+    "search": "etienne cardin 45329 matricule 45329 notice commemorative"
+  },
+  {
     "name": "Eugène BEAUDOIN",
     "file": "hommes/eugene-beaudoin-45207.html",
     "group": "hommes",
@@ -2410,6 +3118,42 @@
     "portrait": "portraits/eugene-beaudoin-45207.jpg",
     "description": "Eugène, Alexandre, Beaudoin naît le 10 septembre 1907 à Port-Brillet (Mayenne), chez ses parents, Léon, Joseph, Paul Beaudoin, 29 ans, forgeron, et…",
     "search": "eugene beaudoin 45207 matricule 45207 notice commemorative"
+  },
+  {
+    "name": "Eugène DEGDIER",
+    "file": "hommes/eugene-degdier-45432.html",
+    "group": "hommes",
+    "matricule": "45432",
+    "subtitle": "Matricule 45432",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/eugene-degdier-45432.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "eugene degdier 45432 matricule 45432 notice commemorative"
+  },
+  {
+    "name": "Eugène GARNIER",
+    "file": "hommes/eugene-garnier-45571.html",
+    "group": "hommes",
+    "matricule": "45571",
+    "subtitle": "Matricule 45571",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/eugene-garnier-45571.jpg",
+    "description": "Eugène, Émile, Garnier naît le 16 juin 1908 à Saint-Georges-des-Groseillers (Orne – 61), fils d’Eugène Louis Garnier, ferblantier (?) et de Berthe Noémie…",
+    "search": "eugene garnier 45571 matricule 45571 notice commemorative"
+  },
+  {
+    "name": "Eugène GILLES",
+    "file": "hommes/eugene-gilles-45599.html",
+    "group": "hommes",
+    "matricule": "45599",
+    "subtitle": "Matricule 45599",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/eugene-gilles-45599.jpg",
+    "description": "Collection ARMREL (voir sources). Droits réservés.",
+    "search": "eugene gilles 45599 matricule 45599 notice commemorative"
   },
   {
     "name": "Eugène GUILLAUME",
@@ -2568,6 +3312,18 @@
     "search": "felix bouillon convoi 45000 notice commemorative"
   },
   {
+    "name": "Félix NÉEL",
+    "file": "hommes/felix-neel-45920.html",
+    "group": "hommes",
+    "matricule": "45920",
+    "subtitle": "Matricule 45920",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/felix-neel-45920.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "felix neel 45920 matricule 45920 notice commemorative"
+  },
+  {
     "name": "Fernand BARTHÉLÉMY",
     "file": "hommes/fernand-barthelemy-45200.html",
     "group": "hommes",
@@ -2578,6 +3334,18 @@
     "portrait": "portraits/fernand-barthelemy-45200.jpg",
     "description": "Droits réservés.",
     "search": "fernand barthelemy 45200 matricule 45200 notice commemorative"
+  },
+  {
+    "name": "Fernand BOULANGER",
+    "file": "hommes/fernand-boulanger-45282.html",
+    "group": "hommes",
+    "matricule": "45282",
+    "subtitle": "Matricule 45282",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/fernand-boulanger-45282.jpg",
+    "description": "Fernand, Édouard, Théophile, Boulanger, né le 22 février 1905 à Amiens (Somme), domicilié à Amiens, mort à Auschwitz le 6 janvier 1943.",
+    "search": "fernand boulanger 45282 matricule 45282 notice commemorative"
   },
   {
     "name": "Fernand BOUSSUGE",
@@ -2592,6 +3360,18 @@
     "search": "fernand boussuge 45294 matricule 45294 notice commemorative"
   },
   {
+    "name": "Fernand BOUYSSOU",
+    "file": "hommes/fernand-bouyssou-46222.html",
+    "group": "hommes",
+    "matricule": "46222",
+    "subtitle": "Matricule 46222",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/fernand-bouyssou-46222.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "fernand bouyssou 46222 matricule 46222 notice commemorative"
+  },
+  {
     "name": "Fernand DEVAUX",
     "file": "hommes/fernand-devaux-45472.html",
     "group": "hommes",
@@ -2602,6 +3382,18 @@
     "portrait": "portraits/fernand-devaux-45472.jpg",
     "description": "Fernand, Alphonse, Devaux naît le 3 janvier 1922 à Guingamp (Côtes-d’Armor [1]), fils de Delpien Devaux, employé des chemins de fer, et de Marie Lebois…",
     "search": "fernand devaux 45472 matricule 45472 notice commemorative"
+  },
+  {
+    "name": "Fernand GODEFROY",
+    "file": "hommes/fernand-godefroy-45612.html",
+    "group": "hommes",
+    "matricule": "45612",
+    "subtitle": "Matricule 45612",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/fernand-godefroy-45612.jpg",
+    "description": "Fernand, Cyprien, Godefroy naît le 7 novembre 1902 à Auvers-sur-Oise (Seine-et-Oise / Val-d’Oise), fils d’Octave Godefroy, 26 ans, ouvrier carrier chez M.…",
+    "search": "fernand godefroy 45612 matricule 45612 notice commemorative"
   },
   {
     "name": "Fernand TILLIET",
@@ -2652,6 +3444,30 @@
     "search": "franciska dite cica goutayer convoi 31000 notice commemorative"
   },
   {
+    "name": "François MALARD",
+    "file": "hommes/francois-malard-45818.html",
+    "group": "hommes",
+    "matricule": "45818",
+    "subtitle": "Matricule 45818",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/francois-malard-45818.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "francois malard 45818 matricule 45818 notice commemorative"
+  },
+  {
+    "name": "Frédéric RANCEZ",
+    "file": "hommes/frederic-rancez-46031.html",
+    "group": "hommes",
+    "matricule": "46031",
+    "subtitle": "Matricule 46031",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/frederic-rancez-46031.jpg",
+    "description": "Frédéric, Paul, Clément, Rancez naît le 10 janvier 1903 à Puteaux [1] (Seine / Hauts-de-Seine – 92), chez ses parents, Michel Rancez, 30 ans, boulanger, et…",
+    "search": "frederic rancez 46031 matricule 46031 notice commemorative"
+  },
+  {
     "name": "Gabriel LEMAIRE",
     "file": "hommes/gabriel-lemaire-45778.html",
     "group": "hommes",
@@ -2662,6 +3478,18 @@
     "portrait": "portraits/gabriel-lemaire-45778.jpg",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
     "search": "gabriel lemaire 45778 matricule 45778 notice commemorative"
+  },
+  {
+    "name": "Gabriel TORRALBA",
+    "file": "hommes/gabriel-torralba-46264.html",
+    "group": "hommes",
+    "matricule": "46264",
+    "subtitle": "Matricule 46264",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/gabriel-torralba-46264.jpg",
+    "description": "Gabriel (Julino ?), Édgard, Torralba y Vendrelle naît le 2 janvier 1916 à Tarbes (Hautes-Pyrénées). Il a – au moins – deux frères : Angel et Marc.",
+    "search": "gabriel torralba 46264 matricule 46264 notice commemorative"
   },
   {
     "name": "Gabrielle BERGIN",
@@ -2710,6 +3538,30 @@
     "portrait": "portraits/gabrielle-ethis-31625.jpg",
     "description": "Gabrielle Papillon naît le 16 janvier 1896. Elle a – au moins – un frère, Fernand Papillon, né le 13 septembre 1891 à Paris 20e.",
     "search": "gabrielle ethis convoi 31000 notice commemorative"
+  },
+  {
+    "name": "Gaston GAUDY",
+    "file": "hommes/gaston-gaudy-45579.html",
+    "group": "hommes",
+    "matricule": "45579",
+    "subtitle": "Matricule 45579",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/gaston-gaudy-45579.jpg",
+    "description": "En 1933… © RATP/Archives définitives.",
+    "search": "gaston gaudy 45579 matricule 45579 notice commemorative"
+  },
+  {
+    "name": "Gaston MALLARD",
+    "file": "hommes/gaston-mallard-45820.html",
+    "group": "hommes",
+    "matricule": "45820",
+    "subtitle": "Matricule 45820",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/gaston-mallard-45820.jpg",
+    "description": "Gaston, Marcel, Ernest, Mallard naît le 5 janvier 1909 à Bolbec (Seine-Inférieure / Seine-Maritime [1] – 76), 20 km à l’est du Havre, chez ses parents…",
+    "search": "gaston mallard 45820 matricule 45820 notice commemorative"
   },
   {
     "name": "Gaston SANSOULET-PLANTÉ",
@@ -3156,6 +4008,42 @@
     "search": "gisele laguesse convoi 31000 notice commemorative"
   },
   {
+    "name": "Gustave BAVEUX",
+    "file": "hommes/gustave-baveux-45210.html",
+    "group": "hommes",
+    "matricule": "45210",
+    "subtitle": "Matricule 45210",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/gustave-baveux-45210.jpg",
+    "description": "Gustave Auguste Ernest Baveux naît le 7 avril 1888 à Jougne (Doubs – 25), fils de Claude Juste Baveux, 44 ans, manœuvre, et de son épouse Françoise Bulle…",
+    "search": "gustave baveux 45210 matricule 45210 notice commemorative"
+  },
+  {
+    "name": "Gustave MARTIN",
+    "file": "hommes/gustave-martin-45849.html",
+    "group": "hommes",
+    "matricule": "45849",
+    "subtitle": "Matricule 45849",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/gustave-martin-45849.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "gustave martin 45849 matricule 45849 notice commemorative"
+  },
+  {
+    "name": "Guy LECRUX",
+    "file": "hommes/guy-lecrux-45756.html",
+    "group": "hommes",
+    "matricule": "45756",
+    "subtitle": "Matricule 45756",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/guy-lecrux-45756.jpg",
+    "description": "Guy, Étienne, Victor, Lecrux naît le 26 juillet 1920 à Reims (Marne – 51), fils de Maurice Lecrux, 31 ans, et Juliette Peiffer, 31 ans, son épouse. Guy a…",
+    "search": "guy lecrux 45756 matricule 45756 notice commemorative"
+  },
+  {
     "name": "Héléna FOURNIER",
     "file": "helena-fournier-31793.html",
     "group": "femmes",
@@ -3312,6 +4200,18 @@
     "search": "helene solomon 31684 matricule 31684 notice commemorative"
   },
   {
+    "name": "Henri ANDRÉ",
+    "file": "hommes/henri-andre-45171.html",
+    "group": "hommes",
+    "matricule": "45171",
+    "subtitle": "Matricule 45171",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/henri-andre-45171.jpg",
+    "description": "Henri, Louis, Ernest, ANDRÉ naît le 7 novembre 1909 au Havre (Seine-Inférieur / Seine-Maritime [1]), chez sa mère, Jeanne André, 33 ans, sans profession…",
+    "search": "henri andre 45171 matricule 45171 notice commemorative"
+  },
+  {
     "name": "Henri AUBRY",
     "file": "hommes/henri-aubry-45183.html",
     "group": "hommes",
@@ -3322,6 +4222,30 @@
     "portrait": "portraits/henri-aubry-45183.jpg",
     "description": "Henri, Charles, Aubry naît le 9 juin 1893 à Malnoue, hameau d’Émerainville (Seine-et-Marne – 77), au domicile de ses parents, Albert Aubry, 49 ans, ouvrier…",
     "search": "henri aubry 45183 matricule 45183 notice commemorative"
+  },
+  {
+    "name": "Henri Ernest ROY",
+    "file": "hommes/henri-ernest-roy-46072.html",
+    "group": "hommes",
+    "matricule": "46072",
+    "subtitle": "Matricule 46072",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/henri-ernest-roy-46072.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "henri ernest roy 46072 matricule 46072 notice commemorative"
+  },
+  {
+    "name": "Henri GOUX",
+    "file": "hommes/henri-goux-45625.html",
+    "group": "hommes",
+    "matricule": "45625",
+    "subtitle": "Matricule 45625",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/henri-goux-45625.jpg",
+    "description": "Henri, Désiré, Goux naît le 26 mars 1922 à Chalon-sur-Saône (Saône-et-Loire – 71), de Bonaventure Goux, 36 ans, placier [1], et de Marie Stéphanie Livet…",
+    "search": "henri goux 45625 matricule 45625 notice commemorative"
   },
   {
     "name": "Henri SOUPION",
@@ -3468,6 +4392,18 @@
     "search": "jacques faipeur 45525 matricule 45525 notice commemorative"
   },
   {
+    "name": "Jacques LÉVY",
+    "file": "hommes/jacques-levy-46295.html",
+    "group": "hommes",
+    "matricule": "46295",
+    "subtitle": "Matricule 46295",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jacques-levy-46295.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "jacques levy 46295 matricule 46295 notice commemorative"
+  },
+  {
     "name": "Jakoba Van Der LEE",
     "file": "hommes/jakoba-van-der-lee-31697.html",
     "group": "hommes",
@@ -3516,6 +4452,18 @@
     "search": "jean corticchiato 45400 matricule 45400 notice commemorative"
   },
   {
+    "name": "Jean LANNOY",
+    "file": "hommes/jean-lannoy-45726.html",
+    "group": "hommes",
+    "matricule": "45726",
+    "subtitle": "Matricule 45726",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jean-lannoy-45726.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "jean lannoy 45726 matricule 45726 notice commemorative"
+  },
+  {
     "name": "Jean LEBOUTEILLER",
     "file": "hommes/jean-lebouteiller-45000.html",
     "group": "hommes",
@@ -3526,6 +4474,30 @@
     "portrait": "portraits/jean-lebouteiller-45000.jpg",
     "description": "Pas de texte",
     "search": "jean lebouteiller convoi 45000 notice commemorative"
+  },
+  {
+    "name": "Jean LOCATELLI",
+    "file": "hommes/jean-locatelli-45799.html",
+    "group": "hommes",
+    "matricule": "45799",
+    "subtitle": "Matricule 45799",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jean-locatelli-45799.jpg",
+    "description": "© Droits réservés.",
+    "search": "jean locatelli 45799 matricule 45799 notice commemorative"
+  },
+  {
+    "name": "Jean MAHON",
+    "file": "hommes/jean-mahon-45813.html",
+    "group": "hommes",
+    "matricule": "45813",
+    "subtitle": "Matricule 45813",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jean-mahon-45813.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "jean mahon 45813 matricule 45813 notice commemorative"
   },
   {
     "name": "Jean MANON",
@@ -3540,6 +4512,18 @@
     "search": "jean manon 45825 matricule 45825 notice commemorative"
   },
   {
+    "name": "Jean MONIOTTE",
+    "file": "hommes/jean-moniotte-45886.html",
+    "group": "hommes",
+    "matricule": "45886",
+    "subtitle": "Matricule 45886",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jean-moniotte-45886.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "jean moniotte 45886 matricule 45886 notice commemorative"
+  },
+  {
     "name": "Jean NICOLAÏ",
     "file": "hommes/jean-nicolai-45923.html",
     "group": "hommes",
@@ -3550,6 +4534,18 @@
     "portrait": "portraits/jean-nicolai-45923.jpg",
     "description": "Droits réservés.",
     "search": "jean nicolai 45923 matricule 45923 notice commemorative"
+  },
+  {
+    "name": "Jean POLLO",
+    "file": "hommes/jean-pollo-45998.html",
+    "group": "hommes",
+    "matricule": "45998",
+    "subtitle": "Matricule 45998",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jean-pollo-45998.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "jean pollo 45998 matricule 45998 notice commemorative"
   },
   {
     "name": "Jean PORTE",
@@ -3576,6 +4572,18 @@
     "search": "jean quadri 46028 matricule 46028 notice commemorative"
   },
   {
+    "name": "Jean RAYNAUD",
+    "file": "hommes/jean-raynaud-46037.html",
+    "group": "hommes",
+    "matricule": "46037",
+    "subtitle": "Matricule 46037",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jean-raynaud-46037.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "jean raynaud 46037 matricule 46037 notice commemorative"
+  },
+  {
     "name": "Jean RENARD",
     "file": "hommes/jean-renard-46046.html",
     "group": "hommes",
@@ -3586,6 +4594,30 @@
     "portrait": "portraits/jean-renard-46046.jpg",
     "description": "© Musée de l’Histoire vivante, Montreuil.",
     "search": "jean renard 46046 matricule 46046 notice commemorative"
+  },
+  {
+    "name": "Jean ROUAULT",
+    "file": "hommes/jean-rouault-46076.html",
+    "group": "hommes",
+    "matricule": "46076",
+    "subtitle": "Matricule 46076",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jean-rouault-46076.jpg",
+    "description": "Jean, Édouard, Marie, Rouault naît le 5 mars 1893 à Rennes (Ille-et-Vilaine – 35), chez ses parents, Constant Rouault, 38 ans, journalier, et Marie Louise…",
+    "search": "jean rouault 46076 matricule 46076 notice commemorative"
+  },
+  {
+    "name": "Jean THOMAS",
+    "file": "hommes/jean-thomas-46144.html",
+    "group": "hommes",
+    "matricule": "46144",
+    "subtitle": "Matricule 46144",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jean-thomas-46144.jpg",
+    "description": "Jean, Émmanuel, THOMAS naît le 21 juin 1920 au Mans (Sarthe), fils de Jean, Marie, Thomas, 27 ans, facteur aux écritures aux Chemins de fer de l’État, et…",
+    "search": "jean thomas 46144 matricule 46144 notice commemorative"
   },
   {
     "name": "Jean VALENTIN",
@@ -3816,6 +4848,18 @@
     "search": "jeannine dite jeanne herschtel matricule 31 morte en deportation"
   },
   {
+    "name": "Jérôme MAGNAT",
+    "file": "hommes/jerome-magnat-45810.html",
+    "group": "hommes",
+    "matricule": "45810",
+    "subtitle": "Matricule 45810",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jerome-magnat-45810.png",
+    "description": "Jérôme, Désiré, Magnat naît le 8 mai 1897 au lieu dit Montgermain sur la commune de Fransèches (Creuse – 23), au domicile de sa grand-mère, veuve…",
+    "search": "jerome magnat 45810 matricule 45810 notice commemorative"
+  },
+  {
     "name": "Joséphine Dite Mado UMIDO",
     "file": "josephine-dite-mado-umido-31000.html",
     "group": "femmes",
@@ -3838,6 +4882,18 @@
     "portrait": "portraits/josephine_umido_31848.jpg",
     "description": "Joséphine, ou Giuseppina, Bizzarri naît le 21 septembre 1903 à Roquefort-la-Bédoule, dans les Bouches-du-Rhône. Ses parents, Ruffino Bizzarri et Caroline…",
     "search": "josephine umido 31848 matricule 31848 morte en deportation"
+  },
+  {
+    "name": "Jules ALLAIX",
+    "file": "hommes/jules-allaix-45165.html",
+    "group": "hommes",
+    "matricule": "45165",
+    "subtitle": "Matricule 45165",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/jules-allaix-45165.jpg",
+    "description": "Jules, Claudius, Allaix naît le 1er juillet 1898 à Yzeure (Allier – 03) au lieu-dit la Croix-Duret à Yzeure (Allier – 03), chez ses parents, Antoine…",
+    "search": "jules allaix 45165 matricule 45165 notice commemorative"
   },
   {
     "name": "Julia SLUSARCZYK",
@@ -3960,6 +5016,18 @@
     "search": "lea lambert nee durbeck 31821 matricule 31821 morte en deportation"
   },
   {
+    "name": "Léon BAUQUIER",
+    "file": "hommes/leon-bauquier-46317.html",
+    "group": "hommes",
+    "matricule": "46317",
+    "subtitle": "Matricule 46317",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/leon-bauquier-46317.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "leon bauquier 46317 matricule 46317 notice commemorative"
+  },
+  {
     "name": "Léon BELLENGER",
     "file": "hommes/leon-bellenger-45223.html",
     "group": "hommes",
@@ -3994,6 +5062,54 @@
     "portrait": "portraits/leon-casimir-dit-casi-thibert-46140.jpg",
     "description": "Léon, Casimir (« Casi »), Thibert naît le 29 janvier 1912 à Ratte, 6 km à l’est de Louhans (Saône-et-Loire), fils de Jules Félix Thibert, 28 ans (8 février…",
     "search": "leon casimir dit casi thibert 46140 matricule 46140 notice commemorative"
+  },
+  {
+    "name": "Léon DUTHUIN",
+    "file": "hommes/leon-duthuin-45518.html",
+    "group": "hommes",
+    "matricule": "45518",
+    "subtitle": "Matricule 45518",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/leon-duthuin-45518.jpg",
+    "description": "Léon, Charles, Rossin naît le 21 juillet 1895 à la maternité de l’hôpital Tenon, au 4, rue de la Chine, à Paris 20e, fils de Marie Louise Rossin, 30 ans…",
+    "search": "leon duthuin 45518 matricule 45518 notice commemorative"
+  },
+  {
+    "name": "Léon LAVOIR",
+    "file": "hommes/leon-lavoir-45737.html",
+    "group": "hommes",
+    "matricule": "45737",
+    "subtitle": "Matricule 45737",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/leon-lavoir-45737.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "leon lavoir 45737 matricule 45737 notice commemorative"
+  },
+  {
+    "name": "Léon LECRÉES",
+    "file": "hommes/leon-lecrees-45755.html",
+    "group": "hommes",
+    "matricule": "45755",
+    "subtitle": "Matricule 45755",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/leon-lecrees-45755.jpg",
+    "description": "Léon, Jean, Charles, Lecrées naît le 13 juillet 1888 à Cherbourg (Manche – 50), chez ses parents, Louis Lecrées, 33 ans, charpentier, et Henriette Abraham…",
+    "search": "leon lecrees 45755 matricule 45755 notice commemorative"
+  },
+  {
+    "name": "Léon POYER",
+    "file": "hommes/leon-poyer-46010.html",
+    "group": "hommes",
+    "matricule": "46010",
+    "subtitle": "Matricule 46010",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/leon-poyer-46010.jpg",
+    "description": "Extrait du carton « Ils aimaient la France ». présenté ci-dessous.",
+    "search": "leon poyer 46010 matricule 46010 notice commemorative"
   },
   {
     "name": "Léona BOUILLARD",
@@ -4080,6 +5196,18 @@
     "search": "lina kuhn ou kuhne 31795 matricule 31795 morte en deportation"
   },
   {
+    "name": "Louis BRUNET",
+    "file": "hommes/louis-brunet-45308.html",
+    "group": "hommes",
+    "matricule": "45308",
+    "subtitle": "Matricule 45308",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/louis-brunet-45308.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "louis brunet 45308 matricule 45308 notice commemorative"
+  },
+  {
     "name": "Louis BUVAT",
     "file": "hommes/louis-buvat-45320.html",
     "group": "hommes",
@@ -4090,6 +5218,18 @@
     "portrait": "portraits/louis-buvat-45320.jpg",
     "description": "Louis, Alexandre, Buvat naît le 6 septembre 1892, à Bourges (Cher – 18), chez ses parents, Auguste Buvat, 36 ans, ajusteur, et Julie Cocu, 32 ans, son…",
     "search": "louis buvat 45320 matricule 45320 notice commemorative"
+  },
+  {
+    "name": "Louis CERCEAU",
+    "file": "hommes/louis-cerceau-45347.html",
+    "group": "hommes",
+    "matricule": "45347",
+    "subtitle": "Matricule 45347",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/louis-cerceau-45347.jpg",
+    "description": "Louis, Edmond, Célestin, Cerceau naît le 29 août 1908, rue Delavault-Saint-Jacques à Parthenay (Deux-Sèvres), fils de Louis Cerceau, 33 ans, serrurier, et…",
+    "search": "louis cerceau 45347 matricule 45347 notice commemorative"
   },
   {
     "name": "Louis CHAUSSARD",
@@ -4104,6 +5244,18 @@
     "search": "louis chaussard 45362 matricule 45362 notice commemorative"
   },
   {
+    "name": "Louis DÉMAREST",
+    "file": "hommes/louis-demarest-45451.html",
+    "group": "hommes",
+    "matricule": "45451",
+    "subtitle": "Matricule 45451",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/louis-demarest-45451.jpg",
+    "description": "Louis, Émile, Démarest naît le 1er mars 1898 à Grand-Quevilly (Seine-Maritime [1] – 76), au sud-ouest de l’agglomération de Rouen, dans la boucle de la…",
+    "search": "louis demarest 45451 matricule 45451 notice commemorative"
+  },
+  {
     "name": "Louis DIDIER",
     "file": "hommes/louis-didier-45471.html",
     "group": "hommes",
@@ -4114,6 +5266,18 @@
     "portrait": "portraits/louis-didier-45471.jpg",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
     "search": "louis didier 45471 matricule 45471 notice commemorative"
+  },
+  {
+    "name": "Louis GOUFFÉ",
+    "file": "hommes/louis-gouffe-45620.html",
+    "group": "hommes",
+    "matricule": "45620",
+    "subtitle": "Matricule 45620",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/louis-gouffe-45620.jpg",
+    "description": "Louis, Clément, Gouffé naît le 11 ou le 13 novembre 1901 à Romainville [1] (Seine / Seine-Saint-Denis – 93), fils d’Eugène Gouffé et de Victorine Brun, son…",
+    "search": "louis gouffe 45620 matricule 45620 notice commemorative"
   },
   {
     "name": "Louis VILLEMINOT",
@@ -4260,6 +5424,18 @@
     "search": "lucie dite lucette pecheux 31633 matricule 31633 notice commemorative"
   },
   {
+    "name": "Lucien ALESSANDRI",
+    "file": "hommes/lucien-alessandri-45161.html",
+    "group": "hommes",
+    "matricule": "45161",
+    "subtitle": "Matricule 45161",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/lucien-alessandri-45161.jpg",
+    "description": "Lucien, Ernest, Alessandri naît le 8 octobre 1906 à Marseille (Bouches-du-Rhône).",
+    "search": "lucien alessandri 45161 matricule 45161 notice commemorative"
+  },
+  {
     "name": "Lucien CHEVALIER",
     "file": "hommes/lucien-chevalier-45367.html",
     "group": "hommes",
@@ -4282,6 +5458,30 @@
     "portrait": "portraits/lucien-frichot-45560.jpg",
     "description": "IDENTIFICATION INCERTAINE Auschwitz-I, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "lucien frichot 45560 matricule 45560 notice commemorative"
+  },
+  {
+    "name": "Lucien PAIRIÈRE",
+    "file": "hommes/lucien-pairiere-45944.html",
+    "group": "hommes",
+    "matricule": "45944",
+    "subtitle": "Matricule 45944",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/lucien-pairiere-45944.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "lucien pairiere 45944 matricule 45944 notice commemorative"
+  },
+  {
+    "name": "Lucien PREUILLY",
+    "file": "hommes/lucien-preuilly-46013.html",
+    "group": "hommes",
+    "matricule": "46013",
+    "subtitle": "Matricule 46013",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/lucien-preuilly-46013.jpg",
+    "description": "Lucien, Gaston, Émile, Preuilly naît le 16 juin 1920 à Paris 15e, fils de Ferdinand Preuilly et de Louise Normand. Lucien à un frère, Louis, et une sœur…",
+    "search": "lucien preuilly 46013 matricule 46013 notice commemorative"
   },
   {
     "name": "Lucienne Dite Annie FERRÉ",
@@ -4632,6 +5832,30 @@
     "search": "marcel gouilliard 46240 matricule 46240 notice commemorative"
   },
   {
+    "name": "Marcel LECOUR",
+    "file": "hommes/marcel-lecour-45754.html",
+    "group": "hommes",
+    "matricule": "45754",
+    "subtitle": "Matricule 45754",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/marcel-lecour-45754.jpg",
+    "description": "Marcel, Louis, Désiré, Lecour naît le 27 mai 1905 à Bayeux (Calvados – 14), fils d’Auguste, Louis, Clément , Lecour, né le 7 juillet 1881 à Bonnemaison…",
+    "search": "marcel lecour 45754 matricule 45754 notice commemorative"
+  },
+  {
+    "name": "Marcel LESTURGIE",
+    "file": "hommes/marcel-lesturgie-45773.html",
+    "group": "hommes",
+    "matricule": "45773",
+    "subtitle": "Matricule 45773",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/marcel-lesturgie-45773.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "marcel lesturgie 45773 matricule 45773 notice commemorative"
+  },
+  {
     "name": "Marcel MARTEL",
     "file": "hommes/marcel-martel-45841.html",
     "group": "hommes",
@@ -4666,6 +5890,18 @@
     "portrait": "portraits/marcel-renaud-46049.jpg",
     "description": "Marcel, Adrien, Billebaut naît le 27 janvier 1899 à Germiny-l’Exempt (Cher), fils de Joséphine Billebaut, 17 ans, couturière, célibataire, et de père non…",
     "search": "marcel renaud 46049 matricule 46049 notice commemorative"
+  },
+  {
+    "name": "Marcel VAISSE",
+    "file": "hommes/marcel-vaisse-46165.html",
+    "group": "hommes",
+    "matricule": "46165",
+    "subtitle": "Matricule 46165",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/marcel-vaisse-46165.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "marcel vaisse 46165 matricule 46165 notice commemorative"
   },
   {
     "name": "Marcelle BUREAU",
@@ -5340,6 +6576,30 @@
     "search": "marie therese puyoou 31720 matricule 31720 notice commemorative"
   },
   {
+    "name": "Marius BARBIER",
+    "file": "hommes/marius-barbier-45197.html",
+    "group": "hommes",
+    "matricule": "45197",
+    "subtitle": "Matricule 45197",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/marius-barbier-45197.jpg",
+    "description": "Edmond, Marius , Barbier naît le 20 décembre 1900 à Verzenay (Marne), au domicile de ses parents, Eugène Barbier, 37 ans, vigneron, et Eugénie Bouvin, son…",
+    "search": "marius barbier 45197 matricule 45197 notice commemorative"
+  },
+  {
+    "name": "Marius PROVILLE",
+    "file": "hommes/marius-proville-46022.html",
+    "group": "hommes",
+    "matricule": "46022",
+    "subtitle": "Matricule 46022",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/marius-proville-46022.jpg",
+    "description": "Marius, Charles, Proville naît le 15 août 1893 à Aubervilliers [1] (Seine / Seine-Saint-Denis – 93), chez ses parents, Émile Proville, 42 ans, journalier…",
+    "search": "marius proville 46022 matricule 46022 notice commemorative"
+  },
+  {
     "name": "Marius VALLÉE",
     "file": "hommes/marius-vallee-46167.html",
     "group": "hommes",
@@ -5410,6 +6670,42 @@
     "portrait": "portraits/maurice-bertouille-45233.jpg",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
     "search": "maurice bertouille 45233 matricule 45233 notice commemorative"
+  },
+  {
+    "name": "Maurice GUERRIER",
+    "file": "hommes/maurice-guerrier-45634.html",
+    "group": "hommes",
+    "matricule": "45634",
+    "subtitle": "Matricule 45634",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/maurice-guerrier-45634.jpg",
+    "description": "Maurice, Marcel, Désiré, Guerrier naît le 13 mars 1906 à Trouville (Calvados – 14), fils de Maurice Louis Guerrier, 25 ans, ouvrier-peintre, et de Rose…",
+    "search": "maurice guerrier 45634 matricule 45634 notice commemorative"
+  },
+  {
+    "name": "Maurice GUY",
+    "file": "hommes/maurice-guy-45647.html",
+    "group": "hommes",
+    "matricule": "45647",
+    "subtitle": "Matricule 45647",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/maurice-guy-45647.jpg",
+    "description": "Maurice, Édouard, Descaves naît le 18 septembre 1900 dans le village de Montchauvet (Seine-et-Oise / Yvelines), fils de Maria Descaves, 19 ans, elle-même…",
+    "search": "maurice guy 45647 matricule 45647 notice commemorative"
+  },
+  {
+    "name": "Maurice PENVERNE",
+    "file": "hommes/maurice-penverne-45963.html",
+    "group": "hommes",
+    "matricule": "45963",
+    "subtitle": "Matricule 45963",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/maurice-penverne-45963.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "maurice penverne 45963 matricule 45963 notice commemorative"
   },
   {
     "name": "Maurice RAT",
@@ -5568,6 +6864,18 @@
     "search": "paul dumont 45503 matricule 45503 notice commemorative"
   },
   {
+    "name": "Paul Émile CHARTON",
+    "file": "hommes/paul-emile-charton-45357.html",
+    "group": "hommes",
+    "matricule": "45357",
+    "subtitle": "Matricule 45357",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/paul-emile-charton-45357.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "search": "paul emile charton 45357 matricule 45357 notice commemorative"
+  },
+  {
     "name": "Paul FILOLEAU",
     "file": "hommes/paul-filoleau-46236.html",
     "group": "hommes",
@@ -5580,6 +6888,30 @@
     "search": "paul filoleau 46236 matricule 46236 notice commemorative"
   },
   {
+    "name": "Paul GIANNI",
+    "file": "hommes/paul-gianni-45597.html",
+    "group": "hommes",
+    "matricule": "45597",
+    "subtitle": "Matricule 45597",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/paul-gianni-45597.jpg",
+    "description": "Paul, Émile, Constantin, Gianni naît le 19 février 1922 à Paris 15e, chez ses parents, Pierre Gianni, 25 ans, employé de commerce, et Rose Martini, 27 ans…",
+    "search": "paul gianni 45597 matricule 45597 notice commemorative"
+  },
+  {
+    "name": "Paul HERVY",
+    "file": "hommes/paul-hervy-45662.html",
+    "group": "hommes",
+    "matricule": "45662",
+    "subtitle": "Matricule 45662",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/paul-hervy-45662.jpg",
+    "description": "Paul, Charles, Hervy naît le 25 mars 1915 à Paris 11e (75), fils de Charles Hervy et de Marie Guilloux.",
+    "search": "paul hervy 45662 matricule 45662 notice commemorative"
+  },
+  {
     "name": "Paul MONNET",
     "file": "hommes/paul-monnet-45888.html",
     "group": "hommes",
@@ -5590,6 +6922,18 @@
     "portrait": "portraits/paul-monnet-45888.jpg",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
     "search": "paul monnet 45888 matricule 45888 notice commemorative"
+  },
+  {
+    "name": "Paul PAOUTY",
+    "file": "hommes/paul-paouty-45948.html",
+    "group": "hommes",
+    "matricule": "45948",
+    "subtitle": "Matricule 45948",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/paul-paouty-45948.jpg",
+    "description": "Paul, Charles, Paouty naît le 8 mars 1920 à Cherbourg (Manche – 50).",
+    "search": "paul paouty 45948 matricule 45948 notice commemorative"
   },
   {
     "name": "Paula RABEAUX",
@@ -5652,6 +6996,18 @@
     "search": "pierre demerle 45452 matricule 45452 notice commemorative"
   },
   {
+    "name": "Pierre FELTEN",
+    "file": "hommes/pierre-felten-45534.html",
+    "group": "hommes",
+    "matricule": "45534",
+    "subtitle": "Matricule 45534",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/pierre-felten-45534.jpg",
+    "description": "Pierre, Émile, Felten naît le 22 août 1912 à Bondy [1] (Seine /Seine-Saint-Denis – 93), chez ses parents, Émile Felten, 29 ans, manœuvre aux Chemins de fer…",
+    "search": "pierre felten 45534 matricule 45534 notice commemorative"
+  },
+  {
     "name": "Pierre JEUSSET",
     "file": "hommes/pierre-jeusset-45686.html",
     "group": "hommes",
@@ -5698,6 +7054,30 @@
     "portrait": "portraits/pierre-orsatti-45939.jpg",
     "description": "Pierre, Hippolyte, André, Orsatti naît le 26 avril 1892 à Feins (Ille-et-Vilaine – 35), fils de Paul Orsatti, 40 ans, garde particulier à Champbellé, et de…",
     "search": "pierre orsatti 45939 matricule 45939 notice commemorative"
+  },
+  {
+    "name": "Pierre ROUX",
+    "file": "hommes/pierre-roux-46257.html",
+    "group": "hommes",
+    "matricule": "46257",
+    "subtitle": "Matricule 46257",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/pierre-roux-46257.jpg",
+    "description": "Pierre, André, Cyprien, Bernard, Roux naît le 27 décembre 1921 à Dadonville (572 habitants dispersés en 12 hameaux en mai 1941), près de Pithiviers (Loiret…",
+    "search": "pierre roux 46257 matricule 46257 notice commemorative"
+  },
+  {
+    "name": "Prudent PREL",
+    "file": "hommes/prudent-prel-46012.html",
+    "group": "hommes",
+    "matricule": "46012",
+    "subtitle": "Matricule 46012",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/prudent-prel-46012.jpg",
+    "description": "Prudent, Clément, Prel naît le 1er mars 1894 au lieu-dit le Bois aux Moines à Cigné (Mayenne) [1], chez ses parents, Prudent (lui aussi), François, Prel…",
+    "search": "prudent prel 46012 matricule 46012 notice commemorative"
   },
   {
     "name": "Rachel DENIAU",
@@ -5820,6 +7200,18 @@
     "search": "raymonde sergent 31790 matricule 31790 morte en deportation"
   },
   {
+    "name": "René AMAND",
+    "file": "hommes/rene-amand-45167.html",
+    "group": "hommes",
+    "matricule": "45167",
+    "subtitle": "Matricule 45167",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/rene-amand-45167.jpg",
+    "description": "(René) Désiré Amand naît le 7 avril 1906 au lieu dit Ruffigny, commune d’Iteuil (Vienne – 86), chez ses parents, Alphonse Désiré Amand 31 ans, alors…",
+    "search": "rene amand 45167 matricule 45167 notice commemorative"
+  },
+  {
     "name": "René CARON",
     "file": "hommes/rene-caron-45334.html",
     "group": "hommes",
@@ -5866,6 +7258,18 @@
     "portrait": "portraits/rene-fayolle-45532.jpg",
     "description": "René, Henri, Émile, Alfred, Fayolle naît le 23 février 1922 à Lens (Pas-de-Calais – 62), fils aîné de César Fayolle, né en 1897 à Outreau (62), et…",
     "search": "rene fayolle 45532 matricule 45532 notice commemorative"
+  },
+  {
+    "name": "René HOMMET",
+    "file": "hommes/rene-hommet-45665.html",
+    "group": "hommes",
+    "matricule": "45665",
+    "subtitle": "Matricule 45665",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/rene-hommet-45665.jpg",
+    "description": "René Hommet naît le 25 janvier 1914 à Paris (14e), parce que ses parents – Charles Hommet, 24 ans, né à Grandcamp–Maisy (Calvados – 14), alors conscrit, et…",
+    "search": "rene hommet 45665 matricule 45665 notice commemorative"
   },
   {
     "name": "René JACKY",
@@ -5940,6 +7344,18 @@
     "search": "rene royer 46075 matricule 46075 notice commemorative"
   },
   {
+    "name": "René SOLARD",
+    "file": "hommes/rene-solard-46107.html",
+    "group": "hommes",
+    "matricule": "46107",
+    "subtitle": "Matricule 46107",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/rene-solard-46107.jpg",
+    "description": "René, Constant, Solard naît le 9 janvier 1892 à Paris 15e (75), fils de Constant Solard, 35 ans, et de Hermence Vincent, son épouse, 28 ans, merciers…",
+    "search": "rene solard 46107 matricule 46107 notice commemorative"
+  },
+  {
     "name": "Renée COSSIN",
     "file": "hommes/renee-cossin-31830.html",
     "group": "hommes",
@@ -5986,6 +7402,18 @@
     "portrait": "portraits/renee-michaud-31676.jpg",
     "description": "Renée Michaud. Coll. Denise Chaigneaud, née Triguel. Droits réservés.",
     "search": "renee michaud 31676 matricule 31676 notice commemorative"
+  },
+  {
+    "name": "Renelde LEFEBVRE",
+    "file": "hommes/renelde-lefebvre-45761.html",
+    "group": "hommes",
+    "matricule": "45761",
+    "subtitle": "Matricule 45761",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/renelde-lefebvre-45761.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "renelde lefebvre 45761 matricule 45761 notice commemorative"
   },
   {
     "name": "Reyna Van DAM",
@@ -6120,6 +7548,18 @@
     "search": "roger desmonts 45520 matricule 45520 notice commemorative"
   },
   {
+    "name": "Roger GOGUET",
+    "file": "hommes/roger-goguet-45614.html",
+    "group": "hommes",
+    "matricule": "45614",
+    "subtitle": "Matricule 45614",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/roger-goguet-45614.jpg",
+    "description": "Roger, Eugène, Désiré, Goguet naît le 26 septembre 1910 à Gonneville-sur-Dives (Calvados – 14), fils de Victor Arthur Amand Goguet, 24 ans, et de Marie…",
+    "search": "roger goguet 45614 matricule 45614 notice commemorative"
+  },
+  {
     "name": "Roger LEVACHÉ",
     "file": "hommes/roger-levache-45791.html",
     "group": "hommes",
@@ -6142,6 +7582,18 @@
     "portrait": "portraits/roger-marivet-45836.jpg",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
     "search": "roger marivet 45836 matricule 45836 notice commemorative"
+  },
+  {
+    "name": "Roger MERCIER",
+    "file": "hommes/roger-mercier-45870.html",
+    "group": "hommes",
+    "matricule": "45870",
+    "subtitle": "Matricule 45870",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/roger-mercier-45870.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "roger mercier 45870 matricule 45870 notice commemorative"
   },
   {
     "name": "Roger MORIN",
@@ -6394,6 +7846,18 @@
     "portrait": "portraits/sophie-licht-31803.jpg",
     "description": "Sophie Schaub naît le 11 juin 1905 à Welferding ( Wölferdingen ) [1], en Moselle alors annexée par l’Empire allemand depuis 1871 (traité de Francfort).…",
     "search": "sophie licht 31803 matricule 31803 notice commemorative"
+  },
+  {
+    "name": "Stanislaw TAMOWSKI",
+    "file": "hommes/stanislaw-tamowski-46127.html",
+    "group": "hommes",
+    "matricule": "46127",
+    "subtitle": "Matricule 46127",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/stanislaw-tamowski-46127.jpg",
+    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "search": "stanislaw tamowski 46127 matricule 46127 notice commemorative"
   },
   {
     "name": "Suzanne COSTENTIN",
