@@ -75,6 +75,12 @@ Le logiciel applique automatiquement les destinations suivantes :
 
 Après l’envoi, GitHub reconstruit les catalogues Femmes et Hommes, les compteurs, les portraits, la recherche et le référencement. Le fichier [`outil-envoi-fiches/MODE-D-EMPLOI.txt`](outil-envoi-fiches/MODE-D-EMPLOI.txt) contient également ces instructions pour une consultation hors ligne.
 
+## Logiciel Windows de vérification des portraits
+
+Le dossier [`outil-verification-portraits`](outil-verification-portraits/) contient un second logiciel Windows pour contrôler chaque identité, afficher la photographie en grand, repérer les photos absentes ou trop petites, corriger le classement Femme/Homme, remplacer une photographie et publier directement les corrections. Les prochaines fiches ajoutées sont intégrées automatiquement au contrôle.
+
+Pour le lancer, double-cliquer sur `outil-verification-portraits/Lancer-Verification.cmd`, puis cliquer sur **Préparer / actualiser**. L’outil refuse automatiquement de classer un matricule `31xxx` parmi les hommes ou un matricule `45xxx`/`46xxx` parmi les femmes.
+
 ## Actualiser la photothèque
 
 Depuis l’onglet **Actions**, ouvrir **Actualiser la photothèque historique**, puis utiliser **Run workflow**. Le script Python parcourt toutes les pages du catalogue, détecte les nouveaux résultats, évite les doublons et reconstruit la galerie.

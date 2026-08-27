@@ -1,0 +1,27 @@
+VÉRIFICATION DES PORTRAITS DU PANTHÉON
+======================================
+
+1. Double-cliquez sur Lancer-Verification.cmd.
+2. Cliquez sur « Préparer / actualiser ».
+3. La liste montre d'abord les anomalies : photo absente, photo trop petite,
+   fiche absente, matricule en double ou mauvais classement.
+4. Cliquez sur une personne pour voir sa photographie en grand.
+5. Utilisez au besoin :
+   - « Remplacer la photo » pour choisir la bonne photographie d'identité ;
+   - « Classer Femme » ou « Classer Homme » pour corriger la section ;
+   - « Modifier la fiche » pour ouvrir directement son texte dans le Bloc-notes.
+6. Cliquez sur « Recontrôler » après une modification faite dans le Bloc-notes.
+7. Quand tout est correct, cliquez sur « Publier les corrections ».
+
+SÉCURITÉ
+--------
+
+- Un matricule 31xxx ne peut pas être classé Homme.
+- Un matricule 45xxx ou 46xxx ne peut pas être classé Femme.
+- Les photos ne sont jamais recadrées dans le site.
+- L'outil reconstruit et contrôle les listes avant chaque publication.
+- Les prochaines fiches apparaissent automatiquement dans cet outil après
+  avoir cliqué sur « Préparer / actualiser ».
+
+Les femmes restent à la racine du dépôt. Les hommes restent dans le dossier
+« hommes ». Les photographies locales sont conservées dans « portraits ».
