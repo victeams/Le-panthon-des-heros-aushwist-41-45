@@ -11,7 +11,12 @@ function Get-SavedRepository {
     if (Test-Path -LiteralPath $ConfigPath -PathType Leaf) {
         try {
             $config = Get-Content -LiteralPath $ConfigPath -Raw -Encoding UTF8 | ConvertFrom-Json
-            if ($config.repository) { return [string]$config.repository }
+            if ($config.repository) {
+                $saved = [string]$config.repository
+                $savedIsRepository = (Test-Path -LiteralPath (Join-Path $saved ".git") -PathType Container) -and
+                    (Test-Path -LiteralPath (Join-Path $saved "scripts\build_site.py") -PathType Leaf)
+                if ($savedIsRepository) { return $saved }
+            }
         } catch { }
     }
     return $DefaultRepository
