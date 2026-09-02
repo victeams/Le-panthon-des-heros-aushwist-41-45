@@ -75,20 +75,22 @@ class BuildSiteTests(unittest.TestCase):
                 (root / "hommes.html").read_text(encoding="utf-8"),
             )
 
-    def test_sitemap_excludes_duplicate_copy_from_hommes_folder(self):
+    def test_catalog_deduplicates_root_mirror_and_keeps_hommes_page(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             men_folder = root / "hommes"
             men_folder.mkdir()
-            content = biography("Alice EXEMPLE", "31802", "Morte en déportation")
-            (root / "alice-31802.html").write_text(content, encoding="utf-8")
-            (men_folder / "alice-31802.html").write_text(content, encoding="utf-8")
+            content = biography("Albert EXEMPLE", "45437", "Mort en déportation")
+            (root / "albert-45437.html").write_text(content, encoding="utf-8")
+            (men_folder / "albert-45437.html").write_text(content, encoding="utf-8")
 
-            build(root, "https://example.test", "test")
+            women, men, warnings = build(root, "https://example.test", "test")
 
+            self.assertEqual((women, men), (0, 1))
+            self.assertFalse(warnings)
             sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
-            self.assertIn("https://example.test/alice-31802.html", sitemap)
-            self.assertNotIn("https://example.test/hommes/alice-31802.html", sitemap)
+            self.assertIn("https://example.test/hommes/albert-45437.html", sitemap)
+            self.assertNotIn("https://example.test/albert-45437.html", sitemap)
 
     def test_ambiguous_page_is_reported_without_breaking_site(self):
         with tempfile.TemporaryDirectory() as directory:

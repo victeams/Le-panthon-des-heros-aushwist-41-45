@@ -78,6 +78,7 @@ class BiographyHTMLParser(HTMLParser):
         self.hidden_depth = 0
         self.all_text: list[str] = []
         self.first_image: str | None = None
+        self.first_image_alt: str | None = None
         self.description: str | None = None
         self.explicit_convoi: str | None = None
 
@@ -105,6 +106,7 @@ class BiographyHTMLParser(HTMLParser):
 
         if tag == "img" and self.first_image is None:
             self.first_image = attributes.get("src") or None
+            self.first_image_alt = attributes.get("alt") or None
 
         if tag == "meta":
             name = attributes.get("name", "").casefold()
@@ -298,6 +300,7 @@ class Biography:
     status: str
     status_class: str
     portrait: str | None
+    portrait_alt: str | None
     description: str
     search: str
 
@@ -328,10 +331,11 @@ def parse_biography(root: Path, path: Path, old_map: dict[str, str]) -> tuple[Bi
     subtitle = f"Matricule {matricule}" if matricule else (shorten(meta_text, 80) or ("Convoi des 31000" if group == "femmes" else "Convoi des 45000"))
     status, status_class = normalized_status(parser.value("status"), group)
     portrait = find_or_create_portrait(root, path, parser, old_map)
+    portrait_alt = parser.first_image_alt or (f"Portrait de {name}" if portrait else None)
     description_source = parser.description or parser.value("text") or parser.value("paragraph")
     description = shorten(description_source) or f"Biographie commémorative de {name}."
     search = normalized(f"{name} {matricule or ''} {subtitle} {status}")
-    return Biography(name, relative, group, matricule, subtitle, status, status_class, portrait, description, search), reason
+    return Biography(name, relative, group, matricule, subtitle, status, status_class, portrait, portrait_alt, description, search), reason
 
 
 def biography_paths(root: Path) -> list[Path]:
@@ -397,7 +401,8 @@ def head_markup(title: str, description: str, canonical: str, structured: dict, 
 def card_markup(person: Biography) -> str:
     href = quote(person.file, safe="/")
     if person.portrait:
-        visual = f'<img class="portrait" src="{quote(person.portrait, safe="/")}" alt="Portrait de {escape(person.name, quote=True)}" loading="lazy">'
+        alt = person.portrait_alt or f"Portrait de {person.name}"
+        visual = f'<img class="portrait" src="{quote(person.portrait, safe="/")}" alt="{escape(alt, quote=True)}" loading="lazy">'
     else:
         visual = '<span class="portrait-missing">Portrait non disponible</span>'
     return f"""      <article class="card" data-search="{escape(person.search, quote=True)}">
@@ -518,7 +523,7 @@ HOME_SEARCH_SCRIPT = """
     matches.forEach(person=>{
       const article=document.createElement('article');article.className='card';
       const visual=document.createElement('a');visual.className='portrait-link';visual.href=person.file;
-      if(person.portrait){const image=document.createElement('img');image.className='portrait';image.src=person.portrait;image.alt=`Portrait de ${person.name}`;image.loading='lazy';visual.append(image);}else{const missing=document.createElement('span');missing.className='portrait-missing';missing.textContent='Portrait non disponible';visual.append(missing);}
+      if(person.portrait){const image=document.createElement('img');image.className='portrait';image.src=person.portrait;image.alt=person.portrait_alt||`Portrait de ${person.name}`;image.loading='lazy';visual.append(image);}else{const missing=document.createElement('span');missing.className='portrait-missing';missing.textContent='Portrait non disponible';visual.append(missing);}
       const top=document.createElement('div');const badge=document.createElement('span');badge.className=`badge ${person.status_class}`;badge.textContent=person.status;top.append(badge);
       const title=document.createElement('h2');title.textContent=person.name;const subtitle=document.createElement('p');subtitle.textContent=person.subtitle;
       const link=document.createElement('a');link.href=person.file;link.textContent='Lire la fiche →';article.append(visual,top,title,subtitle,link);grid.append(article);
@@ -688,6 +693,25 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
                 warnings.append(f"IMAGE MANQUANTE — {person.file}")
         else:
             warnings.append(f"NON CLASSÉ — {path.relative_to(root).as_posix()} — {reason}")
+
+    # Certaines fiches masculines existent à la fois à la racine (ancienne
+    # adresse) et dans hommes/ (adresse publique actuelle). Ne conserver que
+    # la fiche du dossier dans les catalogues pour éviter de compter deux fois
+    # la même personne tout en laissant les deux URL accessibles.
+    nested_men = {
+        Path(person.file).name
+        for person in biographies
+        if person.group == "hommes" and person.file.startswith("hommes/")
+    }
+    biographies = [
+        person
+        for person in biographies
+        if not (
+            person.group == "hommes"
+            and "/" not in person.file
+            and Path(person.file).name in nested_men
+        )
+    ]
 
     biographies.sort(key=lambda person: (normalized(person.name), person.file))
     women = [person for person in biographies if person.group == "femmes"]
