@@ -23,7 +23,7 @@ class SupportPageTests(unittest.TestCase):
 
     def test_paypal_support_is_external_and_transparent(self):
         page = (ROOT / "soutien.html").read_text(encoding="utf-8")
-        self.assertIn("https://www.paypal.com/donate/", page)
+        self.assertIn("https://paypal.me/PortraitsMemoire3945", page)
         self.assertIn('target="_blank"', page)
         self.assertIn('rel="noopener noreferrer"', page)
         self.assertIn("le montant est libre", page)
