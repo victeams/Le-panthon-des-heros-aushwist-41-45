@@ -1,9 +1,21 @@
 {
   "source_index": "https://deportes-politiques-auschwitz.fr/biographies-index-alpha/",
   "generated_on": "2026-09-03",
-  "count": 106,
-  "method": "Correspondance par nom et matricule, puis contrôle visuel. Les identifications signalées comme incertaines par la source ont été exclues.",
+  "count": 123,
+  "method": "Correspondance par nom et matricule ou par nom complet, puis contrôle visuel. Les identifications signalées comme incertaines par la source ont été exclues.",
   "portraits": [
+    {
+      "name": "Abram MIKLICHANSKY",
+      "matricule": "45881",
+      "biography": "hommes/abram-miklichansky-45881.html",
+      "local_portrait": "portraits/abram-miklichansky-45881.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2014/01/miklichansky-abraham-avroum-dit-albert/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2014/01/Miki-photo-PP-REC2.jpg",
+      "source_caption": "Albert Miklichanski (note 3)",
+      "alt": "Portrait de Abram MIKLICHANSKY",
+      "transform": null,
+      "verification_note": null
+    },
     {
       "name": "Albert BONVALET",
       "matricule": "45274",
@@ -27,6 +39,18 @@
       "transform": {
         "crop": "235x285+258+182"
       }
+    },
+    {
+      "name": "Albert VALLETTE",
+      "matricule": "46169",
+      "biography": "hommes/albert-vallette-46169.html",
+      "local_portrait": "portraits/albert-vallette-46169.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2012/01/valette-albert-daniel-ernest/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2012/01/Cailly2BValette.jpg",
+      "source_caption": "Albert Vallette, photo Denise Archimbault, cimetière de Malaunay (2)",
+      "alt": "Portrait de Albert VALLETTE",
+      "transform": null,
+      "verification_note": null
     },
     {
       "name": "Alexandre DOUCHET",
@@ -216,6 +240,18 @@
       "transform": null
     },
     {
+      "name": "Augustin MAHILLON",
+      "matricule": "45812",
+      "biography": "hommes/augustin-mahillon-45812.html",
+      "local_portrait": "portraits/augustin-mahillon-45812.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2008/03/mahillon-augustin/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2008/03/Mahillon-1939_Calque-1.jpg",
+      "source_caption": "Augustin Mahillon en 1939. © M. Xavier Chemery",
+      "alt": "Portrait de Augustin MAHILLON",
+      "transform": null,
+      "verification_note": null
+    },
+    {
       "name": "Camille IMPÉRIAL",
       "matricule": "45678",
       "biography": "hommes/camille-imperial-45678.html",
@@ -304,6 +340,18 @@
       "transform": null
     },
     {
+      "name": "Charles MARY",
+      "matricule": "45854",
+      "biography": "hommes/charles-mary-45854.html",
+      "local_portrait": "portraits/charles-mary-45854.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2010/05/mary-charles/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2010/05/MARYCharlesB.jpg",
+      "source_caption": "Charles Mary © Alfred Rossolinin, Op. cité",
+      "alt": "Portrait de Charles MARY",
+      "transform": null,
+      "verification_note": null
+    },
+    {
       "name": "Charles MAUGER",
       "matricule": "45864",
       "biography": "hommes/charles-mauger-45864.html",
@@ -346,6 +394,18 @@
       "source_caption": "Cyrille De Foor © Cédric Hoock in Mémorial Genweb",
       "alt": "Portrait de Cyrille De FOOR",
       "transform": null
+    },
+    {
+      "name": "Daniel NAGLIOUCK",
+      "matricule": "45916",
+      "biography": "hommes/daniel-nagliouck-45916.html",
+      "local_portrait": "portraits/daniel-nagliouck-45916.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2017/08/nagliouck-daniel/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2017/08/Nagliouck2Brec.jpg",
+      "source_caption": "Daniel Nagliouck vers 1956 © DR Claude-Paul Couture",
+      "alt": "Portrait de Daniel NAGLIOUCK",
+      "transform": null,
+      "verification_note": null
     },
     {
       "name": "Désiré SILLIEN",
@@ -392,6 +452,18 @@
       "transform": null
     },
     {
+      "name": "Émile TUNESI",
+      "matricule": "46163",
+      "biography": "hommes/emile-tunesi-46163.html",
+      "local_portrait": "portraits/emile-tunesi-46163.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2010/07/tunesi-emile/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2010/07/TUNESIEmileB.jpg",
+      "source_caption": "Emile Tunési In © Alfred Rossolini, Op. cité",
+      "alt": "Portrait de Émile TUNESI",
+      "transform": null,
+      "verification_note": null
+    },
+    {
       "name": "Ernest REPIQUET",
       "matricule": "46051",
       "biography": "hommes/ernest-repiquet-46051.html",
@@ -423,6 +495,18 @@
       "source_caption": "Au service militaire © DR Philippe Sardain",
       "alt": "Portrait de Étienne PESSOT",
       "transform": null
+    },
+    {
+      "name": "Eugène DEGDIER",
+      "matricule": "45432",
+      "biography": "hommes/eugene-degdier-45432.html",
+      "local_portrait": "portraits/eugene-degdier-45432.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2012/12/degdier-eugene-theodore-desire/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2012/12/Degdier.jpg",
+      "source_caption": "Eugène Degdier, collection © Roger Pélissou, rescapé, photo reproduite par la FNDIRP",
+      "alt": "Portrait de Eugène DEGDIER",
+      "transform": null,
+      "verification_note": null
     },
     {
       "name": "Félix NÉEL",
@@ -513,6 +597,18 @@
       "transform": null
     },
     {
+      "name": "François MORIN",
+      "matricule": "45899",
+      "biography": "hommes/francois-morin-45899.html",
+      "local_portrait": "portraits/francois-morin-45899.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2017/10/morin-francois-eugene-hyppolite/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2017/10/Morin2Bfran25C325A7ois2Bmontage2B22Bph.jpg",
+      "source_caption": "Portraits de François Morin, vers 1926 et en 1941",
+      "alt": "Portrait de François MORIN",
+      "transform": null,
+      "verification_note": null
+    },
+    {
       "name": "François PEYRONIN",
       "matricule": "45977",
       "biography": "hommes/francois-peyronin-45977.html",
@@ -601,6 +697,18 @@
       "transform": null
     },
     {
+      "name": "Georges VARENNE",
+      "matricule": "46174",
+      "biography": "hommes/georges-varenne-46174.html",
+      "local_portrait": "portraits/georges-varenne-46174.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2011/07/varenne-georges/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2011/07/Varenne2Bgeorges2BbLOG.jpg",
+      "source_caption": "Portrait de Georges Varenne",
+      "alt": "Portrait de Georges VARENNE",
+      "transform": null,
+      "verification_note": null
+    },
+    {
       "name": "Georges VINSOUS",
       "matricule": "46199",
       "biography": "hommes/georges-vinsous-46199.html",
@@ -665,6 +773,30 @@
       "source_caption": "Henri Charlier après son retour des camps, collection Cécile Charlier",
       "alt": "Portrait de Henri CHARLIER",
       "transform": null
+    },
+    {
+      "name": "Henri DELAMOTTE",
+      "matricule": "46321",
+      "biography": "hommes/henri-delamotte-46321.html",
+      "local_portrait": "portraits/henri-delamotte-46321.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2010/09/delamotte-henri/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2010/09/Delamottevisage.jpg",
+      "source_caption": "Henri Delamotte en 1941 avant son arrestation (photocopie)",
+      "alt": "Portrait de Henri DELAMOTTE",
+      "transform": null,
+      "verification_note": null
+    },
+    {
+      "name": "Henri Ernest ROY",
+      "matricule": "46072",
+      "biography": "hommes/henri-ernest-roy-46072.html",
+      "local_portrait": "portraits/henri-ernest-roy-46072.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2008/03/roy-henri-ernest/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2008/03/Roy2BHenri2BVilleparisis.jpg",
+      "source_caption": "Henri Roy DR",
+      "alt": "Portrait de Henri Ernest ROY",
+      "transform": null,
+      "verification_note": null
     },
     {
       "name": "Henri HANNHART",
@@ -799,6 +931,18 @@
       "transform": null
     },
     {
+      "name": "Jean MANON",
+      "matricule": "45825",
+      "biography": "hommes/jean-manon-45825.html",
+      "local_portrait": "portraits/jean-manon-45825.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2010/07/manon-jean/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2010/07/Manon2Bvisage2B5.jpg",
+      "source_caption": "Jean Manon en 1941",
+      "alt": "Portrait de Jean MANON",
+      "transform": null,
+      "verification_note": null
+    },
+    {
       "name": "Jean PHILIBERT",
       "matricule": "45978",
       "biography": "hommes/jean-philibert-45978.html",
@@ -898,6 +1042,30 @@
       "transform": null
     },
     {
+      "name": "Marcel LESTURGIE",
+      "matricule": "45773",
+      "biography": "hommes/marcel-lesturgie-45773.html",
+      "local_portrait": "portraits/marcel-lesturgie-45773.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2012/11/lesturgie-marcel/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2012/11/Marcel-LESTURGIE-1.jpg",
+      "source_caption": "Marcel Lesturgie, agrandissement d’une photo de mariage © Sandra Lesturgie",
+      "alt": "Portrait de Marcel LESTURGIE",
+      "transform": null,
+      "verification_note": null
+    },
+    {
+      "name": "Maurice GUERRIER",
+      "matricule": "45634",
+      "biography": "hommes/maurice-guerrier-45634.html",
+      "local_portrait": "portraits/maurice-guerrier-45634.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2010/05/guerrier-maurice/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2010/05/GUERRIER2BMaurice2B922B2BGP.jpg",
+      "source_caption": "Maurice Guerrier à Auschwitz, le 8 juillet 1942",
+      "alt": "Portrait de Maurice GUERRIER",
+      "transform": null,
+      "verification_note": null
+    },
+    {
       "name": "Maurice Le GAL",
       "matricule": "45767",
       "biography": "hommes/maurice-le-gal-45767.html",
@@ -907,6 +1075,18 @@
       "source_caption": "Maurice Le Gal © D.r",
       "alt": "Portrait de Maurice Le GAL",
       "transform": null
+    },
+    {
+      "name": "Maurice RAUX",
+      "matricule": "46035",
+      "biography": "hommes/maurice-raux-46035.html",
+      "local_portrait": "portraits/maurice-raux-46035.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2010/06/raux-maurice/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2010/06/RAUX-Maurice-SHD.jpg",
+      "source_caption": "Maurice Raux © SHD Caen",
+      "alt": "Portrait de Maurice RAUX",
+      "transform": null,
+      "verification_note": null
     },
     {
       "name": "Maurice SIGOGNE",
@@ -929,6 +1109,18 @@
       "source_caption": "Moïse Lanoue, © Raymond Lanoue",
       "alt": "Portrait de Moïse LANOUE",
       "transform": null
+    },
+    {
+      "name": "Paul Émile CHARTON",
+      "matricule": "45357",
+      "biography": "hommes/paul-emile-charton-45357.html",
+      "local_portrait": "portraits/paul-emile-charton-45357.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2021/05/charton-paul/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2021/05/image.png",
+      "source_caption": "Portrait de Paul Charton",
+      "alt": "Portrait de Paul Émile CHARTON",
+      "transform": null,
+      "verification_note": "Portrait attribué à Paul Charton par la notice source. Le matricule local 45357 est confirmé par Mémoire Vive ; la notice source affiche 45347."
     },
     {
       "name": "Paul MONNET",
@@ -1127,6 +1319,18 @@
       "source_caption": "Roger Levaché © Jean Levaché",
       "alt": "Portrait de Roger LEVACHÉ",
       "transform": null
+    },
+    {
+      "name": "Roger MERCIER",
+      "matricule": "45870",
+      "biography": "hommes/roger-mercier-45870.html",
+      "local_portrait": "portraits/roger-mercier-45870.jpg",
+      "source_page": "https://deportes-politiques-auschwitz.fr/2012/10/mercier-roger-charles/",
+      "source_image": "https://i0.wp.com/deportes-politiques-auschwitz.fr/wp-content/uploads/2012/10/Mercier-Roger-retouche.jpg",
+      "source_caption": "Roger Mercier adolescent, envoi de © Roger Garcia, son neveu",
+      "alt": "Portrait de Roger MERCIER",
+      "transform": null,
+      "verification_note": null
     },
     {
       "name": "Stanislaw TAMOWSKI",
