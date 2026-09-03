@@ -278,6 +278,8 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("plus de photographies", men)
             self.assertIn("moururent de faim", men)
             self.assertIn("archives retrouvées après la libération du camp", men)
+            self.assertIn("deportes-politiques-auschwitz.fr/biographies-index-alpha/", men)
+            self.assertIn("identifications possibles mais non confirmées", men)
 
 
 if __name__ == "__main__":
