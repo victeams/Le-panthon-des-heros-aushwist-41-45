@@ -34,6 +34,7 @@ GENERATED_HTML = {
     "soutien.html",
     "tiktok.html",
     "a-propos.html",
+    "convoi-des-31000.html",
     "convoi-des-45000.html",
 }
 EXCLUDED_DIRS = {".git", ".github", "scripts", "tests", "portraits"}
@@ -81,11 +82,14 @@ class BiographyHTMLParser(HTMLParser):
         self.first_image_alt: str | None = None
         self.description: str | None = None
         self.explicit_convoi: str | None = None
+        self.portrait_absent = False
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         tag = tag.casefold()
         attributes = {key.casefold(): (value or "") for key, value in attrs}
         classes = set(attributes.get("class", "").casefold().split())
+        if "portrait-absent" in classes:
+            self.portrait_absent = True
         captures: set[str] = set()
 
         if tag in {"script", "style"}:
@@ -330,7 +334,7 @@ def parse_biography(root: Path, path: Path, old_map: dict[str, str]) -> tuple[Bi
     meta_text = parser.value("meta")
     subtitle = f"Matricule {matricule}" if matricule else (shorten(meta_text, 80) or ("Convoi des 31000" if group == "femmes" else "Convoi des 45000"))
     status, status_class = normalized_status(parser.value("status"), group)
-    portrait = find_or_create_portrait(root, path, parser, old_map)
+    portrait = None if parser.portrait_absent else find_or_create_portrait(root, path, parser, old_map)
     portrait_alt = parser.first_image_alt or (f"Portrait de {name}" if portrait else None)
     description_source = parser.description or parser.value("text") or parser.value("paragraph")
     description = shorten(description_source) or f"Biographie commémorative de {name}."

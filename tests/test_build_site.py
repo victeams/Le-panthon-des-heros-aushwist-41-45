@@ -22,6 +22,24 @@ def biography(name: str, matricule: str | None, status: str, convoi: str | None 
 
 
 class BuildSiteTests(unittest.TestCase):
+    def test_portrait_absent_marker_overrides_embedded_article_image(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            page = biography("Alice EXEMPLE", "31802", "Morte en déportation")
+            page = page.replace(
+                '<div class="text">',
+                '<div class="missing portrait-absent">Portrait non authentifié</div><div class="text">',
+            )
+            (root / "alice_31802.html").write_text(page, encoding="utf-8")
+
+            women, men, warnings = build(root, "https://example.test", "test")
+
+            self.assertEqual((women, men), (1, 0))
+            self.assertEqual(len(warnings), 1)
+            data = json.loads((root / "site-data.json").read_text(encoding="utf-8"))
+            self.assertIsNone(data[0]["portrait"])
+            self.assertFalse((root / "portraits" / "alice_31802.png").exists())
+
     def test_classifies_female_and_male_and_builds_seo(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

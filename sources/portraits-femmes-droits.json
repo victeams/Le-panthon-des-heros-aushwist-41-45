@@ -1,0 +1,3198 @@
+{
+  "source": "https://www.memoirevive-bis.org",
+  "checked_on": "2026-09-05",
+  "method": "Correspondance par matricule, puis sélection du portrait par nom, matricule et légende ; exclusions des images contextuelles.",
+  "rights_note": "Une attribution n'est pas une licence. Quand la source ne précise pas la licence ou le titulaire des droits, le statut reste à vérifier.",
+  "count": 224,
+  "records": [
+    {
+      "name": "31 836 ?",
+      "file": "31-836-31000.html",
+      "matricule": null,
+      "source_page": null,
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "source introuvable"
+    },
+    {
+      "name": "31 843 ?",
+      "file": "31-843-31000.html",
+      "matricule": null,
+      "source_page": null,
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "source introuvable"
+    },
+    {
+      "name": "Adélaïde, dite « Heidi » HAUTVAL",
+      "file": "adelaide_dite_heidi_hautval_31802.html",
+      "matricule": "31802",
+      "source_page": "https://www.memoirevive-bis.org/adelaide-dite-heidi-hautval-31802/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH599/7413922adelaide-hautval-jpg-03a4e.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Adrienne « Linotte » HARDENBERG",
+      "file": "adrienne_hardenberg_31636.html",
+      "matricule": "31636",
+      "source_page": "https://www.memoirevive-bis.org/?p=893",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique « photo non trouvée »"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Aimée, dite »Manette » DORIDAT, née Godefroy",
+      "file": "aimee_dite_manette_doridat_nee_godefroy_31767.html",
+      "matricule": "31767",
+      "source_page": "https://www.memoirevive-bis.org/?p=973",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique « photo non trouvée »"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Alice BOULET",
+      "file": "alice-boulet-31628.html",
+      "matricule": "31628",
+      "source_page": null,
+      "source_image": null,
+      "credit": "Archive figurant dans la fiche d’origine",
+      "rights_status": "Licence ou titulaire non indiqué ; réutilisation à vérifier",
+      "selection_score": null,
+      "selection_reasons": [
+        "portrait existant conservé après contrôle visuel"
+      ],
+      "state": "portrait existant conservé"
+    },
+    {
+      "name": "Alice CAILBAULT, née Gardelle",
+      "file": "alice_cailbault_nee_gardelle_31738.html",
+      "matricule": "31738",
+      "source_page": "https://www.memoirevive-bis.org/?p=963",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Alice LOEB",
+      "file": "alice-loeb-31829.html",
+      "matricule": "31829",
+      "source_page": "https://www.memoirevive-bis.org/alice-loeb-31829/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/loeb_a-84864.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Alice VARRAILHON",
+      "file": "alice-varrailhon-31810.html",
+      "matricule": "31810",
+      "source_page": "https://www.memoirevive-bis.org/alice-varrailhon-31810/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/VARAILLON-A.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 78,
+      "selection_reasons": [
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Alice VITERBO",
+      "file": "alice-viterbo-31822.html",
+      "matricule": "31822",
+      "source_page": "https://www.memoirevive-bis.org/?p=1063",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Alida DELASALLE",
+      "file": "alida_delasalle_31659.html",
+      "matricule": "31659",
+      "source_page": "https://www.memoirevive-bis.org/?p=882",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Alphonsine SEIBERT",
+      "file": "alphonsine-seibert-31647.html",
+      "matricule": "31647",
+      "source_page": "https://www.memoirevive-bis.org/alphonsine-seibert-nee-guiard-31647/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/SEIBERT-A.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Andrée Dite Dédée TAMISÉ",
+      "file": "andree-dite-dedee-tamise-31714.html",
+      "matricule": "31714",
+      "source_page": "https://www.memoirevive-bis.org/andree-dite-dedee-tamise-31714/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH194/tamise_a-cd776.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Andrée GIGAND",
+      "file": "andree_gigand_31845.html",
+      "matricule": "31845",
+      "source_page": "https://www.memoirevive-bis.org/andree-gigand-31845/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/gigand_andree_-_31845-b85ef.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 283,
+      "selection_reasons": [
+        "matricule",
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Angèle, dite “Danièle”, LEDUC, née Denonne",
+      "file": "angele_dite_daniele_leduc_nee_denonne_31841.html",
+      "matricule": "31841",
+      "source_page": "https://www.memoirevive-bis.org/angele-dite-daniele-leduc-nee-denonne-31841/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/leduc_angele_31841-af329.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 228,
+      "selection_reasons": [
+        "matricule",
+        "prénom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Angèle, dite Renée, GIRARD",
+      "file": "angele_dite_renee_girard_31632.html",
+      "matricule": "31632",
+      "source_page": "https://www.memoirevive-bis.org/angele-dite-renee-girard-31632/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L170xH213/girard_a.170-eec7f.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Angèle MERCIER",
+      "file": "angele-mercier-31851.html",
+      "matricule": "31851",
+      "source_page": "https://www.memoirevive-bis.org/angele-mercier-31851/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L250xH333/angelemercier250-8393e.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Anna Hanna NIJINSKA",
+      "file": "anna-hanna-nijinska-31702.html",
+      "matricule": "31702",
+      "source_page": "https://www.memoirevive-bis.org/anna-hanna-nijinska-31702/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L290xH400/31702-0272d.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 128,
+      "selection_reasons": [
+        "matricule"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Anna JACQUAT, née Karpen",
+      "file": "anna_jacquat_nee_karpen_31827.html",
+      "matricule": "31827",
+      "source_page": "https://www.memoirevive-bis.org/anna-jacquat-nee-karpen-31827/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/JACQUAT-A.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 78,
+      "selection_reasons": [
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Anna SABOT",
+      "file": "anna-sabot-31713.html",
+      "matricule": "31713",
+      "source_page": "https://www.memoirevive-bis.org/anna-sabot-nee-gries-31713/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/sabot_a-90e58.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Anne-Marie Annette Nénette ÉPAUD",
+      "file": "anne-marie-annette-nenette-epaud-31724.html",
+      "matricule": "31724",
+      "source_page": "https://www.memoirevive-bis.org/anne-marie-annette-nenette-epaud-nee-machefaux-31724/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L224xH300/epaud-annette948-04833.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Anne-Marie OSTROWKA",
+      "file": "anne_marie_ostrowka_31801.html",
+      "matricule": "31801",
+      "source_page": "https://www.memoirevive-bis.org/anne-marie-ostrowska-nee-borsch-31-801/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/OSTROWKA-1945-ficheRechPhoto.jpg",
+      "credit": "Anne-Marie Ostrowka. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Anne Marie RICHON",
+      "file": "anne-marie-richon-31741.html",
+      "matricule": "31741",
+      "source_page": "https://www.memoirevive-bis.org/anne-marie-richon-31741/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L217xH300/richon-965-64942.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Antoinette BESSEYRE",
+      "file": "antoinette-besseyre-31763.html",
+      "matricule": "31763",
+      "source_page": "https://www.memoirevive-bis.org/antoinette-besseyre-nee-tressard-epouse-delporte-31763/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/besseyre_a-e2519.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Armande RICHIER",
+      "file": "armande-richier-31846.html",
+      "matricule": "31846",
+      "source_page": "https://www.memoirevive-bis.org/armande-richier-31846/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/RICHIER-Armande-portraitCivil.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 218,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet",
+        "portrait"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Aurélie, dite Marie-Louise, DUCROS, née Dudon, “Maman Loulou”",
+      "file": "aurelie_dite_marie_louise_ducros_nee_dudon_maman_loulou_31746.html",
+      "matricule": "31746",
+      "source_page": "https://www.memoirevive-bis.org/?p=927",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Aurore PICA",
+      "file": "aurore-pica-31742.html",
+      "matricule": "31742",
+      "source_page": "https://www.memoirevive-bis.org/aurore-pica-31742/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/pica_a-8c92a.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Berthe LAPEYRADE",
+      "file": "berthe-lapeyrade-31721.html",
+      "matricule": "31721",
+      "source_page": "https://www.memoirevive-bis.org/?p=1053",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Berthe SABOURAULT, née Fays",
+      "file": "berthe_sabourault_nee_fays_31683.html",
+      "matricule": "31683",
+      "source_page": "https://www.memoirevive-bis.org/?p=939",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Camille CHAMPION",
+      "file": "camille_champion_31656.html",
+      "matricule": "31656",
+      "source_page": "https://www.memoirevive-bis.org/camille-champion-nee-chuat-31656/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "la photographie d’immatriculation proposée représente un homme"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Charlotte DECOCK, née Dauriat",
+      "file": "charlotte_decock_nee_dauriat_31756.html",
+      "matricule": "31756",
+      "source_page": "https://www.memoirevive-bis.org/charlotte-decock-nee-dauriat-31756/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/DECOCK-C.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 78,
+      "selection_reasons": [
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Charlotte DOUILLOT",
+      "file": "charlotte-douillot-31762.html",
+      "matricule": "31762",
+      "source_page": "https://www.memoirevive-bis.org/charlotte-douillot-nee-merlin-31762/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/DOUILLOT-C.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Charlotte DUDACH, née Delbo",
+      "file": "charlotte_dudach_nee_delbo_31661.html",
+      "matricule": "31661",
+      "source_page": "https://www.memoirevive-bis.org/charlotte-dudach-nee-delbo-31601/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L300xH425/31661-1-78589.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 128,
+      "selection_reasons": [
+        "matricule"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Charlotte, Henriette, DUPUIS, dite “Mauricette“",
+      "file": "charlotte_henriette_dupuis_dite_mauricette_31751.html",
+      "matricule": "31751",
+      "source_page": "https://www.memoirevive-bis.org/charlotte-henriette-dupuis-dite-mauricette-31751/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/DUPUY-C.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 78,
+      "selection_reasons": [
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Charlotte LESCURE",
+      "file": "charlotte-lescure-31733.html",
+      "matricule": "31733",
+      "source_page": "https://www.memoirevive-bis.org/charlotte-lescure-nee-zanker-31733/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/lescure_c-2-74b8c.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Christiane « Cécile » BORRÁS",
+      "file": "christiane_borras_31650.html",
+      "matricule": "31650",
+      "source_page": "https://www.memoirevive-bis.org/christiane-charua-ep-borras-dite-cecile-31650/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/CHARUA-C.-BORRAS.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Claudine BLATEAU",
+      "file": "claudine-blateau-31737.html",
+      "matricule": "31737",
+      "source_page": "https://www.memoirevive-bis.org/claudine-blateau-nee-pinet-31737/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/blateau_c-9e7de.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Claudine GUÉRIN",
+      "file": "claudine_guerin_31664.html",
+      "matricule": "31664",
+      "source_page": "https://www.memoirevive-bis.org/claudine-guerin-31664/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/Guérin-C-c.jpg",
+      "credit": "Claudine Guérin. © Archives de la Préfecture de Police, Paris.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Constance RAPPENAU",
+      "file": "constance-rappenau-31754.html",
+      "matricule": "31754",
+      "source_page": "https://www.memoirevive-bis.org/constance-dite-la-mere-my-rappenau-31754/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/RAPPENEAU-C.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 78,
+      "selection_reasons": [
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Danielle CASANOVA",
+      "file": "danielle-casanova-31655.html",
+      "matricule": "31655",
+      "source_page": "https://www.memoirevive-bis.org/danielle-casanova-nee-vincentella-perini-31655/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L210xH275/casanovad-6aea9.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Delphine PRESSET, née Jallat",
+      "file": "delphine_presset_nee_jallat_31638.html",
+      "matricule": "31638",
+      "source_page": "https://www.memoirevive-bis.org/?p=1185",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Denise MORET",
+      "file": "denise_moret_31820.html",
+      "matricule": "31820",
+      "source_page": "https://www.memoirevive-bis.org/denise-moret-nee-cacaly-31820/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/MORET-D2.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés. Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Denise ROUCAYROL",
+      "file": "denise-roucayrol-31646.html",
+      "matricule": "31646",
+      "source_page": "https://www.memoirevive-bis.org/denise-roucayrol-31646/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/ROUCAYROL-D.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Élisabeth DUPEYRON, née Dufour",
+      "file": "elisabeth_dupeyron_nee_dufour_31731.html",
+      "matricule": "31731",
+      "source_page": "https://www.memoirevive-bis.org/?p=929",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Elisabeth Le PORT",
+      "file": "elisabeth-le-port-31786.html",
+      "matricule": "31786",
+      "source_page": "https://www.memoirevive-bis.org/elisabeth-le-port-31786/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/LE-PORT-Elisabeth.jpg",
+      "credit": "Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Émilia KÉRISIT",
+      "file": "emilia_kerisit_31783.html",
+      "matricule": "31783",
+      "source_page": "https://www.memoirevive-bis.org/emilia-dite-lea-kerisit-31783/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/KERISIT-Emilia-photoCivile.jpg",
+      "credit": "Émilia KÉRISIT, née Baliteau. Collection Gérard Kérisit, son petit-fils. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Émilie Angéline PORCHER",
+      "file": "emilie_angeline_porcher_31789.html",
+      "matricule": "31789",
+      "source_page": "https://www.memoirevive-bis.org/?p=1276",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Emma BOLLEAU",
+      "file": "emma-bolleau-31806.html",
+      "matricule": "31806",
+      "source_page": "https://www.memoirevive-bis.org/emma-bolleau-nee-laumondais-31806/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/BOLLEAU-EmmaParMoorhead-e1727451962145.jpg",
+      "credit": "Emma Bolleau, née Lemondais. D.R.",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Esterina Ou Estellina RUJU",
+      "file": "esterina-ou-estellina-ruju-31838.html",
+      "matricule": "31838",
+      "source_page": "https://www.memoirevive-bis.org/esterina-ruju-31838/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH194/ruju_e-ead77.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Eugénie BASKINE",
+      "file": "eugenie_baskine_31837.html",
+      "matricule": "31837",
+      "source_page": "https://www.memoirevive-bis.org/eugenia-dite-jeanne-beskine-31837/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/BASKINE-Eugenie-photo23nov1942-d.jpg",
+      "credit": "Photographiée par le service de l’identité judiciaire de la préfecture de police, le 23 novembre 1942. © Archives de la préfecture de police.",
+      "rights_status": "Droits réservés",
+      "selection_score": 155,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Eugénie KORZENIOWSKA",
+      "file": "eugenie_korzeniowska_31700.html",
+      "matricule": "31700",
+      "source_page": "https://www.memoirevive-bis.org/eugenie-korzeniowska-31700/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/KORZENIOWSKA-E.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Fabienne LANDY",
+      "file": "fabienne-landy-31784.html",
+      "matricule": "31784",
+      "source_page": "https://www.memoirevive-bis.org/fabienne-landy-31784/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/LANDY-F.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Félicia Dite Lucia Felicja ROSTKOWSKA",
+      "file": "felicia-dite-lucia-felicja-rostkowska-31701.html",
+      "matricule": "31701",
+      "source_page": "https://www.memoirevive-bis.org/?p=1211",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Félicienne BIERGE",
+      "file": "felicienne-bierge-31734.html",
+      "matricule": "31734",
+      "source_page": "https://www.memoirevive-bis.org/?p=1174",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Fernande LAURENT",
+      "file": "fernande-laurent-31748.html",
+      "matricule": "31748",
+      "source_page": "https://www.memoirevive-bis.org/fernande-laurent-nee-lieval-31748/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique signalant un portrait disparu"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Franciska, dite “Cica”, GOUTAYER",
+      "file": "franciska_dite_cica_goutayer_31780.html",
+      "matricule": "31780",
+      "source_page": "https://www.memoirevive-bis.org/franciska-dite-cica-goutayer-31780/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/GOUTAYER-F.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Gabrielle BERGIN",
+      "file": "gabrielle-bergin-31798.html",
+      "matricule": "31798",
+      "source_page": "https://www.memoirevive-bis.org/gabrielle-bergin-nee-richoux-31798/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "identification signalée comme incertaine par la source"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Gabrielle ETHIS",
+      "file": "gabrielle-ethis-31625.html",
+      "matricule": "31625",
+      "source_page": "https://www.memoirevive-bis.org/gabrielle-ethis-nee-papillon-31625/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/ethis-4bbfb.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Geneviève PAKULA",
+      "file": "genevieve-pakula-31794.html",
+      "matricule": "31794",
+      "source_page": "https://www.memoirevive-bis.org/eugenie-pakula-epouse-pauquet-31794/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/PAKULA-PAUQUET.jpg",
+      "credit": "Après guerre… Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Georgette BRET, née Fourcade",
+      "file": "georgette_bret_nee_fourcade_31747.html",
+      "matricule": "31747",
+      "source_page": "https://www.memoirevive-bis.org/?p=951",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Georgette Dite Jo MESSMER",
+      "file": "georgette-dite-jo-messmer-31818.html",
+      "matricule": "31818",
+      "source_page": "https://www.memoirevive-bis.org/georgette-dite-jo-messmer-nee-lyet-31818/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/MESSMER-G.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Georgette LACABANNE",
+      "file": "georgette_lacabanne_31717_corrigee.html",
+      "matricule": "31717",
+      "source_page": "https://www.memoirevive-bis.org/georgette-lacabanne-nee-reau-31717/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/lacabanne_g-2e350.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Georgette ROSTAING",
+      "file": "georgette-rostaing-31850.html",
+      "matricule": "31850",
+      "source_page": "https://www.memoirevive-bis.org/georgette-rostaing-31-850/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L500xH219/31850_georgette_rostaing-d57a2.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 283,
+      "selection_reasons": [
+        "matricule",
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Germaine BERGER",
+      "file": "germaine-berger-31842.html",
+      "matricule": "31842",
+      "source_page": "https://www.memoirevive-bis.org/?p=1176",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Germaine CANTELAUBE",
+      "file": "germaine_cantelaube_31740.html",
+      "matricule": "31740",
+      "source_page": "https://www.memoirevive-bis.org/germaine-cantelaube-nee-charles-31740/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/CANTELAUBE-inc02.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Germaine DRAPRON",
+      "file": "germaine-drapron-31809.html",
+      "matricule": "31809",
+      "source_page": "https://www.memoirevive-bis.org/germaine-drapron-nee-lagarde-31809/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique signalant un portrait disparu"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Germaine GIRARD",
+      "file": "germaine_girard_31706.html",
+      "matricule": "31706",
+      "source_page": "https://www.memoirevive-bis.org/germaine-girard-31706/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "identification signalée comme incertaine par la source"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Germaine JAUNAY",
+      "file": "germaine-jaunay-31782.html",
+      "matricule": "31782",
+      "source_page": "https://www.memoirevive-bis.org/germaine-jaunay-nee-mouze-31782/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/JAUNAY-G.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Germaine MAURICE",
+      "file": "germaine-maurice-31788.html",
+      "matricule": "31788",
+      "source_page": "https://www.memoirevive-bis.org/germaine-maurice-31788/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/MAURICE-G.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Germaine PICAN",
+      "file": "germaine-pican-31679.html",
+      "matricule": "31679",
+      "source_page": "https://www.memoirevive-bis.org/germaine-pican-nee-morigot-31679/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "la photographie représente un homme de la famille"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Germaine RENAUDIN",
+      "file": "germaine-renaudin-31716.html",
+      "matricule": "31716",
+      "source_page": "https://www.memoirevive-bis.org/germaine-renaudin-nee-perraux-31716/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/GermaineChezLePhotographe.jpg",
+      "credit": "Germaine Renaudin © Collection familiale.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Germaine RENAULD",
+      "file": "germaine-renauld-31682.html",
+      "matricule": "31682",
+      "source_page": "https://www.memoirevive-bis.org/germaine-renaud-31682/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique signalant un portrait disparu"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Gilberte TAMISÉ",
+      "file": "gilberte-tamise-31715.html",
+      "matricule": "31715",
+      "source_page": "https://www.memoirevive-bis.org/gilberte-tamise-31715/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L204xH250/tamise250-58b20.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Gisèle LAGUESSE",
+      "file": "gisele-laguesse-31667.html",
+      "matricule": "31667",
+      "source_page": "https://www.memoirevive-bis.org/gisele-laguesse-nee-lung-31667/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "la source ne montre qu’un homme de la famille Laguesse"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Héléna FOURNIER",
+      "file": "helena-fournier-31793.html",
+      "matricule": "31793",
+      "source_page": "https://www.memoirevive-bis.org/helene-fournier-nee-pellault-31793/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/FOURNIER-famille-1930.jpg",
+      "credit": "Raphaël, Liliane et Héléna Fournier vers 1930. © Collection Carole Toulousy-Michel.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Hélène ALLAIRE",
+      "file": "helene_allaire_31807.html",
+      "matricule": "31807",
+      "source_page": "https://www.memoirevive-bis.org/helene-allaire-nee-bolleau-31807/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "la photographie représente son fiancé Paul Allaire"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Hélène ANTOINE, née Demangeat",
+      "file": "helene_antoine_nee_demangeat_31775.html",
+      "matricule": "31775",
+      "source_page": "https://www.memoirevive-bis.org/?p=913",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Hélène BRABANDER",
+      "file": "helene_brabander_31695.html",
+      "matricule": "31695",
+      "source_page": "https://www.memoirevive-bis.org/helene-brabander-31695/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/brabander_fille-43dcf.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Hélène CASTERA",
+      "file": "helene-castera-31719.html",
+      "matricule": "31719",
+      "source_page": "https://www.memoirevive-bis.org/helene-castera-nee-vervin-31719/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L212xH300/casteran942-fa071.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Hélène HASCOET",
+      "file": "helene_hascoet_31755.html",
+      "matricule": "31755",
+      "source_page": "https://www.memoirevive-bis.org/helene-hascoet-31755/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique « photo non trouvée »"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Hélène SOLOMON",
+      "file": "helene-solomon-31684.html",
+      "matricule": "31684",
+      "source_page": "https://www.memoirevive-bis.org/helene-solomon-nee-langevin-epouse-parreaux-31684/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/SOLOMON-H-LANGEVIN-PARREAUX.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Henriette L’HUILLIER",
+      "file": "henriette-l-huillier-31688.html",
+      "matricule": "31688",
+      "source_page": "https://www.memoirevive-bis.org/henriette-lhuillier-nee-merlin-31688/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/L’HUILLIER-H.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Henriette MAUVAIS",
+      "file": "henriette_mauvais_31674.html",
+      "matricule": "31674",
+      "source_page": "https://www.memoirevive-bis.org/henriette-mauvais-nee-cailliot-31674/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L376xH220/mauvais_h-2-68bd5.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Henriette PIZZOLI",
+      "file": "henriette-pizzoli-31626.html",
+      "matricule": "31626",
+      "source_page": "https://www.memoirevive-bis.org/henriette-pizzoli-nee-papillon-31626/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L294xH400/31626-71aa2.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 128,
+      "selection_reasons": [
+        "matricule"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Henriette SCHMIDT",
+      "file": "henriette-schmidt-31699.html",
+      "matricule": "31699",
+      "source_page": "https://www.memoirevive-bis.org/henriette-schmidt-epouse-carre-epouse-heussler-31699/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/SCHMIDT-H.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Irina KARCHEWSKA",
+      "file": "irina_karchewska_31698.html",
+      "matricule": "31698",
+      "source_page": "https://www.memoirevive-bis.org/irina-karchewska-nee-byezeck-31698/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L293xH400/31698-85db0.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 128,
+      "selection_reasons": [
+        "matricule"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Jacqueline QUATREMAIRE",
+      "file": "jacqueline-quatremaire-31641.html",
+      "matricule": "31641",
+      "source_page": "https://www.memoirevive-bis.org/jacqueline-quatremaire-31641/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L200xH268/quatremaire-4d6d5-14c0e.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Jakoba Van Der LEE",
+      "file": "jakoba-van-der-lee-31697.html",
+      "matricule": "31697",
+      "source_page": "https://www.memoirevive-bis.org/jakoba-van-der-lee-31697/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/van_der_lee-9ae89.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 108,
+      "selection_reasons": [
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Jeanne ALEXANDRE",
+      "file": "jeanne_alexandre_31779.html",
+      "matricule": "31779",
+      "source_page": "https://www.memoirevive-bis.org/jeanne-alexandre-nee-borderie-dite-muguette-31779/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH197/alexandre_j-a2b0c.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Jeanne COUTEAU",
+      "file": "jeanne_couteau_31772.html",
+      "matricule": "31772",
+      "source_page": "https://www.memoirevive-bis.org/jeanne-couteau-31772/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/COUTEAU-J.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Jeanne Dite Carmen SERRE",
+      "file": "jeanne-dite-carmen-serre-31637.html",
+      "matricule": "31637",
+      "source_page": "https://www.memoirevive-bis.org/jeanne-dite-carmen-serre-31637/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/Serre-Lymber-R-300x176.jpg",
+      "credit": "tampon dateur en rouge au verseau : 17 JUIN 1942",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Jeanne GRANDPERRET",
+      "file": "jeanne_grandperret_31770.html",
+      "matricule": "31770",
+      "source_page": "https://www.memoirevive-bis.org/jeanne-claire-grandperret-31770/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique « photo non trouvée »"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Jeanne GUYOT, née Guivarch",
+      "file": "jeanne_guyot_nee_guivarch_31631.html",
+      "matricule": "31631",
+      "source_page": "https://www.memoirevive-bis.org/jeanne-guyot-nee-guivarch-31631/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/GUYOT-J.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 78,
+      "selection_reasons": [
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Jeanne HERVÉ",
+      "file": "jeanne_herve_31768.html",
+      "matricule": "31768",
+      "source_page": "https://www.memoirevive-bis.org/jeanne-herve-31768/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/herve_j-a156c.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Jeanne HUMBERT",
+      "file": "jeanne-humbert-31813.html",
+      "matricule": "31813",
+      "source_page": "https://www.memoirevive-bis.org/jeanne-humbert-nee-larcher-31813/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L287xH400/31813-64d2c.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 128,
+      "selection_reasons": [
+        "matricule"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Jeanne Marie THIÉBAULT",
+      "file": "jeanne-marie-thiebault-31640.html",
+      "matricule": "31640",
+      "source_page": "https://www.memoirevive-bis.org/jeanne-marie-thiebault-31640/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/THIEBAULT-J.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Jeanne SOUQUE",
+      "file": "jeanne-souque-31739.html",
+      "matricule": "31739",
+      "source_page": "https://www.memoirevive-bis.org/jeanne-souque-nee-renon-31739/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/souques_j-53a0d.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Jeannine, dite “Jeanne”, HERSCHTEL",
+      "file": "jeannine_dite_jeanne_herschtel.html",
+      "matricule": null,
+      "source_page": null,
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "source introuvable"
+    },
+    {
+      "name": "Joséphine Dite Mado UMIDO",
+      "file": "josephine-dite-mado-umido-31000.html",
+      "matricule": null,
+      "source_page": null,
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "source introuvable"
+    },
+    {
+      "name": "Joséphine UMIDO",
+      "file": "josephine_umido_31848.html",
+      "matricule": "31848",
+      "source_page": "https://www.memoirevive-bis.org/josephine-dite-mado-umido-nee-bizarri-31-848/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L200xH210/umido-josephine-cadree-f30a7.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Julia SLUSARCZYK",
+      "file": "julia-slusarczyk-31823.html",
+      "matricule": "31823",
+      "source_page": "https://www.memoirevive-bis.org/julia-slusarczyk-31823/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/slusarczyk_s-d6088.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Juliette POIRIER",
+      "file": "juliette-poirier-31769.html",
+      "matricule": "31769",
+      "source_page": "https://www.memoirevive-bis.org/juliette-poirier-nee-meme-31769/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/poirier_j-a7995.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Karolina KONEFAL",
+      "file": "karolina_konefal_31707.html",
+      "matricule": "31707",
+      "source_page": "https://www.memoirevive-bis.org/karolina-konefal-31707/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/konefal_k-c8ed4.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Laure GATET",
+      "file": "laure_gatet_31833.html",
+      "matricule": "31833",
+      "source_page": "https://www.memoirevive-bis.org/laure-gatet-31833/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L200xH266/gatet-laure200-ca9c9.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Léa LAMBERT, née Durbeck",
+      "file": "lea_lambert_nee_durbeck_31821.html",
+      "matricule": "31821",
+      "source_page": "https://www.memoirevive-bis.org/lea-lambert-nee-durbeck-31821/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/LAMBERT-L.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 78,
+      "selection_reasons": [
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Léona BOUILLARD",
+      "file": "leona-bouillard-31815.html",
+      "matricule": "31815",
+      "source_page": "https://www.memoirevive-bis.org/?p=4296",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Léone SEIGNOLLE",
+      "file": "leone-seignolle-31752.html",
+      "matricule": "31752",
+      "source_page": "https://www.memoirevive-bis.org/leone-seignolle-31752/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/seignolle_l-5cd52.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Léonie SABAIL",
+      "file": "leonie_sabail_31745.html",
+      "matricule": "31745",
+      "source_page": "https://www.memoirevive-bis.org/leonie-sabail-nee-daubigny-31745/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/sabail_l-5eb00.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Lina KUHN ou KUHNE",
+      "file": "lina_kuhn_ou_kuhne_31795.html",
+      "matricule": "31795",
+      "source_page": "https://www.memoirevive-bis.org/?p=1020",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Louise Dite Louisette LOSSERAND",
+      "file": "louise-dite-louisette-losserand-31757.html",
+      "matricule": "31757",
+      "source_page": "https://www.memoirevive-bis.org/louise-dite-louisette-losserand-nee-marie-31757/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/LOSSERAND-L.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Louise LAVIGNE",
+      "file": "louise_lavigne_31669.html",
+      "matricule": "31669",
+      "source_page": "https://www.memoirevive-bis.org/louise-dite-anaise-nayette-lavigne-31669/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/Lavigne-Louise.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 148,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Louise LOQUET",
+      "file": "louise-loquet-31828.html",
+      "matricule": "31828",
+      "source_page": "https://www.memoirevive-bis.org/louise-loquet-nee-le-du-31828/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L301xH400/31828-618ec.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 128,
+      "selection_reasons": [
+        "matricule"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Louise MAGADUR",
+      "file": "louise-magadur-31673.html",
+      "matricule": "31673",
+      "source_page": "https://www.memoirevive-bis.org/louise-magadur-31673/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/MAGADUR-L.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Lucette Suzanne HERBASSIER",
+      "file": "lucette-suzanne-herbassier-31781.html",
+      "matricule": "31781",
+      "source_page": "https://www.memoirevive-bis.org/lucette-suzanne-herbassier-nee-magui-31781/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/HERBASSIER-S.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Lucie Dite Lucette PÉCHEUX",
+      "file": "lucie-dite-lucette-pecheux-31633.html",
+      "matricule": "31633",
+      "source_page": "https://www.memoirevive-bis.org/lucie-dite-lucette-pecheux-nee-lable-31633/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/PECHEUX-Lucie-1938.jpg",
+      "credit": "En 1938 © Corinne Dromard-Abspoel.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Lucienne Dite Annie FERRÉ",
+      "file": "lucienne-dite-annie-ferre-31722.html",
+      "matricule": "31722",
+      "source_page": "https://www.memoirevive-bis.org/lucienne-dite-annie-ferre-nee-proux-31722/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/ferre_l-e800c.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Lucienne dite « Lucie » MANSUY",
+      "file": "lucie_mansuy_31648.html",
+      "matricule": "31648",
+      "source_page": "https://www.memoirevive-bis.org/lucienne-dite-lucie-mansuy-nee-caccia-31648/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique signalant un portrait disparu"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Lucienne Dite Lulu THÉVENIN",
+      "file": "lucienne-dite-lulu-thevenin-31642.html",
+      "matricule": "31642",
+      "source_page": "https://www.memoirevive-bis.org/?p=1240",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Lucienne Dite Nicole LAUTISSIER",
+      "file": "lucienne-dite-nicole-lautissier-31726.html",
+      "matricule": "31726",
+      "source_page": "https://www.memoirevive-bis.org/lucienne-dite-nicole-lautissier-nee-michaud-31726/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/lautissier_n-michaud-da2f6.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Lucienne LEBRETON",
+      "file": "lucienne-lebreton-31692.html",
+      "matricule": "31692",
+      "source_page": "https://www.memoirevive-bis.org/lucienne-lebreton-31692/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/LEBRETON-Lucienne-1934.jpg",
+      "credit": "Lucienne Lebreton en 1934. © Archives de la RATP.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Lucienne PALLUY",
+      "file": "lucienne-palluy-31689.html",
+      "matricule": "31689",
+      "source_page": "https://www.memoirevive-bis.org/lucienne-palluy-31689/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/palluy_l-4c722.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Luz MARTOS, née Goni",
+      "file": "luz_martos_nee_goni_31696.html",
+      "matricule": "31696",
+      "source_page": "https://www.memoirevive-bis.org/luz-martos-nee-goni-31696/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L351xH400/31696-2-59828.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 128,
+      "selection_reasons": [
+        "matricule"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Madeleine DAMOUS, née Demiot",
+      "file": "madeleine_damous_nee_demiot_31690.html",
+      "matricule": "31690",
+      "source_page": "https://www.memoirevive-bis.org/?p=915",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Madeleine DECHAVASSINE",
+      "file": "madeleine_dechavassine_31639.html",
+      "matricule": "31639",
+      "source_page": "https://www.memoirevive-bis.org/madeleine-dechavassine-31639/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/DECHAVASSINE-M.jpg",
+      "credit": "Photographiée à Auschwitz-I le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Madeleine, dite “Jacqueline”, ODRU, née DISSOUBRAY",
+      "file": "madeleine_dite_jacqueline_odru_nee_dissoubray_31660.html",
+      "matricule": "31660",
+      "source_page": "https://www.memoirevive-bis.org/madeleine-dite-jacqueline-odru-nee-dissoubray-31660/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/DISSOUBRAY-Madeleine.jpg",
+      "credit": "Madeleine Dissoubray avant son arrestation, photographie de studio. © Collection Annick Odru, D.R.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Madeleine, dite »Mado » PERRIOT, née DOIRET",
+      "file": "madeleine_dite_mado_perriot_nee_doiret_31644.html",
+      "matricule": "31644",
+      "source_page": "https://www.memoirevive-bis.org/madeleine-dite-mado-perriot-nee-doiret-31644/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L150xH232/doiret-5fbf8-62f60.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Madeleine, dite “Michèle” LAFFITTE, née Guitton",
+      "file": "madeleine_dite_michele_laffitte_nee_guitton_31666.html",
+      "matricule": "31666",
+      "source_page": "https://www.memoirevive-bis.org/madeleine-dite-michele-laffitte-nee-guitton-31666/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/LAFFITTE-M.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 78,
+      "selection_reasons": [
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Madeleine GALESLOOT",
+      "file": "madeleine-galesloot-31643.html",
+      "matricule": "31643",
+      "source_page": "https://www.memoirevive-bis.org/madeleine-galesloot-nee-van-hyfte-31643/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/GALESLOOT-M.jpg",
+      "credit": "Auschwitz-I, le 3 février 1943 Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Madeleine JÉGOUZO",
+      "file": "madeleine-jegouzo-31668.html",
+      "matricule": "31668",
+      "source_page": "https://www.memoirevive-bis.org/madeleine-dite-betty-jegouzo-alias-lucienne-langlois-31668/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH587/madeleine_jegouzo_mars_2005-deada.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Madeleine ZANI, née Davy",
+      "file": "madeleine_zani_nee_davy_31744.html",
+      "matricule": "31744",
+      "source_page": "https://www.memoirevive-bis.org/madeleine-zani-nee-davy-31744/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH635/zani-madeleineetpierre-53063.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 108,
+      "selection_reasons": [
+        "prénom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marcelle BUREAU",
+      "file": "marcelle-bureau-31000 (1).html",
+      "matricule": null,
+      "source_page": null,
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "source introuvable"
+    },
+    {
+      "name": "Marcelle BUREAU",
+      "file": "marcelle-bureau-31000.html",
+      "matricule": null,
+      "source_page": null,
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "source introuvable"
+    },
+    {
+      "name": "Marcelle BUREAU",
+      "file": "marcelle_bureau_31808.html",
+      "matricule": "31808",
+      "source_page": "https://www.memoirevive-bis.org/?p=4276",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique « photo non trouvée »"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Marcelle, dite “Paulette”, GOURMELON",
+      "file": "marcelle_dite_paulette_gourmelon_31753.html",
+      "matricule": "31753",
+      "source_page": "https://www.memoirevive-bis.org/marcelle-dite-paulette-gourmelon-31753/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "l’image proposée représente Pierre-Benoît Gourmelon"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Marcelle FUGLESANG",
+      "file": "marcelle_fuglesang_31826.html",
+      "matricule": "31826",
+      "source_page": "https://www.memoirevive-bis.org/marcelle-fuglesang-31826/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/FUGLESANG-M.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marcelle LAURILLOU",
+      "file": "marcelle-laurillou-31785.html",
+      "matricule": "31785",
+      "source_page": "https://www.memoirevive-bis.org/marcelle-laurillou-nee-mardelle-31785/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique signalant un portrait disparu"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Marcelle LEMASSON",
+      "file": "marcelle_lemasson_31670.html",
+      "matricule": "31670",
+      "source_page": "https://www.memoirevive-bis.org/marcelle-lemasson-nee-beziau-31-670/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/LEMASSON-M.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marcelle MOUROT",
+      "file": "marcelle-mourot-31819.html",
+      "matricule": "31819",
+      "source_page": "https://www.memoirevive-bis.org/marcelle-mourot-31819/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/MOUROT-M.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marguerite CHAVAROC",
+      "file": "marguerite_chavaroc_31796.html",
+      "matricule": "31796",
+      "source_page": "https://www.memoirevive-bis.org/marguerite-chavaroc-nee-bauche-31796/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/CHAVAROC-M.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943,;selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marguerite CORRINGER, née Helleringer",
+      "file": "marguerite_corringer_nee_helleringer_31657.html",
+      "matricule": "31657",
+      "source_page": "https://www.memoirevive-bis.org/marguerite-corringer-nee-helleringer-31657/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/Corringer-Marguerite.jpg",
+      "credit": "Marguerite Corringer. Photo anthropométrique prise le 17 mars 1942 au service de l’identité judiciaire. © Archives de la Préfecture de Police (APP), Paris.",
+      "rights_status": "Droits réservés",
+      "selection_score": 108,
+      "selection_reasons": [
+        "prénom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marguerite, Joséphine HOUDART",
+      "file": "marguerite_josephine_houdart_31630.html",
+      "matricule": "31630",
+      "source_page": "https://www.memoirevive-bis.org/marguerite-josephine-houdart-31630/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH262/31630-e1198.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 128,
+      "selection_reasons": [
+        "matricule"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marguerite LERMITE, née Joubert",
+      "file": "marguerite_lermite_nee_joubert_31835.html",
+      "matricule": "31835",
+      "source_page": "https://www.memoirevive-bis.org/marguerite-lermite-nee-joubert-31835/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/LERMITE-Marguerite-1.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 93,
+      "selection_reasons": [
+        "prénom",
+        "nom complet"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Marguerite Margot VALLINA",
+      "file": "marguerite-margot-vallina-31732.html",
+      "matricule": "31732",
+      "source_page": "https://www.memoirevive-bis.org/marguerite-margot-vallina-nee-maurin-31732/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/vallina_m-069d7.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Marguerite Maria KOTLEREWSKY",
+      "file": "marguerite-maria-kotlerewsky-31814.html",
+      "matricule": "31814",
+      "source_page": "https://www.memoirevive-bis.org/?p=1260",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Marguerite RICHIER",
+      "file": "marguerite_richier_31840.html",
+      "matricule": "31840",
+      "source_page": "https://www.memoirevive-bis.org/?p=4284",
+      "source_image": null,
+      "credit": "Archive figurant dans la fiche d’origine",
+      "rights_status": "Licence ou titulaire non indiqué ; réutilisation à vérifier",
+      "selection_score": null,
+      "selection_reasons": [
+        "portrait existant conservé après contrôle visuel"
+      ],
+      "state": "portrait existant conservé"
+    },
+    {
+      "name": "Marguerite STORA",
+      "file": "marguerite_stora_31805.html",
+      "matricule": "31805",
+      "source_page": "https://www.memoirevive-bis.org/marguerite-stora-nee-battais-31805/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/STORA-M-tumefiee.jpg",
+      "credit": "Marguerite Stora a-telle été frappée au visage ? Son nez semble tuméfié et la cerne sous son œil droit apparaît très marquée…",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Maria ALONSO",
+      "file": "maria_alonso_31778.html",
+      "matricule": "31778",
+      "source_page": "https://www.memoirevive-bis.org/maria-alonso-josee-31778/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/Maria-Alonso-001-gris-c.jpg",
+      "credit": "Maria “Josée” Alonso,. Collection d’Yves Bitterolf, neveu par alliance de Jo Alfonso, frère de Maria.",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marie, Aminthe, GUILLON, née Auger",
+      "file": "marie_aminthe_guillon_nee_auger_31729.html",
+      "matricule": "31729",
+      "source_page": "https://www.memoirevive-bis.org/marie-aminthe-guillon-nee-auger-31729/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L185xH300/guillonmarie72-76ea9.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 108,
+      "selection_reasons": [
+        "prénom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marie-Claude VAILLANT-COUTURIER",
+      "file": "marie-claude-vaillant-couturier-31685.html",
+      "matricule": "31685",
+      "source_page": "https://www.memoirevive-bis.org/marie-claude-vaillant-couturier-nee-vogel-31685/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH262/31685-2-e6ad6.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 128,
+      "selection_reasons": [
+        "matricule"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marie Dite Antoinette BIBAULT",
+      "file": "marie-dite-antoinette-bibault-31771.html",
+      "matricule": "31771",
+      "source_page": "https://www.memoirevive-bis.org/antoinette-bibault-nee-meterreau-31771/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique signalant un portrait disparu"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Marie DUBOIS",
+      "file": "marie_dubois_31693.html",
+      "matricule": "31693",
+      "source_page": "https://www.memoirevive-bis.org/marie-dubois-nee-corot-31693/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/DUBOIS-M.jpg",
+      "credit": "JPEG - 82.7 ko Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marie-Élisa NORDMANN",
+      "file": "marie-elisa-nordmann-31687.html",
+      "matricule": "31687",
+      "source_page": "https://www.memoirevive-bis.org/marie-elisa-nordmann-epouse-cohen-31687/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/NORDMANN-COHEN-M-E.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marie et Simone ALIZON",
+      "file": "marie_simone_alizon_31777_31776.html",
+      "matricule": "31777",
+      "source_page": "https://www.memoirevive-bis.org/?p=1282",
+      "source_image": null,
+      "credit": "Archive figurant dans la fiche d’origine",
+      "rights_status": "Licence ou titulaire non indiqué ; réutilisation à vérifier",
+      "selection_score": null,
+      "selection_reasons": [
+        "portrait existant conservé après contrôle visuel"
+      ],
+      "state": "portrait existant conservé"
+    },
+    {
+      "name": "Marie-Jeanne BAUER, née Gantou",
+      "file": "marie_jeanne_bauer_nee_gantou_31651.html",
+      "matricule": "31651",
+      "source_page": "https://www.memoirevive-bis.org/?p=961",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Marie-Jeanne DUPONT",
+      "file": "marie_jeanne_dupont_31703.html",
+      "matricule": "31703",
+      "source_page": "https://www.memoirevive-bis.org/marie-jeanne-dupont-31703/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/dupont_m-j-df688.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Marie-Jeanne PENNEC",
+      "file": "marie-jeanne-pennec-31817.html",
+      "matricule": "31817",
+      "source_page": "https://www.memoirevive-bis.org/marie-jeanne-pennec-31817/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/pennec_m-j-b6b76.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Marie LESAGE",
+      "file": "marie-lesage-31671.html",
+      "matricule": "31671",
+      "source_page": "https://www.memoirevive-bis.org/marie-lesage-31671/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/lesage_m-ce05d.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Marie-Louise Dite Louisette Ou Marilou COLOMBAIN",
+      "file": "marie-louise-dite-louisette-ou-marilou-colombain-31853.html",
+      "matricule": "31853",
+      "source_page": "https://www.memoirevive-bis.org/?p=1086",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Marie-Louise et Madeleine MORIN",
+      "file": "marie_louise_madeleine_morin_31710.html",
+      "matricule": "31710",
+      "source_page": "https://www.memoirevive-bis.org/marie-louise-morin-nee-cribier-31710-et-sa-fille-madeleine-morin-31/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/morin_m-l-86e58.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Marie-Louise JOURDAN",
+      "file": "marie_louise_jourdan_31665.html",
+      "matricule": "31665",
+      "source_page": "https://www.memoirevive-bis.org/marie-louise-jourdan-31665/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/666-JOURDAN-MarieLouiseHL122.jpg",
+      "credit": "Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marie-Louise MORU",
+      "file": "marie_louise_lisette_moru_31825.html",
+      "matricule": "31825",
+      "source_page": "https://www.memoirevive-bis.org/marie-louise-dite-lisette-moru-31825/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/MORU-M-L.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marie Madeleine NORMAND",
+      "file": "marie-madeleine-normand-31678.html",
+      "matricule": "31678",
+      "source_page": "https://www.memoirevive-bis.org/madeleine-marie-normand-nee-plantevigne-31678/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/Normand-Marie.jpg",
+      "credit": "Photo anthropométrique prise le 9 avril 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police, Le Pré-Saint-Gervais.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marie, Marcelle, FERRY, dite “Mitzy”",
+      "file": "marie_marcelle_ferry_dite_mitzy_31816.html",
+      "matricule": "31816",
+      "source_page": "https://www.memoirevive-bis.org/marie-marcelle-dite-mitzy-ferry-31816/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/FERRY-M-31816.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés. Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 198,
+      "selection_reasons": [
+        "matricule",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marie Mathilde CHAUX",
+      "file": "marie-mathilde-chaux-31824.html",
+      "matricule": "31824",
+      "source_page": "https://www.memoirevive-bis.org/?p=1223",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Marie Mathilde Dite Maï POLITZER",
+      "file": "marie-mathilde-dite-mai-politzer-31680.html",
+      "matricule": "31680",
+      "source_page": "https://www.memoirevive-bis.org/marie-mathilde-dite-mai-politzer-nee-larcade-31680/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L230xH300/politzer-mai681-9bfb9.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 108,
+      "selection_reasons": [
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marie-Thérèse FLEURY",
+      "file": "marie-therese-fleury-31839.html",
+      "matricule": "31839",
+      "source_page": "https://www.memoirevive-bis.org/marie-therese-fleury-nee-naudin-31839/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/FLEURY-M-Th-portraitMaitron.jpg",
+      "credit": "Marie-Thérèse Fleury. © Maitron.",
+      "rights_status": "Droits réservés",
+      "selection_score": 233,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet",
+        "portrait"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Marie-Thérèse PUYOOÜ",
+      "file": "marie-therese-puyoou-31720.html",
+      "matricule": "31720",
+      "source_page": "https://www.memoirevive-bis.org/marie-therese-puyoou-nee-soureil-31720/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/puyoou_m-t-dd7cf.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Marthe, dite “Violette”, HÉBRARD, née Guay",
+      "file": "marthe_dite_violette_hebrard_nee_guay_31832.html",
+      "matricule": "31832",
+      "source_page": "https://www.memoirevive-bis.org/?p=981",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Marthe MEYNARD",
+      "file": "marthe_meynard_31675.html",
+      "matricule": "31675",
+      "source_page": "https://www.memoirevive-bis.org/marthe-meynard-nee-brillouet-31675/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/meynard_m-00ced.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Noémie DURAND",
+      "file": "noemie-durand-31727.html",
+      "matricule": "31727",
+      "source_page": "https://www.memoirevive-bis.org/?p=1051",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Olga GODEFROY",
+      "file": "olga_godefroy_31766_refaite.html",
+      "matricule": "31766",
+      "source_page": "https://www.memoirevive-bis.org/olga-godefroy-nee-camus-31766/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/godefroy_0-70ac4.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Olga MELIN",
+      "file": "olga-melin-31708.html",
+      "matricule": "31708",
+      "source_page": "https://www.memoirevive-bis.org/olga-melin-nee-meru-31708/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L280xH371/melin-882-0c007.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Paula RABEAUX",
+      "file": "paula-rabeaux-31725.html",
+      "matricule": "31725",
+      "source_page": "https://www.memoirevive-bis.org/paula-rabeaux-nee-trapy-31725/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/rabeaux_p-c3f2a.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Paulette Dite Pépée PARANT",
+      "file": "paulette-dite-pepee-parant-31654.html",
+      "matricule": "31654",
+      "source_page": "https://www.memoirevive-bis.org/paulette-dite-pepee-parant-epouse-prunieres-31654/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/PARANT-P-PRUNIERES.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Rachel DENIAU",
+      "file": "rachel_deniau_31773.html",
+      "matricule": "31773",
+      "source_page": "https://www.memoirevive-bis.org/rachel-deniau-31773/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/DENIAU-R.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Rachel FERNANDES",
+      "file": "rachel-fernandes-31723.html",
+      "matricule": "31723",
+      "source_page": "https://www.memoirevive-bis.org/?p=1055",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Raymonde GEORGES",
+      "file": "raymonde-georges-31000.html",
+      "matricule": "31750",
+      "source_page": "https://www.memoirevive-bis.org/?p=4292",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Raymonde SALEZ",
+      "file": "raymonde-salez-31645.html",
+      "matricule": "31645",
+      "source_page": "https://www.memoirevive-bis.org/raymonde-dite-mounette-salez-31645/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/SALEZ-31645.jpg",
+      "credit": "Archives de la préfecture de police de Paris. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 183,
+      "selection_reasons": [
+        "matricule",
+        "nom"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Raymonde SERGENT",
+      "file": "raymonde_sergent_31790.html",
+      "matricule": "31790",
+      "source_page": "https://www.memoirevive-bis.org/raymonde-sergent-nee-delalande-31790/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/SERGENT-Raymonde.jpg",
+      "credit": "© Collection Fabien Jaffredo.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Renée COSSIN",
+      "file": "renee-cossin-31830.html",
+      "matricule": "31830",
+      "source_page": "https://www.memoirevive-bis.org/renee-cossin-nee-raquet-31830/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L250xH347/cossin-renee-bloncourt-d2131.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Renée Dite Bichette PITIOT",
+      "file": "renee-dite-bichette-pitiot-31629.html",
+      "matricule": "31629",
+      "source_page": "https://www.memoirevive-bis.org/renee-dite-bichette-pitiot-nee-legros-31629/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH260/31629-c4ed0.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 128,
+      "selection_reasons": [
+        "matricule"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Renée MICHAUD",
+      "file": "renee-michaud-31676.html",
+      "matricule": "31676",
+      "source_page": "https://www.memoirevive-bis.org/renee-dite-marcelle-michaux-31676/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/MICHAUD-ReneeStudio.jpg",
+      "credit": "Renée Michaud. Coll. Denise Chaigneaud, née Triguel. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Reyna Van DAM",
+      "file": "reyna-van-dam-31831.html",
+      "matricule": "31831",
+      "source_page": "https://www.memoirevive-bis.org/reyna-van-dam-31831/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH194/van_dam_t-153e6.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 108,
+      "selection_reasons": [
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Rolande VANDAELE",
+      "file": "rolande-vandaele-31761.html",
+      "matricule": "31761",
+      "source_page": "https://www.memoirevive-bis.org/rolande-vandaele-31761/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/VAN-DAELE-R.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 78,
+      "selection_reasons": [
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Rosa-Michelle, dite »Rosie » FLOC’H",
+      "file": "rosa_michelle_dite_rosie_floc_h_31854.html",
+      "matricule": "31854",
+      "source_page": "https://www.memoirevive-bis.org/rosa-michelle-dite-rosie-floch-31854/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/floc_h_rosa_michelle_-_31854-b60d2.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 283,
+      "selection_reasons": [
+        "matricule",
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Rose BLANC",
+      "file": "rose_blanc_31652.html",
+      "matricule": "31652",
+      "source_page": "https://www.memoirevive-bis.org/rose-blanc-31652/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "l’image proposée est une plaque commémorative, pas un portrait"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Simone BRUGAL",
+      "file": "simone-brugal-31705.html",
+      "matricule": "31705",
+      "source_page": "https://www.memoirevive-bis.org/simone-brugal-nee-pichon-31705/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/BRUGAL-S-300x132.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Simone DAVID",
+      "file": "simone-david-31658.html",
+      "matricule": "31658",
+      "source_page": "https://www.memoirevive-bis.org/simone-david-nee-noyer-31658/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L200xH304/david_s-2-5382e.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Simone EIFFES",
+      "file": "simone_eiffes_31764.html",
+      "matricule": "31764",
+      "source_page": "https://www.memoirevive-bis.org/simone-eiffes-31764/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/EIFFES-S.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Simone LOCHE, née Fougère",
+      "file": "simone_loche_nee_fougere_31672.html",
+      "matricule": "31672",
+      "source_page": "https://www.memoirevive-bis.org/simone-loche-nee-fougere-31672/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/LOCHE-S.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 78,
+      "selection_reasons": [
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Simone MITERNIQUE",
+      "file": "simone-miternique-31000.html",
+      "matricule": null,
+      "source_page": null,
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "source introuvable"
+    },
+    {
+      "name": "Simone MITERNIQUE",
+      "file": "simone_miternique_31709.html",
+      "matricule": "31709",
+      "source_page": "https://www.memoirevive-bis.org/?p=859",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Simone SAMPAIX",
+      "file": "simone-sampaix-31758.html",
+      "matricule": "31758",
+      "source_page": "https://www.memoirevive-bis.org/simone-sampaix-31758/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/SAMPAIXsimoneAvantGuer-c.jpg",
+      "credit": "Simone Sampaix avant guerre. Collection Frédéric Blanc, droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Sophie BRABANDER",
+      "file": "sophie_brabander_31694.html",
+      "matricule": "31694",
+      "source_page": "https://www.memoirevive-bis.org/sophie-brabander-nee-czeposka-31694/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/brabander_mere-1b31b.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Sophie GIGAND",
+      "file": "sophie-gigand-31844.html",
+      "matricule": "31844",
+      "source_page": "https://www.memoirevive-bis.org/sophie-gigand-nee-richet-31844/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/gigand_sophie_-_31844-63264.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 283,
+      "selection_reasons": [
+        "matricule",
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Sophie LICHT",
+      "file": "sophie-licht-31803.html",
+      "matricule": "31803",
+      "source_page": "https://www.memoirevive-bis.org/sophie-licht-nee-schaub-31803/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/LICHT-S.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Suzanne COSTENTIN",
+      "file": "suzanne_costentin_31765.html",
+      "matricule": "31765",
+      "source_page": "https://www.memoirevive-bis.org/?p=824",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Suzanne GASCARD",
+      "file": "suzanne-gascard-31811.html",
+      "matricule": "31811",
+      "source_page": "https://www.memoirevive-bis.org/suzanne-gascard-nee-leblond-31811/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/A-GascardSuzannePti.jpg",
+      "credit": "Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Suzanne Momon et la famille Brustlein",
+      "file": "suzanne_momon_gustave_gilbert_brustlein_refait.html",
+      "matricule": "31686",
+      "source_page": "https://www.memoirevive-bis.org/suzanne-momon-31686/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "l’image proposée représente Gilbert Brustlein"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Suzanne PIERRE",
+      "file": "suzanne_pierre_31812.html",
+      "matricule": "31812",
+      "source_page": "https://www.memoirevive-bis.org/suzanne-pierre-nee-buffard-31812/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/pierre_s-49deb.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Suzanne, Renée JUHEM",
+      "file": "suzanne_renee_juhem_31759.html",
+      "matricule": "31759",
+      "source_page": "https://www.memoirevive-bis.org/simone-suzanne-renee-juhem-31759/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L356xH220/juhem_r-e4e75.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Suzanne ROZE",
+      "file": "suzanne_roze_31681.html",
+      "matricule": "31681",
+      "source_page": "https://www.memoirevive-bis.org/suzanne-roze-nee-clement-31681/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique « photo non trouvée »"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Sylviane COUPET",
+      "file": "sylviane_coupet_31804.html",
+      "matricule": "31804",
+      "source_page": "https://www.memoirevive-bis.org/sylviane-coupet-31804/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/COUPET-S.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Théodora VAN DAM, née Disper",
+      "file": "theodora_van_dam_nee_disper_31749.html",
+      "matricule": "31749",
+      "source_page": "https://www.memoirevive-bis.org/?p=921",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Thérèse LAMBOY, née Gady, épouse Léopold",
+      "file": "therese_lamboy_nee_gady_epouse_leopold_31800.html",
+      "matricule": "31800",
+      "source_page": "https://www.memoirevive-bis.org/?p=957",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Toussainte Dite Nine OPPICI",
+      "file": "toussainte-dite-nine-oppici-31797.html",
+      "matricule": "31797",
+      "source_page": "https://www.memoirevive-bis.org/toussainte-dite-nine-oppici-31797/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/OPPICI-T.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Vittoria Viva DAUBEUF",
+      "file": "vittoria-viva-daubeuf-31635.html",
+      "matricule": "31635",
+      "source_page": "https://www.memoirevive-bis.org/vittoria-viva-daubeuf-nee-nenni-31635/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/daubeuf_v-55cf4.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Yolande GILI",
+      "file": "yolande-gili-31743.html",
+      "matricule": "31743",
+      "source_page": "https://www.memoirevive-bis.org/yolande-gili-nee-pica-31743/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/pica-gili_y-5f716.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Yvette FEUILLET",
+      "file": "yvette_feuillet_31663.html",
+      "matricule": "31663",
+      "source_page": "https://www.memoirevive-bis.org/yvette-feuillet-31663/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L250xH315/feuillet-yvette-51ebf.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Yvette GUILLON",
+      "file": "yvette-guillon-31730.html",
+      "matricule": "31730",
+      "source_page": "https://www.memoirevive-bis.org/yvette-guillon-nee-sardet-31730/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L184xH300/guillonyvette72-baf43.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 163,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Yvette MARIVAL",
+      "file": "yvette_marival_31787.html",
+      "matricule": "31787",
+      "source_page": "https://www.memoirevive-bis.org/yvette-marival-31787/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique signalant un portrait disparu"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Yvonne BLECH",
+      "file": "yvonne-blech-31000.html",
+      "matricule": null,
+      "source_page": null,
+      "source_image": null,
+      "credit": "Archive figurant dans la fiche d’origine",
+      "rights_status": "Licence ou titulaire non indiqué ; réutilisation à vérifier",
+      "selection_score": null,
+      "selection_reasons": [
+        "portrait existant conservé après contrôle visuel"
+      ],
+      "state": "portrait existant conservé"
+    },
+    {
+      "name": "Yvonne BONNARD",
+      "file": "yvonne_bonnard_31627.html",
+      "matricule": "31627",
+      "source_page": null,
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique « photo non trouvée »"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Yvonne BOUDGOURD",
+      "file": "yvonne-boudgourd-31792.html",
+      "matricule": "31792",
+      "source_page": "https://www.memoirevive-bis.org/yvonne-boutgourg-nee-toublanc-31792/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/BOUDGOURD-Y.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Yvonne CARRÉ",
+      "file": "yvonne_carre_31760.html",
+      "matricule": "31760",
+      "source_page": "https://www.memoirevive-bis.org/yvonne-carre-nee-calmels-31760/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/carre_y-2-fe0db.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Yvonne CAVÉ",
+      "file": "yvonne-cave-31691.html",
+      "matricule": "31691",
+      "source_page": "https://www.memoirevive-bis.org/yvonne-cave-nee-richard-31-691/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique signalant un portrait disparu"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Yvonne COURTILLAT",
+      "file": "yvonne-courtillat-31799.html",
+      "matricule": "31799",
+      "source_page": "https://www.memoirevive-bis.org/yvonne-courtillat-nee-le-maguer-31-799/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique signalant un portrait disparu"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Yvonne ÉMORINE",
+      "file": "yvonne-emorine-31662.html",
+      "matricule": "31662",
+      "source_page": "https://www.memoirevive-bis.org/yvonne-emorine-nee-lachaume-31662/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/EMORINE-Y-300x132.jpg",
+      "credit": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+      "rights_status": "Droits réservés",
+      "selection_score": 133,
+      "selection_reasons": [
+        "nom",
+        "photographiée à auschwitz"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Yvonne GALLOIS",
+      "file": "yvonne_gallois_31849.html",
+      "matricule": "31849",
+      "source_page": "https://www.memoirevive-bis.org/yvonne-renee-lucie-gallois-31849/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/gallois_yvonne_-_31849-fc085.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 283,
+      "selection_reasons": [
+        "matricule",
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Yvonne NOUTARI",
+      "file": "yvonne-noutari-31718.html",
+      "matricule": "31718",
+      "source_page": "https://www.memoirevive-bis.org/yvonne-noutari-nee-moudoulaud-31718/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L328xH800/noutarigrillage-b6ad5.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Yvonne PATEAU",
+      "file": "yvonne-pateau-31728.html",
+      "matricule": "31728",
+      "source_page": "https://www.memoirevive-bis.org/yvonne-pateau-31728/",
+      "source_image": "https://www.memoirevive-bis.org/local/cache-vignettes/L440xH193/pateau_y-51e23.jpg",
+      "credit": "Crédit non indiqué par la source",
+      "rights_status": "Licence ou droits non indiqués par la source ; réutilisation à vérifier",
+      "selection_score": 63,
+      "selection_reasons": [
+        "nom"
+      ],
+      "state": "portrait à contrôler"
+    },
+    {
+      "name": "Yvonne PICARD",
+      "file": "yvonne-picard-31634.html",
+      "matricule": "31634",
+      "source_page": "https://www.memoirevive-bis.org/yvonne-picard-31634/",
+      "source_image": "https://www.memoirevive-bis.org/wp-content/uploads/2014/06/PICARD-YvonneCivil.jpg",
+      "credit": "D.R.",
+      "rights_status": "Droits réservés",
+      "selection_score": 148,
+      "selection_reasons": [
+        "prénom",
+        "nom",
+        "nom complet"
+      ],
+      "state": "portrait retenu"
+    },
+    {
+      "name": "Yvonne Rose LLUCIA",
+      "file": "yvonne-rose-llucia-31704.html",
+      "matricule": "31704",
+      "source_page": "https://www.memoirevive-bis.org/yvonne-rose-llucia-31704/",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [
+        "image générique signalant un portrait disparu"
+      ],
+      "state": "aucun portrait suffisamment certain"
+    },
+    {
+      "name": "Yvonne SOUCHAUD, née Houdayer",
+      "file": "yvonne_souchaud_nee_houdayer_31791.html",
+      "matricule": "31791",
+      "source_page": "https://www.memoirevive-bis.org/?p=1002",
+      "source_image": null,
+      "credit": null,
+      "rights_status": null,
+      "selection_score": null,
+      "selection_reasons": [],
+      "state": "aucun portrait suffisamment certain"
+    }
+  ]
+}

@@ -7,8 +7,8 @@
     "subtitle": "Convoi 31000",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/31-836-31000.png",
-    "portrait_alt": "Photo non trouvée pour 31 836 ?",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Pas de texte",
     "search": "31 836 convoi 31000 notice commemorative"
   },
@@ -33,8 +33,8 @@
     "subtitle": "Convoi 31000",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/31-843-31000.png",
-    "portrait_alt": "Photo non trouvée pour 31 843 ?",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Pas de texte",
     "search": "31 843 convoi 31000 notice commemorative"
   },
@@ -112,7 +112,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/adelaide_dite_heidi_hautval_31802.jpg",
-    "portrait_alt": "Portrait historique de Adélaïde, dite « Heidi » HAUTVAL",
+    "portrait_alt": "Portrait documenté de Adélaïde, dite « Heidi » HAUTVAL",
     "description": "Adélaïde dite Heidi HAUTVAL est née le er janvier à Hohwald Bas-Rhin où son père est pasteur dernière d’une famille de sept enfants. La notice biographique…",
     "search": "adelaide dite heidi hautval 31802 matricule 31802 rescapee"
   },
@@ -280,8 +280,8 @@
     "subtitle": "Matricule 31636",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/adrienne_hardenberg_31636.png",
-    "portrait_alt": "Image de remplacement portant la mention photo non trouvée",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Adrienne Coston, dite « Linotte », naît le 23 septembre 1906 à Saint-Quentin. Son père est ouvrier bitumier et sa mère couturière. Elle épouse en 1928…",
     "search": "adrienne linotte hardenberg 31636 matricule 31636 morte en deportation"
   },
@@ -306,8 +306,8 @@
     "subtitle": "Matricule 31767",
     "status": "Rescapée",
     "status_class": "survivor",
-    "portrait": "portraits/aimee_dite_manette_doridat_nee_godefroy_31767.jpg",
-    "portrait_alt": "Portrait historique de Aimée, dite »Manette » DORIDAT, née Godefroy",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Aimée DORIDAT Manette est née le mars à Neuves-Maisons près de Nancy cinquième d’une famille de onze enfants dont sept garçons. La notice biographique…",
     "search": "aimee dite manette doridat nee godefroy 31767 matricule 31767 rescapee"
   },
@@ -722,8 +722,8 @@
     "subtitle": "Matricule 31738",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/alice_cailbault_nee_gardelle_31738.jpg",
-    "portrait_alt": "Portrait historique de Alice CAILBAULT, née Gardelle",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Alice Gardelle naît le er avril à Paris Son père originaire de Charente travaille chez Renault à Boulogne-Billancourt Hauts-de-Seine En sa mère qui a peur…",
     "search": "alice cailbault nee gardelle 31738 matricule 31738 morte en deportation"
   },
@@ -736,7 +736,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/alice-loeb-31829.jpg",
-    "portrait_alt": "Photographie de Alice LOEB",
+    "portrait_alt": "Portrait documenté de Alice LOEB",
     "description": "Pharmacienne à Paris",
     "search": "alice loeb 31829 matricule 31829 notice commemorative"
   },
@@ -762,7 +762,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/alice-varrailhon-31810.jpg",
-    "portrait_alt": "Photographie de Alice VARRAILHON",
+    "portrait_alt": "Portrait documenté de Alice VARRAILHON",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "alice varrailhon 31810 matricule 31810 notice commemorative"
   },
@@ -787,8 +787,8 @@
     "subtitle": "Matricule 31822",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/alice-viterbo-31822.png",
-    "portrait_alt": "Photographie de Alice VITERBO",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Alice Viterbo, née Lumbroso est cantatrice et a chanté à l’Opéra de Paris. À la suite d’un accident d’automobile quelques années avant la guerre, elle est…",
     "search": "alice viterbo 31822 matricule 31822 notice commemorative"
   },
@@ -800,8 +800,8 @@
     "subtitle": "Matricule 31659",
     "status": "Rescapée",
     "status_class": "survivor",
-    "portrait": "portraits/alida_delasalle_31659.jpg",
-    "portrait_alt": "Triptyque d’immatriculation d’Alida Delasalle à Auschwitz",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Alida Victorine Augustine Charbonnier naît le 23 juillet 1907 à Fécamp, fille d’un maçon et d’une ouvrière. Couturière, elle participe avec Suzanne Roze à…",
     "search": "alida delasalle 31659 matricule 31659 rescapee"
   },
@@ -879,7 +879,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/alphonsine-seibert-31647.jpg",
-    "portrait_alt": "Photographie de Alphonsine SEIBERT",
+    "portrait_alt": "Portrait documenté de Alphonsine SEIBERT",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
     "search": "alphonsine seibert 31647 matricule 31647 notice commemorative"
   },
@@ -1412,7 +1412,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/andree-dite-dedee-tamise-31714.jpg",
-    "portrait_alt": "Photographie de Andrée Dite Dédée TAMISÉ",
+    "portrait_alt": "Portrait documenté de Andrée Dite Dédée TAMISÉ",
     "description": "Andrée Tamisé naît le 28 février 1922. Son père est bottier à Caudéran, dans la proche banlieue de Bordeaux (Gironde – 33). Sa mère meurt alors…",
     "search": "andree dite dedee tamise 31714 matricule 31714 notice commemorative"
   },
@@ -1438,7 +1438,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/andree_gigand_31845.jpg",
-    "portrait_alt": "Portrait historique de Andrée GIGAND",
+    "portrait_alt": "Portrait documenté de Andrée GIGAND",
     "description": "Andrée Gigand naît le mars au lieu-dit la Montagne à Ressons-le-Long Aisne fille d’Alphonse Gigand chauffeur et de Sophie Richet son épouse manouvrière Les…",
     "search": "andree gigand 31845 matricule 31845 morte en deportation"
   },
@@ -1503,7 +1503,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/angele_dite_daniele_leduc_nee_denonne_31841.jpg",
-    "portrait_alt": "Portrait historique de Angèle, dite “Danièle”, LEDUC, née Denonne",
+    "portrait_alt": "Portrait documenté de Angèle, dite “Danièle”, LEDUC, née Denonne",
     "description": "Angèle Marie Denonne dite Danièle naît le avril à Roubaix Nord fille de Hilaire Denonne ans tisserand de nationalité belge et de Rebecca Fresco ans son…",
     "search": "angele dite daniele leduc nee denonne 31841 matricule 31841 morte en deportation"
   },
@@ -1516,7 +1516,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/angele_dite_renee_girard_31632.jpg",
-    "portrait_alt": "Portrait historique de Angèle, dite Renée, GIRARD",
+    "portrait_alt": "Portrait documenté de Angèle, dite Renée, GIRARD",
     "description": "Angèle Mélanie Girard naît le décembre à Paris e fille unique de Gustave Girard ans garçon de magasin et d’Antoinette Dubois ans journalière domiciliés au…",
     "search": "angele dite renee girard 31632 matricule 31632 morte en deportation"
   },
@@ -1542,7 +1542,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/angele-mercier-31851.jpg",
-    "portrait_alt": "Photographie de Angèle MERCIER",
+    "portrait_alt": "Portrait documenté de Angèle MERCIER",
     "description": "Angèle, Eugénie, Mercier naît le 24 juin 1909 au lieu dit La Moinerie à Chaumes-en-Brie (Seine-et-Marne – 77), fille d’Alphonse Mercier, 39 ans, et de…",
     "search": "angele mercier 31851 matricule 31851 notice commemorative"
   },
@@ -1568,7 +1568,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/anna-hanna-nijinska-31702.png",
-    "portrait_alt": "Photo non trouvée pour Anna Hanna NIJINSKA",
+    "portrait_alt": "Portrait documenté de Anna Hanna NIJINSKA",
     "description": "Dans le récit de Charlotte Delbo, Karolina KONEFAL et Anna NIZINSKA sont associées dans un même texte.",
     "search": "anna hanna nijinska 31702 matricule 31702 notice commemorative"
   },
@@ -1607,7 +1607,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/anna_jacquat_nee_karpen_31827.jpg",
-    "portrait_alt": "Portrait historique de Anna JACQUAT, née Karpen",
+    "portrait_alt": "Portrait documenté de Anna JACQUAT, née Karpen",
     "description": "Anna Karpen naît le 24 mai 1894 à Gilsdorfberg, dans la commune de Bettendorf au Luxembourg. Elle est l’une des sept enfants de Nicolas Karpen, ouvrier…",
     "search": "anna jacquat nee karpen 31827 matricule 31827 morte en deportation"
   },
@@ -1620,7 +1620,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/anna-sabot-31713.jpg",
-    "portrait_alt": "Photographie de Anna SABOT",
+    "portrait_alt": "Portrait documenté de Anna SABOT",
     "description": "Maria, Anna, Gries naît le 13 novembre 1898, à Gougenheim, à 20 km au Nord-Ouest de Strasbourg (Bas-Rhin – 67), en Alsace alors occupée par l’Allemagne.",
     "search": "anna sabot 31713 matricule 31713 notice commemorative"
   },
@@ -1646,7 +1646,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/anne-marie-annette-nenette-epaud-31724.jpg",
-    "portrait_alt": "Photographie de Anne-Marie Annette Nénette ÉPAUD",
+    "portrait_alt": "Portrait documenté de Anne-Marie Annette Nénette ÉPAUD",
     "description": "Anne-Marie Pascaline Machefaux naît le 14 novembre 1900 à La Rochelle (Charente-Inférieure / Charente-Maritime – 17), fille d’Ange Marie Saturnin…",
     "search": "anne marie annette nenette epaud 31724 matricule 31724 notice commemorative"
   },
@@ -1659,7 +1659,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/anne_marie_ostrowka_31801.jpg",
-    "portrait_alt": "Portrait d’Anna Maria Borsch lorsqu’elle était jeune femme",
+    "portrait_alt": "Portrait documenté de Anne-Marie OSTROWKA",
     "description": "Anna Maria Borsch naît le 13 novembre 1900 à Mammolshain, en Hesse, dans une famille de cinq enfants. Son père, Wilhelm, est entrepreneur de maçonnerie.…",
     "search": "anne marie ostrowka 31801 matricule 31801 morte en deportation"
   },
@@ -1672,7 +1672,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/anne-marie-richon-31741.jpg",
-    "portrait_alt": "Photographie de Anne Marie RICHON",
+    "portrait_alt": "Portrait documenté de Anne Marie RICHON",
     "description": "Anne, Marie Riffaud naît le 12 octobre 1898 à Jusix (Lot-et-Garonne – 47), où ses parents sont agriculteurs.",
     "search": "anne marie richon 31741 matricule 31741 notice commemorative"
   },
@@ -1737,7 +1737,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/antoinette-besseyre-31763.jpg",
-    "portrait_alt": "Photographie de Antoinette BESSEYRE",
+    "portrait_alt": "Portrait documenté de Antoinette BESSEYRE",
     "description": "Antoinette Tressard naît le 7 juin 1919 à Quimperlé (Finistère), fille unique de Louis Jean Marie Tressard, 25 ans, ferronnier d’art, et de Marie-Reine…",
     "search": "antoinette besseyre 31763 matricule 31763 notice commemorative"
   },
@@ -1802,7 +1802,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/armande-richier-31846.jpg",
-    "portrait_alt": "Photographie de Armande RICHIER",
+    "portrait_alt": "Portrait documenté de Armande RICHIER",
     "description": "Armande Richier, née le 1er novembre 1916 à Lahaymeix (Meuse), domiciliée à Soissons (Aisne), morte à Auschwitz, au camp de femmes de Birkenau au 1er…",
     "search": "armande richier 31846 matricule 31846 notice commemorative"
   },
@@ -2061,8 +2061,8 @@
     "subtitle": "Matricule 31746",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/aurelie_dite_marie_louise_ducros_nee_dudon_maman_loulou_31746.jpg",
-    "portrait_alt": "Portrait historique de Aurélie, dite Marie-Louise, DUCROS, née Dudon, “Maman Loulou”",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Aurélie Dudon naît le mars à Villenave-d’Ornon Gironde où ses parents sont maraîchers Elle va école communale jusqu’au Certificat d’études puis elle…",
     "search": "aurelie dite marie louise ducros nee dudon maman loulou 31746 matricule 31746 morte en deportation"
   },
@@ -2075,7 +2075,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/aurore-pica-31742.jpg",
-    "portrait_alt": "Photographie de Aurore PICA",
+    "portrait_alt": "Portrait documenté de Aurore PICA",
     "description": "Aurore Pica naît le 2 mai 1923 à Fontoy (Moselle – 57), fille d’Attilio Pica, né le 24 mars 1886 à Nuccerra (peut-être Nocera Umbra), et de son épouse…",
     "search": "aurore pica 31742 matricule 31742 notice commemorative"
   },
@@ -2139,8 +2139,8 @@
     "subtitle": "Matricule 31721",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/berthe-lapeyrade-31721.png",
-    "portrait_alt": "Photo non trouvée pour Berthe LAPEYRADE",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Berthe Lescure naît le 26 avril 1895 au Passage (Lot-et-Garonne – 47). Ses parents s’installent ensuite à Cenon, en face de Bordeaux sur l’autre rive de la…",
     "search": "berthe lapeyrade 31721 matricule 31721 notice commemorative"
   },
@@ -2165,8 +2165,8 @@
     "subtitle": "Matricule 31683",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/berthe_sabourault_nee_fays_31683.jpg",
-    "portrait_alt": "Portrait historique de Berthe SABOURAULT, née Fays",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Berthe Célina Fays naît le juin à Villiers-le-Roux Charente où ses parents sont cultivateurs et où elle est élevée dernière de trois enfants. La notice…",
     "search": "berthe sabourault nee fays 31683 matricule 31683 morte en deportation"
   },
@@ -2191,8 +2191,8 @@
     "subtitle": "Matricule 31656",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/camille_champion_31656.jpg",
-    "portrait_alt": "Triptyque d’immatriculation de Camille Champion à Auschwitz",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Camille Chuat naît le 1er juin 1898 à Huelgoat, dans le Finistère, au sein d’une famille de travailleurs forestiers. Elle grandit ensuite dans l’Orne. En…",
     "search": "camille champion 31656 matricule 31656 morte en deportation"
   },
@@ -2621,7 +2621,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/charlotte_decock_nee_dauriat_31756.jpg",
-    "portrait_alt": "Portrait historique de Charlotte DECOCK, née Dauriat",
+    "portrait_alt": "Portrait documenté de Charlotte DECOCK, née Dauriat",
     "description": "Marie Charlotte Dauriat naît le août à Oradour-sur-Vayres Haute-Vienne fille de François Dauriat ans et d’Isabelle Thiphonnet ans son épouse native…",
     "search": "charlotte decock nee dauriat 31756 matricule 31756 morte en deportation"
   },
@@ -2634,7 +2634,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/charlotte-douillot-31762.jpg",
-    "portrait_alt": "Photographie de Charlotte DOUILLOT",
+    "portrait_alt": "Portrait documenté de Charlotte DOUILLOT",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
     "search": "charlotte douillot 31762 matricule 31762 notice commemorative"
   },
@@ -2673,7 +2673,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/charlotte_dudach_nee_delbo_31661.jpg",
-    "portrait_alt": "Portrait historique de Charlotte DUDACH, née Delbo",
+    "portrait_alt": "Portrait documenté de Charlotte DUDACH, née Delbo",
     "description": "Charlotte Delbo est née le août à Vigneux-sur-Seine Seine-et-Oise elle est l’ainée de quatre fils et son père est chef monteur. La notice biographique…",
     "search": "charlotte dudach nee delbo 31661 matricule 31661 rescapee"
   },
@@ -2699,7 +2699,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/charlotte_henriette_dupuis_dite_mauricette_31751.jpg",
-    "portrait_alt": "Portrait historique de Charlotte, Henriette, DUPUIS, dite “Mauricette“",
+    "portrait_alt": "Portrait documenté de Charlotte, Henriette, DUPUIS, dite “Mauricette“",
     "description": "Charlotte Clémence Henriette Dupuis naît le février à Champvallon Yonne aînée de trois enfants dont les parents sont cultivateurs. La notice biographique…",
     "search": "charlotte henriette dupuis dite mauricette 31751 matricule 31751 morte en deportation"
   },
@@ -2712,7 +2712,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/charlotte-lescure-31733.jpg",
-    "portrait_alt": "Photographie de Charlotte LESCURE",
+    "portrait_alt": "Portrait documenté de Charlotte LESCURE",
     "description": "Charlotte Zanker naît le 31 mai 1902 à Saint-Paul (Gironde – 33).",
     "search": "charlotte lescure 31733 matricule 31733 notice commemorative"
   },
@@ -2751,7 +2751,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/christiane_borras_31650.jpg",
-    "portrait_alt": "Triptyque d’immatriculation de Christiane Charua à Auschwitz",
+    "portrait_alt": "Portrait documenté de Christiane « Cécile » BORRÁS",
     "description": "Christiane Charua naît le 18 juillet 1915 à Calais. Réfugiée avec sa famille à Conflans-Sainte-Honorine pendant la Première Guerre mondiale, elle connaît…",
     "search": "christiane cecile borras 31650 matricule 31650 rescapee"
   },
@@ -2790,7 +2790,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/claudine-blateau-31737.jpg",
-    "portrait_alt": "Photographie de Claudine BLATEAU",
+    "portrait_alt": "Portrait documenté de Claudine BLATEAU",
     "description": "Claudine Pinet naît le 23 mars 1911 à Niort (Deux-Sèvres – 79). Enfant trouvée, elle n’a pas connu ses parents. Elle grandit à Secondigny-en-Gâtine, où…",
     "search": "claudine blateau 31737 matricule 31737 notice commemorative"
   },
@@ -2816,7 +2816,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/claudine_guerin_31664.jpg",
-    "portrait_alt": "Portrait historique de Claudine GUÉRIN",
+    "portrait_alt": "Portrait documenté de Claudine GUÉRIN",
     "description": "Claudine Marie Guérin naît le er mai à Gruchet-le-Valasse Seine-Inférieure Seine-Maritime à proximité de l’estuaire de la Seine fille de Roger Lucien Louis…",
     "search": "claudine guerin 31664 matricule 31664 morte en deportation"
   },
@@ -2894,7 +2894,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/constance-rappenau-31754.jpg",
-    "portrait_alt": "Photographie de Constance RAPPENAU",
+    "portrait_alt": "Portrait documenté de Constance RAPPENAU",
     "description": "Photographiée par le service de l’identité judiciaire de la préfecture de police, le 8 décembre 1941. Archives de la P.P.",
     "search": "constance rappenau 31754 matricule 31754 notice commemorative"
   },
@@ -2910,19 +2910,6 @@
     "portrait_alt": "Photographie de Constance RAPPENAU",
     "description": "Photographiée par le service de l’identité judiciaire de la préfecture de police, le 8 décembre 1941. Archives de la P.P.",
     "search": "constance rappenau convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Convoi DES",
-    "file": "convoi-des-31000.html",
-    "group": "femmes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/convoi-des-31000.png",
-    "portrait_alt": "Photographie de Convoi DES",
-    "description": "Présentation du convoi du 24 janvier 1943, dit convoi des 31000",
-    "search": "convoi des convoi 31000 notice commemorative"
   },
   {
     "name": "Cyprien DEPARDIEU",
@@ -3050,7 +3037,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/danielle-casanova-31655.jpg",
-    "portrait_alt": "Photographie de Danielle CASANOVA",
+    "portrait_alt": "Portrait documenté de Danielle CASANOVA",
     "description": "La dirigeante des Jeunesses Communistes",
     "search": "danielle casanova 31655 matricule 31655 notice commemorative"
   },
@@ -3088,8 +3075,8 @@
     "subtitle": "Matricule 31638",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/delphine_presset_nee_jallat_31638.jpg",
-    "portrait_alt": "Portrait historique de Delphine PRESSET, née Jallat",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Delphine Antoinette Jallat naît le juin à Nîmes où son père est commerçant Après le certificat d’études elle gagne sa vie dans divers emplois de vendeuse…",
     "search": "delphine presset nee jallat 31638 matricule 31638 morte en deportation"
   },
@@ -3102,7 +3089,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/denise_moret_31820.jpg",
-    "portrait_alt": "Triptyque d’immatriculation de Denise Moret à Auschwitz",
+    "portrait_alt": "Portrait documenté de Denise MORET",
     "description": "Denise Valérie Cacaly naît le 5 février 1919 à Peyrat-le-Château, en Haute-Vienne. Son père est menuisier, sa mère couturière. Elle grandit au sein d’une…",
     "search": "denise moret 31820 matricule 31820 morte en deportation"
   },
@@ -3115,7 +3102,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/denise-roucayrol-31646.jpg",
-    "portrait_alt": "Photographie de Denise ROUCAYROL",
+    "portrait_alt": "Portrait documenté de Denise ROUCAYROL",
     "description": "Photo anthropométrique prise le jour de son arrestation. Archives de la préfecture de police. Droits réservés.",
     "search": "denise roucayrol 31646 matricule 31646 notice commemorative"
   },
@@ -3322,8 +3309,8 @@
     "subtitle": "Matricule 31731",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/elisabeth_dupeyron_nee_dufour_31731.jpg",
-    "portrait_alt": "Portrait historique de Élisabeth DUPEYRON, née Dufour",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Élisabeth Dufour naît le août à Lormont dans la grande banlieue de Bordeaux Gironde sur la rive droite de la Garonne au sein d’une famille de cinq enfants…",
     "search": "elisabeth dupeyron nee dufour 31731 matricule 31731 morte en deportation"
   },
@@ -3336,7 +3323,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/elisabeth-le-port-31786.jpg",
-    "portrait_alt": "Photographie de Elisabeth Le PORT",
+    "portrait_alt": "Portrait documenté de Elisabeth Le PORT",
     "description": "Droits réservés.",
     "search": "elisabeth le port 31786 matricule 31786 notice commemorative"
   },
@@ -3557,7 +3544,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/emilia_kerisit_31783.jpg",
-    "portrait_alt": "Portrait en noir et blanc d’Émilia Kérisit",
+    "portrait_alt": "Portrait documenté de Émilia KÉRISIT",
     "description": "Émilia Thoreau naît le 30 juillet 1895 à Jaunay-Clan, dans la Vienne. Elle est reconnue et légitimée sous le nom de Baliteau après le mariage de sa mère.…",
     "search": "emilia kerisit 31783 matricule 31783 morte en deportation"
   },
@@ -3569,8 +3556,8 @@
     "subtitle": "Matricule 31789",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/emilie_angeline_porcher_31789.jpg",
-    "portrait_alt": "Portail du secteur B-Ia du camp de femmes de Birkenau, emprunté par les déportées du convoi des 31000",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Émilie Angéline Porcher, dite « Line », naît le 4 janvier 1881 à Boisville-la-Saint-Père, en Eure-et-Loir. Élevée à Chartres, elle s’établit très jeune à…",
     "search": "emilie angeline porcher 31789 matricule 31789 morte en deportation"
   },
@@ -3583,7 +3570,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/emma-bolleau-31806.jpg",
-    "portrait_alt": "Photographie de Emma BOLLEAU",
+    "portrait_alt": "Portrait documenté de Emma BOLLEAU",
     "description": "Emma Bolleau, née Lemondais. D.R.",
     "search": "emma bolleau 31806 matricule 31806 notice commemorative"
   },
@@ -3726,7 +3713,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/esterina-ou-estellina-ruju-31838.jpg",
-    "portrait_alt": "Photographie de Esterina Ou Estellina RUJU",
+    "portrait_alt": "Portrait documenté de Esterina Ou Estellina RUJU",
     "description": "Esterina (ou Estellina ?) Ruju naît le 23 janvier 1885 à Chiaramonti, au nord de la Sardaigne (Italie), fille de Nicolas Ruju et de Francesca.",
     "search": "esterina ou estellina ruju 31838 matricule 31838 notice commemorative"
   },
@@ -3986,7 +3973,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/eugenie_baskine_31837.jpg",
-    "portrait_alt": "Photographie en noir et blanc d’Eugénie Baskine",
+    "portrait_alt": "Portrait documenté de Eugénie BASKINE",
     "description": "Eugenia Baskine naît le 7 mars 1889 dans un village du gouvernement de Kherson, en Ukraine alors intégrée à l’Empire russe. Infirmière à domicile en Italie…",
     "search": "eugenie baskine 31837 matricule 31837 morte en deportation"
   },
@@ -3999,7 +3986,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/eugenie_korzeniowska_31700.jpg",
-    "portrait_alt": "Portrait historique de Eugénie KORZENIOWSKA",
+    "portrait_alt": "Portrait documenté de Eugénie KORZENIOWSKA",
     "description": "Eugénie Korzeniowska naît le 11 novembre 1901 en Pologne et grandit à Lublin. Son père, cheminot et socialiste, participe à la révolution de 1905 avant…",
     "search": "eugenie korzeniowska 31700 matricule 31700 morte en deportation"
   },
@@ -4025,7 +4012,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/fabienne-landy-31784.jpg",
-    "portrait_alt": "Photographie de Fabienne LANDY",
+    "portrait_alt": "Portrait documenté de Fabienne LANDY",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "fabienne landy 31784 matricule 31784 notice commemorative"
   },
@@ -4050,8 +4037,8 @@
     "subtitle": "Matricule 31701",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/felicia-dite-lucia-felicja-rostkowska-31701.png",
-    "portrait_alt": "Photo non trouvée pour Félicia Dite Lucia Felicja ROSTKOWSKA",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Félicia Rostkowaska est née le 15 juin 1908 à Gitomiège en Pologne.",
     "search": "felicia dite lucia felicja rostkowska 31701 matricule 31701 notice commemorative"
   },
@@ -4076,8 +4063,8 @@
     "subtitle": "Matricule 31734",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/felicienne-bierge-31734.jpg",
-    "portrait_alt": "Photographie de Félicienne BIERGE",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Auschwitz, le 3 février 1943 Musée national d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "felicienne bierge 31734 matricule 31734 notice commemorative"
   },
@@ -4388,8 +4375,8 @@
     "subtitle": "Matricule 31748",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/fernande-laurent-31748.jpg",
-    "portrait_alt": "Photographie de Fernande LAURENT",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz avant l’évacuation du camp en janvier 1945. Réalisé le 3 février 1943, le portrait…",
     "search": "fernande laurent 31748 matricule 31748 notice commemorative"
   },
@@ -4428,7 +4415,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/franciska_dite_cica_goutayer_31780.jpg",
-    "portrait_alt": "Portrait historique de Franciska, dite “Cica”, GOUTAYER",
+    "portrait_alt": "Portrait documenté de Franciska, dite “Cica”, GOUTAYER",
     "description": "Franciska Goutayer naît le avril à La Guillermie Allier fille de Pierre Goutayer ans artisan coutelier et de Marie Pételet ans son épouse domiciliés au…",
     "search": "franciska dite cica goutayer 31780 matricule 31780 morte en deportation"
   },
@@ -4700,8 +4687,8 @@
     "subtitle": "Matricule 31798",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/gabrielle-bergin-31798.jpg",
-    "portrait_alt": "Photographie de Gabrielle BERGIN",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "IDENTIFICATION INCERTAINE… C’est de manière hypothétique et déductive qu’est donné à voir le portrait de cette détenue, photographiée à Auschwitz-I le 3…",
     "search": "gabrielle bergin 31798 matricule 31798 notice commemorative"
   },
@@ -4727,7 +4714,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/gabrielle-ethis-31625.jpg",
-    "portrait_alt": "Photographie de Gabrielle ETHIS",
+    "portrait_alt": "Portrait documenté de Gabrielle ETHIS",
     "description": "Gabrielle Papillon naît le 16 janvier 1896. Elle a – au moins – un frère, Fernand Papillon, né le 13 septembre 1891 à Paris 20e.",
     "search": "gabrielle ethis 31625 matricule 31625 notice commemorative"
   },
@@ -4831,7 +4818,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/genevieve-pakula-31794.jpg",
-    "portrait_alt": "Photographie de Geneviève PAKULA",
+    "portrait_alt": "Portrait documenté de Geneviève PAKULA",
     "description": "Après guerre… Droits réservés.",
     "search": "genevieve pakula 31794 matricule 31794 notice commemorative"
   },
@@ -5272,8 +5259,8 @@
     "subtitle": "Matricule 31747",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/georgette_bret_nee_fourcade_31747.jpg",
-    "portrait_alt": "Portrait historique de Georgette BRET, née Fourcade",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Georgette Fourcade naît le octobre à Sainte-Foy-la-Grande Gironde où ses parents sont employés d’épicerie Parmi ses frères Paul Fourcade né le février. La…",
     "search": "georgette bret nee fourcade 31747 matricule 31747 morte en deportation"
   },
@@ -5286,7 +5273,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/georgette-dite-jo-messmer-31818.jpg",
-    "portrait_alt": "Photographie de Georgette Dite Jo MESSMER",
+    "portrait_alt": "Portrait documenté de Georgette Dite Jo MESSMER",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
     "search": "georgette dite jo messmer 31818 matricule 31818 notice commemorative"
   },
@@ -5299,7 +5286,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/georgette_lacabanne_31717_corrigee.png",
-    "portrait_alt": "Planche d’immatriculation de Georgette Lacabanne",
+    "portrait_alt": "Portrait documenté de Georgette LACABANNE",
     "description": "Georgette Réau naît le 20 août 1910 à Bordeaux. Fille d’un chaudronnier sur fer, elle grandit dans cette ville et fréquente l’école Cazemajor jusqu’au…",
     "search": "georgette lacabanne 31717 matricule 31717 morte en deportation"
   },
@@ -5325,7 +5312,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/georgette-rostaing-31850.jpg",
-    "portrait_alt": "Photographie de Georgette ROSTAING",
+    "portrait_alt": "Portrait documenté de Georgette ROSTAING",
     "description": "Georgette, Louise, Rostaing, née le 7 novembre 1911 à Ivry-sur-Seine (Val-de-Marne) domiciliée à Ivry, morte à Birkenau le 2 mai 1943.",
     "search": "georgette rostaing 31850 matricule 31850 notice commemorative"
   },
@@ -5402,8 +5389,8 @@
     "subtitle": "Matricule 31842",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/germaine-berger-31842.png",
-    "portrait_alt": "Photo non trouvée pour Germaine BERGER",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Germaine Pirou naît le 9 mars 1918 à Scrignac (Finistère – 29) dans une famille de quatre filles d’agriculteurs.",
     "search": "germaine berger 31842 matricule 31842 notice commemorative"
   },
@@ -5429,7 +5416,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/germaine_cantelaube_31740.jpg",
-    "portrait_alt": "Planche d’immatriculation de Germaine Cantelaube",
+    "portrait_alt": "Portrait documenté de Germaine CANTELAUBE",
     "description": "Germaine Charles naît le 27 mars 1908 à Paris, dans une famille modeste. Fille d’un employé de bureau, elle grandit à Montigny-Beauchamp et poursuit sa…",
     "search": "germaine cantelaube 31740 matricule 31740 morte en deportation"
   },
@@ -5454,8 +5441,8 @@
     "subtitle": "Matricule 31809",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/germaine-drapron-31809.jpg",
-    "portrait_alt": "Photographie de Germaine DRAPRON",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Justine (Germaine) Lagarde naît le 1er janvier 1903 à Sireuil (Charente – 16), fille de Jean Lagarde, 30 ans, cultivateur, et de Marguerite Marie Marchive…",
     "search": "germaine drapron 31809 matricule 31809 notice commemorative"
   },
@@ -5480,8 +5467,8 @@
     "subtitle": "Matricule 31706",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/germaine_girard_31706.png",
-    "portrait_alt": "Image de remplacement portant la mention photo non trouvée",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Germaine Emma Marie Girard naît le janvier à Saint-Cloud Seine Hauts-de-Seine chez ses parents Alexandre Girard ans tailleur et Méline Mainfroid ans…",
     "search": "germaine girard 31706 matricule 31706 morte en deportation"
   },
@@ -5507,7 +5494,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/germaine-jaunay-31782.jpg",
-    "portrait_alt": "Photographie de Germaine JAUNAY",
+    "portrait_alt": "Portrait documenté de Germaine JAUNAY",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "germaine jaunay 31782 matricule 31782 notice commemorative"
   },
@@ -5533,7 +5520,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/germaine-maurice-31788.jpg",
-    "portrait_alt": "Photographie de Germaine MAURICE",
+    "portrait_alt": "Portrait documenté de Germaine MAURICE",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "germaine maurice 31788 matricule 31788 notice commemorative"
   },
@@ -5558,8 +5545,8 @@
     "subtitle": "Matricule 31679",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/germaine-pican-31679.jpg",
-    "portrait_alt": "Photographie de Germaine PICAN",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Germaine PICAN, née Morigot vient au monde le 10 octobre 1901 à Malaunay, banlieue rouennaise, dans une famille de trois filles. Le père était spécialisé…",
     "search": "germaine pican 31679 matricule 31679 notice commemorative"
   },
@@ -5572,7 +5559,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/germaine-renaudin-31716.jpg",
-    "portrait_alt": "Photographie de Germaine RENAUDIN",
+    "portrait_alt": "Portrait documenté de Germaine RENAUDIN",
     "description": "Hussigny. Au premier plan, les hauts-fourneaux, la gare et une cité ouvrière. À l’arrière plan, le village. La frontière luxembourgeoise s’étend quelques…",
     "search": "germaine renaudin 31716 matricule 31716 notice commemorative"
   },
@@ -5584,8 +5571,8 @@
     "subtitle": "Matricule 31682",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/germaine-renauld-31682.jpg",
-    "portrait_alt": "Photographie de Germaine RENAULD",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Droits réservés.",
     "search": "germaine renauld 31682 matricule 31682 notice commemorative"
   },
@@ -5676,7 +5663,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/gilberte-tamise-31715.jpg",
-    "portrait_alt": "Photographie de Gilberte TAMISÉ",
+    "portrait_alt": "Portrait documenté de Gilberte TAMISÉ",
     "description": "Marie, Gilberte Tamisé naît le le 3 février 1912. Son père est bottier à Caudéran, dans la proche banlieue de Bordeaux (Gironde – 33). Le 28 février 1922…",
     "search": "gilberte tamise 31715 matricule 31715 notice commemorative"
   },
@@ -5714,8 +5701,8 @@
     "subtitle": "Matricule 31667",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/gisele-laguesse-31667.jpg",
-    "portrait_alt": "Photographie de Gisèle LAGUESSE",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Gisèle, Henriette, Lung naît le 29 janvier 1915 à Poitiers (Vienne). Elle grandit à Levallois-Perret (Hauts-de-Seine), où elle va à l’école communale. Elle…",
     "search": "gisele laguesse 31667 matricule 31667 notice commemorative"
   },
@@ -5858,7 +5845,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/helena-fournier-31793.jpg",
-    "portrait_alt": "Photographie de Héléna FOURNIER",
+    "portrait_alt": "Portrait documenté de Héléna FOURNIER",
     "description": "Héléna Fournier en janvier 1943, âgée de 38 ans. Photo d’immatriculation au camp allemand du fort de Romainville. © Collection Carole Toulousy-Michel",
     "search": "helena fournier 31793 matricule 31793 notice commemorative"
   },
@@ -5883,8 +5870,8 @@
     "subtitle": "Matricule 31807",
     "status": "Rescapée",
     "status_class": "survivor",
-    "portrait": "portraits/helene_allaire_31807.jpg",
-    "portrait_alt": "Portrait d’Hélène Bolleau avant sa déportation",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Hélène Bolleau naît le 6 avril 1924 à Royan, en Charente-Inférieure. Son père Roger travaille aux Postes et devient facteur-chef à Pontaillac ; sa mère…",
     "search": "helene allaire 31807 matricule 31807 rescapee"
   },
@@ -5922,8 +5909,8 @@
     "subtitle": "Matricule 31775",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/helene_antoine_nee_demangeat_31775.jpg",
-    "portrait_alt": "Portrait historique de Hélène ANTOINE, née Demangeat",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Hélène Demangeat naît le juillet à Thaon Vosges. La notice biographique replace ce commencement dans son milieu familial et social, sans transformer en…",
     "search": "helene antoine nee demangeat 31775 matricule 31775 morte en deportation"
   },
@@ -5936,7 +5923,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/helene_brabander_31695.jpg",
-    "portrait_alt": "Trois vues anthropométriques d’Hélène Brabander à Auschwitz-I",
+    "portrait_alt": "Portrait documenté de Hélène BRABANDER",
     "description": "Hélène Brabander naît le 25 mai 1923 à Paris dans une famille d’origine polonaise. Son père, François Brabander, est médecin ; sa mère Sophie possède une…",
     "search": "helene brabander 31695 matricule 31695 morte en deportation"
   },
@@ -5962,7 +5949,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/helene-castera-31719.jpg",
-    "portrait_alt": "Photographie de Hélène CASTERA",
+    "portrait_alt": "Portrait documenté de Hélène CASTERA",
     "description": "Hélène Vervin naît le 21 avril 1887 à Chiry-Ourscamp (Oise – 60).",
     "search": "helene castera 31719 matricule 31719 notice commemorative"
   },
@@ -5987,8 +5974,8 @@
     "subtitle": "Matricule 31755",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/helene_hascoet_31755.png",
-    "portrait_alt": "Image de remplacement portant la mention photo non trouvée",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Hélène Hascoët naît le novembre à Concarneau Finistère fille de Jean Marie Hascoët ans menuisier et d’Hélène Jeanne Masfort ans son épouse tailleuse…",
     "search": "helene hascoet 31755 matricule 31755 morte en deportation"
   },
@@ -6014,7 +6001,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/helene-solomon-31684.jpg",
-    "portrait_alt": "Photographie de Hélène SOLOMON",
+    "portrait_alt": "Portrait documenté de Hélène SOLOMON",
     "description": "Hélène Henriette Langevin naît le 25 mai 1909 à Fontenay-aux-Roses (Seine / Hauts-de-Seine), chez ses parents, Paul Langevin, 37 ans, professeur au Collège…",
     "search": "helene solomon 31684 matricule 31684 notice commemorative"
   },
@@ -6365,7 +6352,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/henriette-l-huillier-31688.jpg",
-    "portrait_alt": "Photographie de Henriette L’HUILLIER",
+    "portrait_alt": "Portrait documenté de Henriette L’HUILLIER",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
     "search": "henriette l huillier 31688 matricule 31688 notice commemorative"
   },
@@ -6391,7 +6378,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/henriette_mauvais_31674.jpg",
-    "portrait_alt": "Triptyque d’immatriculation d’Henriette Mauvais à Auschwitz",
+    "portrait_alt": "Portrait documenté de Henriette MAUVAIS",
     "description": "Henriette Cailliot naît le 22 octobre 1906 à Vitry-sur-Seine, dans une famille nombreuse de maraîchers. Elle épouse Léon Mauvais, tourneur, syndicaliste et…",
     "search": "henriette mauvais 31674 matricule 31674 rescapee"
   },
@@ -6404,7 +6391,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/henriette-pizzoli-31626.jpg",
-    "portrait_alt": "Photographie de Henriette PIZZOLI",
+    "portrait_alt": "Portrait documenté de Henriette PIZZOLI",
     "description": "Henriette Fernande Papillon naît le 5 mars 1920 à Romainville [1] (Seine / Seine-Saint-Denis – 93), fille de Fernand, Henri Papillon, 28 ans, cordonnier…",
     "search": "henriette pizzoli 31626 matricule 31626 notice commemorative"
   },
@@ -6417,7 +6404,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/henriette-schmidt-31699.jpg",
-    "portrait_alt": "Photographie de Henriette SCHMIDT",
+    "portrait_alt": "Portrait documenté de Henriette SCHMIDT",
     "description": "Au fort de Romainville, en détention allemande. Droits réservés.",
     "search": "henriette schmidt 31699 matricule 31699 notice commemorative"
   },
@@ -6521,7 +6508,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/irina_karchewska_31698.jpg",
-    "portrait_alt": "Portrait de détention d’Irina Karchewska au fort de Romainville",
+    "portrait_alt": "Portrait documenté de Irina KARCHEWSKA",
     "description": "Irina Byczeck naît le 6 décembre 1899 à Gzichow, en Pologne. Avec son mari, elle quitte son pays et s’installe en France vers 1924 ou 1925. Le couple vit à…",
     "search": "irina karchewska 31698 matricule 31698 morte en deportation"
   },
@@ -6625,7 +6612,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/jacqueline-quatremaire-31641.jpg",
-    "portrait_alt": "Photographie de Jacqueline QUATREMAIRE",
+    "portrait_alt": "Portrait documenté de Jacqueline QUATREMAIRE",
     "description": "Jacqueline Quatremaire naît le 17 octobre 1918 à Igé (Orne), fille unique d’Henri Quatremaire, 21 ans, peintre en bâtiment, et de Germaine Bruhce, qui se…",
     "search": "jacqueline quatremaire 31641 matricule 31641 notice commemorative"
   },
@@ -6742,7 +6729,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/jakoba-van-der-lee-31697.jpg",
-    "portrait_alt": "Photographie de Jakoba Van Der LEE",
+    "portrait_alt": "Portrait documenté de Jakoba Van Der LEE",
     "description": "Très jeune, Jakoba Van Der Lee se marie avec un prince arabe qui l’emmène dans son pays et l’enferme dans son harem. Elle ne s’attend pas à cette vie de…",
     "search": "jakoba van der lee 31697 matricule 31697 notice commemorative"
   },
@@ -7184,7 +7171,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/jeanne_alexandre_31779.jpg",
-    "portrait_alt": "Trois vues anthropométriques de Jeanne Alexandre à Auschwitz-I",
+    "portrait_alt": "Portrait documenté de Jeanne ALEXANDRE",
     "description": "Jeanne Borderie naît le 27 mars 1912 au Chambon, près d’Anglars-de-Salers, dans le Cantal, où ses parents exploitent une petite ferme. Son père est tué au…",
     "search": "jeanne alexandre 31779 matricule 31779 morte en deportation"
   },
@@ -7223,7 +7210,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/jeanne_couteau_31772.jpg",
-    "portrait_alt": "Triptyque d’immatriculation de Jeanne Couteau à Auschwitz",
+    "portrait_alt": "Portrait documenté de Jeanne COUTEAU",
     "description": "Jeanne Louise Couteau naît le 13 juillet 1901 à Paris, de père non déclaré. Elle grandit à Bagnoles-de-l’Orne et obtient son certificat d’études. En 1923…",
     "search": "jeanne couteau 31772 matricule 31772 morte en deportation"
   },
@@ -7249,7 +7236,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/jeanne-dite-carmen-serre-31637.jpg",
-    "portrait_alt": "Photographie de Jeanne Dite Carmen SERRE",
+    "portrait_alt": "Portrait documenté de Jeanne Dite Carmen SERRE",
     "description": "Deux sœurs rescapées d’Auschwitz",
     "search": "jeanne dite carmen serre 31637 matricule 31637 notice commemorative"
   },
@@ -7261,8 +7248,8 @@
     "subtitle": "Matricule 31770",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/jeanne_grandperret_31770.png",
-    "portrait_alt": "Image indiquant qu’aucun portrait authentifié de Jeanne Grandperret n’a été retrouvé",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Jeanne Claire Bergöend naît le 1er juillet 1896 à Morez, dans le Jura, au sein d’une famille de cinq enfants. Son père est émailleur. Après le brevet…",
     "search": "jeanne grandperret 31770 matricule 31770 morte en deportation"
   },
@@ -7288,7 +7275,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/jeanne_guyot_nee_guivarch_31631.jpg",
-    "portrait_alt": "Portrait historique de Jeanne GUYOT, née Guivarch",
+    "portrait_alt": "Portrait documenté de Jeanne GUYOT, née Guivarch",
     "description": "Jane Louise Marie Désirée Guivarch naît le septembre à Argenteuil Seine-et-Oise Val-d’Oise fille de Pierre Marie Guyvarch ans mécanicien et d’Emma…",
     "search": "jeanne guyot nee guivarch 31631 matricule 31631 morte en deportation"
   },
@@ -7314,7 +7301,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/jeanne_herve_31768.jpg",
-    "portrait_alt": "Portrait historique de Jeanne HERVÉ",
+    "portrait_alt": "Portrait documenté de Jeanne HERVÉ",
     "description": "Jeanne HERVÉ est née le juin au Merzer Côtes-du-Nord Côtes d’Armor elle était la dernière d’une famille de six enfants Le père meurt en la mère cinq ans…",
     "search": "jeanne herve 31768 matricule 31768 morte en deportation"
   },
@@ -7340,7 +7327,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/jeanne-humbert-31813.jpg",
-    "portrait_alt": "Photographie de Jeanne HUMBERT",
+    "portrait_alt": "Portrait documenté de Jeanne HUMBERT",
     "description": "Jeanne Larcher naît le 12 février 1915 à Blénod-les-Toul (Meurthe-et-Moselle), fille unique d’un électricien. Elle va à l’école communale jusqu’au…",
     "search": "jeanne humbert 31813 matricule 31813 notice commemorative"
   },
@@ -7366,7 +7353,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/jeanne-marie-thiebault-31640.jpg",
-    "portrait_alt": "Photographie de Jeanne Marie THIÉBAULT",
+    "portrait_alt": "Portrait documenté de Jeanne Marie THIÉBAULT",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "jeanne marie thiebault 31640 matricule 31640 notice commemorative"
   },
@@ -7379,7 +7366,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/jeanne-souque-31739.jpg",
-    "portrait_alt": "Photographie de Jeanne SOUQUE",
+    "portrait_alt": "Portrait documenté de Jeanne SOUQUE",
     "description": "Jeanne Renon naît le 4 novembre 1894 à Pessac (Gironde – 33).",
     "search": "jeanne souque 31739 matricule 31739 notice commemorative"
   },
@@ -7391,8 +7378,8 @@
     "subtitle": "Matricule (31…?)",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/jeannine_dite_jeanne_herschtel.png",
-    "portrait_alt": "Image de remplacement portant la mention photo non trouvée",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Yvonne Jeannine Herschtel naît le novembre au domicile de ses parents Isaac Herschtel ans né à Odessa Russie Ukraine courtier de commerce et Andrée…",
     "search": "jeannine dite jeanne herschtel matricule 31 morte en deportation"
   },
@@ -7443,8 +7430,8 @@
     "subtitle": "Convoi 31000",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/josephine-dite-mado-umido-31000.jpg",
-    "portrait_alt": "Photographie de Joséphine Dite Mado UMIDO",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Joséphine Umido, née Bizzarri le 21 septembre 1903 à Roquefort-la-Bédoule (Bouches-du-Rhône), domiciliée à Bois-Colombes (Hauts-de-Seine), morte à…",
     "search": "josephine dite mado umido convoi 31000 notice commemorative"
   },
@@ -7457,7 +7444,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/josephine_umido_31848.jpg",
-    "portrait_alt": "Portrait de Joséphine Umido souriante avant son arrestation",
+    "portrait_alt": "Portrait documenté de Joséphine UMIDO",
     "description": "Joséphine, ou Giuseppina, Bizzarri naît le 21 septembre 1903 à Roquefort-la-Bédoule, dans les Bouches-du-Rhône. Ses parents, Ruffino Bizzarri et Caroline…",
     "search": "josephine umido 31848 matricule 31848 morte en deportation"
   },
@@ -7509,7 +7496,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/julia-slusarczyk-31823.jpg",
-    "portrait_alt": "Photographie de Julia SLUSARCZYK",
+    "portrait_alt": "Portrait documenté de Julia SLUSARCZYK",
     "description": "La vie d’une immigrée polonaise",
     "search": "julia slusarczyk 31823 matricule 31823 notice commemorative"
   },
@@ -7535,7 +7522,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/juliette-poirier-31769.jpg",
-    "portrait_alt": "Photographie de Juliette POIRIER",
+    "portrait_alt": "Portrait documenté de Juliette POIRIER",
     "description": "Julliette Même naît le 10 juillet 1918 à Saint-Lambert-des-Levées (Maine-et-Loire – 49), dans une famille de huit enfants. Les parents sont jardiniers.",
     "search": "juliette poirier 31769 matricule 31769 notice commemorative"
   },
@@ -7561,7 +7548,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/karolina_konefal_31707.jpg",
-    "portrait_alt": "Portrait historique de Karolina KONEFAL",
+    "portrait_alt": "Portrait documenté de Karolina KONEFAL",
     "description": "Karolina Konefal naît le 25 octobre 1920 à Varsovie, en Pologne. Les documents réunis à son sujet sont très peu nombreux et ne permettent pas de restituer…",
     "search": "karolina konefal 31707 matricule 31707 morte en deportation"
   },
@@ -7613,7 +7600,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/laure_gatet_31833.jpg",
-    "portrait_alt": "Portrait historique de Laure GATET",
+    "portrait_alt": "Portrait documenté de Laure GATET",
     "description": "Laure Constance Pierrette Gatet naît le juillet à la Maison-Dieu commune de Boussac-Bourg Creuse dans une famille d’enseignants. La notice biographique…",
     "search": "laure gatet 31833 matricule 31833 morte en deportation"
   },
@@ -7639,7 +7626,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/lea_lambert_nee_durbeck_31821.jpg",
-    "portrait_alt": "Portrait historique de Léa LAMBERT, née Durbeck",
+    "portrait_alt": "Portrait documenté de Léa LAMBERT, née Durbeck",
     "description": "Marguerite Léa Durbecq naît le avril à Rocroi Ardennes fille de Louis Durbecq ans mouleur et de Marie Picot ans son épouse Elle grandit au hameau du…",
     "search": "lea lambert nee durbeck 31821 matricule 31821 morte en deportation"
   },
@@ -7794,8 +7781,8 @@
     "subtitle": "Matricule 31815",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/leona-bouillard-31815.jpg",
-    "portrait_alt": "Photographie de Léona BOUILLARD",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Clémence, Léona, Bouillard, née Ravaux le 26 avril 1885 à Éteignères (Ardennes), domiciliée à Tremblois-lès-Rocroi (Ardennes), morte à Auschwitz, au…",
     "search": "leona bouillard 31815 matricule 31815 notice commemorative"
   },
@@ -7821,7 +7808,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/leone-seignolle-31752.jpg",
-    "portrait_alt": "Photographie de Léone SEIGNOLLE",
+    "portrait_alt": "Portrait documenté de Léone SEIGNOLLE",
     "description": "Léone Seignolle arrive à Romainville le 21 octobre 1942.",
     "search": "leone seignolle 31752 matricule 31752 notice commemorative"
   },
@@ -7834,7 +7821,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/leonie_sabail_31745.jpg",
-    "portrait_alt": "Triptyque d’immatriculation de Léonie Sabail à Auschwitz",
+    "portrait_alt": "Portrait documenté de Léonie SABAIL",
     "description": "Léonie Daubigny naît le 5 avril 1891 à Châtellerault. Elle épouse Jean Sabail et le couple a une fille, déjà mariée en 1942, et un fils de quinze ans. Tous…",
     "search": "leonie sabail 31745 matricule 31745 morte en deportation"
   },
@@ -7859,8 +7846,8 @@
     "subtitle": "Matricule 31795",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/lina_kuhn_ou_kuhne_31795.jpg",
-    "portrait_alt": "Portrait historique de Lina KUHN ou KUHNE",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Lina Kuhn, dont le nom est parfois orthographié Kuhne ou Khune, naît le 8 janvier 1896 à Sainte-Marie-aux-Mines, alors appelée Markirch dans l’Alsace…",
     "search": "lina kuhn ou kuhne 31795 matricule 31795 morte en deportation"
   },
@@ -8029,7 +8016,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/louise-dite-louisette-losserand-31757.jpg",
-    "portrait_alt": "Photographie de Louise Dite Louisette LOSSERAND",
+    "portrait_alt": "Portrait documenté de Louise Dite Louisette LOSSERAND",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
     "search": "louise dite louisette losserand 31757 matricule 31757 notice commemorative"
   },
@@ -8042,7 +8029,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/louise_lavigne_31669.jpg",
-    "portrait_alt": "Photographie anthropométrique de Louise Lavigne prise par la police en avril 1942",
+    "portrait_alt": "Portrait documenté de Louise LAVIGNE",
     "description": "Louise Amand, dite « Anaïse » ou « Nayette », naît le 17 mars 1904 à Iteuil, dans la Vienne, au sein d’une famille nombreuse et très pauvre. Elle quitte…",
     "search": "louise lavigne 31669 matricule 31669 morte en deportation"
   },
@@ -8068,7 +8055,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/louise-loquet-31828.jpg",
-    "portrait_alt": "Photographie de Louise LOQUET",
+    "portrait_alt": "Portrait documenté de Louise LOQUET",
     "description": "Orpheline à 8 ans",
     "search": "louise loquet 31828 matricule 31828 notice commemorative"
   },
@@ -8094,7 +8081,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/louise-magadur-31673.jpg",
-    "portrait_alt": "Photographie de Louise MAGADUR",
+    "portrait_alt": "Portrait documenté de Louise MAGADUR",
     "description": "Photo anthropométrique prise le 17 mars 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police (APP), Paris.",
     "search": "louise magadur 31673 matricule 31673 notice commemorative"
   },
@@ -8120,7 +8107,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/lucette-suzanne-herbassier-31781.jpg",
-    "portrait_alt": "Photographie de Lucette Suzanne HERBASSIER",
+    "portrait_alt": "Portrait documenté de Lucette Suzanne HERBASSIER",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "lucette suzanne herbassier 31781 matricule 31781 notice commemorative"
   },
@@ -8133,7 +8120,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/lucie-dite-lucette-pecheux-31633.jpg",
-    "portrait_alt": "Photographie de Lucie Dite Lucette PÉCHEUX",
+    "portrait_alt": "Portrait documenté de Lucie Dite Lucette PÉCHEUX",
     "description": "En 1938 © Corinne Dromard-Abspoel.",
     "search": "lucie dite lucette pecheux 31633 matricule 31633 notice commemorative"
   },
@@ -8250,7 +8237,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/lucienne-dite-annie-ferre-31722.jpg",
-    "portrait_alt": "Photographie de Lucienne Dite Annie FERRÉ",
+    "portrait_alt": "Portrait documenté de Lucienne Dite Annie FERRÉ",
     "description": "Lucienne Proux naît le 11 octobre 1922 à Ville-d’Avray [1] (Hauts-de-Seine – 92), mais elle grandit à Rochefort (Charente-Maritime [2] – 17) où son père…",
     "search": "lucienne dite annie ferre 31722 matricule 31722 notice commemorative"
   },
@@ -8275,8 +8262,8 @@
     "subtitle": "Matricule 31648",
     "status": "Rescapée",
     "status_class": "survivor",
-    "portrait": "portraits/lucie_mansuy_31648.jpg",
-    "portrait_alt": "Photographies policières de Lucie Mansuy en 1942",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Lucienne Jeanne Caccia naît le 3 juin 1915 à Gérardmer, dans une famille de quatre enfants issue de l’immigration italienne. Son père travaille comme chef…",
     "search": "lucienne dite lucie mansuy 31648 matricule 31648 rescapee"
   },
@@ -8288,8 +8275,8 @@
     "subtitle": "Matricule 31642",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/lucienne-dite-lulu-thevenin-31642.jpg",
-    "portrait_alt": "Photographie de Lucienne Dite Lulu THÉVENIN",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Deux sœurs rescapées d’Auschwitz",
     "search": "lucienne dite lulu thevenin 31642 matricule 31642 notice commemorative"
   },
@@ -8302,7 +8289,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/lucienne-dite-nicole-lautissier-31726.jpg",
-    "portrait_alt": "Photographie de Lucienne Dite Nicole LAUTISSIER",
+    "portrait_alt": "Portrait documenté de Lucienne Dite Nicole LAUTISSIER",
     "description": "Lucienne Michaud nait le 4 avril 1923 au Creusot.",
     "search": "lucienne dite nicole lautissier 31726 matricule 31726 notice commemorative"
   },
@@ -8328,7 +8315,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/lucienne-lebreton-31692.jpg",
-    "portrait_alt": "Photographie de Lucienne LEBRETON",
+    "portrait_alt": "Portrait documenté de Lucienne LEBRETON",
     "description": "Lucienne Lebreton en 1934. © Archives de la RATP.",
     "search": "lucienne lebreton 31692 matricule 31692 notice commemorative"
   },
@@ -8354,7 +8341,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/lucienne-palluy-31689.jpg",
-    "portrait_alt": "Photographie de Lucienne PALLUY",
+    "portrait_alt": "Portrait documenté de Lucienne PALLUY",
     "description": "Un grand-père, du côté paternel, communard, a disparu pendant la Semaine sanglante. Son père, vieux socialiste, avait adhéré au parti communiste après la…",
     "search": "lucienne palluy 31689 matricule 31689 notice commemorative"
   },
@@ -8367,7 +8354,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/luz_martos_nee_goni_31696.jpg",
-    "portrait_alt": "Portrait historique de Luz MARTOS, née Goni",
+    "portrait_alt": "Portrait documenté de Luz MARTOS, née Goni",
     "description": "Higinia Luz prononcer Loutch Goñi-Ayestaran naît le janvier à Cirauqui en espagnol ou Zirauki en basque en Navarre Espagne fille aînée de D Fructuoso…",
     "search": "luz martos nee goni 31696 matricule 31696 morte en deportation"
   },
@@ -8392,8 +8379,8 @@
     "subtitle": "Matricule 31690",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/madeleine_damous_nee_demiot_31690.jpg",
-    "portrait_alt": "Portrait historique de Madeleine DAMOUS, née Demiot",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Madeleine Demiot naît le mars à Saint-Aigny Indre dans une famille de deux enfants Son père est cultivateur au Breuil commune de Saint-Aigny Elle va a…",
     "search": "madeleine damous nee demiot 31690 matricule 31690 morte en deportation"
   },
@@ -8419,7 +8406,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/madeleine_dechavassine_31639.jpg",
-    "portrait_alt": "Portrait historique de Madeleine DECHAVASSINE",
+    "portrait_alt": "Portrait documenté de Madeleine DECHAVASSINE",
     "description": "Madeleine Marie Roger naît le novembre à Letanne Ardennes petit village sur les bords de la Meuse fille d’Achille Roger instituteur et de Berthe Husson. La…",
     "search": "madeleine dechavassine 31639 matricule 31639 rescapee"
   },
@@ -8432,7 +8419,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/madeleine_dite_jacqueline_odru_nee_dissoubray_31660.jpg",
-    "portrait_alt": "Portrait historique de Madeleine, dite “Jacqueline”, ODRU, née DISSOUBRAY",
+    "portrait_alt": "Portrait documenté de Madeleine, dite “Jacqueline”, ODRU, née DISSOUBRAY",
     "description": "Madeleine Odru née DISSOUBRAY dite Jacqueline naît le novembre à Sainte-Marguerite-lès-Aumale Seine-Inférieure aujourd’hui Seine-Maritime Elle grandit à…",
     "search": "madeleine dite jacqueline odru nee dissoubray 31660 matricule 31660 rescapee"
   },
@@ -8445,7 +8432,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/madeleine_dite_mado_perriot_nee_doiret_31644.jpg",
-    "portrait_alt": "Portrait historique de Madeleine, dite »Mado » PERRIOT, née DOIRET",
+    "portrait_alt": "Portrait documenté de Madeleine, dite »Mado » PERRIOT, née DOIRET",
     "description": "Madeleine Joséphine Sylvie Doiret naît le novembre à Ivry-sur-Seine Val-de-Marne fille Pierre Doiret ans piqueur et d’Yvonne Pagès vendeuse aînée de cinq…",
     "search": "madeleine dite mado perriot nee doiret 31644 matricule 31644 rescapee"
   },
@@ -8471,7 +8458,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/madeleine_dite_michele_laffitte_nee_guitton_31666.jpg",
-    "portrait_alt": "Portrait historique de Madeleine, dite “Michèle” LAFFITTE, née Guitton",
+    "portrait_alt": "Portrait documenté de Madeleine, dite “Michèle” LAFFITTE, née Guitton",
     "description": "Madeleine Noémie Eugénie Marie Guitton naît le octobre au Longeron Maine-et-Loire fille d’Eugène Guitton artisan mécanicien et de Noémie Piffeteau…",
     "search": "madeleine dite michele laffitte nee guitton 31666 matricule 31666 morte en deportation"
   },
@@ -8484,7 +8471,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/madeleine-galesloot-31643.jpg",
-    "portrait_alt": "Photographie de Madeleine GALESLOOT",
+    "portrait_alt": "Portrait documenté de Madeleine GALESLOOT",
     "description": "Auschwitz-I, le 3 février 1943 Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "madeleine galesloot 31643 matricule 31643 notice commemorative"
   },
@@ -8510,7 +8497,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/madeleine-jegouzo-31668.jpg",
-    "portrait_alt": "Photographie de Madeleine JÉGOUZO",
+    "portrait_alt": "Portrait documenté de Madeleine JÉGOUZO",
     "description": "Madeleine Jégouzo, née Passot, vient au monde dans le 15ème arrondissement dans une famille de tradition socialiste. Elle adhère au Parti communiste en…",
     "search": "madeleine jegouzo 31668 matricule 31668 notice commemorative"
   },
@@ -8523,7 +8510,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/madeleine_zani_nee_davy_31744.jpg",
-    "portrait_alt": "Portrait historique de Madeleine ZANI, née Davy",
+    "portrait_alt": "Portrait documenté de Madeleine ZANI, née Davy",
     "description": "Madeleine Davy nait le août à Mont-Saint-Martin Meurthe-et-Moselle dans une famille de dix enfants dont sept sont encore vivants en Son père métallurgiste…",
     "search": "madeleine zani nee davy 31744 matricule 31744 morte en deportation"
   },
@@ -8860,8 +8847,8 @@
     "subtitle": "Convoi 31000",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/marcelle-bureau-31000%20%281%29.png",
-    "portrait_alt": "Photo non trouvée pour Marcelle BUREAU",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Marcelle Bureau, née le 7 avril 1923 à Étaules (Charente-Maritime), domiciliée à Étaules, morte au camp de femmes de Birkenau le 13 avril 1943.",
     "search": "marcelle bureau convoi 31000 notice commemorative"
   },
@@ -8873,8 +8860,8 @@
     "subtitle": "Convoi 31000",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/marcelle-bureau-31000.png",
-    "portrait_alt": "Photographie de Marcelle BUREAU",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Marcelle Bureau, née le 7 avril 1923 à Étaules (Charente-Maritime), domiciliée à Étaules, morte au camp de femmes de Birkenau le 13 avril 1943.",
     "search": "marcelle bureau convoi 31000 notice commemorative"
   },
@@ -8886,8 +8873,8 @@
     "subtitle": "Matricule 31808",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/marcelle_bureau_31808.png",
-    "portrait_alt": "Image de remplacement portant la mention photo non trouvée",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Marcelle Bureau naît le 7 avril 1923 à Étaules, en Charente-Maritime. Ses parents sont ostréiculteurs et elle grandit au rythme du travail des parcs à…",
     "search": "marcelle bureau 31808 matricule 31808 morte en deportation"
   },
@@ -8899,8 +8886,8 @@
     "subtitle": "Matricule 31753",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/marcelle_dite_paulette_gourmelon_31753.jpg",
-    "portrait_alt": "Portrait historique de Marcelle, dite “Paulette”, GOURMELON",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Marcelle Gourmelon naît le juin à Paris e fille de Pierre Gourmelon comptable et de Jeanne Cam ans son épouse Marcelle l’aînée aura deux sœurs Louisette…",
     "search": "marcelle dite paulette gourmelon 31753 matricule 31753 morte en deportation"
   },
@@ -8926,7 +8913,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/marcelle_fuglesang_31826.jpg",
-    "portrait_alt": "Portrait historique de Marcelle FUGLESANG",
+    "portrait_alt": "Portrait documenté de Marcelle FUGLESANG",
     "description": "Marcelle Fuglesang naît dans le faubourg de Christiana à Oslo Norvège le février fille de Jørgan Jacob Fuglesang ans Norvégien installé à Paris où il…",
     "search": "marcelle fuglesang 31826 matricule 31826 morte en deportation"
   },
@@ -8951,8 +8938,8 @@
     "subtitle": "Matricule 31785",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/marcelle-laurillou-31785.jpg",
-    "portrait_alt": "Photographie de Marcelle LAURILLOU",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Marcelle, Fernande, Micheline, Mardelle naît le 19 novembre 1914 à Perrusson, près de Loches (Indre-et-Loire), fille de Marcel Mardelle, 30 ans…",
     "search": "marcelle laurillou 31785 matricule 31785 notice commemorative"
   },
@@ -8978,7 +8965,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/marcelle_lemasson_31670.jpg",
-    "portrait_alt": "Photographie anthropométrique de Marcelle Lemasson prise par la police en avril 1942",
+    "portrait_alt": "Portrait documenté de Marcelle LEMASSON",
     "description": "Marguerite Marcelle Béziau naît le 28 novembre 1909 à Saintes, en Charente-Inférieure. Son père, chauffeur de locomotive, meurt lorsqu’elle a quinze ans.…",
     "search": "marcelle lemasson 31670 matricule 31670 rescapee"
   },
@@ -8991,7 +8978,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/marcelle-mourot-31819.jpg",
-    "portrait_alt": "Photographie de Marcelle MOUROT",
+    "portrait_alt": "Portrait documenté de Marcelle MOUROT",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "marcelle mourot 31819 matricule 31819 notice commemorative"
   },
@@ -9017,7 +9004,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/marguerite_chavaroc_31796.jpg",
-    "portrait_alt": "Trois vues anthropométriques de Marguerite Chavaroc à Auschwitz-I",
+    "portrait_alt": "Portrait documenté de Marguerite CHAVAROC",
     "description": "Marguerite Germaine Bauché naît le 3 octobre 1894 à Hennebont, dans le Morbihan. Son père, Pierre-Marie Bauché, est quartier-maître mécanicien de la Marine…",
     "search": "marguerite chavaroc 31796 matricule 31796 morte en deportation"
   },
@@ -9043,7 +9030,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/marguerite_corringer_nee_helleringer_31657.jpg",
-    "portrait_alt": "Portrait historique de Marguerite CORRINGER, née Helleringer",
+    "portrait_alt": "Portrait documenté de Marguerite CORRINGER, née Helleringer",
     "description": "Marguerite Helleringer naît le juin à Paris e chez ses parents Michel Helleringer ans lorrain d’origine et Élisa Pïnck son épouse ans domiciliés au rue des…",
     "search": "marguerite corringer nee helleringer 31657 matricule 31657 rescapee"
   },
@@ -9069,7 +9056,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/marguerite_josephine_houdart_31630.jpg",
-    "portrait_alt": "Portrait historique de Marguerite, Joséphine HOUDART",
+    "portrait_alt": "Portrait documenté de Marguerite, Joséphine HOUDART",
     "description": "Marguerite Joséphine HOUDART appartient au groupe des femmes françaises déportées depuis Compiègne vers Auschwitz en janvier. La notice biographique…",
     "search": "marguerite josephine houdart 31630 matricule 31630 morte en deportation"
   },
@@ -9095,7 +9082,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/marguerite_lermite_nee_joubert_31835.jpg",
-    "portrait_alt": "Portrait historique de Marguerite LERMITE, née Joubert",
+    "portrait_alt": "Portrait documenté de Marguerite LERMITE, née Joubert",
     "description": "Marguerite Marie Philomène Henriette Joubert nait le février à Vallet Loire-Inférieure Loire-Atlantique fille de Pierre Joubert ans ouvrier-maçon puis…",
     "search": "marguerite lermite nee joubert 31835 matricule 31835 morte en deportation"
   },
@@ -9108,7 +9095,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/marguerite-margot-vallina-31732.jpg",
-    "portrait_alt": "Photographie de Marguerite Margot VALLINA",
+    "portrait_alt": "Portrait documenté de Marguerite Margot VALLINA",
     "description": "Marguerite Maurin naît le 14 janvier 1906 à Moings (Charente-Maritime [1] – 17). Ses parents sont boulangers à Jarnac-Champagne, où Margot va à l’école…",
     "search": "marguerite margot vallina 31732 matricule 31732 notice commemorative"
   },
@@ -9133,8 +9120,8 @@
     "subtitle": "Matricule 31814",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/marguerite-maria-kotlerewsky-31814.png",
-    "portrait_alt": "Photo non trouvée pour Marguerite Maria KOTLEREWSKY",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Marguerite, Maria KOTLEREWSKY, née Urgon, vient au monde le 15 février 1903 ; son père travaille à Paris, boulevard Voltaire dans le 11ème arrondissement.…",
     "search": "marguerite maria kotlerewsky 31814 matricule 31814 notice commemorative"
   },
@@ -9160,7 +9147,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/marguerite_stora_31805.jpg",
-    "portrait_alt": "Portrait en noir et blanc de Marguerite Stora",
+    "portrait_alt": "Portrait documenté de Marguerite STORA",
     "description": "Marguerite Jeanne Marie Battais naît le 18 septembre 1895 à Saint-Germain-en-Coglès, en Ille-et-Vilaine. Élevée ensuite à Paris, elle devient ouvrière en…",
     "search": "marguerite stora 31805 matricule 31805 morte en deportation"
   },
@@ -9173,7 +9160,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/maria_alonso_31778.jpg",
-    "portrait_alt": "Portrait en noir et blanc de Maria Alonso",
+    "portrait_alt": "Portrait documenté de Maria ALONSO",
     "description": "Maria Ramona Alonso naît le 20 août 1910 à Santa-Fé de Mondujar, en Andalousie. Ses parents s’installent à Paris lorsqu’elle a quatre ans. Couturière à…",
     "search": "maria alonso 31778 matricule 31778 morte en deportation"
   },
@@ -9199,7 +9186,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/marie_aminthe_guillon_nee_auger_31729.jpg",
-    "portrait_alt": "Portrait historique de Marie, Aminthe, GUILLON, née Auger",
+    "portrait_alt": "Portrait documenté de Marie, Aminthe, GUILLON, née Auger",
     "description": "Marie Aminthe Auger nait le juin à Courbillac km au nord-est de Cognac Charente fille de Christin Auger et de Marie Léontine Pitadon Ses parents sont…",
     "search": "marie aminthe guillon nee auger 31729 matricule 31729 morte en deportation"
   },
@@ -9212,7 +9199,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/marie-claude-vaillant-couturier-31685.jpg",
-    "portrait_alt": "Photographie de Marie-Claude VAILLANT-COUTURIER",
+    "portrait_alt": "Portrait documenté de Marie-Claude VAILLANT-COUTURIER",
     "description": "Marie-Claude Vogel naît le 3 novembre 1912 à Paris ; elle est l’aînée des enfants de Lucien Vogel et de Cosette de Brunhoff, appartenant à une famille…",
     "search": "marie claude vaillant couturier 31685 matricule 31685 notice commemorative"
   },
@@ -9237,8 +9224,8 @@
     "subtitle": "Matricule 31771",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/marie-dite-antoinette-bibault-31771.jpg",
-    "portrait_alt": "Photographie de Marie Dite Antoinette BIBAULT",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz avant l’évacuation du camp en janvier 1945. Réalisé le 3 février 1943, le portrait…",
     "search": "marie dite antoinette bibault 31771 matricule 31771 notice commemorative"
   },
@@ -9264,7 +9251,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/marie_dubois_31693.jpg",
-    "portrait_alt": "Triptyque d’immatriculation de Marie Dubois à Auschwitz",
+    "portrait_alt": "Portrait documenté de Marie DUBOIS",
     "description": "Marie Corot naît le 27 février 1890 à Beaune. Orpheline très jeune, elle est confiée à l’Assistance publique. En 1922, elle épouse François Le Corre, dont…",
     "search": "marie dubois 31693 matricule 31693 morte en deportation"
   },
@@ -9290,7 +9277,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/marie-elisa-nordmann-31687.jpg",
-    "portrait_alt": "Photographie de Marie-Élisa NORDMANN",
+    "portrait_alt": "Portrait documenté de Marie-Élisa NORDMANN",
     "description": "Marie-Élisa Nordmann naît le 4 novembre 1910 à Paris 8e, dans le quartier de l’Europe. Son frère Philippe, James, naît le 3 décembre 1914. Ils ont pour…",
     "search": "marie elisa nordmann 31687 matricule 31687 notice commemorative"
   },
@@ -9328,8 +9315,8 @@
     "subtitle": "Matricule 31651",
     "status": "Rescapée",
     "status_class": "survivor",
-    "portrait": "portraits/marie_jeanne_bauer_nee_gantou_31651.jpg",
-    "portrait_alt": "Portrait historique de Marie-Jeanne BAUER, née Gantou",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Marie-Jeanne Gantou naît le juillet à Saint-Affrique Aveyron fille de François Gantou ans petit propriétaire terrien cultivateur et d’Augustine Douarche…",
     "search": "marie jeanne bauer nee gantou 31651 matricule 31651 rescapee"
   },
@@ -9342,7 +9329,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/marie_jeanne_dupont_31703.jpg",
-    "portrait_alt": "Portrait historique de Marie-Jeanne DUPONT",
+    "portrait_alt": "Portrait documenté de Marie-Jeanne DUPONT",
     "description": "Marie-Jeanne est née à Douai le mars dans une famille de sept enfants tôt orpheline elle est élevée chez les Sœurs de la Miséricorde à Douai. La notice…",
     "search": "marie jeanne dupont 31703 matricule 31703 rescapee"
   },
@@ -9355,7 +9342,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/marie-jeanne-pennec-31817.jpg",
-    "portrait_alt": "Photographie de Marie-Jeanne PENNEC",
+    "portrait_alt": "Portrait documenté de Marie-Jeanne PENNEC",
     "description": "(le triple portrait d’immatriculation à Auschwitz est un des plus détérioré, permettant seulement d’entrevoir un œil et une oreille…)",
     "search": "marie jeanne pennec 31817 matricule 31817 notice commemorative"
   },
@@ -9368,7 +9355,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/marie-lesage-31671.jpg",
-    "portrait_alt": "Photographie de Marie LESAGE",
+    "portrait_alt": "Portrait documenté de Marie LESAGE",
     "description": "Marie LESAGE est née le 13 janvier 1898 à Doville dans la Manche, dans une famille nombreuse de petits cultivateurs.",
     "search": "marie lesage 31671 matricule 31671 notice commemorative"
   },
@@ -9393,8 +9380,8 @@
     "subtitle": "Matricule 31853",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/marie-louise-dite-louisette-ou-marilou-colombain-31853.png",
-    "portrait_alt": "Photo non trouvée pour Marie-Louise Dite Louisette Ou Marilou COLOMBAIN",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Marie-Louise Méchain naît le 12 avril 1920 à La Courtine (Creuse), fille de François Mathurin Méchain, 26 ans, marchand fruitier, et de Joséphine…",
     "search": "marie louise dite louisette ou marilou colombain 31853 matricule 31853 notice commemorative"
   },
@@ -9407,7 +9394,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/marie_louise_madeleine_morin_31710.jpg",
-    "portrait_alt": "Triptyque d’immatriculation de Marie-Louise Morin à Auschwitz",
+    "portrait_alt": "Portrait documenté de Marie-Louise et Madeleine MORIN",
     "description": "Marie-Louise Cribier naît le 18 août 1888 en Mayenne. Elle épouse Henri Morin, menuisier, avec lequel elle fonde une famille. Devenue veuve en 1933, elle…",
     "search": "marie louise et madeleine morin 31710 matricule 31710 morte en deportation"
   },
@@ -9433,7 +9420,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/marie_louise_jourdan_31665.jpg",
-    "portrait_alt": "Portrait photomaton de Marie-Louise Jourdan avant sa déportation",
+    "portrait_alt": "Portrait documenté de Marie-Louise JOURDAN",
     "description": "Marie-Louise Bonnot naît le 27 février 1899 à Nevers, dans la Nièvre. Son père, Charles Bonnot, est journalier puis manœuvre au chemin de fer…",
     "search": "marie louise jourdan 31665 matricule 31665 morte en deportation"
   },
@@ -9446,7 +9433,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/marie_louise_lisette_moru_31825.jpg",
-    "portrait_alt": "Photographies d’immatriculation de Lisette Moru à Auschwitz",
+    "portrait_alt": "Portrait documenté de Marie-Louise MORU",
     "description": "Marie-Louise Pierrette Moru, dite Lisette, naît le 27 juillet 1925 à Port-Louis, dans le Morbihan. Elle est la deuxième de trois enfants, au sein d’une…",
     "search": "marie louise moru 31825 matricule 31825 morte en deportation"
   },
@@ -9459,7 +9446,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/marie-madeleine-normand-31678.jpg",
-    "portrait_alt": "Photographie de Marie Madeleine NORMAND",
+    "portrait_alt": "Portrait documenté de Marie Madeleine NORMAND",
     "description": "Photo anthropométrique prise le 9 avril 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police, Le Pré-Saint-Gervais.",
     "search": "marie madeleine normand 31678 matricule 31678 notice commemorative"
   },
@@ -9485,7 +9472,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/marie_marcelle_ferry_dite_mitzy_31816.jpg",
-    "portrait_alt": "Portrait historique de Marie, Marcelle, FERRY, dite “Mitzy”",
+    "portrait_alt": "Portrait documenté de Marie, Marcelle, FERRY, dite “Mitzy”",
     "description": "Marie Marcelle Ferry naît le mars à Igney Vosges fille de Joseph Ferry ans ouvrier d’usine alors mobilisé comme soldat de e classe affecté au e groupe…",
     "search": "marie marcelle ferry dite mitzy 31816 matricule 31816 rescapee"
   },
@@ -9510,8 +9497,8 @@
     "subtitle": "Matricule 31824",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/marie-mathilde-chaux-31824.png",
-    "portrait_alt": "Photo non trouvée pour Marie Mathilde CHAUX",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Marie Chaux est née le 14 août 1875 à Tain-l’Hermitage, elle s’était mariée avec un représentant de commerce de Châlon-sur-Saône.",
     "search": "marie mathilde chaux 31824 matricule 31824 notice commemorative"
   },
@@ -9524,7 +9511,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/marie-mathilde-dite-mai-politzer-31680.jpg",
-    "portrait_alt": "Photographie de Marie Mathilde Dite Maï POLITZER",
+    "portrait_alt": "Portrait documenté de Marie Mathilde Dite Maï POLITZER",
     "description": "Marie, Mathilde, Larcade naît le 15 août 1906 à Biarritz (Pyrénées-Atlantiques – 64), fille de Joseph Larcade et d’Hélène Mimiague, son épouse. Maï a deux…",
     "search": "marie mathilde dite mai politzer 31680 matricule 31680 notice commemorative"
   },
@@ -9550,7 +9537,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/marie-therese-fleury-31839.jpg",
-    "portrait_alt": "Photographie de Marie-Thérèse FLEURY",
+    "portrait_alt": "Portrait documenté de Marie-Thérèse FLEURY",
     "description": "Marie-Thérèse Fleury. © Maitron.",
     "search": "marie therese fleury 31839 matricule 31839 notice commemorative"
   },
@@ -9563,7 +9550,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/marie-therese-puyoou-31720.jpg",
-    "portrait_alt": "Photographie de Marie-Thérèse PUYOOÜ",
+    "portrait_alt": "Portrait documenté de Marie-Thérèse PUYOOÜ",
     "description": "Marie-Thérèse Soureil naît le 6 janvier 1897 à Monein (Pyrénées-Atlantiques [1] – 64), où elle va à l’école.",
     "search": "marie therese puyoou 31720 matricule 31720 notice commemorative"
   },
@@ -9640,8 +9627,8 @@
     "subtitle": "Matricule 31832",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/marthe_dite_violette_hebrard_nee_guay_31832.jpg",
-    "portrait_alt": "Portrait historique de Marthe, dite “Violette”, HÉBRARD, née Guay",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Marthe Raymonde Guay dite Violette naît le octobre à Paris e au bis rue Chaligny à Paris e probablement chez une sage-femme fille d’Yvonne Barrier ans…",
     "search": "marthe dite violette hebrard nee guay 31832 matricule 31832 morte en deportation"
   },
@@ -9654,7 +9641,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/marthe_meynard_31675.jpg",
-    "portrait_alt": "Trois vues anthropométriques de Marthe Meynard à Auschwitz-I",
+    "portrait_alt": "Portrait documenté de Marthe MEYNARD",
     "description": "Marthe Louise Brioullet naît le 29 mars 1912 à Angoulême. Son père, Raoul Émile Brioullet, est boulanger ; sa mère, Suzanne Roux, meurt en 1917. Marthe…",
     "search": "marthe meynard 31675 matricule 31675 rescapee"
   },
@@ -9913,8 +9900,8 @@
     "subtitle": "Matricule 31727",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/noemie-durand-31727.jpg",
-    "portrait_alt": "Photographie de Noémie DURAND",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Auschwitz-I, le 3 février 1943 Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "noemie durand 31727 matricule 31727 notice commemorative"
   },
@@ -9940,7 +9927,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/olga_godefroy_31766_refaite.png",
-    "portrait_alt": "Planche d’immatriculation d’Olga Godefroy",
+    "portrait_alt": "Portrait documenté de Olga GODEFROY",
     "description": "Olga Camus naît le 5 avril 1910 à Neuves-Maisons, en Meurthe-et-Moselle. Elle épouse Louis Godefroy et devient la belle-sœur d’Aimée Doridat, surnommée…",
     "search": "olga godefroy 31766 matricule 31766 morte en deportation"
   },
@@ -9953,7 +9940,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/olga-melin-31708.jpg",
-    "portrait_alt": "Photographie de Olga MELIN",
+    "portrait_alt": "Portrait documenté de Olga MELIN",
     "description": "La jeunesse",
     "search": "olga melin 31708 matricule 31708 notice commemorative"
   },
@@ -10109,7 +10096,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/paula-rabeaux-31725.jpg",
-    "portrait_alt": "Photographie de Paula RABEAUX",
+    "portrait_alt": "Portrait documenté de Paula RABEAUX",
     "description": "Paula Trapy naît le 17 mars 1911 à Saumur (Maine-et-Loire – 47), troisième d’une famille de six enfants.",
     "search": "paula rabeaux 31725 matricule 31725 notice commemorative"
   },
@@ -10122,7 +10109,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/paulette-dite-pepee-parant-31654.jpg",
-    "portrait_alt": "Photographie de Paulette Dite Pépée PARANT",
+    "portrait_alt": "Portrait documenté de Paulette Dite Pépée PARANT",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "paulette dite pepee parant 31654 matricule 31654 notice commemorative"
   },
@@ -10304,7 +10291,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/rachel_deniau_31773.jpg",
-    "portrait_alt": "Portrait historique de Rachel DENIAU",
+    "portrait_alt": "Portrait documenté de Rachel DENIAU",
     "description": "Rachel Lacordais naît le er mai à La Croix-de-Bléré Indre-et-Loire fille de Joseph Lacordais ans bûcheron et d’Adèle Menou ans son épouse dont elle est le…",
     "search": "rachel deniau 31773 matricule 31773 morte en deportation"
   },
@@ -10329,8 +10316,8 @@
     "subtitle": "Matricule 31723",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/rachel-fernandes-31723.jpg",
-    "portrait_alt": "Photographie de Rachel FERNANDES",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "rachel fernandes 31723 matricule 31723 notice commemorative"
   },
@@ -10498,8 +10485,8 @@
     "subtitle": "Matricule 31750",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/raymonde-georges-31000.png",
-    "portrait_alt": "Photo non trouvée pour Raymonde GEORGES",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Raymonde Georges, née Le Margueresse le 18 janvier 1917 à Paris 14e, domiciliée à Paris 19e, morte au sous-camp de femmes de Birkenau début mars 1943 selon…",
     "search": "raymonde georges 31750 matricule 31750 notice commemorative"
   },
@@ -10512,7 +10499,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/raymonde-salez-31645.jpg",
-    "portrait_alt": "Photographie de Raymonde SALEZ",
+    "portrait_alt": "Portrait documenté de Raymonde SALEZ",
     "description": "Archives de la préfecture de police de Paris. Droits réservés.",
     "search": "raymonde salez 31645 matricule 31645 notice commemorative"
   },
@@ -10525,7 +10512,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/raymonde_sergent_31790.jpg",
-    "portrait_alt": "Portrait en noir et blanc de Raymonde Sergent, les cheveux relevés, portant un chemisier à motif floral",
+    "portrait_alt": "Portrait documenté de Raymonde SERGENT",
     "description": "Raymonde Élise Delalande naît le 17 août 1903 à Saint-Martin-le-Beau, en Indre-et-Loire. Fille du cultivateur Étienne Delalande et de Silvine Rose Lemaine…",
     "search": "raymonde sergent 31790 matricule 31790 morte en deportation"
   },
@@ -10811,7 +10798,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/renee-cossin-31830.jpg",
-    "portrait_alt": "Photographie de Renée COSSIN",
+    "portrait_alt": "Portrait documenté de Renée COSSIN",
     "description": "Renée, Andrée, Mathilde, Henriette Raquet naît le 8 mars 1914, à Amiens (Somme), fille d’André Raquet, 23 ans, sapeur-pompier de Paris, et de Louise…",
     "search": "renee cossin 31830 matricule 31830 notice commemorative"
   },
@@ -10824,7 +10811,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/renee-dite-bichette-pitiot-31629.jpg",
-    "portrait_alt": "Photographie de Renée Dite Bichette PITIOT",
+    "portrait_alt": "Portrait documenté de Renée Dite Bichette PITIOT",
     "description": "Renée Legros naît le 19 novembre 1921, à Paris 13e, fille de René Legros, 28 ans, mouleur, et de ???.",
     "search": "renee dite bichette pitiot 31629 matricule 31629 notice commemorative"
   },
@@ -10837,7 +10824,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/renee-michaud-31676.jpg",
-    "portrait_alt": "Photographie de Renée MICHAUD",
+    "portrait_alt": "Portrait documenté de Renée MICHAUD",
     "description": "Renée Michaud. Coll. Denise Chaigneaud, née Triguel. Droits réservés.",
     "search": "renee michaud 31676 matricule 31676 notice commemorative"
   },
@@ -10863,7 +10850,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/reyna-van-dam-31831.jpg",
-    "portrait_alt": "Photographie de Reyna Van DAM",
+    "portrait_alt": "Portrait documenté de Reyna Van DAM",
     "description": "Reyna Van Dam naît le 17 avril 1922 à Paris, fille de Hendrik Van Dam, secrétaire de la Chambre de commerce néerlandaise à Paris, et de Théodora née…",
     "search": "reyna van dam 31831 matricule 31831 notice commemorative"
   },
@@ -11201,7 +11188,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/rolande-vandaele-31761.jpg",
-    "portrait_alt": "Photographie de Rolande VANDAELE",
+    "portrait_alt": "Portrait documenté de Rolande VANDAELE",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
     "search": "rolande vandaele 31761 matricule 31761 notice commemorative"
   },
@@ -11214,7 +11201,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/rosa_michelle_dite_rosie_floc_h_31854.jpg",
-    "portrait_alt": "Portrait historique de Rosa-Michelle, dite »Rosie » FLOC’H",
+    "portrait_alt": "Portrait documenté de Rosa-Michelle, dite »Rosie » FLOC’H",
     "description": "Rosa-Michelle est née le septembre à Saint-Aubin-le-Vertueux Eure cinquième d’une famille de six enfants Le père cheminot sur le réseau de l’État…",
     "search": "rosa michelle dite rosie floc h 31854 matricule 31854 morte en deportation"
   },
@@ -11226,8 +11213,8 @@
     "subtitle": "Matricule 31652",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/rose_blanc_31652.jpg",
-    "portrait_alt": "Photographie anthropométrique de Rose Blanc prise le jour de son arrestation",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Rose Blanc, dite « Rosette », naît le 24 septembre 1919 à Elne, dans les Pyrénées-Orientales. Dernière d’une famille de huit enfants élevée par de petits…",
     "search": "rose blanc 31652 matricule 31652 morte en deportation"
   },
@@ -11253,7 +11240,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/simone-brugal-31705.jpg",
-    "portrait_alt": "Photographie de Simone BRUGAL",
+    "portrait_alt": "Portrait documenté de Simone BRUGAL",
     "description": "Simone Pichon à 16 ou 17 ans. © Collection Sylvie Gouguenheim.",
     "search": "simone brugal 31705 matricule 31705 notice commemorative"
   },
@@ -11279,7 +11266,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/simone-david-31658.jpg",
-    "portrait_alt": "Photographie de Simone DAVID",
+    "portrait_alt": "Portrait documenté de Simone DAVID",
     "description": "Simone Noyer naît le 13 juin 1921 à Évreux (Eure). Le père est chef de manœuvre aux chemins de fer. Simone est l’aînée de deux filles.",
     "search": "simone david 31658 matricule 31658 notice commemorative"
   },
@@ -11292,7 +11279,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/simone_eiffes_31764.jpg",
-    "portrait_alt": "Portrait historique de Simone EIFFES",
+    "portrait_alt": "Portrait documenté de Simone EIFFES",
     "description": "Simone Marcelle Marie Louise Eiffes naît le mai à Paris e fille de Marcel Eiffes ans employé de tramway et de Mathilde Counhaye ans receveuse son épouse…",
     "search": "simone eiffes 31764 matricule 31764 morte en deportation"
   },
@@ -11318,7 +11305,7 @@
     "status": "Rescapée",
     "status_class": "survivor",
     "portrait": "portraits/simone_loche_nee_fougere_31672.jpg",
-    "portrait_alt": "Portrait historique de Simone LOCHE, née Fougère",
+    "portrait_alt": "Portrait documenté de Simone LOCHE, née Fougère",
     "description": "Simone Yvonne Alfrede Fougère naît le octobre à Saint-Sulpice-des-Landes Loire-Inférieure Loire-Atlantique fille de Jean-Marie Fougère et Agnès Marie…",
     "search": "simone loche nee fougere 31672 matricule 31672 rescapee"
   },
@@ -11330,8 +11317,8 @@
     "subtitle": "Convoi 31000",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/simone-miternique-31000.jpg",
-    "portrait_alt": "Photographie de Simone MITERNIQUE",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Simone Miternique photographiée au fort de Romainville en janvier 1924. DMPA. Droits réservés.",
     "search": "simone miternique convoi 31000 notice commemorative"
   },
@@ -11343,8 +11330,8 @@
     "subtitle": "Matricule 31709",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/simone_miternique_31709.jpg",
-    "portrait_alt": "Portrait en noir et blanc de Simone Miternique au fort de Romainville",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Simone Blanche Julie Brunet naît le 25 février 1906 à Senonches, en Eure-et-Loir. Son père, Victor Brunet, est charron-forgeron ; sa mère, Laure Broudin…",
     "search": "simone miternique 31709 matricule 31709 morte en deportation"
   },
@@ -11357,7 +11344,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/simone-sampaix-31758.jpg",
-    "portrait_alt": "Photographie de Simone SAMPAIX",
+    "portrait_alt": "Portrait documenté de Simone SAMPAIX",
     "description": "Simone Sampaix avant guerre. Collection Frédéric Blanc, droits réservés.",
     "search": "simone sampaix 31758 matricule 31758 notice commemorative"
   },
@@ -11383,7 +11370,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/sophie_brabander_31694.jpg",
-    "portrait_alt": "Triptyque d’immatriculation de Sophie Brabander à Auschwitz",
+    "portrait_alt": "Portrait documenté de Sophie BRABANDER",
     "description": "Sophie Czeposka naît le 4 juillet 1887 à Lublin, dans une famille de la bourgeoisie polonaise. Elle vient à Paris en 1909 pour étudier le droit et obtient…",
     "search": "sophie brabander 31694 matricule 31694 morte en deportation"
   },
@@ -11409,7 +11396,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/sophie-gigand-31844.jpg",
-    "portrait_alt": "Photographie de Sophie GIGAND",
+    "portrait_alt": "Portrait documenté de Sophie GIGAND",
     "description": "Sophie, Eulalie Richet naît le 17 avril 1897 à Beaurevoir (Aisne – 02), chez sa mère, Marie Richet, 31 ans, journalière, d’un père inconnu. Elle est élevée…",
     "search": "sophie gigand 31844 matricule 31844 notice commemorative"
   },
@@ -11435,7 +11422,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/sophie-licht-31803.jpg",
-    "portrait_alt": "Photographie de Sophie LICHT",
+    "portrait_alt": "Portrait documenté de Sophie LICHT",
     "description": "Sophie Schaub naît le 11 juin 1905 à Welferding ( Wölferdingen ) [1], en Moselle alors annexée par l’Empire allemand depuis 1871 (traité de Francfort).…",
     "search": "sophie licht 31803 matricule 31803 notice commemorative"
   },
@@ -11473,8 +11460,8 @@
     "subtitle": "Matricule 31765",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/suzanne_costentin_31765.jpg",
-    "portrait_alt": "Trois vues anthropométriques de Suzanne Costentin en tenue rayée à Auschwitz-I",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Suzanne Berthe Angèle Boineau naît le 13 mai 1893 à Arçais, dans les Deux-Sèvres. Son père, Auguste Léon Boineau, est sabotier, et sa mère se nomme Marie…",
     "search": "suzanne costentin 31765 matricule 31765 morte en deportation"
   },
@@ -11500,7 +11487,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/suzanne-gascard-31811.jpg",
-    "portrait_alt": "Photographie de Suzanne GASCARD",
+    "portrait_alt": "Portrait documenté de Suzanne GASCARD",
     "description": "Collection Francine et Matthieu Noël. D.R.",
     "search": "suzanne gascard 31811 matricule 31811 notice commemorative"
   },
@@ -11525,8 +11512,8 @@
     "subtitle": "Matricule 31686",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/suzanne_momon_gustave_gilbert_brustlein_refait.png",
-    "portrait_alt": "Photographie d’immatriculation de Suzanne Momon",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Suzanne Momon naît le 10 août 1896 à Paris, dans le faubourg Saint-Antoine. Son père, chef de chantier, disparaît lorsqu’elle a huit ans. Pour aider sa…",
     "search": "suzanne momon et la famille brustlein 31686 matricule 31686 morte en deportation"
   },
@@ -11539,7 +11526,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/suzanne_pierre_31812.jpg",
-    "portrait_alt": "Triptyque d’immatriculation de Suzanne Pierre à Auschwitz",
+    "portrait_alt": "Portrait documenté de Suzanne PIERRE",
     "description": "Suzanne Buffard naît le 15 mai 1912 à Dombasle-sur-Meurthe, dans une famille ouvrière de neuf enfants. Elle obtient son certificat d’études puis entre très…",
     "search": "suzanne pierre 31812 matricule 31812 morte en deportation"
   },
@@ -11552,7 +11539,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/suzanne_renee_juhem_31759.jpg",
-    "portrait_alt": "Portrait historique de Suzanne, Renée JUHEM",
+    "portrait_alt": "Portrait documenté de Suzanne, Renée JUHEM",
     "description": "Suzanne, Renée Juhem naît le 2 octobre 1912 au domicile de ses parents, rue de la Paix à Genève. Son père, Émile Julien Juhem, travaille pour la compagnie…",
     "search": "suzanne renee juhem 31759 matricule 31759 morte en deportation"
   },
@@ -11564,8 +11551,8 @@
     "subtitle": "Matricule 31681",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/suzanne_roze_31681.png",
-    "portrait_alt": "Image de remplacement portant la mention photo non trouvée",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Suzanne Hélène Joséphine Clément naît le 18 août 1904 à Beuzeville-la-Grenier, en Seine-Maritime. Fille d’un employé des chemins de fer et d’une ancienne…",
     "search": "suzanne roze 31681 matricule 31681 morte en deportation"
   },
@@ -11578,7 +11565,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/sylviane_coupet_31804.jpg",
-    "portrait_alt": "Triptyque d’immatriculation de Sylviane Coupet à Auschwitz",
+    "portrait_alt": "Portrait documenté de Sylviane COUPET",
     "description": "Sylviane Jeanne Coupet naît le 15 août 1925 dans le sixième arrondissement de Paris. Son père est militaire dans l’infanterie coloniale et sa mère…",
     "search": "sylviane coupet 31804 matricule 31804 morte en deportation"
   },
@@ -11603,8 +11590,8 @@
     "subtitle": "Matricule 31749",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/theodora_van_dam_nee_disper_31749.jpg",
-    "portrait_alt": "Portrait historique de Théodora VAN DAM, née Disper",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Théodora Disper naît le juin à Edam Pays-Bas. La notice biographique replace ce commencement dans son milieu familial et social, sans transformer en…",
     "search": "theodora van dam nee disper 31749 matricule 31749 morte en deportation"
   },
@@ -11642,8 +11629,8 @@
     "subtitle": "Matricule 31800",
     "status": "Rescapée",
     "status_class": "survivor",
-    "portrait": "portraits/therese_lamboy_nee_gady_epouse_leopold_31800.jpg",
-    "portrait_alt": "Portrait historique de Thérèse LAMBOY, née Gady, épouse Léopold",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Thérèse Adrienne Gady naît le juillet à Saint-Pierre-Azif Calvados fille de Maurice Gady et de Suzanne Quibeuf ans Par sa mère veuve d’un soldat tué en…",
     "search": "therese lamboy nee gady epouse leopold 31800 matricule 31800 rescapee"
   },
@@ -11656,7 +11643,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/toussainte-dite-nine-oppici-31797.jpg",
-    "portrait_alt": "Photographie de Toussainte Dite Nine OPPICI",
+    "portrait_alt": "Portrait documenté de Toussainte Dite Nine OPPICI",
     "description": "Au fort de Romainville, en détention allemande. Droits réservés.",
     "search": "toussainte dite nine oppici 31797 matricule 31797 notice commemorative"
   },
@@ -11734,7 +11721,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/vittoria-viva-daubeuf-31635.jpg",
-    "portrait_alt": "Photographie de Vittoria Viva DAUBEUF",
+    "portrait_alt": "Portrait documenté de Vittoria Viva DAUBEUF",
     "description": "Une jeunesse marquée par la guerre et la montée du fascisme",
     "search": "vittoria viva daubeuf 31635 matricule 31635 notice commemorative"
   },
@@ -11773,7 +11760,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/yolande-gili-31743.jpg",
-    "portrait_alt": "Photographie de Yolande GILI",
+    "portrait_alt": "Portrait documenté de Yolande GILI",
     "description": "Yolande Gili, née Pica naît le 7 mars 1922 à Fontoy (Moselle – 57), fille d’Attilio Pica, né le 24 mars 1886 à Nuccerra (peut-être Nocera Umbra), et de son…",
     "search": "yolande gili 31743 matricule 31743 notice commemorative"
   },
@@ -11786,7 +11773,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/yvette_feuillet_31663.jpg",
-    "portrait_alt": "Portrait historique de Yvette FEUILLET",
+    "portrait_alt": "Portrait documenté de Yvette FEUILLET",
     "description": "Yvette Feuillet naît le janvier à Paris e fille d’un boulanger À dix ans elle perd son père Restée seule pour élever ses deux filles Yvette et Henriette la…",
     "search": "yvette feuillet 31663 matricule 31663 morte en deportation"
   },
@@ -11812,7 +11799,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/yvette-guillon-31730.jpg",
-    "portrait_alt": "Photographie de Yvette GUILLON",
+    "portrait_alt": "Portrait documenté de Yvette GUILLON",
     "description": "Marcelle, Yvette, Sardet naît le 26 mai 1911 à Saint-Médard-de-Rouillac (Charente – 16) selon le livret de famille (ou aux Vignes-de-Sonnac, commune de…",
     "search": "yvette guillon 31730 matricule 31730 notice commemorative"
   },
@@ -11824,8 +11811,8 @@
     "subtitle": "Matricule 31787",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/yvette_marival_31787.jpg",
-    "portrait_alt": "Portrait en noir et blanc d’Yvette Marival au fort de Romainville, portant la réglette du matricule 1177",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Yvette Lucienne Georgette Champion naît le 5 août 1915 à Crouzilles, en Indre-et-Loire, fille d’Angèle Champion. En 1926, elle vit chez une tante…",
     "search": "yvette marival 31787 matricule 31787 morte en deportation"
   },
@@ -11863,8 +11850,8 @@
     "subtitle": "Matricule 31627",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/yvonne_bonnard_31627.png",
-    "portrait_alt": "Image de remplacement indiquant qu’aucun portrait authentique d’Yvonne Bonnard n’a été retrouvé",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Yvonne Bonnard naît le 5 août 1899 à Paris. Les recherches publiées par Mémoire Vive et les souvenirs des rescapées livrent très peu d’informations sur son…",
     "search": "yvonne bonnard 31627 matricule 31627 morte en deportation"
   },
@@ -11890,7 +11877,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/yvonne-boudgourd-31792.jpg",
-    "portrait_alt": "Photographie de Yvonne BOUDGOURD",
+    "portrait_alt": "Portrait documenté de Yvonne BOUDGOURD",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "yvonne boudgourd 31792 matricule 31792 notice commemorative"
   },
@@ -11916,7 +11903,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/yvonne_carre_31760.jpg",
-    "portrait_alt": "Triptyque d’immatriculation d’Yvonne Carré à Auschwitz",
+    "portrait_alt": "Portrait documenté de Yvonne CARRÉ",
     "description": "Yvonne Calmels naît le 1er avril 1897 à Montceau-les-Mines, en Saône-et-Loire. Le 12 mars 1929, à Paris, elle épouse Gaston Carré, employé de la Compagnie…",
     "search": "yvonne carre 31760 matricule 31760 morte en deportation"
   },
@@ -11941,8 +11928,8 @@
     "subtitle": "Matricule 31691",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/yvonne-cave-31691.jpg",
-    "portrait_alt": "Photographie de Yvonne CAVÉ",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Yvonne, Rosalie, Cavé, née Richard le 17 mars 1896 à Montrouge (Hauts-de-Seine), domiciliée à Paris 15e, morte au sous-camp de femmes de Birkenau le 26…",
     "search": "yvonne cave 31691 matricule 31691 notice commemorative"
   },
@@ -11967,8 +11954,8 @@
     "subtitle": "Matricule 31799",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/yvonne-courtillat-31799.jpg",
-    "portrait_alt": "Photographie de Yvonne COURTILLAT",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz avant l’évacuation du camp en janvier 1945. Réalisé le 3 février 1943, le portrait…",
     "search": "yvonne courtillat 31799 matricule 31799 notice commemorative"
   },
@@ -11994,7 +11981,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/yvonne-emorine-31662.jpg",
-    "portrait_alt": "Photographie de Yvonne ÉMORINE",
+    "portrait_alt": "Portrait documenté de Yvonne ÉMORINE",
     "description": "Photo anthropométrique prise le 17 février 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police, Paris.",
     "search": "yvonne emorine 31662 matricule 31662 notice commemorative"
   },
@@ -12020,7 +12007,7 @@
     "status": "Morte en déportation",
     "status_class": "death",
     "portrait": "portraits/yvonne_gallois_31849.jpg",
-    "portrait_alt": "Portrait historique de Yvonne GALLOIS",
+    "portrait_alt": "Portrait documenté de Yvonne GALLOIS",
     "description": "Yvonne Renée Lucie Gallois naît le avril à Sorel-Moussel petit village sur les bords de l’Eure km au Nord de Dreux Eure-et-Loir fille de Raphaël Gallois…",
     "search": "yvonne gallois 31849 matricule 31849 morte en deportation"
   },
@@ -12033,7 +12020,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/yvonne-noutari-31718.jpg",
-    "portrait_alt": "Photographie de Yvonne NOUTARI",
+    "portrait_alt": "Portrait documenté de Yvonne NOUTARI",
     "description": "Yvonne Moudoulaud naît le 5 mai 1915 à Bègles (Gironde – 33), dans une famille ouvrière dont le père est mort jeune. Elle a (au moins) une sœur plus jeune…",
     "search": "yvonne noutari 31718 matricule 31718 notice commemorative"
   },
@@ -12046,7 +12033,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/yvonne-pateau-31728.jpg",
-    "portrait_alt": "Photographie de Yvonne PATEAU",
+    "portrait_alt": "Portrait documenté de Yvonne PATEAU",
     "description": "Yvonne Pateau naît le 14 septembre 1901 à Angles (Vendée – 85), dans une famille paysanne de quatre enfants. Elle va à l’école jusqu’au certificat…",
     "search": "yvonne pateau 31728 matricule 31728 notice commemorative"
   },
@@ -12059,7 +12046,7 @@
     "status": "Notice commémorative",
     "status_class": "other",
     "portrait": "portraits/yvonne-picard-31634.jpg",
-    "portrait_alt": "Photographie de Yvonne PICARD",
+    "portrait_alt": "Portrait documenté de Yvonne PICARD",
     "description": "D.R.",
     "search": "yvonne picard 31634 matricule 31634 notice commemorative"
   },
@@ -12071,8 +12058,8 @@
     "subtitle": "Matricule 31704",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/yvonne-rose-llucia-31704.jpg",
-    "portrait_alt": "Photographie de Yvonne Rose LLUCIA",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Droits réservés.",
     "search": "yvonne rose llucia 31704 matricule 31704 notice commemorative"
   },
@@ -12084,8 +12071,8 @@
     "subtitle": "Matricule 31791",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/yvonne_souchaud_nee_houdayer_31791.jpg",
-    "portrait_alt": "Portrait historique de Yvonne SOUCHAUD, née Houdayer",
+    "portrait": null,
+    "portrait_alt": null,
     "description": "Yvonne SOUCHAUD née Houdayer appartient au groupe des femmes françaises déportées depuis Compiègne vers Auschwitz en janvier. La notice biographique…",
     "search": "yvonne souchaud nee houdayer 31791 matricule 31791 morte en deportation"
   },
