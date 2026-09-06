@@ -1,7 +1,7 @@
 RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
 Femmes 31000 : 224
-Hommes 45000 : 706
+Hommes 45000 : 560
 À vérifier : 64
 
 IMAGE MANQUANTE — 31-836-31000.html

@@ -13,19 +13,6 @@
     "search": "31 836 convoi 31000 notice commemorative"
   },
   {
-    "name": "31 836 ?",
-    "file": "hommes/31-836-31000.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/31-836-31000.png",
-    "portrait_alt": "Photo non trouvée pour 31 836 ?",
-    "description": "Pas de texte",
-    "search": "31 836 convoi 31000 notice commemorative"
-  },
-  {
     "name": "31 843 ?",
     "file": "31-843-31000.html",
     "group": "femmes",
@@ -35,19 +22,6 @@
     "status_class": "other",
     "portrait": null,
     "portrait_alt": "Photographie non retrouvée pour 31 843 ?",
-    "description": "Pas de texte",
-    "search": "31 843 convoi 31000 notice commemorative"
-  },
-  {
-    "name": "31 843 ?",
-    "file": "hommes/31-843-31000.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/31-843-31000.png",
-    "portrait_alt": "Photo non trouvée pour 31 843 ?",
     "description": "Pas de texte",
     "search": "31 843 convoi 31000 notice commemorative"
   },
@@ -115,19 +89,6 @@
     "portrait_alt": "Portrait documenté de Adélaïde, dite « Heidi » HAUTVAL",
     "description": "Adélaïde dite Heidi HAUTVAL est née le er janvier à Hohwald Bas-Rhin où son père est pasteur dernière d’une famille de sept enfants. La notice biographique…",
     "search": "adelaide dite heidi hautval 31802 matricule 31802 rescapee"
-  },
-  {
-    "name": "Adélaïde Dite Heidi HAUTVAL",
-    "file": "hommes/adelaide-dite-heidi-hautval-31802.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/adelaide-dite-heidi-hautval-31802.jpg",
-    "portrait_alt": "Photographie de Adélaïde Dite Heidi HAUTVAL",
-    "description": "Adélaïde, dite « Heidi », HAUTVAL est née le 1er janvier 1906 à Hohwald, Bas-Rhin, où son père est pasteur, dernière d’une famille de sept enfants.",
-    "search": "adelaide dite heidi hautval convoi 31000 notice commemorative"
   },
   {
     "name": "Adélard DUCROCQ",
@@ -260,19 +221,6 @@
     "search": "adrien thomas 46143 matricule 46143 notice commemorative"
   },
   {
-    "name": "Adrienne Dite Linotte HARDENBERG",
-    "file": "hommes/adrienne-dite-linotte-hardenberg-31636.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/adrienne-dite-linotte-hardenberg-31636.png",
-    "portrait_alt": "Photo non trouvée pour Adrienne Dite Linotte HARDENBERG",
-    "description": "Adrienne Coston, dite Linotte, naît le 23 septembre 1906 à Saint-Quentin (Aisne) – d’où sa mère, Mathilde Ismérie Couvreur (dite “Angèle” ?), 24 ans…",
-    "search": "adrienne dite linotte hardenberg convoi 31000 notice commemorative"
-  },
-  {
     "name": "Adrienne « Linotte » HARDENBERG",
     "file": "adrienne_hardenberg_31636.html",
     "group": "femmes",
@@ -284,19 +232,6 @@
     "portrait_alt": "Photographie non retrouvée pour Adrienne « Linotte » HARDENBERG",
     "description": "Adrienne Coston, dite « Linotte », naît le 23 septembre 1906 à Saint-Quentin. Son père est ouvrier bitumier et sa mère couturière. Elle épouse en 1928…",
     "search": "adrienne linotte hardenberg 31636 matricule 31636 morte en deportation"
-  },
-  {
-    "name": "Aimée Dite Manette DORIDAT",
-    "file": "hommes/aimee-dite-manette-doridat-31767.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/aimee-dite-manette-doridat-31767.jpg",
-    "portrait_alt": "Photographie de Aimée Dite Manette DORIDAT",
-    "description": "Aimée DORIDAT (« Manette ») est née le 14 mars 1905 à Neuves-Maisons, près de Nancy, cinquième d’une famille de onze enfants (dont sept garçons).",
-    "search": "aimee dite manette doridat convoi 31000 notice commemorative"
   },
   {
     "name": "Aimée, dite »Manette » DORIDAT, née Godefroy",
@@ -689,32 +624,6 @@
     "search": "alice boulet 31628 matricule 31628 notice commemorative"
   },
   {
-    "name": "Alice BOULET",
-    "file": "hommes/alice-boulet-31628.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/alice-boulet-31628.jpg",
-    "portrait_alt": "Photographie de Alice BOULET",
-    "description": "Photo anthropométrique prise le 17 mars 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police (APP), Paris.",
-    "search": "alice boulet convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Alice CAILBAULT",
-    "file": "hommes/alice-cailbault-31738.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/alice-cailbault-31738.jpg",
-    "portrait_alt": "Photographie de Alice CAILBAULT",
-    "description": "Alice Gardelle naît le 1er avril 1906 à Paris. Son père, originaire de Charente, travaille chez Renault à Boulogne-Billancourt (Hauts-de-Seine – 92). En…",
-    "search": "alice cailbault convoi 31000 notice commemorative"
-  },
-  {
     "name": "Alice CAILBAULT, née Gardelle",
     "file": "alice_cailbault_nee_gardelle_31738.html",
     "group": "femmes",
@@ -741,19 +650,6 @@
     "search": "alice loeb 31829 matricule 31829 notice commemorative"
   },
   {
-    "name": "Alice LOEB",
-    "file": "hommes/alice-loeb-31829.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/alice-loeb-31829.jpg",
-    "portrait_alt": "Photographie de Alice LOEB",
-    "description": "Pharmacienne à Paris",
-    "search": "alice loeb convoi 31000 notice commemorative"
-  },
-  {
     "name": "Alice VARRAILHON",
     "file": "alice-varrailhon-31810.html",
     "group": "femmes",
@@ -765,19 +661,6 @@
     "portrait_alt": "Portrait documenté de Alice VARRAILHON",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "alice varrailhon 31810 matricule 31810 notice commemorative"
-  },
-  {
-    "name": "Alice VARRAILHON",
-    "file": "hommes/alice-varrailhon-31810.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/alice-varrailhon-31810.jpg",
-    "portrait_alt": "Photographie de Alice VARRAILHON",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "alice varrailhon convoi 31000 notice commemorative"
   },
   {
     "name": "Alice VITERBO",
@@ -804,19 +687,6 @@
     "portrait_alt": "Photographie non retrouvée pour Alida DELASALLE",
     "description": "Alida Victorine Augustine Charbonnier naît le 23 juillet 1907 à Fécamp, fille d’un maçon et d’une ouvrière. Couturière, elle participe avec Suzanne Roze à…",
     "search": "alida delasalle 31659 matricule 31659 rescapee"
-  },
-  {
-    "name": "Alida DELASALLE",
-    "file": "hommes/alida-delasalle-31659.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/alida-delasalle-31659.jpg",
-    "portrait_alt": "Photographie de Alida DELASALLE",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "alida delasalle convoi 31000 notice commemorative"
   },
   {
     "name": "Alphonse BENOIT",
@@ -882,19 +752,6 @@
     "portrait_alt": "Portrait documenté de Alphonsine SEIBERT",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
     "search": "alphonsine seibert 31647 matricule 31647 notice commemorative"
-  },
-  {
-    "name": "Alphonsine SEIBERT",
-    "file": "hommes/alphonsine-seibert-31647.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/alphonsine-seibert-31647.jpg",
-    "portrait_alt": "Photographie de Alphonsine SEIBERT",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
-    "search": "alphonsine seibert convoi 31000 notice commemorative"
   },
   {
     "name": "Amadeo CAVALLI",
@@ -1417,19 +1274,6 @@
     "search": "andree dite dedee tamise 31714 matricule 31714 notice commemorative"
   },
   {
-    "name": "Andrée Dite Dédée TAMISÉ",
-    "file": "hommes/andree-dite-dedee-tamise-31714.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/andree-dite-dedee-tamise-31714.jpg",
-    "portrait_alt": "Photographie de Andrée Dite Dédée TAMISÉ",
-    "description": "Andrée Tamisé naît le 28 février 1922. Son père est bottier à Caudéran, dans la proche banlieue de Bordeaux (Gironde – 33). Sa mère meurt alors…",
-    "search": "andree dite dedee tamise convoi 31000 notice commemorative"
-  },
-  {
     "name": "Andrée GIGAND",
     "file": "andree_gigand_31845.html",
     "group": "femmes",
@@ -1441,19 +1285,6 @@
     "portrait_alt": "Portrait documenté de Andrée GIGAND",
     "description": "Andrée Gigand naît le mars au lieu-dit la Montagne à Ressons-le-Long Aisne fille d’Alphonse Gigand chauffeur et de Sophie Richet son épouse manouvrière Les…",
     "search": "andree gigand 31845 matricule 31845 morte en deportation"
-  },
-  {
-    "name": "Andrée GIGAND",
-    "file": "hommes/andree-gigand-31845.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/andree-gigand-31845.jpg",
-    "portrait_alt": "Photographie de Andrée GIGAND",
-    "description": "Andrée Gigand naît le 4 mars 1921 au lieu-dit la Montagne à Ressons-le-Long (Aisne – 02), fille d’Alphonse Gigand, chauffeur, et de Sophie Richet, son…",
-    "search": "andree gigand convoi 31000 notice commemorative"
   },
   {
     "name": "Angel BOLOGNINI",
@@ -1482,19 +1313,6 @@
     "search": "angel martin 45844 matricule 45844 notice commemorative"
   },
   {
-    "name": "Angèle Dite Danièle LEDUC",
-    "file": "hommes/angele-dite-daniele-leduc-31841.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/angele-dite-daniele-leduc-31841.jpg",
-    "portrait_alt": "Photographie de Angèle Dite Danièle LEDUC",
-    "description": "Angèle, Marie Denonne, dite « Danièle », naît le 28 avril 1891, à Roubaix (Nord), fille de Hilaire Denonne, 29 ans, tisserand de nationalité belge, et de…",
-    "search": "angele dite daniele leduc convoi 31000 notice commemorative"
-  },
-  {
     "name": "Angèle, dite “Danièle”, LEDUC, née Denonne",
     "file": "angele_dite_daniele_leduc_nee_denonne_31841.html",
     "group": "femmes",
@@ -1521,19 +1339,6 @@
     "search": "angele dite renee girard 31632 matricule 31632 morte en deportation"
   },
   {
-    "name": "Angèle Dite Renée GIRARD",
-    "file": "hommes/angele-dite-renee-girard-31632%20%281%29.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/angele-dite-renee-girard-31632%20%281%29.jpg",
-    "portrait_alt": "Photographie de Angèle Dite Renée GIRARD",
-    "description": "Angèle, Mélanie, Girard naît le 11 décembre 1894, à Paris 10e, fille unique de Gustave Girard, 26 ans, garçon de magasin, et d’Antoinette Dubois, 22 ans…",
-    "search": "angele dite renee girard convoi 31000 notice commemorative"
-  },
-  {
     "name": "Angèle MERCIER",
     "file": "angele-mercier-31851.html",
     "group": "femmes",
@@ -1547,19 +1352,6 @@
     "search": "angele mercier 31851 matricule 31851 notice commemorative"
   },
   {
-    "name": "Angèle MERCIER",
-    "file": "hommes/angele-mercier-31851.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/angele-mercier-31851.jpg",
-    "portrait_alt": "Photographie de Angèle MERCIER",
-    "description": "Angèle, Eugénie, Mercier naît le 24 juin 1909 au lieu dit La Moinerie à Chaumes-en-Brie (Seine-et-Marne – 77), fille d’Alphonse Mercier, 39 ans, et de…",
-    "search": "angele mercier convoi 31000 notice commemorative"
-  },
-  {
     "name": "Anna Hanna NIJINSKA",
     "file": "anna-hanna-nijinska-31702.html",
     "group": "femmes",
@@ -1571,32 +1363,6 @@
     "portrait_alt": "Portrait documenté de Anna Hanna NIJINSKA",
     "description": "Dans le récit de Charlotte Delbo, Karolina KONEFAL et Anna NIZINSKA sont associées dans un même texte.",
     "search": "anna hanna nijinska 31702 matricule 31702 notice commemorative"
-  },
-  {
-    "name": "Anna Hanna NIJINSKA",
-    "file": "hommes/anna-hanna-nijinska-31702.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/anna-hanna-nijinska-31702.png",
-    "portrait_alt": "Photo non trouvée pour Anna Hanna NIJINSKA",
-    "description": "Dans le récit de Charlotte Delbo, Karolina KONEFAL et Anna NIZINSKA sont associées dans un même texte.",
-    "search": "anna hanna nijinska convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Anna JACQUAT",
-    "file": "hommes/anna-jacquat-31827.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/anna-jacquat-31827.jpg",
-    "portrait_alt": "Photographie de Anna JACQUAT",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "anna jacquat convoi 31000 notice commemorative"
   },
   {
     "name": "Anna JACQUAT, née Karpen",
@@ -1623,19 +1389,6 @@
     "portrait_alt": "Portrait documenté de Anna SABOT",
     "description": "Maria, Anna, Gries naît le 13 novembre 1898, à Gougenheim, à 20 km au Nord-Ouest de Strasbourg (Bas-Rhin – 67), en Alsace alors occupée par l’Allemagne.",
     "search": "anna sabot 31713 matricule 31713 notice commemorative"
-  },
-  {
-    "name": "Anna SABOT",
-    "file": "hommes/anna-sabot-31713.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/anna-sabot-31713.jpg",
-    "portrait_alt": "Photographie de Anna SABOT",
-    "description": "Maria, Anna, Gries naît le 13 novembre 1898, à Gougenheim, à 20 km au Nord-Ouest de Strasbourg (Bas-Rhin – 67), en Alsace alors occupée par l’Allemagne.",
-    "search": "anna sabot convoi 31000 notice commemorative"
   },
   {
     "name": "Anne-Marie Annette Nénette ÉPAUD",
@@ -1742,19 +1495,6 @@
     "search": "antoinette besseyre 31763 matricule 31763 notice commemorative"
   },
   {
-    "name": "Antoinette BESSEYRE",
-    "file": "hommes/antoinette-besseyre-31763.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/antoinette-besseyre-31763.jpg",
-    "portrait_alt": "Photographie de Antoinette BESSEYRE",
-    "description": "Antoinette Tressard naît le 7 juin 1919 à Quimperlé (Finistère), fille unique de Louis Jean Marie Tressard, 25 ans, ferronnier d’art, et de Marie-Reine…",
-    "search": "antoinette besseyre convoi 31000 notice commemorative"
-  },
-  {
     "name": "Armand BERNHEIM",
     "file": "hommes/armand-bernheim-46268.html",
     "group": "hommes",
@@ -1805,19 +1545,6 @@
     "portrait_alt": "Portrait documenté de Armande RICHIER",
     "description": "Armande Richier, née le 1er novembre 1916 à Lahaymeix (Meuse), domiciliée à Soissons (Aisne), morte à Auschwitz, au camp de femmes de Birkenau au 1er…",
     "search": "armande richier 31846 matricule 31846 notice commemorative"
-  },
-  {
-    "name": "Armande RICHIER",
-    "file": "hommes/armande-richier-31846.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/armande-richier-31846.jpg",
-    "portrait_alt": "Photographie de Armande RICHIER",
-    "description": "Armande Richier, née le 1er novembre 1916 à Lahaymeix (Meuse), domiciliée à Soissons (Aisne), morte à Auschwitz, au camp de femmes de Birkenau au 1er…",
-    "search": "armande richier convoi 31000 notice commemorative"
   },
   {
     "name": "Aron GOLDSTEIN",
@@ -2041,19 +1768,6 @@
     "search": "augustin mahillon 45812 matricule 45812 notice commemorative"
   },
   {
-    "name": "Aurélie Dite Marie-Louise DUCROS",
-    "file": "hommes/aurelie-dite-marie-louise-ducros-31746.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/aurelie-dite-marie-louise-ducros-31746.jpg",
-    "portrait_alt": "Photographie de Aurélie Dite Marie-Louise DUCROS",
-    "description": "Aurélie Dudon naît le 11 mars 1902 à Villenave-d’Ornon (Gironde – 33), où ses parents sont maraîchers. Elle va école communale jusqu’au Certificat…",
-    "search": "aurelie dite marie louise ducros convoi 31000 notice commemorative"
-  },
-  {
     "name": "Aurélie, dite Marie-Louise, DUCROS, née Dudon, “Maman Loulou”",
     "file": "aurelie_dite_marie_louise_ducros_nee_dudon_maman_loulou_31746.html",
     "group": "femmes",
@@ -2078,19 +1792,6 @@
     "portrait_alt": "Portrait documenté de Aurore PICA",
     "description": "Aurore Pica naît le 2 mai 1923 à Fontoy (Moselle – 57), fille d’Attilio Pica, né le 24 mars 1886 à Nuccerra (peut-être Nocera Umbra), et de son épouse…",
     "search": "aurore pica 31742 matricule 31742 notice commemorative"
-  },
-  {
-    "name": "Aurore PICA",
-    "file": "hommes/aurore-pica-31742.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/aurore-pica-31742.jpg",
-    "portrait_alt": "Photographie de Aurore PICA",
-    "description": "Aurore Pica naît le 2 mai 1923 à Fontoy (Moselle – 57), fille d’Attilio Pica, né le 24 mars 1886 à Nuccerra (peut-être Nocera Umbra), et de son épouse…",
-    "search": "aurore pica convoi 31000 notice commemorative"
   },
   {
     "name": "Ben Ali LAHOUSINE",
@@ -2145,19 +1846,6 @@
     "search": "berthe lapeyrade 31721 matricule 31721 notice commemorative"
   },
   {
-    "name": "Berthe LAPEYRADE",
-    "file": "hommes/berthe-lapeyrade-31721.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/berthe-lapeyrade-31721.png",
-    "portrait_alt": "Photo non trouvée pour Berthe LAPEYRADE",
-    "description": "Berthe Lescure naît le 26 avril 1895 au Passage (Lot-et-Garonne – 47). Ses parents s’installent ensuite à Cenon, en face de Bordeaux sur l’autre rive de la…",
-    "search": "berthe lapeyrade convoi 31000 notice commemorative"
-  },
-  {
     "name": "Berthe SABOURAULT, née Fays",
     "file": "berthe_sabourault_nee_fays_31683.html",
     "group": "femmes",
@@ -2195,19 +1883,6 @@
     "portrait_alt": "Photographie non retrouvée pour Camille CHAMPION",
     "description": "Camille Chuat naît le 1er juin 1898 à Huelgoat, dans le Finistère, au sein d’une famille de travailleurs forestiers. Elle grandit ensuite dans l’Orne. En…",
     "search": "camille champion 31656 matricule 31656 morte en deportation"
-  },
-  {
-    "name": "Camille CHAMPION",
-    "file": "hommes/camille-champion-31656.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/camille-champion-31656.jpg",
-    "portrait_alt": "Photographie de Camille CHAMPION",
-    "description": "La jeunesse",
-    "search": "camille champion convoi 31000 notice commemorative"
   },
   {
     "name": "Camille DUBOIS",
@@ -2600,19 +2275,6 @@
     "search": "charles wingert 46206 matricule 46206 notice commemorative"
   },
   {
-    "name": "Charlotte DECOCK",
-    "file": "hommes/charlotte-decock-31756.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/charlotte-decock-31756.jpg",
-    "portrait_alt": "Photographie de Charlotte DECOCK",
-    "description": "Photographiée au fort de Romainville, en détention allemande. Droits réservés.",
-    "search": "charlotte decock convoi 31000 notice commemorative"
-  },
-  {
     "name": "Charlotte DECOCK, née Dauriat",
     "file": "charlotte_decock_nee_dauriat_31756.html",
     "group": "femmes",
@@ -2639,32 +2301,6 @@
     "search": "charlotte douillot 31762 matricule 31762 notice commemorative"
   },
   {
-    "name": "Charlotte DOUILLOT",
-    "file": "hommes/charlotte-douillot-31762.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/charlotte-douillot-31762.jpg",
-    "portrait_alt": "Photographie de Charlotte DOUILLOT",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
-    "search": "charlotte douillot convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Charlotte DUDACH",
-    "file": "hommes/charlotte-dudach-31661.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/charlotte-dudach-31661.jpg",
-    "portrait_alt": "Photographie de Charlotte DUDACH",
-    "description": "Son engagement de jeunesse",
-    "search": "charlotte dudach convoi 31000 notice commemorative"
-  },
-  {
     "name": "Charlotte DUDACH, née Delbo",
     "file": "charlotte_dudach_nee_delbo_31661.html",
     "group": "femmes",
@@ -2676,19 +2312,6 @@
     "portrait_alt": "Portrait documenté de Charlotte DUDACH, née Delbo",
     "description": "Charlotte Delbo est née le août à Vigneux-sur-Seine Seine-et-Oise elle est l’ainée de quatre fils et son père est chef monteur. La notice biographique…",
     "search": "charlotte dudach nee delbo 31661 matricule 31661 rescapee"
-  },
-  {
-    "name": "Charlotte Henriette DUPUIS",
-    "file": "hommes/charlotte-henriette-dupuis-31751.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/charlotte-henriette-dupuis-31751.jpg",
-    "portrait_alt": "Photographie de Charlotte Henriette DUPUIS",
-    "description": "Au fort de Romainville, en détention allemande. Droits réservés.",
-    "search": "charlotte henriette dupuis convoi 31000 notice commemorative"
   },
   {
     "name": "Charlotte, Henriette, DUPUIS, dite “Mauricette“",
@@ -2717,19 +2340,6 @@
     "search": "charlotte lescure 31733 matricule 31733 notice commemorative"
   },
   {
-    "name": "Charlotte LESCURE",
-    "file": "hommes/charlotte-lescure-31733.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/charlotte-lescure-31733.jpg",
-    "portrait_alt": "Photographie de Charlotte LESCURE",
-    "description": "Charlotte Zanker naît le 31 mai 1902 à Saint-Paul (Gironde – 33).",
-    "search": "charlotte lescure convoi 31000 notice commemorative"
-  },
-  {
     "name": "Christ VANNIER",
     "file": "hommes/christ-vannier-46172.html",
     "group": "hommes",
@@ -2754,19 +2364,6 @@
     "portrait_alt": "Portrait documenté de Christiane « Cécile » BORRÁS",
     "description": "Christiane Charua naît le 18 juillet 1915 à Calais. Réfugiée avec sa famille à Conflans-Sainte-Honorine pendant la Première Guerre mondiale, elle connaît…",
     "search": "christiane cecile borras 31650 matricule 31650 rescapee"
-  },
-  {
-    "name": "Christiane CHARUA",
-    "file": "hommes/christiane-charua-31650.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/christiane-charua-31650.jpg",
-    "portrait_alt": "Photographie de Christiane CHARUA",
-    "description": "“Cécile” en 1941.",
-    "search": "christiane charua convoi 31000 notice commemorative"
   },
   {
     "name": "Cipriano BONAZZOLI",
@@ -2795,19 +2392,6 @@
     "search": "claudine blateau 31737 matricule 31737 notice commemorative"
   },
   {
-    "name": "Claudine BLATEAU",
-    "file": "hommes/claudine-blateau-31737.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/claudine-blateau-31737.jpg",
-    "portrait_alt": "Photographie de Claudine BLATEAU",
-    "description": "Claudine Pinet naît le 23 mars 1911 à Niort (Deux-Sèvres – 79). Enfant trouvée, elle n’a pas connu ses parents. Elle grandit à Secondigny-en-Gâtine, où…",
-    "search": "claudine blateau convoi 31000 notice commemorative"
-  },
-  {
     "name": "Claudine GUÉRIN",
     "file": "claudine_guerin_31664.html",
     "group": "femmes",
@@ -2819,19 +2403,6 @@
     "portrait_alt": "Portrait documenté de Claudine GUÉRIN",
     "description": "Claudine Marie Guérin naît le er mai à Gruchet-le-Valasse Seine-Inférieure Seine-Maritime à proximité de l’estuaire de la Seine fille de Roger Lucien Louis…",
     "search": "claudine guerin 31664 matricule 31664 morte en deportation"
-  },
-  {
-    "name": "Claudine GUÉRIN",
-    "file": "hommes/claudine-guerin-31664.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/claudine-guerin-31664.jpg",
-    "portrait_alt": "Photographie de Claudine GUÉRIN",
-    "description": "Claudine Marie Guérin naît le 1er mai 1925 à Gruchet-le-Valasse (Seine-Inférieure / Seine-Maritime – 76), à proximité de l’estuaire de la Seine, fille de…",
-    "search": "claudine guerin convoi 31000 notice commemorative"
   },
   {
     "name": "Clément BRIOUDE",
@@ -2897,19 +2468,6 @@
     "portrait_alt": "Portrait documenté de Constance RAPPENAU",
     "description": "Photographiée par le service de l’identité judiciaire de la préfecture de police, le 8 décembre 1941. Archives de la P.P.",
     "search": "constance rappenau 31754 matricule 31754 notice commemorative"
-  },
-  {
-    "name": "Constance RAPPENAU",
-    "file": "hommes/constance-rappenau-31754.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/constance-rappenau-31754.jpg",
-    "portrait_alt": "Photographie de Constance RAPPENAU",
-    "description": "Photographiée par le service de l’identité judiciaire de la préfecture de police, le 8 décembre 1941. Archives de la P.P.",
-    "search": "constance rappenau convoi 31000 notice commemorative"
   },
   {
     "name": "Cyprien DEPARDIEU",
@@ -3042,19 +2600,6 @@
     "search": "danielle casanova 31655 matricule 31655 notice commemorative"
   },
   {
-    "name": "Danielle CASANOVA",
-    "file": "hommes/danielle-casanova-31655.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/danielle-casanova-31655.jpg",
-    "portrait_alt": "Photographie de Danielle CASANOVA",
-    "description": "La dirigeante des Jeunesses Communistes",
-    "search": "danielle casanova convoi 31000 notice commemorative"
-  },
-  {
     "name": "David BADACHE",
     "file": "hommes/david-badache-46267.html",
     "group": "hommes",
@@ -3105,19 +2650,6 @@
     "portrait_alt": "Portrait documenté de Denise ROUCAYROL",
     "description": "Photo anthropométrique prise le jour de son arrestation. Archives de la préfecture de police. Droits réservés.",
     "search": "denise roucayrol 31646 matricule 31646 notice commemorative"
-  },
-  {
-    "name": "Denise ROUCAYROL",
-    "file": "hommes/denise-roucayrol-31646.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/denise-roucayrol-31646.jpg",
-    "portrait_alt": "Photographie de Denise ROUCAYROL",
-    "description": "Photo anthropométrique prise le jour de son arrestation. Archives de la préfecture de police. Droits réservés.",
-    "search": "denise roucayrol convoi 31000 notice commemorative"
   },
   {
     "name": "Désiré SILLIEN",
@@ -3289,19 +2821,6 @@
     "search": "elie batot 45205 matricule 45205 notice commemorative"
   },
   {
-    "name": "Élisabeth DUPEYRON",
-    "file": "hommes/elisabeth-dupeyron-31731.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/elisabeth-dupeyron-31731.jpg",
-    "portrait_alt": "Photographie de Élisabeth DUPEYRON",
-    "description": "Élisabeth Dufour naît le 25 août 1914 à Lormont, dans la grande banlieue de Bordeaux (Gironde – 33) sur la rive droite de la Garonne, au sein d’une famille…",
-    "search": "elisabeth dupeyron convoi 31000 notice commemorative"
-  },
-  {
     "name": "Élisabeth DUPEYRON, née Dufour",
     "file": "elisabeth_dupeyron_nee_dufour_31731.html",
     "group": "femmes",
@@ -3326,19 +2845,6 @@
     "portrait_alt": "Portrait documenté de Elisabeth Le PORT",
     "description": "Droits réservés.",
     "search": "elisabeth le port 31786 matricule 31786 notice commemorative"
-  },
-  {
-    "name": "Elisabeth Le PORT",
-    "file": "hommes/elisabeth-le-port-31786.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/elisabeth-le-port-31786.jpg",
-    "portrait_alt": "Photographie de Elisabeth Le PORT",
-    "description": "Droits réservés.",
-    "search": "elisabeth le port convoi 31000 notice commemorative"
   },
   {
     "name": "Émile BILLOQUET",
@@ -3523,19 +3029,6 @@
     "search": "emile tunesi 46163 matricule 46163 notice commemorative"
   },
   {
-    "name": "Émilia Dite Léa KÉRISIT",
-    "file": "hommes/emilia-dite-lea-kerisit-31783.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/emilia-dite-lea-kerisit-31783.jpg",
-    "portrait_alt": "Photographie de Émilia Dite Léa KÉRISIT",
-    "description": "Émilia KÉRISIT, née Thoreau, reconnue Baliteau. Collection Gérard Kérisit, son petit-fils (fils de Marcel). Droits réservés.",
-    "search": "emilia dite lea kerisit convoi 31000 notice commemorative"
-  },
-  {
     "name": "Émilia KÉRISIT",
     "file": "emilia_kerisit_31783.html",
     "group": "femmes",
@@ -3573,19 +3066,6 @@
     "portrait_alt": "Portrait documenté de Emma BOLLEAU",
     "description": "Emma Bolleau, née Lemondais. D.R.",
     "search": "emma bolleau 31806 matricule 31806 notice commemorative"
-  },
-  {
-    "name": "Emma BOLLEAU",
-    "file": "hommes/emma-bolleau-31806.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/emma-bolleau-31806.jpg",
-    "portrait_alt": "Photographie de Emma BOLLEAU",
-    "description": "Emma Bolleau, née Lemondais. D.R.",
-    "search": "emma bolleau convoi 31000 notice commemorative"
   },
   {
     "name": "Emmanuel DESBIOT",
@@ -3716,19 +3196,6 @@
     "portrait_alt": "Portrait documenté de Esterina Ou Estellina RUJU",
     "description": "Esterina (ou Estellina ?) Ruju naît le 23 janvier 1885 à Chiaramonti, au nord de la Sardaigne (Italie), fille de Nicolas Ruju et de Francesca.",
     "search": "esterina ou estellina ruju 31838 matricule 31838 notice commemorative"
-  },
-  {
-    "name": "Esterina Ou Estellina RUJU",
-    "file": "hommes/esterina-ou-estellina-ruju-31838.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/esterina-ou-estellina-ruju-31838.jpg",
-    "portrait_alt": "Photographie de Esterina Ou Estellina RUJU",
-    "description": "Esterina (ou Estellina ?) Ruju naît le 23 janvier 1885 à Chiaramonti, au nord de la Sardaigne (Italie), fille de Nicolas Ruju et de Francesca.",
-    "search": "esterina ou estellina ruju convoi 31000 notice commemorative"
   },
   {
     "name": "Étienne CARDIN",
@@ -3952,19 +3419,6 @@
     "search": "eugene thepot 46136 matricule 46136 notice commemorative"
   },
   {
-    "name": "Eugenia-Eugénie BASKINE",
-    "file": "hommes/eugenia-eugenie-baskine-31837.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/eugenia-eugenie-baskine-31837.jpg",
-    "portrait_alt": "Photographie de Eugenia-Eugénie BASKINE",
-    "description": "À Bois-Plage, sur l’île de Ré, au cours de l’été 1929 ? In Raflés, internés, déportés, fusillés et résistants du XIe, Mémorial. Droits réservés.",
-    "search": "eugenia eugenie baskine convoi 31000 notice commemorative"
-  },
-  {
     "name": "Eugénie BASKINE",
     "file": "eugenie_baskine_31837.html",
     "group": "femmes",
@@ -3991,19 +3445,6 @@
     "search": "eugenie korzeniowska 31700 matricule 31700 morte en deportation"
   },
   {
-    "name": "Eugénie KORZENIOWSKA",
-    "file": "hommes/eugenie-korzeniowska-31700.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/eugenie-korzeniowska-31700.jpg",
-    "portrait_alt": "Photographie de Eugénie KORZENIOWSKA",
-    "description": "Au fort de Romainville, en détention allemande. Droits réservés.",
-    "search": "eugenie korzeniowska convoi 31000 notice commemorative"
-  },
-  {
     "name": "Fabienne LANDY",
     "file": "fabienne-landy-31784.html",
     "group": "femmes",
@@ -4015,19 +3456,6 @@
     "portrait_alt": "Portrait documenté de Fabienne LANDY",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "fabienne landy 31784 matricule 31784 notice commemorative"
-  },
-  {
-    "name": "Fabienne LANDY",
-    "file": "hommes/fabienne-landy-31784.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/fabienne-landy-31784.jpg",
-    "portrait_alt": "Photographie de Fabienne LANDY",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "fabienne landy convoi 31000 notice commemorative"
   },
   {
     "name": "Félicia Dite Lucia Felicja ROSTKOWSKA",
@@ -4043,19 +3471,6 @@
     "search": "felicia dite lucia felicja rostkowska 31701 matricule 31701 notice commemorative"
   },
   {
-    "name": "Félicia Dite Lucia Felicja ROSTKOWSKA",
-    "file": "hommes/felicia-dite-lucia-felicja-rostkowska-31701.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/felicia-dite-lucia-felicja-rostkowska-31701.png",
-    "portrait_alt": "Photo non trouvée pour Félicia Dite Lucia Felicja ROSTKOWSKA",
-    "description": "Félicia Rostkowaska est née le 15 juin 1908 à Gitomiège en Pologne.",
-    "search": "felicia dite lucia felicja rostkowska convoi 31000 notice commemorative"
-  },
-  {
     "name": "Félicienne BIERGE",
     "file": "felicienne-bierge-31734.html",
     "group": "femmes",
@@ -4067,19 +3482,6 @@
     "portrait_alt": "Photographie non retrouvée pour Félicienne BIERGE",
     "description": "Auschwitz, le 3 février 1943 Musée national d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "felicienne bierge 31734 matricule 31734 notice commemorative"
-  },
-  {
-    "name": "Félicienne BIERGE",
-    "file": "hommes/felicienne-bierge-31734.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/felicienne-bierge-31734.jpg",
-    "portrait_alt": "Photographie de Félicienne BIERGE",
-    "description": "Auschwitz, le 3 février 1943 Musée national d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "felicienne bierge convoi 31000 notice commemorative"
   },
   {
     "name": "Félix ASSIÉ",
@@ -4420,19 +3822,6 @@
     "search": "franciska dite cica goutayer 31780 matricule 31780 morte en deportation"
   },
   {
-    "name": "Franciska Dite Cica GOUTAYER",
-    "file": "hommes/franciska-dite-cica-goutayer-31780.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/franciska-dite-cica-goutayer-31780.jpg",
-    "portrait_alt": "Photographie de Franciska Dite Cica GOUTAYER",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "franciska dite cica goutayer convoi 31000 notice commemorative"
-  },
-  {
     "name": "François BOUDEAUD",
     "file": "hommes/francois-boudeaud-45279.html",
     "group": "hommes",
@@ -4693,19 +4082,6 @@
     "search": "gabrielle bergin 31798 matricule 31798 notice commemorative"
   },
   {
-    "name": "Gabrielle BERGIN",
-    "file": "hommes/gabrielle-bergin-31798.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/gabrielle-bergin-31798.jpg",
-    "portrait_alt": "Photographie de Gabrielle BERGIN",
-    "description": "IDENTIFICATION INCERTAINE… C’est de manière hypothétique et déductive qu’est donné à voir le portrait de cette détenue, photographiée à Auschwitz-I le 3…",
-    "search": "gabrielle bergin convoi 31000 notice commemorative"
-  },
-  {
     "name": "Gabrielle ETHIS",
     "file": "gabrielle-ethis-31625.html",
     "group": "femmes",
@@ -4717,19 +4093,6 @@
     "portrait_alt": "Portrait documenté de Gabrielle ETHIS",
     "description": "Gabrielle Papillon naît le 16 janvier 1896. Elle a – au moins – un frère, Fernand Papillon, né le 13 septembre 1891 à Paris 20e.",
     "search": "gabrielle ethis 31625 matricule 31625 notice commemorative"
-  },
-  {
-    "name": "Gabrielle ETHIS",
-    "file": "hommes/gabrielle-ethis-31625.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/gabrielle-ethis-31625.jpg",
-    "portrait_alt": "Photographie de Gabrielle ETHIS",
-    "description": "Gabrielle Papillon naît le 16 janvier 1896. Elle a – au moins – un frère, Fernand Papillon, né le 13 septembre 1891 à Paris 20e.",
-    "search": "gabrielle ethis convoi 31000 notice commemorative"
   },
   {
     "name": "Gaston GAUDY",
@@ -5239,19 +4602,6 @@
     "search": "georges vinsous 46199 matricule 46199 notice commemorative"
   },
   {
-    "name": "Georgette BRET",
-    "file": "hommes/georgette-bret-31747.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/georgette-bret-31747.jpg",
-    "portrait_alt": "Photographie de Georgette BRET",
-    "description": "Georgette Fourcade naît le 6 octobre 1905 à Sainte-Foy-la-Grande (Gironde – 33), où ses parents sont employés d’épicerie. Parmi ses frères, Paul Fourcade…",
-    "search": "georgette bret convoi 31000 notice commemorative"
-  },
-  {
     "name": "Georgette BRET, née Fourcade",
     "file": "georgette_bret_nee_fourcade_31747.html",
     "group": "femmes",
@@ -5291,19 +4641,6 @@
     "search": "georgette lacabanne 31717 matricule 31717 morte en deportation"
   },
   {
-    "name": "Georgette LACABANNE",
-    "file": "hommes/georgette-lacabanne-31717.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/georgette-lacabanne-31717.jpg",
-    "portrait_alt": "Photographie de Georgette LACABANNE",
-    "description": "Georgette Réau naît le 20 août 1910 à Bordeaux (Gironde – 33), fille d’un chaudronnier sur fer. Elle grandit à Bordeaux et fréquente l’école Cazemajor…",
-    "search": "georgette lacabanne convoi 31000 notice commemorative"
-  },
-  {
     "name": "Georgette ROSTAING",
     "file": "georgette-rostaing-31850.html",
     "group": "femmes",
@@ -5315,19 +4652,6 @@
     "portrait_alt": "Portrait documenté de Georgette ROSTAING",
     "description": "Georgette, Louise, Rostaing, née le 7 novembre 1911 à Ivry-sur-Seine (Val-de-Marne) domiciliée à Ivry, morte à Birkenau le 2 mai 1943.",
     "search": "georgette rostaing 31850 matricule 31850 notice commemorative"
-  },
-  {
-    "name": "Georgette ROSTAING",
-    "file": "hommes/georgette-rostaing-31850.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/georgette-rostaing-31850.jpg",
-    "portrait_alt": "Photographie de Georgette ROSTAING",
-    "description": "Georgette, Louise, Rostaing, née le 7 novembre 1911 à Ivry-sur-Seine (Val-de-Marne) domiciliée à Ivry, morte à Birkenau le 2 mai 1943.",
-    "search": "georgette rostaing convoi 31000 notice commemorative"
   },
   {
     "name": "Gérald LECARPENTIER",
@@ -5395,19 +4719,6 @@
     "search": "germaine berger 31842 matricule 31842 notice commemorative"
   },
   {
-    "name": "Germaine BERGER",
-    "file": "hommes/germaine-berger-31842.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/germaine-berger-31842.png",
-    "portrait_alt": "Photo non trouvée pour Germaine BERGER",
-    "description": "Germaine Pirou naît le 9 mars 1918 à Scrignac (Finistère – 29) dans une famille de quatre filles d’agriculteurs.",
-    "search": "germaine berger convoi 31000 notice commemorative"
-  },
-  {
     "name": "Germaine CANTELAUBE",
     "file": "germaine_cantelaube_31740.html",
     "group": "femmes",
@@ -5419,19 +4730,6 @@
     "portrait_alt": "Portrait documenté de Germaine CANTELAUBE",
     "description": "Germaine Charles naît le 27 mars 1908 à Paris, dans une famille modeste. Fille d’un employé de bureau, elle grandit à Montigny-Beauchamp et poursuit sa…",
     "search": "germaine cantelaube 31740 matricule 31740 morte en deportation"
-  },
-  {
-    "name": "Germaine CANTELAUBE",
-    "file": "hommes/germaine-cantelaube-31740.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/germaine-cantelaube-31740.jpg",
-    "portrait_alt": "Photographie de Germaine CANTELAUBE",
-    "description": "Au fort de Romainville (Haftlager 122), en détention allemande. Droits réservés.",
-    "search": "germaine cantelaube convoi 31000 notice commemorative"
   },
   {
     "name": "Germaine DRAPRON",
@@ -5447,19 +4745,6 @@
     "search": "germaine drapron 31809 matricule 31809 notice commemorative"
   },
   {
-    "name": "Germaine DRAPRON",
-    "file": "hommes/germaine-drapron-31809.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/germaine-drapron-31809.jpg",
-    "portrait_alt": "Photographie de Germaine DRAPRON",
-    "description": "Justine (Germaine) Lagarde naît le 1er janvier 1903 à Sireuil (Charente – 16), fille de Jean Lagarde, 30 ans, cultivateur, et de Marguerite Marie Marchive…",
-    "search": "germaine drapron convoi 31000 notice commemorative"
-  },
-  {
     "name": "Germaine GIRARD",
     "file": "germaine_girard_31706.html",
     "group": "femmes",
@@ -5471,19 +4756,6 @@
     "portrait_alt": "Photographie non retrouvée pour Germaine GIRARD",
     "description": "Germaine Emma Marie Girard naît le janvier à Saint-Cloud Seine Hauts-de-Seine chez ses parents Alexandre Girard ans tailleur et Méline Mainfroid ans…",
     "search": "germaine girard 31706 matricule 31706 morte en deportation"
-  },
-  {
-    "name": "Germaine GIRARD",
-    "file": "hommes/germaine-girard-31706.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/germaine-girard-31706.jpg",
-    "portrait_alt": "Photographie de Germaine GIRARD",
-    "description": "Au moment de son arrestation, Germaine Girard habite à Paris 11e.",
-    "search": "germaine girard convoi 31000 notice commemorative"
   },
   {
     "name": "Germaine JAUNAY",
@@ -5499,19 +4771,6 @@
     "search": "germaine jaunay 31782 matricule 31782 notice commemorative"
   },
   {
-    "name": "Germaine JAUNAY",
-    "file": "hommes/germaine-jaunay-31782.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/germaine-jaunay-31782.jpg",
-    "portrait_alt": "Photographie de Germaine JAUNAY",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "germaine jaunay convoi 31000 notice commemorative"
-  },
-  {
     "name": "Germaine MAURICE",
     "file": "germaine-maurice-31788.html",
     "group": "femmes",
@@ -5523,19 +4782,6 @@
     "portrait_alt": "Portrait documenté de Germaine MAURICE",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "germaine maurice 31788 matricule 31788 notice commemorative"
-  },
-  {
-    "name": "Germaine MAURICE",
-    "file": "hommes/germaine-maurice-31788.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/germaine-maurice-31788.jpg",
-    "portrait_alt": "Photographie de Germaine MAURICE",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "germaine maurice convoi 31000 notice commemorative"
   },
   {
     "name": "Germaine PICAN",
@@ -5575,19 +4821,6 @@
     "portrait_alt": "Photographie non retrouvée pour Germaine RENAULD",
     "description": "Droits réservés.",
     "search": "germaine renauld 31682 matricule 31682 notice commemorative"
-  },
-  {
-    "name": "Germaine RENAULD",
-    "file": "hommes/germaine-renauld-31682.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/germaine-renauld-31682.jpg",
-    "portrait_alt": "Photographie de Germaine RENAULD",
-    "description": "Droits réservés.",
-    "search": "germaine renauld convoi 31000 notice commemorative"
   },
   {
     "name": "Gerolamo VILLA",
@@ -5668,19 +4901,6 @@
     "search": "gilberte tamise 31715 matricule 31715 notice commemorative"
   },
   {
-    "name": "Gilberte TAMISÉ",
-    "file": "hommes/gilberte-tamise-31715.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/gilberte-tamise-31715.jpg",
-    "portrait_alt": "Photographie de Gilberte TAMISÉ",
-    "description": "Marie, Gilberte Tamisé naît le le 3 février 1912. Son père est bottier à Caudéran, dans la proche banlieue de Bordeaux (Gironde – 33). Le 28 février 1922…",
-    "search": "gilberte tamise convoi 31000 notice commemorative"
-  },
-  {
     "name": "Giobbe PASINI",
     "file": "hommes/giobbe-pasini-45949.html",
     "group": "hommes",
@@ -5705,19 +4925,6 @@
     "portrait_alt": "Photographie non retrouvée pour Gisèle LAGUESSE",
     "description": "Gisèle, Henriette, Lung naît le 29 janvier 1915 à Poitiers (Vienne). Elle grandit à Levallois-Perret (Hauts-de-Seine), où elle va à l’école communale. Elle…",
     "search": "gisele laguesse 31667 matricule 31667 notice commemorative"
-  },
-  {
-    "name": "Gisèle LAGUESSE",
-    "file": "hommes/gisele-laguesse-31667.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/gisele-laguesse-31667.jpg",
-    "portrait_alt": "Photographie de Gisèle LAGUESSE",
-    "description": "Gisèle, Henriette, Lung naît le 29 janvier 1915 à Poitiers (Vienne). Elle grandit à Levallois-Perret (Hauts-de-Seine), où elle va à l’école communale. Elle…",
-    "search": "gisele laguesse convoi 31000 notice commemorative"
   },
   {
     "name": "Guillaume HEITZ",
@@ -5850,19 +5057,6 @@
     "search": "helena fournier 31793 matricule 31793 notice commemorative"
   },
   {
-    "name": "Héléna FOURNIER",
-    "file": "hommes/helena-fournier-31793.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/helena-fournier-31793.jpg",
-    "portrait_alt": "Photographie de Héléna FOURNIER",
-    "description": "Héléna Fournier en janvier 1943, âgée de 38 ans. Photo d’immatriculation au camp allemand du fort de Romainville. © Collection Carole Toulousy-Michel",
-    "search": "helena fournier convoi 31000 notice commemorative"
-  },
-  {
     "name": "Hélène ALLAIRE",
     "file": "helene_allaire_31807.html",
     "group": "femmes",
@@ -5874,32 +5068,6 @@
     "portrait_alt": "Photographie non retrouvée pour Hélène ALLAIRE",
     "description": "Hélène Bolleau naît le 6 avril 1924 à Royan, en Charente-Inférieure. Son père Roger travaille aux Postes et devient facteur-chef à Pontaillac ; sa mère…",
     "search": "helene allaire 31807 matricule 31807 rescapee"
-  },
-  {
-    "name": "Hélène ALLAIRE",
-    "file": "hommes/helene-allaire-31807.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/helene-allaire-31807.jpg",
-    "portrait_alt": "Photographie de Hélène ALLAIRE",
-    "description": "Hélène.",
-    "search": "helene allaire convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Hélène ANTOINE",
-    "file": "hommes/helene-antoine-31775.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/helene-antoine-31775.jpg",
-    "portrait_alt": "Photographie de Hélène ANTOINE",
-    "description": "Hélène Demangeat naît le 24 juillet 1898 à Thaon (Vosges – 88).",
-    "search": "helene antoine convoi 31000 notice commemorative"
   },
   {
     "name": "Hélène ANTOINE, née Demangeat",
@@ -5928,19 +5096,6 @@
     "search": "helene brabander 31695 matricule 31695 morte en deportation"
   },
   {
-    "name": "Hélène BRABANDER",
-    "file": "hommes/helene-brabander-31695.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/helene-brabander-31695.jpg",
-    "portrait_alt": "Photographie de Hélène BRABANDER",
-    "description": "La jeunesse",
-    "search": "helene brabander convoi 31000 notice commemorative"
-  },
-  {
     "name": "Hélène CASTERA",
     "file": "helene-castera-31719.html",
     "group": "femmes",
@@ -5954,19 +5109,6 @@
     "search": "helene castera 31719 matricule 31719 notice commemorative"
   },
   {
-    "name": "Hélène CASTERA",
-    "file": "hommes/helene-castera-31719.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/helene-castera-31719.jpg",
-    "portrait_alt": "Photographie de Hélène CASTERA",
-    "description": "Hélène Vervin naît le 21 avril 1887 à Chiry-Ourscamp (Oise – 60).",
-    "search": "helene castera convoi 31000 notice commemorative"
-  },
-  {
     "name": "Hélène HASCOET",
     "file": "helene_hascoet_31755.html",
     "group": "femmes",
@@ -5978,19 +5120,6 @@
     "portrait_alt": "Photographie non retrouvée pour Hélène HASCOET",
     "description": "Hélène Hascoët naît le novembre à Concarneau Finistère fille de Jean Marie Hascoët ans menuisier et d’Hélène Jeanne Masfort ans son épouse tailleuse…",
     "search": "helene hascoet 31755 matricule 31755 morte en deportation"
-  },
-  {
-    "name": "Hélène HASCOET",
-    "file": "hommes/helene-hascoet-31755.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/helene-hascoet-31755.jpg",
-    "portrait_alt": "Photographie de Hélène HASCOET",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz avant l’évacuation du camp en janvier 1945. Réalisé le 3 février 1943, le portrait…",
-    "search": "helene hascoet convoi 31000 notice commemorative"
   },
   {
     "name": "Hélène SOLOMON",
@@ -6357,19 +5486,6 @@
     "search": "henriette l huillier 31688 matricule 31688 notice commemorative"
   },
   {
-    "name": "Henriette L’HUILLIER",
-    "file": "hommes/henriette-l-huillier-31688.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/henriette-l-huillier-31688.jpg",
-    "portrait_alt": "Photographie de Henriette L’HUILLIER",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
-    "search": "henriette l huillier convoi 31000 notice commemorative"
-  },
-  {
     "name": "Henriette MAUVAIS",
     "file": "henriette_mauvais_31674.html",
     "group": "femmes",
@@ -6407,19 +5523,6 @@
     "portrait_alt": "Portrait documenté de Henriette SCHMIDT",
     "description": "Au fort de Romainville, en détention allemande. Droits réservés.",
     "search": "henriette schmidt 31699 matricule 31699 notice commemorative"
-  },
-  {
-    "name": "Henriette SCHMIDT",
-    "file": "hommes/henriette-schmidt-31699.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/henriette-schmidt-31699.jpg",
-    "portrait_alt": "Photographie de Henriette SCHMIDT",
-    "description": "Au fort de Romainville, en détention allemande. Droits réservés.",
-    "search": "henriette schmidt convoi 31000 notice commemorative"
   },
   {
     "name": "Hilaire SARTORIO",
@@ -6485,19 +5588,6 @@
     "portrait_alt": "Photographie de Honoré OURSEL",
     "description": "Honoré Oursel © Simone Oursel",
     "search": "honore oursel 45942 matricule 45942 notice commemorative"
-  },
-  {
-    "name": "Irina KARCHEWSKA",
-    "file": "hommes/irina-karchewska-31698.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/irina-karchewska-31698.jpg",
-    "portrait_alt": "Photographie de Irina KARCHEWSKA",
-    "description": "Irina KARCHEWSKA, née Byczeck",
-    "search": "irina karchewska convoi 31000 notice commemorative"
   },
   {
     "name": "Irina KARCHEWSKA",
@@ -6589,19 +5679,6 @@
     "portrait_alt": "Photo non trouvée pour Jacob Kirsner Ou KIRZNER",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
     "search": "jacob kirsner ou kirzner 46288 matricule 46288 notice commemorative"
-  },
-  {
-    "name": "Jacqueline QUATREMAIRE",
-    "file": "hommes/jacqueline-quatremaire-31641.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/jacqueline-quatremaire-31641.jpg",
-    "portrait_alt": "Photographie de Jacqueline QUATREMAIRE",
-    "description": "Jacqueline Quatremaire naît le 17 octobre 1918 à Igé (Orne), fille unique d’Henri Quatremaire, 21 ans, peintre en bâtiment, et de Germaine Bruhce, qui se…",
-    "search": "jacqueline quatremaire convoi 31000 notice commemorative"
   },
   {
     "name": "Jacqueline QUATREMAIRE",
@@ -6706,19 +5783,6 @@
     "portrait_alt": "Portrait de Jacques MAZEIN",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
     "search": "jacques mazein 45866 matricule 45866 notice commemorative"
-  },
-  {
-    "name": "Jakoba Van Der LEE",
-    "file": "hommes/jakoba-van-der-lee-31697.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/jakoba-van-der-lee-31697.jpg",
-    "portrait_alt": "Photographie de Jakoba Van Der LEE",
-    "description": "Très jeune, Jakoba Van Der Lee se marie avec un prince arabe qui l’emmène dans son pays et l’enferme dans son harem. Elle ne s’attend pas à cette vie de…",
-    "search": "jakoba van der lee convoi 31000 notice commemorative"
   },
   {
     "name": "Jakoba Van Der LEE",
@@ -7151,19 +6215,6 @@
   },
   {
     "name": "Jeanne ALEXANDRE",
-    "file": "hommes/jeanne-alexandre-31779.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/jeanne-alexandre-31779.jpg",
-    "portrait_alt": "Photographie de Jeanne ALEXANDRE",
-    "description": "Du Cantal à la Région parisienne",
-    "search": "jeanne alexandre convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Jeanne ALEXANDRE",
     "file": "jeanne_alexandre_31779.html",
     "group": "femmes",
     "matricule": "31779",
@@ -7174,32 +6225,6 @@
     "portrait_alt": "Portrait documenté de Jeanne ALEXANDRE",
     "description": "Jeanne Borderie naît le 27 mars 1912 au Chambon, près d’Anglars-de-Salers, dans le Cantal, où ses parents exploitent une petite ferme. Son père est tué au…",
     "search": "jeanne alexandre 31779 matricule 31779 morte en deportation"
-  },
-  {
-    "name": "Jeanne Claire GRANDPERRET",
-    "file": "hommes/jeanne-claire-grandperret-31770.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/jeanne-claire-grandperret-31770.png",
-    "portrait_alt": "Photo non trouvée pour Jeanne Claire GRANDPERRET",
-    "description": "Jeanne, Claire, Bergöend naît le 1er juillet 1896 à Morez (Jura), dans une famille de cinq enfants. Son père est émailleur.",
-    "search": "jeanne claire grandperret convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Jeanne COUTEAU",
-    "file": "hommes/jeanne-couteau-31772.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/jeanne-couteau-31772.jpg",
-    "portrait_alt": "Photographie de Jeanne COUTEAU",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
-    "search": "jeanne couteau convoi 31000 notice commemorative"
   },
   {
     "name": "Jeanne COUTEAU",
@@ -7213,19 +6238,6 @@
     "portrait_alt": "Portrait documenté de Jeanne COUTEAU",
     "description": "Jeanne Louise Couteau naît le 13 juillet 1901 à Paris, de père non déclaré. Elle grandit à Bagnoles-de-l’Orne et obtient son certificat d’études. En 1923…",
     "search": "jeanne couteau 31772 matricule 31772 morte en deportation"
-  },
-  {
-    "name": "Jeanne Dite Carmen SERRE",
-    "file": "hommes/jeanne-dite-carmen-serre-31637.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/jeanne-dite-carmen-serre-31637.jpg",
-    "portrait_alt": "Photographie de Jeanne Dite Carmen SERRE",
-    "description": "Deux sœurs rescapées d’Auschwitz",
-    "search": "jeanne dite carmen serre convoi 31000 notice commemorative"
   },
   {
     "name": "Jeanne Dite Carmen SERRE",
@@ -7254,19 +6266,6 @@
     "search": "jeanne grandperret 31770 matricule 31770 morte en deportation"
   },
   {
-    "name": "Jeanne GUYOT",
-    "file": "hommes/jeanne-guyot-31631.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/jeanne-guyot-31631.jpg",
-    "portrait_alt": "Photographie de Jeanne GUYOT",
-    "description": "Photo anthropométrique prise le 15 juillet 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police (APP), Paris.",
-    "search": "jeanne guyot convoi 31000 notice commemorative"
-  },
-  {
     "name": "Jeanne GUYOT, née Guivarch",
     "file": "jeanne_guyot_nee_guivarch_31631.html",
     "group": "femmes",
@@ -7278,19 +6277,6 @@
     "portrait_alt": "Portrait documenté de Jeanne GUYOT, née Guivarch",
     "description": "Jane Louise Marie Désirée Guivarch naît le septembre à Argenteuil Seine-et-Oise Val-d’Oise fille de Pierre Marie Guyvarch ans mécanicien et d’Emma…",
     "search": "jeanne guyot nee guivarch 31631 matricule 31631 morte en deportation"
-  },
-  {
-    "name": "Jeanne HERVÉ",
-    "file": "hommes/jeanne-herve-31768.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/jeanne-herve-31768.jpg",
-    "portrait_alt": "Photographie de Jeanne HERVÉ",
-    "description": "Jeanne HERVÉ est née le 11 juin 1900 au Merzer, Côtes-du-Nord (Côtes d’Armor, 22), elle était la dernière d’une famille de six enfants. Le père meurt en…",
-    "search": "jeanne herve convoi 31000 notice commemorative"
   },
   {
     "name": "Jeanne HERVÉ",
@@ -7307,19 +6293,6 @@
   },
   {
     "name": "Jeanne HUMBERT",
-    "file": "hommes/jeanne-humbert-31813.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/jeanne-humbert-31813.jpg",
-    "portrait_alt": "Photographie de Jeanne HUMBERT",
-    "description": "Jeanne Larcher naît le 12 février 1915 à Blénod-les-Toul (Meurthe-et-Moselle), fille unique d’un électricien. Elle va à l’école communale jusqu’au…",
-    "search": "jeanne humbert convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Jeanne HUMBERT",
     "file": "jeanne-humbert-31813.html",
     "group": "femmes",
     "matricule": "31813",
@@ -7330,19 +6303,6 @@
     "portrait_alt": "Portrait documenté de Jeanne HUMBERT",
     "description": "Jeanne Larcher naît le 12 février 1915 à Blénod-les-Toul (Meurthe-et-Moselle), fille unique d’un électricien. Elle va à l’école communale jusqu’au…",
     "search": "jeanne humbert 31813 matricule 31813 notice commemorative"
-  },
-  {
-    "name": "Jeanne Marie THIÉBAULT",
-    "file": "hommes/jeanne-marie-thiebault-31640.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/jeanne-marie-thiebault-31640.jpg",
-    "portrait_alt": "Photographie de Jeanne Marie THIÉBAULT",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "jeanne marie thiebault convoi 31000 notice commemorative"
   },
   {
     "name": "Jeanne Marie THIÉBAULT",
@@ -7476,19 +6436,6 @@
   },
   {
     "name": "Julia SLUSARCZYK",
-    "file": "hommes/julia-slusarczyk-31823.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/julia-slusarczyk-31823.jpg",
-    "portrait_alt": "Photographie de Julia SLUSARCZYK",
-    "description": "La vie d’une immigrée polonaise",
-    "search": "julia slusarczyk convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Julia SLUSARCZYK",
     "file": "julia-slusarczyk-31823.html",
     "group": "femmes",
     "matricule": "31823",
@@ -7525,19 +6472,6 @@
     "portrait_alt": "Portrait documenté de Juliette POIRIER",
     "description": "Julliette Même naît le 10 juillet 1918 à Saint-Lambert-des-Levées (Maine-et-Loire – 49), dans une famille de huit enfants. Les parents sont jardiniers.",
     "search": "juliette poirier 31769 matricule 31769 notice commemorative"
-  },
-  {
-    "name": "Karolina KONEFAL",
-    "file": "hommes/karolina-konefal-31707.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/karolina-konefal-31707.jpg",
-    "portrait_alt": "Photographie de Karolina KONEFAL",
-    "description": "Dans le récit de Charlotte Delbo, Karolina KONEFAL est associée à Anna NIZINSKA.",
-    "search": "karolina konefal convoi 31000 notice commemorative"
   },
   {
     "name": "Karolina KONEFAL",
@@ -7580,19 +6514,6 @@
   },
   {
     "name": "Laure GATET",
-    "file": "hommes/laure-gatet-31833.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/laure-gatet-31833.jpg",
-    "portrait_alt": "Photographie de Laure GATET",
-    "description": "Laure, Constance, Pierrette, Gatet naît le 19 juillet 1913, à la Maison-Dieu, commune de Boussac-Bourg (Creuse), dans une famille d’enseignants.",
-    "search": "laure gatet convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Laure GATET",
     "file": "laure_gatet_31833.html",
     "group": "femmes",
     "matricule": "31833",
@@ -7603,19 +6524,6 @@
     "portrait_alt": "Portrait documenté de Laure GATET",
     "description": "Laure Constance Pierrette Gatet naît le juillet à la Maison-Dieu commune de Boussac-Bourg Creuse dans une famille d’enseignants. La notice biographique…",
     "search": "laure gatet 31833 matricule 31833 morte en deportation"
-  },
-  {
-    "name": "Léa LAMBERT",
-    "file": "hommes/lea-lambert-31821.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/lea-lambert-31821.jpg",
-    "portrait_alt": "Photographie de Léa LAMBERT",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "lea lambert convoi 31000 notice commemorative"
   },
   {
     "name": "Léa LAMBERT, née Durbeck",
@@ -7762,19 +6670,6 @@
   },
   {
     "name": "Léona BOUILLARD",
-    "file": "hommes/leona-bouillard-31815.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/leona-bouillard-31815.jpg",
-    "portrait_alt": "Photographie de Léona BOUILLARD",
-    "description": "Clémence, Léona, Bouillard, née Ravaux le 26 avril 1885 à Éteignères (Ardennes), domiciliée à Tremblois-lès-Rocroi (Ardennes), morte à Auschwitz, au…",
-    "search": "leona bouillard convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Léona BOUILLARD",
     "file": "leona-bouillard-31815.html",
     "group": "femmes",
     "matricule": "31815",
@@ -7785,19 +6680,6 @@
     "portrait_alt": "Photographie non retrouvée pour Léona BOUILLARD",
     "description": "Clémence, Léona, Bouillard, née Ravaux le 26 avril 1885 à Éteignères (Ardennes), domiciliée à Tremblois-lès-Rocroi (Ardennes), morte à Auschwitz, au…",
     "search": "leona bouillard 31815 matricule 31815 notice commemorative"
-  },
-  {
-    "name": "Léone SEIGNOLLE",
-    "file": "hommes/leone-seignolle-31752.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/leone-seignolle-31752.jpg",
-    "portrait_alt": "Photographie de Léone SEIGNOLLE",
-    "description": "Léone Seignolle arrive à Romainville le 21 octobre 1942.",
-    "search": "leone seignolle convoi 31000 notice commemorative"
   },
   {
     "name": "Léone SEIGNOLLE",
@@ -7824,19 +6706,6 @@
     "portrait_alt": "Portrait documenté de Léonie SABAIL",
     "description": "Léonie Daubigny naît le 5 avril 1891 à Châtellerault. Elle épouse Jean Sabail et le couple a une fille, déjà mariée en 1942, et un fils de quinze ans. Tous…",
     "search": "leonie sabail 31745 matricule 31745 morte en deportation"
-  },
-  {
-    "name": "Lina KUHN",
-    "file": "hommes/lina-kuhn-31795.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/lina-kuhn-31795.jpg",
-    "portrait_alt": "Photographie de Lina KUHN",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "lina kuhn convoi 31000 notice commemorative"
   },
   {
     "name": "Lina KUHN ou KUHNE",
@@ -7982,32 +6851,6 @@
     "search": "louis villeminot 46193 matricule 46193 notice commemorative"
   },
   {
-    "name": "Louise Dite Anaïse Nayette LAVIGNE",
-    "file": "hommes/louise-dite-anaise-nayette-lavigne-31669.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/louise-dite-anaise-nayette-lavigne-31669.jpg",
-    "portrait_alt": "Photographie de Louise Dite Anaïse Nayette LAVIGNE",
-    "description": "Photo anthropométrique prise le 9 avril 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police, Paris.",
-    "search": "louise dite anaise nayette lavigne convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Louise Dite Louisette LOSSERAND",
-    "file": "hommes/louise-dite-louisette-losserand-31757.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/louise-dite-louisette-losserand-31757.jpg",
-    "portrait_alt": "Photographie de Louise Dite Louisette LOSSERAND",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943, selon les trois vues anthropométriques de la police allemande. Musée d’État d’Auschwitz-Birkenau, Oświęcim…",
-    "search": "louise dite louisette losserand convoi 31000 notice commemorative"
-  },
-  {
     "name": "Louise Dite Louisette LOSSERAND",
     "file": "louise-dite-louisette-losserand-31757.html",
     "group": "femmes",
@@ -8035,19 +6878,6 @@
   },
   {
     "name": "Louise LOQUET",
-    "file": "hommes/louise-loquet-31828.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/louise-loquet-31828.jpg",
-    "portrait_alt": "Photographie de Louise LOQUET",
-    "description": "Orpheline à 8 ans",
-    "search": "louise loquet convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Louise LOQUET",
     "file": "louise-loquet-31828.html",
     "group": "femmes",
     "matricule": "31828",
@@ -8061,19 +6891,6 @@
   },
   {
     "name": "Louise MAGADUR",
-    "file": "hommes/louise-magadur-31673.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/louise-magadur-31673.jpg",
-    "portrait_alt": "Photographie de Louise MAGADUR",
-    "description": "Photo anthropométrique prise le 17 mars 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police (APP), Paris.",
-    "search": "louise magadur convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Louise MAGADUR",
     "file": "louise-magadur-31673.html",
     "group": "femmes",
     "matricule": "31673",
@@ -8084,19 +6901,6 @@
     "portrait_alt": "Portrait documenté de Louise MAGADUR",
     "description": "Photo anthropométrique prise le 17 mars 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police (APP), Paris.",
     "search": "louise magadur 31673 matricule 31673 notice commemorative"
-  },
-  {
-    "name": "Lucette Suzanne HERBASSIER",
-    "file": "hommes/lucette-suzanne-herbassier-31781.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/lucette-suzanne-herbassier-31781.jpg",
-    "portrait_alt": "Photographie de Lucette Suzanne HERBASSIER",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "lucette suzanne herbassier convoi 31000 notice commemorative"
   },
   {
     "name": "Lucette Suzanne HERBASSIER",
@@ -8217,19 +7021,6 @@
   },
   {
     "name": "Lucienne Dite Annie FERRÉ",
-    "file": "hommes/lucienne-dite-annie-ferre-31722.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/lucienne-dite-annie-ferre-31722.jpg",
-    "portrait_alt": "Photographie de Lucienne Dite Annie FERRÉ",
-    "description": "Lucienne Proux naît le 11 octobre 1922 à Ville-d’Avray [1] (Hauts-de-Seine – 92), mais elle grandit à Rochefort (Charente-Maritime [2] – 17) où son père…",
-    "search": "lucienne dite annie ferre convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Lucienne Dite Annie FERRÉ",
     "file": "lucienne-dite-annie-ferre-31722.html",
     "group": "femmes",
     "matricule": "31722",
@@ -8240,19 +7031,6 @@
     "portrait_alt": "Portrait documenté de Lucienne Dite Annie FERRÉ",
     "description": "Lucienne Proux naît le 11 octobre 1922 à Ville-d’Avray [1] (Hauts-de-Seine – 92), mais elle grandit à Rochefort (Charente-Maritime [2] – 17) où son père…",
     "search": "lucienne dite annie ferre 31722 matricule 31722 notice commemorative"
-  },
-  {
-    "name": "Lucienne Dite Lucie MANSUY",
-    "file": "hommes/lucienne-dite-lucie-mansuy-31648%20%281%29.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/lucienne-dite-lucie-mansuy-31648%20%281%29.jpg",
-    "portrait_alt": "Photographie de Lucienne Dite Lucie MANSUY",
-    "description": "Photo anthropométrique prise par le service de l’identité judiciaire le 15 juillet 1942. Archives de la préfecture de police de Paris. Droits réservés.",
-    "search": "lucienne dite lucie mansuy convoi 31000 notice commemorative"
   },
   {
     "name": "Lucienne dite « Lucie » MANSUY",
@@ -8295,19 +7073,6 @@
   },
   {
     "name": "Lucienne LEBRETON",
-    "file": "hommes/lucienne-lebreton-31692.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/lucienne-lebreton-31692.jpg",
-    "portrait_alt": "Photographie de Lucienne LEBRETON",
-    "description": "Lucienne Lebreton en 1934. © Archives de la RATP.",
-    "search": "lucienne lebreton convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Lucienne LEBRETON",
     "file": "lucienne-lebreton-31692.html",
     "group": "femmes",
     "matricule": "31692",
@@ -8318,19 +7083,6 @@
     "portrait_alt": "Portrait documenté de Lucienne LEBRETON",
     "description": "Lucienne Lebreton en 1934. © Archives de la RATP.",
     "search": "lucienne lebreton 31692 matricule 31692 notice commemorative"
-  },
-  {
-    "name": "Lucienne PALLUY",
-    "file": "hommes/lucienne-palluy-31689.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/lucienne-palluy-31689.jpg",
-    "portrait_alt": "Photographie de Lucienne PALLUY",
-    "description": "Un grand-père, du côté paternel, communard, a disparu pendant la Semaine sanglante. Son père, vieux socialiste, avait adhéré au parti communiste après la…",
-    "search": "lucienne palluy convoi 31000 notice commemorative"
   },
   {
     "name": "Lucienne PALLUY",
@@ -8359,19 +7111,6 @@
     "search": "luz martos nee goni 31696 matricule 31696 morte en deportation"
   },
   {
-    "name": "Madeleine DAMOUS",
-    "file": "hommes/madeleine-damous-31690.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/madeleine-damous-31690.jpg",
-    "portrait_alt": "Photographie de Madeleine DAMOUS",
-    "description": "Madeleine Demiot naît le 17 mars 1913 à Saint-Aigny (Indre – 36), dans une famille de deux enfants. Son père est cultivateur au Breuil, commune de…",
-    "search": "madeleine damous convoi 31000 notice commemorative"
-  },
-  {
     "name": "Madeleine DAMOUS, née Demiot",
     "file": "madeleine_damous_nee_demiot_31690.html",
     "group": "femmes",
@@ -8383,19 +7122,6 @@
     "portrait_alt": "Photographie non retrouvée pour Madeleine DAMOUS, née Demiot",
     "description": "Madeleine Demiot naît le mars à Saint-Aigny Indre dans une famille de deux enfants Son père est cultivateur au Breuil commune de Saint-Aigny Elle va a…",
     "search": "madeleine damous nee demiot 31690 matricule 31690 morte en deportation"
-  },
-  {
-    "name": "Madeleine DECHAVASSINE",
-    "file": "hommes/madeleine-dechavassine-31639.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/madeleine-dechavassine-31639.jpg",
-    "portrait_alt": "Photographie de Madeleine DECHAVASSINE",
-    "description": "Au fort de Romainville, en détention allemande. Droits réservés.",
-    "search": "madeleine dechavassine convoi 31000 notice commemorative"
   },
   {
     "name": "Madeleine DECHAVASSINE",
@@ -8437,19 +7163,6 @@
     "search": "madeleine dite mado perriot nee doiret 31644 matricule 31644 rescapee"
   },
   {
-    "name": "Madeleine Dite Michèle LAFFITTE",
-    "file": "hommes/madeleine-dite-michele-laffitte-31666.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/madeleine-dite-michele-laffitte-31666.jpg",
-    "portrait_alt": "Photographie de Madeleine Dite Michèle LAFFITTE",
-    "description": "© Musée de l’Histoire Vivante, Montreuil.",
-    "search": "madeleine dite michele laffitte convoi 31000 notice commemorative"
-  },
-  {
     "name": "Madeleine, dite “Michèle” LAFFITTE, née Guitton",
     "file": "madeleine_dite_michele_laffitte_nee_guitton_31666.html",
     "group": "femmes",
@@ -8474,19 +7187,6 @@
     "portrait_alt": "Portrait documenté de Madeleine GALESLOOT",
     "description": "Auschwitz-I, le 3 février 1943 Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "madeleine galesloot 31643 matricule 31643 notice commemorative"
-  },
-  {
-    "name": "Madeleine JÉGOUZO",
-    "file": "hommes/madeleine-jegouzo-31668.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/madeleine-jegouzo-31668.jpg",
-    "portrait_alt": "Photographie de Madeleine JÉGOUZO",
-    "description": "Madeleine Jégouzo, née Passot, vient au monde dans le 15ème arrondissement dans une famille de tradition socialiste. Elle adhère au Parti communiste en…",
-    "search": "madeleine jegouzo convoi 31000 notice commemorative"
   },
   {
     "name": "Madeleine JÉGOUZO",
@@ -8828,19 +7528,6 @@
   },
   {
     "name": "Marcelle BUREAU",
-    "file": "hommes/marcelle-bureau-31000%20%281%29.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marcelle-bureau-31000%20%281%29.png",
-    "portrait_alt": "Photo non trouvée pour Marcelle BUREAU",
-    "description": "Marcelle Bureau, née le 7 avril 1923 à Étaules (Charente-Maritime), domiciliée à Étaules, morte au camp de femmes de Birkenau le 13 avril 1943.",
-    "search": "marcelle bureau convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Marcelle BUREAU",
     "file": "marcelle-bureau-31000%20%281%29.html",
     "group": "femmes",
     "matricule": null,
@@ -8893,19 +7580,6 @@
   },
   {
     "name": "Marcelle FUGLESANG",
-    "file": "hommes/marcelle-fuglesang-31826.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marcelle-fuglesang-31826.jpg",
-    "portrait_alt": "Photographie de Marcelle FUGLESANG",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "marcelle fuglesang convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Marcelle FUGLESANG",
     "file": "marcelle_fuglesang_31826.html",
     "group": "femmes",
     "matricule": "31826",
@@ -8919,19 +7593,6 @@
   },
   {
     "name": "Marcelle LAURILLOU",
-    "file": "hommes/marcelle-laurillou-31785.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marcelle-laurillou-31785.jpg",
-    "portrait_alt": "Photographie de Marcelle LAURILLOU",
-    "description": "Marcelle, Fernande, Micheline, Mardelle naît le 19 novembre 1914 à Perrusson, près de Loches (Indre-et-Loire), fille de Marcel Mardelle, 30 ans…",
-    "search": "marcelle laurillou convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Marcelle LAURILLOU",
     "file": "marcelle-laurillou-31785.html",
     "group": "femmes",
     "matricule": "31785",
@@ -8942,19 +7603,6 @@
     "portrait_alt": "Photographie non retrouvée pour Marcelle LAURILLOU",
     "description": "Marcelle, Fernande, Micheline, Mardelle naît le 19 novembre 1914 à Perrusson, près de Loches (Indre-et-Loire), fille de Marcel Mardelle, 30 ans…",
     "search": "marcelle laurillou 31785 matricule 31785 notice commemorative"
-  },
-  {
-    "name": "Marcelle LEMASSON",
-    "file": "hommes/marcelle-lemasson-31670.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marcelle-lemasson-31670.jpg",
-    "portrait_alt": "Photographie de Marcelle LEMASSON",
-    "description": "Photo anthropométrique prise le 9 avril 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police, Paris",
-    "search": "marcelle lemasson convoi 31000 notice commemorative"
   },
   {
     "name": "Marcelle LEMASSON",
@@ -8984,19 +7632,6 @@
   },
   {
     "name": "Marguerite CHAVAROC",
-    "file": "hommes/marguerite-chavaroc-31796.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marguerite-chavaroc-31796.jpg",
-    "portrait_alt": "Photographie de Marguerite CHAVAROC",
-    "description": "Marguerite Germaine Bauché naît le 3 octobre 1894 à Hennebont (Morbihan – 56), fille de Pierre-Marie Bauché, 27 ans, quartier-maître mécanicien de la…",
-    "search": "marguerite chavaroc convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Marguerite CHAVAROC",
     "file": "marguerite_chavaroc_31796.html",
     "group": "femmes",
     "matricule": "31796",
@@ -9007,19 +7642,6 @@
     "portrait_alt": "Portrait documenté de Marguerite CHAVAROC",
     "description": "Marguerite Germaine Bauché naît le 3 octobre 1894 à Hennebont, dans le Morbihan. Son père, Pierre-Marie Bauché, est quartier-maître mécanicien de la Marine…",
     "search": "marguerite chavaroc 31796 matricule 31796 morte en deportation"
-  },
-  {
-    "name": "Marguerite CORRINGER",
-    "file": "hommes/marguerite-corringer-31657.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marguerite-corringer-31657.jpg",
-    "portrait_alt": "Photographie de Marguerite CORRINGER",
-    "description": "La jeunesse",
-    "search": "marguerite corringer convoi 31000 notice commemorative"
   },
   {
     "name": "Marguerite CORRINGER, née Helleringer",
@@ -9035,19 +7657,6 @@
     "search": "marguerite corringer nee helleringer 31657 matricule 31657 rescapee"
   },
   {
-    "name": "Marguerite Joséphine HOUDART",
-    "file": "hommes/marguerite-josephine-houdart-31630.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marguerite-josephine-houdart-31630.png",
-    "portrait_alt": "Photo non trouvée pour Marguerite Joséphine HOUDART",
-    "description": "Marguerite, Joséphine HOUDART, née Hudelaine",
-    "search": "marguerite josephine houdart convoi 31000 notice commemorative"
-  },
-  {
     "name": "Marguerite, Joséphine HOUDART",
     "file": "marguerite_josephine_houdart_31630.html",
     "group": "femmes",
@@ -9059,19 +7668,6 @@
     "portrait_alt": "Portrait documenté de Marguerite, Joséphine HOUDART",
     "description": "Marguerite Joséphine HOUDART appartient au groupe des femmes françaises déportées depuis Compiègne vers Auschwitz en janvier. La notice biographique…",
     "search": "marguerite josephine houdart 31630 matricule 31630 morte en deportation"
-  },
-  {
-    "name": "Marguerite LERMITE",
-    "file": "hommes/marguerite-lermite-31835.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marguerite-lermite-31835.jpg",
-    "portrait_alt": "Photographie de Marguerite LERMITE",
-    "description": "Collection André Lermite – Droits réservés.",
-    "search": "marguerite lermite convoi 31000 notice commemorative"
   },
   {
     "name": "Marguerite LERMITE, née Joubert",
@@ -9098,19 +7694,6 @@
     "portrait_alt": "Portrait documenté de Marguerite Margot VALLINA",
     "description": "Marguerite Maurin naît le 14 janvier 1906 à Moings (Charente-Maritime [1] – 17). Ses parents sont boulangers à Jarnac-Champagne, où Margot va à l’école…",
     "search": "marguerite margot vallina 31732 matricule 31732 notice commemorative"
-  },
-  {
-    "name": "Marguerite Maria KOTLEREWSKY",
-    "file": "hommes/marguerite-maria-kotlerewsky-31814.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marguerite-maria-kotlerewsky-31814.png",
-    "portrait_alt": "Photo non trouvée pour Marguerite Maria KOTLEREWSKY",
-    "description": "Marguerite, Maria KOTLEREWSKY, née Urgon, vient au monde le 15 février 1903 ; son père travaille à Paris, boulevard Voltaire dans le 11ème arrondissement.…",
-    "search": "marguerite maria kotlerewsky convoi 31000 notice commemorative"
   },
   {
     "name": "Marguerite Maria KOTLEREWSKY",
@@ -9165,19 +7748,6 @@
     "search": "maria alonso 31778 matricule 31778 morte en deportation"
   },
   {
-    "name": "Marie Aminthe GUILLON",
-    "file": "hommes/marie-aminthe-guillon-31729.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marie-aminthe-guillon-31729.jpg",
-    "portrait_alt": "Photographie de Marie Aminthe GUILLON",
-    "description": "Marie, Aminthe [1], Auger nait le 7 juin 1884 à Courbillac, 17 km au nord-est de Cognac (Charente – 16), fille de Christin Auger et de Marie Léontine…",
-    "search": "marie aminthe guillon convoi 31000 notice commemorative"
-  },
-  {
     "name": "Marie, Aminthe, GUILLON, née Auger",
     "file": "marie_aminthe_guillon_nee_auger_31729.html",
     "group": "femmes",
@@ -9205,19 +7775,6 @@
   },
   {
     "name": "Marie Dite Antoinette BIBAULT",
-    "file": "hommes/marie-dite-antoinette-bibault-31771.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marie-dite-antoinette-bibault-31771.jpg",
-    "portrait_alt": "Photographie de Marie Dite Antoinette BIBAULT",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz avant l’évacuation du camp en janvier 1945. Réalisé le 3 février 1943, le portrait…",
-    "search": "marie dite antoinette bibault convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Marie Dite Antoinette BIBAULT",
     "file": "marie-dite-antoinette-bibault-31771.html",
     "group": "femmes",
     "matricule": "31771",
@@ -9231,19 +7788,6 @@
   },
   {
     "name": "Marie DUBOIS",
-    "file": "hommes/marie-dubois-31693.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marie-dubois-31693.jpg",
-    "portrait_alt": "Photographie de Marie DUBOIS",
-    "description": "Marie Corot naît le 27 février 1890 à Beaune (Côte-d’Or – 21), fille de Jacques Corot, 34 ans, terrassier demeurant à Beaune (Ch. Delbo écrit « tailleur de…",
-    "search": "marie dubois convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Marie DUBOIS",
     "file": "marie_dubois_31693.html",
     "group": "femmes",
     "matricule": "31693",
@@ -9254,19 +7798,6 @@
     "portrait_alt": "Portrait documenté de Marie DUBOIS",
     "description": "Marie Corot naît le 27 février 1890 à Beaune. Orpheline très jeune, elle est confiée à l’Assistance publique. En 1922, elle épouse François Le Corre, dont…",
     "search": "marie dubois 31693 matricule 31693 morte en deportation"
-  },
-  {
-    "name": "Marie-Élisa NORDMANN",
-    "file": "hommes/marie-elisa-nordmann-31687.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marie-elisa-nordmann-31687.jpg",
-    "portrait_alt": "Photographie de Marie-Élisa NORDMANN",
-    "description": "Marie-Élisa Nordmann naît le 4 novembre 1910 à Paris 8e, dans le quartier de l’Europe. Son frère Philippe, James, naît le 3 décembre 1914. Ils ont pour…",
-    "search": "marie elisa nordmann convoi 31000 notice commemorative"
   },
   {
     "name": "Marie-Élisa NORDMANN",
@@ -9293,19 +7824,6 @@
     "portrait_alt": "Photographie en noir et blanc de Marie et Simone Alizon réunies",
     "description": "Marie Alizon naît le 9 mai 1921 à Rennes, en Ille-et-Vilaine. Ses parents, issus de familles paysannes modestes, tiennent un hôtel près de la gare. Aînée…",
     "search": "marie et simone alizon 31777 matricule 31777 morte en deportation"
-  },
-  {
-    "name": "Marie-Jeanne BAUER",
-    "file": "hommes/marie-jeanne-bauer-31651.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marie-jeanne-bauer-31651.jpg",
-    "portrait_alt": "Photographie de Marie-Jeanne BAUER",
-    "description": "La Jeunesse",
-    "search": "marie jeanne bauer convoi 31000 notice commemorative"
   },
   {
     "name": "Marie-Jeanne BAUER, née Gantou",
@@ -9361,19 +7879,6 @@
   },
   {
     "name": "Marie-Louise Dite Louisette Ou Marilou COLOMBAIN",
-    "file": "hommes/marie-louise-dite-louisette-ou-marilou-colombain-31853.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marie-louise-dite-louisette-ou-marilou-colombain-31853.png",
-    "portrait_alt": "Photo non trouvée pour Marie-Louise Dite Louisette Ou Marilou COLOMBAIN",
-    "description": "Marie-Louise Méchain naît le 12 avril 1920 à La Courtine (Creuse), fille de François Mathurin Méchain, 26 ans, marchand fruitier, et de Joséphine…",
-    "search": "marie louise dite louisette ou marilou colombain convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Marie-Louise Dite Louisette Ou Marilou COLOMBAIN",
     "file": "marie-louise-dite-louisette-ou-marilou-colombain-31853.html",
     "group": "femmes",
     "matricule": "31853",
@@ -9397,19 +7902,6 @@
     "portrait_alt": "Portrait documenté de Marie-Louise et Madeleine MORIN",
     "description": "Marie-Louise Cribier naît le 18 août 1888 en Mayenne. Elle épouse Henri Morin, menuisier, avec lequel elle fonde une famille. Devenue veuve en 1933, elle…",
     "search": "marie louise et madeleine morin 31710 matricule 31710 morte en deportation"
-  },
-  {
-    "name": "Marie-Louise JOURDAN",
-    "file": "hommes/marie-louise-jourdan-31665.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marie-louise-jourdan-31665.jpg",
-    "portrait_alt": "Photographie de Marie-Louise JOURDAN",
-    "description": "Photomaton probablement saisi à l’occasion d’une perquisition. © Archives de la Préfecture de Police, Paris.",
-    "search": "marie louise jourdan convoi 31000 notice commemorative"
   },
   {
     "name": "Marie-Louise JOURDAN",
@@ -9451,19 +7943,6 @@
     "search": "marie madeleine normand 31678 matricule 31678 notice commemorative"
   },
   {
-    "name": "Marie Marcelle FERRY",
-    "file": "hommes/marie-marcelle-ferry-31816.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marie-marcelle-ferry-31816.jpg",
-    "portrait_alt": "Photographie de Marie Marcelle FERRY",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.…",
-    "search": "marie marcelle ferry convoi 31000 notice commemorative"
-  },
-  {
     "name": "Marie, Marcelle, FERRY, dite “Mitzy”",
     "file": "marie_marcelle_ferry_dite_mitzy_31816.html",
     "group": "femmes",
@@ -9475,19 +7954,6 @@
     "portrait_alt": "Portrait documenté de Marie, Marcelle, FERRY, dite “Mitzy”",
     "description": "Marie Marcelle Ferry naît le mars à Igney Vosges fille de Joseph Ferry ans ouvrier d’usine alors mobilisé comme soldat de e classe affecté au e groupe…",
     "search": "marie marcelle ferry dite mitzy 31816 matricule 31816 rescapee"
-  },
-  {
-    "name": "Marie Mathilde CHAUX",
-    "file": "hommes/marie-mathilde-chaux-31824.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marie-mathilde-chaux-31824.png",
-    "portrait_alt": "Photo non trouvée pour Marie Mathilde CHAUX",
-    "description": "Marie Chaux est née le 14 août 1875 à Tain-l’Hermitage, elle s’était mariée avec un représentant de commerce de Châlon-sur-Saône.",
-    "search": "marie mathilde chaux convoi 31000 notice commemorative"
   },
   {
     "name": "Marie Mathilde CHAUX",
@@ -9514,19 +7980,6 @@
     "portrait_alt": "Portrait documenté de Marie Mathilde Dite Maï POLITZER",
     "description": "Marie, Mathilde, Larcade naît le 15 août 1906 à Biarritz (Pyrénées-Atlantiques – 64), fille de Joseph Larcade et d’Hélène Mimiague, son épouse. Maï a deux…",
     "search": "marie mathilde dite mai politzer 31680 matricule 31680 notice commemorative"
-  },
-  {
-    "name": "Marie-Thérèse FLEURY",
-    "file": "hommes/marie-therese-fleury-31839.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marie-therese-fleury-31839.jpg",
-    "portrait_alt": "Photographie de Marie-Thérèse FLEURY",
-    "description": "Marie-Thérèse Fleury. © Maitron.",
-    "search": "marie therese fleury convoi 31000 notice commemorative"
   },
   {
     "name": "Marie-Thérèse FLEURY",
@@ -9605,19 +8058,6 @@
     "portrait_alt": "Photo non trouvée pour Marius VALLÉE",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
     "search": "marius vallee 46167 matricule 46167 notice commemorative"
-  },
-  {
-    "name": "Marthe Dite Violette HÉBRARD",
-    "file": "hommes/marthe-dite-violette-hebrard-31832.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/marthe-dite-violette-hebrard-31832.jpg",
-    "portrait_alt": "Photographie de Marthe Dite Violette HÉBRARD",
-    "description": "Photographiée au service de l’identité judiciaire, le 31 octobre 1942. © Archives de la préfecture de police.",
-    "search": "marthe dite violette hebrard convoi 31000 notice commemorative"
   },
   {
     "name": "Marthe, dite “Violette”, HÉBRARD, née Guay",
@@ -9881,19 +8321,6 @@
   },
   {
     "name": "Noémie DURAND",
-    "file": "hommes/noemie-durand-31727.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/noemie-durand-31727.jpg",
-    "portrait_alt": "Photographie de Noémie DURAND",
-    "description": "Auschwitz-I, le 3 février 1943 Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "noemie durand convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Noémie DURAND",
     "file": "noemie-durand-31727.html",
     "group": "femmes",
     "matricule": "31727",
@@ -9904,19 +8331,6 @@
     "portrait_alt": "Photographie non retrouvée pour Noémie DURAND",
     "description": "Auschwitz-I, le 3 février 1943 Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "noemie durand 31727 matricule 31727 notice commemorative"
-  },
-  {
-    "name": "Olga GODEFROY",
-    "file": "hommes/olga-godefroy-31766.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/olga-godefroy-31766.jpg",
-    "portrait_alt": "Photographie de Olga GODEFROY",
-    "description": "Olga Godefroy est la femme de Louis Godefroy et belle sœur de Aimée Doridat dite Manette :",
-    "search": "olga godefroy convoi 31000 notice commemorative"
   },
   {
     "name": "Olga GODEFROY",
@@ -10297,19 +8711,6 @@
   },
   {
     "name": "Rachel FERNANDES",
-    "file": "hommes/rachel-fernandes-31723.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/rachel-fernandes-31723.jpg",
-    "portrait_alt": "Photographie de Rachel FERNANDES",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "rachel fernandes convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Rachel FERNANDES",
     "file": "rachel-fernandes-31723.html",
     "group": "femmes",
     "matricule": "31723",
@@ -10463,19 +8864,6 @@
     "portrait_alt": "Portrait de Raymond WALTER",
     "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
     "search": "raymond walter 46204 matricule 46204 notice commemorative"
-  },
-  {
-    "name": "Raymonde GEORGES",
-    "file": "hommes/raymonde-georges-31000.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/raymonde-georges-31000.png",
-    "portrait_alt": "Photo non trouvée pour Raymonde GEORGES",
-    "description": "Raymonde Georges, née Le Margueresse le 18 janvier 1917 à Paris 14e, domiciliée à Paris 19e, morte au sous-camp de femmes de Birkenau début mars 1943 selon…",
-    "search": "raymonde georges convoi 31000 notice commemorative"
   },
   {
     "name": "Raymonde GEORGES",
@@ -10775,19 +9163,6 @@
     "portrait_alt": "Photographie de René SOLARD",
     "description": "René, Constant, Solard naît le 9 janvier 1892 à Paris 15e (75), fils de Constant Solard, 35 ans, et de Hermence Vincent, son épouse, 28 ans, merciers…",
     "search": "rene solard 46107 matricule 46107 notice commemorative"
-  },
-  {
-    "name": "Renée COSSIN",
-    "file": "hommes/renee-cossin-31830.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/renee-cossin-31830.jpg",
-    "portrait_alt": "Photographie de Renée COSSIN",
-    "description": "Renée, Andrée, Mathilde, Henriette Raquet naît le 8 mars 1914, à Amiens (Somme), fille d’André Raquet, 23 ans, sapeur-pompier de Paris, et de Louise…",
-    "search": "renee cossin convoi 31000 notice commemorative"
   },
   {
     "name": "Renée COSSIN",
@@ -11220,19 +9595,6 @@
   },
   {
     "name": "Simone BRUGAL",
-    "file": "hommes/simone-brugal-31705.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/simone-brugal-31705.jpg",
-    "portrait_alt": "Photographie de Simone BRUGAL",
-    "description": "Simone Pichon à 16 ou 17 ans. © Collection Sylvie Gouguenheim.",
-    "search": "simone brugal convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Simone BRUGAL",
     "file": "simone-brugal-31705.html",
     "group": "femmes",
     "matricule": "31705",
@@ -11243,19 +9605,6 @@
     "portrait_alt": "Portrait documenté de Simone BRUGAL",
     "description": "Simone Pichon à 16 ou 17 ans. © Collection Sylvie Gouguenheim.",
     "search": "simone brugal 31705 matricule 31705 notice commemorative"
-  },
-  {
-    "name": "Simone DAVID",
-    "file": "hommes/simone-david-31658.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/simone-david-31658.jpg",
-    "portrait_alt": "Photographie de Simone DAVID",
-    "description": "Simone Noyer naît le 13 juin 1921 à Évreux (Eure). Le père est chef de manœuvre aux chemins de fer. Simone est l’aînée de deux filles.",
-    "search": "simone david convoi 31000 notice commemorative"
   },
   {
     "name": "Simone DAVID",
@@ -11282,19 +9631,6 @@
     "portrait_alt": "Portrait documenté de Simone EIFFES",
     "description": "Simone Marcelle Marie Louise Eiffes naît le mai à Paris e fille de Marcel Eiffes ans employé de tramway et de Mathilde Counhaye ans receveuse son épouse…",
     "search": "simone eiffes 31764 matricule 31764 morte en deportation"
-  },
-  {
-    "name": "Simone LOCHE",
-    "file": "hommes/simone-loche-31672.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/simone-loche-31672.jpg",
-    "portrait_alt": "Photographie de Simone LOCHE",
-    "description": "Photo anthropométrique prise le 17 mars 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police, Paris.",
-    "search": "simone loche convoi 31000 notice commemorative"
   },
   {
     "name": "Simone LOCHE, née Fougère",
@@ -11350,19 +9686,6 @@
   },
   {
     "name": "Sophie BRABANDER",
-    "file": "hommes/sophie-brabander-31694.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/sophie-brabander-31694.jpg",
-    "portrait_alt": "Photographie de Sophie BRABANDER",
-    "description": "De la Pologne natale à Paris",
-    "search": "sophie brabander convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Sophie BRABANDER",
     "file": "sophie_brabander_31694.html",
     "group": "femmes",
     "matricule": "31694",
@@ -11376,19 +9699,6 @@
   },
   {
     "name": "Sophie GIGAND",
-    "file": "hommes/sophie-gigand-31844.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/sophie-gigand-31844.jpg",
-    "portrait_alt": "Photographie de Sophie GIGAND",
-    "description": "Sophie, Eulalie Richet naît le 17 avril 1897 à Beaurevoir (Aisne – 02), chez sa mère, Marie Richet, 31 ans, journalière, d’un père inconnu. Elle est élevée…",
-    "search": "sophie gigand convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Sophie GIGAND",
     "file": "sophie-gigand-31844.html",
     "group": "femmes",
     "matricule": "31844",
@@ -11399,19 +9709,6 @@
     "portrait_alt": "Portrait documenté de Sophie GIGAND",
     "description": "Sophie, Eulalie Richet naît le 17 avril 1897 à Beaurevoir (Aisne – 02), chez sa mère, Marie Richet, 31 ans, journalière, d’un père inconnu. Elle est élevée…",
     "search": "sophie gigand 31844 matricule 31844 notice commemorative"
-  },
-  {
-    "name": "Sophie LICHT",
-    "file": "hommes/sophie-licht-31803.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/sophie-licht-31803.jpg",
-    "portrait_alt": "Photographie de Sophie LICHT",
-    "description": "Sophie Schaub naît le 11 juin 1905 à Welferding ( Wölferdingen ) [1], en Moselle alors annexée par l’Empire allemand depuis 1871 (traité de Francfort).…",
-    "search": "sophie licht convoi 31000 notice commemorative"
   },
   {
     "name": "Sophie LICHT",
@@ -11441,19 +9738,6 @@
   },
   {
     "name": "Suzanne COSTENTIN",
-    "file": "hommes/suzanne-costentin-31765.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/suzanne-costentin-31765.jpg",
-    "portrait_alt": "Photographie de Suzanne COSTENTIN",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "suzanne costentin convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Suzanne COSTENTIN",
     "file": "suzanne_costentin_31765.html",
     "group": "femmes",
     "matricule": "31765",
@@ -11467,19 +9751,6 @@
   },
   {
     "name": "Suzanne GASCARD",
-    "file": "hommes/suzanne-gascard-31811.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/suzanne-gascard-31811.jpg",
-    "portrait_alt": "Photographie de Suzanne GASCARD",
-    "description": "Collection Francine et Matthieu Noël. D.R.",
-    "search": "suzanne gascard convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Suzanne GASCARD",
     "file": "suzanne-gascard-31811.html",
     "group": "femmes",
     "matricule": "31811",
@@ -11490,19 +9761,6 @@
     "portrait_alt": "Portrait documenté de Suzanne GASCARD",
     "description": "Collection Francine et Matthieu Noël. D.R.",
     "search": "suzanne gascard 31811 matricule 31811 notice commemorative"
-  },
-  {
-    "name": "Suzanne MAILLARD",
-    "file": "hommes/suzanne-maillard-31627.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/suzanne-maillard-31627.jpg",
-    "portrait_alt": "Photographie de Suzanne MAILLARD",
-    "description": "Suzanne, Mélanie, Clotilde, Potet naît le 1er avril 1894 à Hamelet « par Corbie », 15 km à l’Est d’Amiens (Somme), où ses parents sont bonnetiers. Elle a…",
-    "search": "suzanne maillard convoi 31000 notice commemorative"
   },
   {
     "name": "Suzanne Momon et la famille Brustlein",
@@ -11570,19 +9828,6 @@
     "search": "sylviane coupet 31804 matricule 31804 morte en deportation"
   },
   {
-    "name": "Théodora Van DAM",
-    "file": "hommes/theodora-van-dam-31749.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/theodora-van-dam-31749.jpg",
-    "portrait_alt": "Photographie de Théodora Van DAM",
-    "description": "Théodora Disper naît le 18 juin 1882 à Edam (Pays-Bas).",
-    "search": "theodora van dam convoi 31000 notice commemorative"
-  },
-  {
     "name": "Théodora VAN DAM, née Disper",
     "file": "theodora_van_dam_nee_disper_31749.html",
     "group": "femmes",
@@ -11607,19 +9852,6 @@
     "portrait_alt": "Photographie de Théophile TENAILLE",
     "description": "Théophile, Gilbert, Tenaille naît le 27 novembre 1906 au faubourg du Clos à Guéret (Creuse), fils de Marie Tenaille, 19 ans, cultivatrice, alors domiciliée…",
     "search": "theophile tenaille 46133 matricule 46133 notice commemorative"
-  },
-  {
-    "name": "Thérèse LAMBOY",
-    "file": "hommes/therese-lamboy-31800.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/therese-lamboy-31800.jpg",
-    "portrait_alt": "Photographie de Thérèse LAMBOY",
-    "description": "Thérèse, Adrienne, Gady naît le 25 juillet 1918 à Saint-Pierre-Azif (Calvados), fille de Maurice Gady et de Suzanne Quibeuf, 24 ans. Par sa mère, veuve…",
-    "search": "therese lamboy convoi 31000 notice commemorative"
   },
   {
     "name": "Thérèse LAMBOY, née Gady, épouse Léopold",
@@ -11701,19 +9933,6 @@
   },
   {
     "name": "Vittoria Viva DAUBEUF",
-    "file": "hommes/vittoria-viva-daubeuf-31635.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/vittoria-viva-daubeuf-31635.jpg",
-    "portrait_alt": "Photographie de Vittoria Viva DAUBEUF",
-    "description": "Une jeunesse marquée par la guerre et la montée du fascisme",
-    "search": "vittoria viva daubeuf convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Vittoria Viva DAUBEUF",
     "file": "vittoria-viva-daubeuf-31635.html",
     "group": "femmes",
     "matricule": "31635",
@@ -11737,19 +9956,6 @@
     "portrait_alt": "Portrait d’Yves Guy Thomas (matricule 46146)",
     "description": "Biographie commémorative de X THOMAS.",
     "search": "x thomas 46146 matricule 46146 notice commemorative"
-  },
-  {
-    "name": "Yolande GILI",
-    "file": "hommes/yolande-gili-31743.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/yolande-gili-31743.jpg",
-    "portrait_alt": "Photographie de Yolande GILI",
-    "description": "Yolande Gili, née Pica naît le 7 mars 1922 à Fontoy (Moselle – 57), fille d’Attilio Pica, né le 24 mars 1886 à Nuccerra (peut-être Nocera Umbra), et de son…",
-    "search": "yolande gili convoi 31000 notice commemorative"
   },
   {
     "name": "Yolande GILI",
@@ -11779,19 +9985,6 @@
   },
   {
     "name": "Yvette GUILLON",
-    "file": "hommes/yvette-guillon-31730.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/yvette-guillon-31730.jpg",
-    "portrait_alt": "Photographie de Yvette GUILLON",
-    "description": "Marcelle, Yvette, Sardet naît le 26 mai 1911 à Saint-Médard-de-Rouillac (Charente – 16) selon le livret de famille (ou aux Vignes-de-Sonnac, commune de…",
-    "search": "yvette guillon convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Yvette GUILLON",
     "file": "yvette-guillon-31730.html",
     "group": "femmes",
     "matricule": "31730",
@@ -11815,19 +10008,6 @@
     "portrait_alt": "Photographie non retrouvée pour Yvette MARIVAL",
     "description": "Yvette Lucienne Georgette Champion naît le 5 août 1915 à Crouzilles, en Indre-et-Loire, fille d’Angèle Champion. En 1926, elle vit chez une tante…",
     "search": "yvette marival 31787 matricule 31787 morte en deportation"
-  },
-  {
-    "name": "Yvonne BLECH",
-    "file": "hommes/yvonne-blech-31000.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/yvonne-blech-31000.jpg",
-    "portrait_alt": "Photographie de Yvonne BLECH",
-    "description": "Photo anthropométrique prise le 17 mars 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police (APP), Paris.",
-    "search": "yvonne blech convoi 31000 notice commemorative"
   },
   {
     "name": "Yvonne BLECH",
@@ -11857,19 +10037,6 @@
   },
   {
     "name": "Yvonne BOUDGOURD",
-    "file": "hommes/yvonne-boudgourd-31792.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/yvonne-boudgourd-31792.jpg",
-    "portrait_alt": "Photographie de Yvonne BOUDGOURD",
-    "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
-    "search": "yvonne boudgourd convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Yvonne BOUDGOURD",
     "file": "yvonne-boudgourd-31792.html",
     "group": "femmes",
     "matricule": "31792",
@@ -11880,19 +10047,6 @@
     "portrait_alt": "Portrait documenté de Yvonne BOUDGOURD",
     "description": "Photographiée à Auschwitz-I, le 3 février 1943. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
     "search": "yvonne boudgourd 31792 matricule 31792 notice commemorative"
-  },
-  {
-    "name": "Yvonne CARRÉ",
-    "file": "hommes/yvonne-carre-31760.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/yvonne-carre-31760.jpg",
-    "portrait_alt": "Photographie de Yvonne CARRÉ",
-    "description": "Yvonne Calmels naît le 1er avril 1897 à Montceau-les-Mines (Saône-et-Loire – 71), commune dont son grand-père a été maire en 1871.",
-    "search": "yvonne carre convoi 31000 notice commemorative"
   },
   {
     "name": "Yvonne CARRÉ",
@@ -11909,19 +10063,6 @@
   },
   {
     "name": "Yvonne CAVÉ",
-    "file": "hommes/yvonne-cave-31691.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/yvonne-cave-31691.jpg",
-    "portrait_alt": "Photographie de Yvonne CAVÉ",
-    "description": "Yvonne, Rosalie, Cavé, née Richard le 17 mars 1896 à Montrouge (Hauts-de-Seine), domiciliée à Paris 15e, morte au sous-camp de femmes de Birkenau le 26…",
-    "search": "yvonne cave convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Yvonne CAVÉ",
     "file": "yvonne-cave-31691.html",
     "group": "femmes",
     "matricule": "31691",
@@ -11932,19 +10073,6 @@
     "portrait_alt": "Photographie non retrouvée pour Yvonne CAVÉ",
     "description": "Yvonne, Rosalie, Cavé, née Richard le 17 mars 1896 à Montrouge (Hauts-de-Seine), domiciliée à Paris 15e, morte au sous-camp de femmes de Birkenau le 26…",
     "search": "yvonne cave 31691 matricule 31691 notice commemorative"
-  },
-  {
-    "name": "Yvonne COURTILLAT",
-    "file": "hommes/yvonne-courtillat-31799.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/yvonne-courtillat-31799.jpg",
-    "portrait_alt": "Photographie de Yvonne COURTILLAT",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz avant l’évacuation du camp en janvier 1945. Réalisé le 3 février 1943, le portrait…",
-    "search": "yvonne courtillat convoi 31000 notice commemorative"
   },
   {
     "name": "Yvonne COURTILLAT",
@@ -11961,19 +10089,6 @@
   },
   {
     "name": "Yvonne ÉMORINE",
-    "file": "hommes/yvonne-emorine-31662.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/yvonne-emorine-31662.jpg",
-    "portrait_alt": "Photographie de Yvonne ÉMORINE",
-    "description": "Photo anthropométrique prise le 17 février 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police, Paris.",
-    "search": "yvonne emorine convoi 31000 notice commemorative"
-  },
-  {
-    "name": "Yvonne ÉMORINE",
     "file": "yvonne-emorine-31662.html",
     "group": "femmes",
     "matricule": "31662",
@@ -11984,19 +10099,6 @@
     "portrait_alt": "Portrait documenté de Yvonne ÉMORINE",
     "description": "Photo anthropométrique prise le 17 février 1942 par le service de l’identité judiciaire. © Archives de la Préfecture de Police, Paris.",
     "search": "yvonne emorine 31662 matricule 31662 notice commemorative"
-  },
-  {
-    "name": "Yvonne GALLOIS",
-    "file": "hommes/yvonne-gallois-31849.html",
-    "group": "hommes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/yvonne-gallois-31849.jpg",
-    "portrait_alt": "Photographie de Yvonne GALLOIS",
-    "description": "Yvonne, Renée, Lucie, Gallois naît le 25 avril 1921 à Sorel-Moussel [1], petit village sur les bords de l’Eure, 13 km au Nord de Dreux (Eure-et-Loir)…",
-    "search": "yvonne gallois convoi 31000 notice commemorative"
   },
   {
     "name": "Yvonne GALLOIS",
