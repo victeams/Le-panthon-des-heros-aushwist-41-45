@@ -43,7 +43,9 @@ class UpdateWomenPortraitsTests(unittest.TestCase):
 
             self.assertTrue(replace_photo(path, result, None))
             content = path.read_text(encoding="utf-8")
-            self.assertIn('class="missing portrait-absent"', content)
+            self.assertIn('class="missing portrait-absent', content)
+            self.assertIn('src="images/photo-non-trouvee-femmes.jpg"', content)
+            self.assertIn('Photographie non retrouvée pour Alice EXEMPLE', content)
             self.assertIn('class="photo-documentation"', content)
             self.assertLess(content.index("portrait-absent"), content.index('<div class="text">'))
 

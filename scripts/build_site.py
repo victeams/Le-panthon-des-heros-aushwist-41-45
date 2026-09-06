@@ -407,6 +407,11 @@ def card_markup(person: Biography) -> str:
     if person.portrait:
         alt = person.portrait_alt or f"Portrait de {person.name}"
         visual = f'<img class="portrait" src="{quote(person.portrait, safe="/")}" alt="{escape(alt, quote=True)}" loading="lazy">'
+    elif person.group == "femmes":
+        visual = (
+            '<img class="portrait" src="images/photo-non-trouvee-femmes.jpg" '
+            f'alt="Photographie non retrouvée pour {escape(person.name, quote=True)}" loading="lazy">'
+        )
     else:
         visual = '<span class="portrait-missing">Portrait non disponible</span>'
     return f"""      <article class="card" data-search="{escape(person.search, quote=True)}">
@@ -528,7 +533,7 @@ HOME_SEARCH_SCRIPT = """
     matches.forEach(person=>{
       const article=document.createElement('article');article.className='card';
       const visual=document.createElement('a');visual.className='portrait-link';visual.href=person.file;
-      if(person.portrait){const image=document.createElement('img');image.className='portrait';image.src=person.portrait;image.alt=person.portrait_alt||`Portrait de ${person.name}`;image.loading='lazy';visual.append(image);}else{const missing=document.createElement('span');missing.className='portrait-missing';missing.textContent='Portrait non disponible';visual.append(missing);}
+      if(person.portrait||person.group==='femmes'){const image=document.createElement('img');image.className='portrait';image.src=person.portrait||'images/photo-non-trouvee-femmes.jpg';image.alt=person.portrait_alt||`Photographie non retrouvée pour ${person.name}`;image.loading='lazy';visual.append(image);}else{const missing=document.createElement('span');missing.className='portrait-missing';missing.textContent='Portrait non disponible';visual.append(missing);}
       const top=document.createElement('div');const badge=document.createElement('span');badge.className=`badge ${person.status_class}`;badge.textContent=person.status;top.append(badge);
       const title=document.createElement('h2');title.textContent=person.name;const subtitle=document.createElement('p');subtitle.textContent=person.subtitle;
       const link=document.createElement('a');link.href=person.file;link.textContent='Lire la fiche →';article.append(visual,top,title,subtitle,link);grid.append(article);

@@ -39,6 +39,9 @@ class BuildSiteTests(unittest.TestCase):
             data = json.loads((root / "site-data.json").read_text(encoding="utf-8"))
             self.assertIsNone(data[0]["portrait"])
             self.assertFalse((root / "portraits" / "alice_31802.png").exists())
+            women_page = (root / "femmes.html").read_text(encoding="utf-8")
+            self.assertIn('src="images/photo-non-trouvee-femmes.jpg"', women_page)
+            self.assertIn('Photographie non retrouvée pour Alice EXEMPLE', women_page)
 
     def test_classifies_female_and_male_and_builds_seo(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -30,6 +30,7 @@ from urllib.request import Request, urlopen
 SOURCE_ROOT = "https://www.memoirevive-bis.org"
 MASTER_API = f"{SOURCE_ROOT}/wp-json/wp/v2/pages/7775"
 USER_AGENT = "PantheonMemoirePortraitAudit/1.0 (historical photo attribution)"
+MISSING_WOMEN_IMAGE = "images/photo-non-trouvee-femmes.jpg"
 CONTEXT_TERMS = (
     "aquarelle", "bâtiment", "baraquement", "block ", "camp de", "carte postale",
     "cérémonie", "cour intérieure", "entrée", "façade", "fort de", "gare", "hospice",
@@ -320,8 +321,11 @@ def replace_photo(path: Path, result: dict, image_payload: tuple[bytes, str] | N
         )
     else:
         image = (
-            '<div class="missing portrait-absent">Aucune photographie individuelle authentifiée '
-            'n’a été retrouvée dans la source consultée.</div>'
+            '<figure class="missing portrait-absent portrait-remplacement">'
+            f'<img class="photo" src="{MISSING_WOMEN_IMAGE}" '
+            f'alt="Photographie non retrouvée pour {escape(result["name"], quote=True)}" loading="lazy">'
+            '<figcaption class="caption">Photographie individuelle non retrouvée. '
+            'Image de remplacement.</figcaption></figure>'
         )
     documentation = (
         f'<aside class="{credit_class}" aria-label="Source et droits de la photographie">'
@@ -359,7 +363,7 @@ def replace_photo(path: Path, result: dict, image_payload: tuple[bytes, str] | N
     style = (
         ".portrait-documente{text-align:center}.photo-documentation{max-width:760px;margin:0 auto 24px;"
         "padding:12px 14px;border-left:3px solid #c4a25a;background:#151515;color:#cfcfcf;font:14px/1.55 Arial,sans-serif}"
-        ".photo-documentation a{color:#e0bd72}.portrait-absent{max-width:700px;margin:28px auto 12px}"
+        ".photo-documentation a{color:#e0bd72}.portrait-absent{max-width:760px;margin:28px auto 12px}"
     )
     if style not in content:
         content = content.replace("</style>", style + "</style>", 1)
