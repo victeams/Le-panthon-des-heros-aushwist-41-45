@@ -346,6 +346,13 @@ def biography_paths(root: Path) -> list[Path]:
     result: list[Path] = []
     for path in root.rglob("*.html"):
         relative = path.relative_to(root)
+        # Des copies de fiches du convoi féminin des 31000 ont été placées
+        # par erreur dans hommes/. Elles restent disponibles à leur adresse,
+        # mais ne doivent jamais alimenter le catalogue masculin.
+        misplaced_woman_copy = (
+            "hommes" in {part.casefold() for part in relative.parts[:-1]}
+            and re.search(r"(?<!\d)31\d{3}(?!\d)", path.stem) is not None
+        )
         is_google_verification = (
             len(relative.parts) == 1
             and re.fullmatch(r"google[a-z0-9_-]+\.html", path.name.casefold()) is not None
@@ -353,6 +360,7 @@ def biography_paths(root: Path) -> list[Path]:
         if (
             path.name in GENERATED_HTML
             or is_google_verification
+            or misplaced_woman_copy
             or any(part in EXCLUDED_DIRS for part in relative.parts[:-1])
         ):
             continue

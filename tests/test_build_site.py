@@ -113,6 +113,22 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("https://example.test/hommes/albert-45437.html", sitemap)
             self.assertNotIn("https://example.test/albert-45437.html", sitemap)
 
+    def test_woman_copy_in_hommes_folder_is_excluded_from_men_catalog(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            men_folder = root / "hommes"
+            men_folder.mkdir()
+            content = biography("Alice EXEMPLE", "31802", "Morte en déportation")
+            (root / "alice-31802.html").write_text(content, encoding="utf-8")
+            (men_folder / "alice-31802.html").write_text(content, encoding="utf-8")
+
+            women, men, warnings = build(root, "https://example.test", "test")
+
+            self.assertEqual((women, men), (1, 0))
+            self.assertFalse(warnings)
+            data = json.loads((root / "site-data.json").read_text(encoding="utf-8"))
+            self.assertEqual([row["file"] for row in data], ["alice-31802.html"])
+
     def test_ambiguous_page_is_reported_without_breaking_site(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
