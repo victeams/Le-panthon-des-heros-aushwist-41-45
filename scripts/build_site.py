@@ -383,8 +383,8 @@ main{max-width:1180px;margin:0 auto;padding:34px 22px 64px}.collections{display:
 
 
 HOME_EXTRA_CSS = """
-.home-hero{position:relative;min-height:560px;background:linear-gradient(180deg,rgba(5,7,10,.86) 0%,rgba(5,7,10,.7) 45%,rgba(11,13,16,.96) 100%),url("https://upload.wikimedia.org/wikipedia/commons/e/ed/Gate_of_Auschwitz_II%2C_28_November_2007_%283%29.jpg") center 52%/cover no-repeat;box-shadow:inset 0 -70px 90px #0b0d10}.home-hero .intro{color:#d5d9df;text-shadow:0 2px 10px #000}.content-notice{max-width:760px;margin:14px auto 0;padding:8px 12px;border:1px solid #ffffff24;border-radius:8px;background:#05070ac9;color:#d7dbe1;font-size:.76rem;line-height:1.45}.free-notice{display:flex;max-width:920px;align-items:center;justify-content:center;gap:15px;margin:19px auto 0;padding:14px 16px;border:1px solid #8b744970;border-radius:12px;background:#080a0cdb;color:#dce0e5;font-size:.9rem}.free-notice strong{display:block;color:#f4f1e8}.free-notice span{display:block}.free-notice .button{flex:0 0 auto;background:#d4ad6220}.hero-credit{display:inline-block;margin-top:15px;color:#aeb4bc;font-size:.68rem;text-decoration:none}.hero-credit:hover{color:var(--gold);text-decoration:underline}.sister-site{display:flex;max-width:920px;align-items:center;justify-content:space-between;gap:18px;margin:16px auto 0;padding:15px 18px;border:1px solid #5d5039;border-left:4px solid var(--gold);border-radius:12px;background:#11151ae8;text-align:left}.sister-site p{margin:0;color:#dce0e5}.sister-site strong{display:block;color:var(--text)}.sister-site .button{flex:0 0 auto;text-align:center}
-@media(max-width:680px){.free-notice,.sister-site{align-items:stretch;flex-direction:column}.free-notice .button,.sister-site .button{text-align:center}}
+.home-hero{position:relative;min-height:560px;background:linear-gradient(180deg,rgba(5,7,10,.86) 0%,rgba(5,7,10,.7) 45%,rgba(11,13,16,.96) 100%),url("https://upload.wikimedia.org/wikipedia/commons/e/ed/Gate_of_Auschwitz_II%2C_28_November_2007_%283%29.jpg") center 52%/cover no-repeat;box-shadow:inset 0 -70px 90px #0b0d10}.home-hero .intro{color:#d5d9df;text-shadow:0 2px 10px #000}.content-notice{max-width:760px;margin:14px auto 0;padding:8px 12px;border:1px solid #ffffff24;border-radius:8px;background:#05070ac9;color:#d7dbe1;font-size:.76rem;line-height:1.45}.free-notice{display:flex;max-width:920px;align-items:center;justify-content:center;gap:15px;margin:19px auto 0;padding:14px 16px;border:1px solid #8b744970;border-radius:12px;background:#080a0cdb;color:#dce0e5;font-size:.9rem}.free-notice strong{display:block;color:#f4f1e8}.free-notice span{display:block}.free-notice .button{flex:0 0 auto;background:#d4ad6220}.hero-credit{display:inline-block;margin-top:15px;color:#aeb4bc;font-size:.68rem;text-decoration:none}.hero-credit:hover{color:var(--gold);text-decoration:underline}.sister-site{display:flex;max-width:920px;align-items:center;justify-content:space-between;gap:18px;margin:16px auto 0;padding:15px 18px;border:1px solid #5d5039;border-left:4px solid var(--gold);border-radius:12px;background:#11151ae8;text-align:left}.sister-site p{margin:0;color:#dce0e5}.sister-site strong{display:block;color:var(--text)}.sister-site .button{flex:0 0 auto;text-align:center}.search-filters{display:grid;grid-template-columns:1fr 1fr auto;gap:10px;margin-top:10px}.search-filters select,.search-filters button{min-height:46px;padding:10px 14px;border:1px solid #414b58;border-radius:10px;background:#101419;color:var(--text);font-size:.95rem}.search-filters button{cursor:pointer;color:var(--gold);font-weight:700}.daily{margin:0 0 32px;padding:24px;border:1px solid #5d5039;border-radius:15px;background:linear-gradient(135deg,#211d17,#15191f)}.daily h2{margin:0 0 6px;font:1.7rem/1.2 Georgia,serif}.daily>p{margin:0;color:var(--muted)}.contribute{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:24px;padding:22px 25px;border:1px solid #5d5039;border-left:5px solid var(--gold);border-radius:14px;background:#15191f}.contribute h2{margin:0 0 5px;font:1.45rem/1.2 Georgia,serif}.contribute p{margin:0;color:var(--muted)}
+@media(max-width:680px){.search-filters{grid-template-columns:1fr}.contribute{align-items:stretch;flex-direction:column}.contribute .button{text-align:center}.free-notice,.sister-site{align-items:stretch;flex-direction:column}.free-notice .button,.sister-site .button{text-align:center}}
 """.strip()
 
 
@@ -529,25 +529,57 @@ def collection_page(
 
 HOME_SEARCH_SCRIPT = """
   const input=document.getElementById('global-search');
+  const groupFilter=document.getElementById('group-filter');
+  const statusFilter=document.getElementById('status-filter');
+  const resetButton=document.getElementById('reset-search');
   const result=document.getElementById('global-result');
   const grid=document.getElementById('global-grid');
-  const normalize=value=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  const dailyGrid=document.getElementById('daily-grid');
+  const normalize=value=>String(value??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
   let people=[];
-  fetch('site-data.json').then(response=>response.json()).then(data=>{people=data;});
-  input.addEventListener('input',()=>{
-    const query=normalize(input.value.trim());grid.replaceChildren();
-    if(query.length<2){result.textContent='Saisissez au moins deux caractères.';return;}
-    const matches=people.filter(person=>normalize(person.search).includes(query)).slice(0,60);
-    matches.forEach(person=>{
-      const article=document.createElement('article');article.className='card';
-      const visual=document.createElement('a');visual.className='portrait-link';visual.href=person.file;
-      if(person.portrait||person.group==='femmes'){const image=document.createElement('img');image.className='portrait';image.src=person.portrait||'images/photo-non-trouvee-femmes.jpg';image.alt=person.portrait_alt||`Photographie non retrouvée pour ${person.name}`;image.loading='lazy';visual.append(image);}else{const missing=document.createElement('span');missing.className='portrait-missing';missing.textContent='Portrait non disponible';visual.append(missing);}
-      const top=document.createElement('div');const badge=document.createElement('span');badge.className=`badge ${person.status_class}`;badge.textContent=person.status;top.append(badge);
-      const title=document.createElement('h2');title.textContent=person.name;const subtitle=document.createElement('p');subtitle.textContent=person.subtitle;
-      const link=document.createElement('a');link.href=person.file;link.textContent='Lire la fiche →';article.append(visual,top,title,subtitle,link);grid.append(article);
-    });
-    result.textContent=`${matches.length} résultat${matches.length>1?'s':''}${matches.length===60?' maximum':''}`;
-  });
+  const personCard=person=>{
+    const article=document.createElement('article');article.className='card';
+    const visual=document.createElement('a');visual.className='portrait-link';visual.href=person.file;
+    if(person.portrait||person.group==='femmes'){
+      const image=document.createElement('img');image.className='portrait';
+      image.src=person.portrait||'images/photo-non-trouvee-femmes.jpg';
+      image.alt=person.portrait_alt||`Photographie non retrouvée pour ${person.name}`;
+      image.loading='lazy';visual.append(image);
+    }else{
+      const missing=document.createElement('span');missing.className='portrait-missing';
+      missing.textContent='Portrait non disponible';visual.append(missing);
+    }
+    const top=document.createElement('div');const badge=document.createElement('span');
+    badge.className=`badge ${person.status_class}`;badge.textContent=person.status;top.append(badge);
+    const title=document.createElement('h2');title.textContent=person.name;
+    const subtitle=document.createElement('p');subtitle.textContent=person.subtitle;
+    const link=document.createElement('a');link.href=person.file;link.textContent='Découvrir son histoire →';
+    article.append(visual,top,title,subtitle,link);return article;
+  };
+  const renderSearch=()=>{
+    const query=normalize(input.value.trim());const group=groupFilter.value;const status=statusFilter.value;
+    grid.replaceChildren();
+    if(query.length<2&&!group&&!status){
+      result.textContent=`Recherchez parmi ${people.length.toLocaleString('fr-FR')} biographies par nom, prénom ou matricule.`;return;
+    }
+    const allMatches=people.filter(person=>(!query||normalize(person.search).includes(query))&&(!group||person.group===group)&&(!status||person.status_class===status));
+    allMatches.slice(0,60).forEach(person=>grid.append(personCard(person)));
+    result.textContent=allMatches.length?`${allMatches.length.toLocaleString('fr-FR')} résultat${allMatches.length>1?'s':''}${allMatches.length>60?' — 60 premiers affichés':''}`:'Aucun portrait ne correspond à cette recherche.';
+  };
+  fetch('site-data.json').then(response=>response.json()).then(data=>{
+    people=data;
+    const withPortrait=people.filter(person=>person.portrait);
+    const pool=withPortrait.length?withPortrait:people;
+    if(pool.length){
+      const today=new Date();const seed=Number(`${today.getUTCFullYear()}${today.getUTCMonth()+1}${today.getUTCDate()}`);
+      dailyGrid.append(personCard(pool[seed%pool.length]));
+    }
+    renderSearch();
+  }).catch(()=>{result.textContent='La recherche est momentanément indisponible.';});
+  input.addEventListener('input',renderSearch);
+  groupFilter.addEventListener('change',renderSearch);
+  statusFilter.addEventListener('change',renderSearch);
+  resetButton.addEventListener('click',()=>{input.value='';groupFilter.value='';statusFilter.value='';renderSearch();input.focus();});
 """.strip()
 
 
@@ -572,6 +604,11 @@ def home_page(
         "description": description,
         "url": f"{base_url}/",
         "inLanguage": "fr",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": f"{base_url}/#recherche",
+            "query-input": "required name=search_term_string",
+        },
     }
     database_link = '<a href="base-documentaire.html">Base documentaire</a>' if database_records is not None else ""
     gallery_link = '<a href="photos.html">Photothèque</a>' if photo_records is not None else ""
@@ -617,13 +654,18 @@ def home_page(
     <h1>{title}</h1>
     <p class="intro">{description}</p>
     <p class="content-notice" role="note">Avertissement : certaines photographies d’archives documentées peuvent heurter la sensibilité, notamment celle des enfants.</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{tiktok_link}{about_link}{support_link}<a href="https://victeams.github.io/enfants-deportes-1939-1945/">Enfants déportés ↗</a></nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{tiktok_link}{about_link}{support_link}<a href="contact.html">Contact</a><a href="https://victeams.github.io/enfants-deportes-1939-1945/">Enfants déportés ↗</a></nav>
     <div class="stats"><span class="stat"><strong>{total}</strong> fiches</span><span class="stat"><strong>{len(women)}</strong> femmes</span><span class="stat"><strong>{len(men)}</strong> hommes</span></div>
     {free_notice}
     <div class="sister-site" role="note"><p><strong>Découvrez aussi : Enfants déportés 1939-1945</strong>Un mémorial numérique consacré aux visages et aux histoires des enfants déportés.</p><a class="button" href="https://victeams.github.io/enfants-deportes-1939-1945/">Ouvrir le mémorial →</a></div>
     <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:Gate_of_Auschwitz_II,_28_November_2007_(3).jpg" target="_blank" rel="noopener noreferrer">Photographie d’arrière-plan : Auschwitz II-Birkenau, vue depuis les rails, Logaritmo, domaine public.</a>
   </header>
   <main>
+    <section class="daily" aria-labelledby="daily-title">
+      <h2 id="daily-title">Un visage, une histoire, chaque jour</h2>
+      <p>Chaque jour, redécouvrez un parcours individuel afin que son nom ne soit jamais oublié.</p>
+      <div class="grid" id="daily-grid"></div>
+    </section>
     <section class="collections" aria-label="Collections">
       <article class="collection"><a class="collection-visual" href="femmes.html" aria-label="Découvrir les femmes du convoi des 31000"><img src="portraits/denise_moret_31820.jpg" alt="Planche d’immatriculation de Denise Moret, matricule 31820" loading="lazy"></a><div class="collection-body"><h2>Femmes du convoi des 31000</h2><p>{len(women)} biographies actuellement accessibles.</p><a class="collection-credit" href="denise_moret_31820.html">Denise Moret, matricule 31820</a><br><a class="button" href="femmes.html">Découvrir les femmes</a></div></article>
       <article class="collection"><a class="collection-visual" href="hommes.html" aria-label="Découvrir les hommes du convoi des 45000"><img src="https://encyclopedia.ushmm.org/images/large/c1c40791-4e4a-4373-97ab-8c822b985f45.jpeg" alt="Hommes, femmes et enfants sur la rampe d’Auschwitz-Birkenau en 1944" loading="lazy"></a><div class="collection-body"><h2>Hommes du convoi des 45000</h2><p>{len(men)} biographie{'s' if len(men) != 1 else ''} actuellement accessible{'s' if len(men) != 1 else ''}.</p><a class="collection-credit" href="https://encyclopedia.ushmm.org/content/fr/photo/arrival-in-auschwitz-birkenau" target="_blank" rel="noopener">Photographie : notice et crédits</a><br><a class="button" href="hommes.html">Découvrir les hommes</a></div></article>
@@ -631,13 +673,19 @@ def home_page(
       {gallery_card}
     </section>
     {support_banner}
-    <section aria-labelledby="search-title" style="margin-top:38px">
+    <section id="recherche" aria-labelledby="search-title" style="margin-top:38px">
       <h2 id="search-title">Rechercher dans toutes les biographies</h2>
       <label class="visually-hidden" for="global-search">Nom ou matricule</label>
-      <input id="global-search" type="search" placeholder="Rechercher un nom ou un matricule…" autocomplete="off">
-      <p class="result" id="global-result" aria-live="polite">Saisissez au moins deux caractères.</p>
+      <input id="global-search" type="search" placeholder="Nom, prénom ou matricule…" autocomplete="off">
+      <div class="search-filters" aria-label="Filtres de recherche">
+        <select id="group-filter" aria-label="Filtrer par groupe"><option value="">Femmes et hommes</option><option value="femmes">Femmes du convoi des 31 000</option><option value="hommes">Hommes du convoi des 45 000</option></select>
+        <select id="status-filter" aria-label="Filtrer par situation"><option value="">Toutes les situations</option><option value="survivor">Survivants</option><option value="death">Décédés</option><option value="other">Autres notices</option></select>
+        <button id="reset-search" type="button">Effacer les filtres</button>
+      </div>
+      <p class="result" id="global-result" aria-live="polite">Chargement des biographies…</p>
       <div class="grid" id="global-grid"></div>
     </section>
+    <section class="contribute" aria-label="Contribuer au mémorial"><div><h2>Une photographie ou une information à transmettre</h2><p>Les familles et chercheurs peuvent proposer un document, signaler une erreur ou compléter un parcours.</p></div><a class="button" href="contact.html">Contribuer à la mémoire</a></section>
   </main>
   <footer>Préserver leur histoire, transmettre leur mémoire. · <a href="https://victeams.github.io/enfants-deportes-1939-1945/">Enfants déportés 1939-1945</a></footer>
   <script>{HOME_SEARCH_SCRIPT}</script>
