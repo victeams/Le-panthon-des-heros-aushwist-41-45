@@ -42,13 +42,17 @@ def ensure_head_tags(path: Path) -> bool:
 
     original = text
     text = text.replace(OLD_BASE, BASE)
+    text = text.replace(
+        '<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" sizes="any">',
+        '<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" sizes="any">',
+    )
     url = canonical_url(path)
     fallback = path.stem.replace("-", " ").replace("_", " ").title()
     title = extract_title(text, fallback)
 
     inserts = []
     if not re.search(r'<link\s+[^>]*rel=["\']icon["\']', text, flags=re.I):
-        inserts.append('<link rel="icon" href="/favicon.svg" type="image/svg+xml">')
+        inserts.append('<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" sizes="any">')
     if not re.search(r'<meta\s+[^>]*name=["\']theme-color["\']', text, flags=re.I):
         inserts.append('<meta name="theme-color" content="#0b0d10">')
     if not re.search(r'<meta\s+[^>]*name=["\']robots["\']', text, flags=re.I):
