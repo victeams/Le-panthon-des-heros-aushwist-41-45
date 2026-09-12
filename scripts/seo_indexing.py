@@ -47,6 +47,10 @@ def ensure_head_tags(path: Path) -> bool:
     title = extract_title(text, fallback)
 
     inserts = []
+    if not re.search(r'<link\s+[^>]*rel=["\']icon["\']', text, flags=re.I):
+        inserts.append('<link rel="icon" href="/favicon.svg" type="image/svg+xml">')
+    if not re.search(r'<meta\s+[^>]*name=["\']theme-color["\']', text, flags=re.I):
+        inserts.append('<meta name="theme-color" content="#0b0d10">')
     if not re.search(r'<meta\s+[^>]*name=["\']robots["\']', text, flags=re.I):
         inserts.append('<meta name="robots" content="index,follow,max-image-preview:large">')
     if not re.search(r'<link\s+[^>]*rel=["\']canonical["\']', text, flags=re.I):

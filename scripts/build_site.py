@@ -399,6 +399,8 @@ def head_markup(title: str, description: str, canonical: str, structured: dict, 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{escape(description, quote=True)}">
   <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#0b0d10">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="canonical" href="{escape(canonical, quote=True)}">{verification_tag}
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
