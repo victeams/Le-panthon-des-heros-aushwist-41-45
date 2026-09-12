@@ -5,7 +5,7 @@ $RepositoryUrl = "https://github.com/victeams/Le-panthon-des-heros-aushwist-41-4
 $DefaultRepository = Join-Path ([Environment]::GetFolderPath("MyDocuments")) "Le-panthon-des-heros-aushwist-41-45"
 $ConfigDirectory = Join-Path $env:APPDATA "EnvoiFichesMemoire"
 $ConfigPath = Join-Path $ConfigDirectory "config.json"
-$SiteUrl = "https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45/"
+$SiteUrl = "https://memoiredesdeportes.fr/"
 
 function Get-SavedRepository {
     if (Test-Path -LiteralPath $ConfigPath -PathType Leaf) {
