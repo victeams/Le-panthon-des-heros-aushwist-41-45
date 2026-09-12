@@ -571,7 +571,7 @@ $sendButton.Add_Click({
 })
 
 $openSite.Add_Click({
-    Start-Process "https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45/"
+    Start-Process "https://memoiredesdeportes.fr/"
 })
 
 [void]$form.ShowDialog()
