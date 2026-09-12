@@ -22,7 +22,7 @@ from urllib.parse import quote
 
 
 DEFAULT_BASE_URL = (
-    "https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45"
+    "https://memoiredesdeportes.fr"
 )
 DEFAULT_GOOGLE_VERIFICATION = "Ps2YA3umzm7WkI3vXbghKUg9ybi9iYKRJ7PONsI-8vU"
 GENERATED_HTML = {
