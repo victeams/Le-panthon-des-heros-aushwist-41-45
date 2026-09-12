@@ -28,7 +28,7 @@ BASE_URL = "https://encyclopedia.ushmm.org/fr/a-z/photo"
 SOURCE_NAME = "United States Holocaust Memorial Museum"
 USER_AGENT = (
     "PantheonMemoirePhotoIndex/1.0 "
-    "(+https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45/)"
+    "(+https://memoiredesdeportes.fr/)"
 )
 
 
