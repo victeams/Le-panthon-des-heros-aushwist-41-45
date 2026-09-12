@@ -2,7 +2,8 @@ from pathlib import Path
 import html
 import re
 
-BASE = "https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45/"
+OLD_BASE = "https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45/"
+BASE = "https://memoiredesdeportes.fr/"
 ROOT = Path(__file__).resolve().parents[1]
 
 EXCLUDED = {"404.html"}
@@ -40,6 +41,7 @@ def ensure_head_tags(path: Path) -> bool:
         return False
 
     original = text
+    text = text.replace(OLD_BASE, BASE)
     url = canonical_url(path)
     fallback = path.stem.replace("-", " ").replace("_", " ").title()
     title = extract_title(text, fallback)
