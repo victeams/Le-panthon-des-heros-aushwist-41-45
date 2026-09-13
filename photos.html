@@ -27,6 +27,7 @@
   <meta name="theme-color" content="#0b0d10">
       <link rel="icon" href="https://memoiredesdeportes.fr/favicon.svg?v=3" type="image/svg+xml" sizes="any">
   <link rel="shortcut icon" href="https://memoiredesdeportes.fr/favicon.svg?v=3" type="image/svg+xml">
+  <link rel="stylesheet" href="https://memoiredesdeportes.fr/assets/memorial-ux.css?v=1">
 </head>
 <body>
   <header class="hero">
@@ -69,5 +70,6 @@
     document.getElementById('close').addEventListener('click',()=>viewer.close?viewer.close():viewer.removeAttribute('open'));viewer.addEventListener('click',event=>{if(event.target===viewer&&viewer.close)viewer.close();});search.addEventListener('input',applyFilters);tag.addEventListener('change',applyFilters);pageSize.addEventListener('change',()=>{page=1;render();});previous.addEventListener('click',()=>{page--;render();window.scrollTo({top:document.querySelector('.tools').offsetTop,behavior:'smooth'});});next.addEventListener('click',()=>{page++;render();window.scrollTo({top:document.querySelector('.tools').offsetTop,behavior:'smooth'});});
     fetch('data/ushmm-photos/manifest.json').then(response=>{if(!response.ok)throw new Error(`Erreur ${response.status}`);return response.json();}).then(async data=>{const payloads=await Promise.all((data.files||[]).map(async filename=>{const response=await fetch(`data/ushmm-photos/${filename}`);if(!response.ok)throw new Error(`Erreur ${response.status}`);return response.json();}));items=payloads.flat();if(items.length!==data.count)throw new Error('Données incomplètes');filtered=items;document.getElementById('total').textContent=items.length.toLocaleString('fr-FR');const tags=[...new Set(items.flatMap(item=>item.tags||[]))].sort((a,b)=>a.localeCompare(b,'fr',{sensitivity:'base'}));document.getElementById('tag-count').textContent=tags.length.toLocaleString('fr-FR');tags.forEach(value=>{const option=document.createElement('option');option.value=value;option.textContent=value;tag.append(option);});render();}).catch(error=>{summary.textContent=`Impossible de charger la photothèque : ${error.message}`;previous.disabled=true;next.disabled=true;});
   </script>
+  <script defer src="https://memoiredesdeportes.fr/assets/memorial-ux.js?v=1" data-base="https://memoiredesdeportes.fr" data-home="https://memoiredesdeportes.fr/"></script>
 </body>
 </html>
