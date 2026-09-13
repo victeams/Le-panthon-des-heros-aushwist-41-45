@@ -1,67 +1,70 @@
-name: Corriger les favicons sur toutes les pages
-
+name: Installer le favicon unique partout
 on:
   push:
     branches: [main]
   workflow_dispatch:
-
 permissions:
   contents: write
-
+concurrency:
+  group: favicon-${{ github.repository }}
+  cancel-in-progress: false
 jobs:
-  favicons:
+  favicon:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Ajouter le favicon à toutes les pages HTML
+      - name: Installer tous les formats et balises
         env:
-          FAVICON_URL: "https://memoiredesdeportes.fr/favicon.svg?v=3"
+          FAVICON_BASE: "https://memoiredesdeportes.fr"
+          PNG_DATA: "iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAA4UlEQVR42u3bQQ3AIBBFQe5tE5SgqxZqpmoqAjdbDSQkbMIcngCYI/xyXDW0ruISAAAQAAACAEAJAdobaRs56Pn0JQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAXADf0wEAAAAAAAAAAAAAAGAnLAAAJnV/kTYAAAAAAAAAAAAAAAAAGAbI+pgNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHbCdsICAEAAAAgAgM37ARDlqhjiTO2LAAAAAElFTkSuQmCC"
+          ICO_DATA: "AAABAAEAYGAAAAEAIAAaAQAAFgAAAIlQTkcNChoKAAAADUlIRFIAAABgAAAAYAgGAAAA4ph3OAAAAOFJREFUeNrt20ENwCAQRUHubROUoKsWaqZqKgI3Ww0kJGzCHJ4AmCP8clw1tK7iEgAAEAAAAgBACQHaG2kbOej59CUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwFwA39MBAAAAAAAAAAAAAABgJywAACZ1f5E2AAAAAAAAAAAAAAAAABgGyPqYDQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB2wnbCAgBAAAAIAIDN+wEQ5aoY4kztiwAAAABJRU5ErkJggg=="
         run: |
           python3 - <<'PY'
-          import os
-          import re
+          import base64, os, re
           from pathlib import Path
-
-          favicon_url = os.environ["FAVICON_URL"]
-          favicon_svg = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-            <rect width="64" height="64" rx="12" fill="#0b0d10"/>
-            <path d="M32 8l5.8 17.3H56L41.3 36l5.6 17.3L32 42.6 17.1 53.3 22.7 36 8 25.3h18.2z" fill="#ffffff"/>
-          </svg>
-          """
-          root_icon = Path("favicon.svg")
-          if not root_icon.exists() or root_icon.read_text(encoding="utf-8") != favicon_svg:
-              root_icon.write_text(favicon_svg, encoding="utf-8")
-
-          icon_tag = f'<link rel="icon" href="{favicon_url}" type="image/svg+xml" sizes="any">'
-          shortcut_tag = f'<link rel="shortcut icon" href="{favicon_url}" type="image/svg+xml">'
-          icon_pattern = re.compile(r'<link\b[^>]*\brel=["\'][^"\']*(?:shortcut\s+icon|icon)[^"\']*["\'][^>]*>\s*', re.I)
-
-          changed = 0
+          base=os.environ["FAVICON_BASE"]
+          svg='''<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 19.2727C22 20.779 20.779 22 19.2727 22H14.7273C13.221 22 12 20.779 12 19.2727V12H19.2727C20.779 12 22 13.221 22 14.7273V19.2727Z" fill="#68C4FF"/>
+          <path d="M20 2C21.1046 2 22 2.89543 22 4V7C22 8.10457 21.1046 9 20 9H17C15.8954 9 15 8.10457 15 7V4C15 2.89543 15.8954 2 17 2H20Z" fill="#0C79D8"/>
+          <path d="M7 15C8.10457 15 9 15.8954 9 17V20C9 21.1046 8.10457 22 7 22H4C2.89543 22 2 21.1046 2 20V17C2 15.8954 2.89543 15 4 15H7Z" fill="#0C79D8"/>
+          <path d="M12 12H4.72727C3.22104 12 2 10.779 2 9.27273V4.72727C2 3.22104 3.22104 2 4.72727 2H9.27273C10.779 2 12 3.22104 12 4.72727V12Z" fill="#2E9EFF"/>
+          </svg>'''
+          Path("favicon.svg").write_text(svg,encoding="utf-8")
+          png=base64.b64decode(os.environ["PNG_DATA"])
+          Path("favicon.png").write_bytes(png)
+          Path("apple-touch-icon.png").write_bytes(png)
+          Path("favicon.ico").write_bytes(base64.b64decode(os.environ["ICO_DATA"]))
+          tags=(
+            f'<link rel="icon" href="{base}/favicon.ico" sizes="any">\n'
+            f'  <link rel="icon" type="image/png" sizes="96x96" href="{base}/favicon.png">\n'
+            f'  <link rel="icon" type="image/svg+xml" href="{base}/favicon.svg">\n'
+            f'  <link rel="apple-touch-icon" sizes="96x96" href="{base}/apple-touch-icon.png">'
+          )
+          pattern=re.compile(r'\s*<link\b[^>]*\brel=["\'][^"\']*(?:shortcut\s+icon|icon|apple-touch-icon(?:-precomposed)?)[^"\']*["\'][^>]*>',re.I)
+          changed=0
           for page in Path(".").rglob("*.html"):
               if ".git" in page.parts or page.name.lower().startswith("google"):
                   continue
-              try:
-                  text = page.read_text(encoding="utf-8")
-              except UnicodeDecodeError:
-                  continue
-              if "</head>" not in text.lower():
-                  continue
-              cleaned = icon_pattern.sub("", text)
-              replacement = f"  {icon_tag}\n  {shortcut_tag}\n</head>"
-              updated, count = re.subn(r"</head>", replacement, cleaned, count=1, flags=re.I)
-              if count and updated != text:
-                  page.write_text(updated, encoding="utf-8")
-                  changed += 1
-          print(f"Favicon installé sur {changed} pages HTML.")
+              try: text=page.read_text(encoding="utf-8")
+              except UnicodeDecodeError: continue
+              if "</head>" not in text.lower(): continue
+              clean=pattern.sub("",text)
+              updated,count=re.subn(r"</head>",f"  {tags}\n</head>",clean,count=1,flags=re.I)
+              if count and updated!=text:
+                  page.write_text(updated,encoding="utf-8")
+                  changed+=1
+          print(f"Favicon unique installé sur {changed} pages.")
           PY
-      - name: Enregistrer les corrections
+      - name: Publier sans conflit
         run: |
-          if git diff --quiet; then
-            echo "Toutes les pages possèdent déjà le favicon."
-            exit 0
-          fi
+          if git diff --quiet; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add favicon.svg '*.html' '**/*.html'
-          git commit -m "Affiche le favicon sur toutes les pages"
-          git push
+          git add -A
+          git commit -m "Installe le favicon unique compatible Google"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin main
+            if git push; then exit 0; fi
+            sleep 3
+          done
+          exit 1
