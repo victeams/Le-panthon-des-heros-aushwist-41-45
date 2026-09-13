@@ -7,7 +7,7 @@ OLD_BASE = "https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45/"
 BASE = "https://memoiredesdeportes.fr/"
 ROOT = Path(__file__).resolve().parents[1]
 
-# La vérification Google reste accessible, mais n'a pas sa place dans le sitemap.
+# La vérification Google reste accessible, mais n'a pas sa place dans le sitemap SEO.
 EXCLUDED = {"404.html"}
 NON_PROFILE = {
     "index.html", "femmes.html", "hommes.html", "base-documentaire.html",
