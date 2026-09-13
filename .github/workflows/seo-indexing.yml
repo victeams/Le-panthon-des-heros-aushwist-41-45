@@ -2,6 +2,11 @@ name: SEO et indexation Google
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/seo_indexing.py"
+      - ".github/workflows/seo-indexing.yml"
 
 concurrency:
   group: "site-${{ github.ref }}"
