@@ -1,0 +1,67 @@
+name: Corriger les favicons sur toutes les pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  favicons:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ajouter le favicon à toutes les pages HTML
+        env:
+          FAVICON_URL: "https://memoiredesdeportes.fr/favicon.svg?v=3"
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          from pathlib import Path
+
+          favicon_url = os.environ["FAVICON_URL"]
+          favicon_svg = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+            <rect width="64" height="64" rx="12" fill="#0b0d10"/>
+            <path d="M32 8l5.8 17.3H56L41.3 36l5.6 17.3L32 42.6 17.1 53.3 22.7 36 8 25.3h18.2z" fill="#ffffff"/>
+          </svg>
+          """
+          root_icon = Path("favicon.svg")
+          if not root_icon.exists() or root_icon.read_text(encoding="utf-8") != favicon_svg:
+              root_icon.write_text(favicon_svg, encoding="utf-8")
+
+          icon_tag = f'<link rel="icon" href="{favicon_url}" type="image/svg+xml" sizes="any">'
+          shortcut_tag = f'<link rel="shortcut icon" href="{favicon_url}" type="image/svg+xml">'
+          icon_pattern = re.compile(r'<link\b[^>]*\brel=["\'][^"\']*(?:shortcut\s+icon|icon)[^"\']*["\'][^>]*>\s*', re.I)
+
+          changed = 0
+          for page in Path(".").rglob("*.html"):
+              if ".git" in page.parts or page.name.lower().startswith("google"):
+                  continue
+              try:
+                  text = page.read_text(encoding="utf-8")
+              except UnicodeDecodeError:
+                  continue
+              if "</head>" not in text.lower():
+                  continue
+              cleaned = icon_pattern.sub("", text)
+              replacement = f"  {icon_tag}\n  {shortcut_tag}\n</head>"
+              updated, count = re.subn(r"</head>", replacement, cleaned, count=1, flags=re.I)
+              if count and updated != text:
+                  page.write_text(updated, encoding="utf-8")
+                  changed += 1
+          print(f"Favicon installé sur {changed} pages HTML.")
+          PY
+      - name: Enregistrer les corrections
+        run: |
+          if git diff --quiet; then
+            echo "Toutes les pages possèdent déjà le favicon."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add favicon.svg '*.html' '**/*.html'
+          git commit -m "Affiche le favicon sur toutes les pages"
+          git push
