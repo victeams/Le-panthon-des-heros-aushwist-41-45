@@ -43,8 +43,8 @@ def ensure_head_tags(path: Path) -> bool:
     original = text
     text = text.replace(OLD_BASE, BASE)
     text = text.replace(
-        '<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" sizes="any">',
-        '<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" sizes="any">',
+        '<link rel="icon" href="https://memoiredesdeportes.fr/favicon.ico" sizes="any">\n  <link rel="icon" type="image/png" sizes="96x96" href="https://memoiredesdeportes.fr/favicon.png">\n  <link rel="icon" type="image/svg+xml" href="https://memoiredesdeportes.fr/favicon.svg">\n  <link rel="apple-touch-icon" sizes="96x96" href="https://memoiredesdeportes.fr/apple-touch-icon.png">',
+        '<link rel="icon" href="https://memoiredesdeportes.fr/favicon.ico" sizes="any">\n  <link rel="icon" type="image/png" sizes="96x96" href="https://memoiredesdeportes.fr/favicon.png">\n  <link rel="icon" type="image/svg+xml" href="https://memoiredesdeportes.fr/favicon.svg">\n  <link rel="apple-touch-icon" sizes="96x96" href="https://memoiredesdeportes.fr/apple-touch-icon.png">',
     )
     url = canonical_url(path)
     fallback = path.stem.replace("-", " ").replace("_", " ").title()
@@ -52,7 +52,7 @@ def ensure_head_tags(path: Path) -> bool:
 
     inserts = []
     if not re.search(r'<link\s+[^>]*rel=["\']icon["\']', text, flags=re.I):
-        inserts.append('<link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" sizes="any">')
+        inserts.append('<link rel="icon" href="https://memoiredesdeportes.fr/favicon.ico" sizes="any">\n  <link rel="icon" type="image/png" sizes="96x96" href="https://memoiredesdeportes.fr/favicon.png">\n  <link rel="icon" type="image/svg+xml" href="https://memoiredesdeportes.fr/favicon.svg">\n  <link rel="apple-touch-icon" sizes="96x96" href="https://memoiredesdeportes.fr/apple-touch-icon.png">')
     if not re.search(r'<meta\s+[^>]*name=["\']theme-color["\']', text, flags=re.I):
         inserts.append('<meta name="theme-color" content="#0b0d10">')
     if not re.search(r'<meta\s+[^>]*name=["\']robots["\']', text, flags=re.I):
