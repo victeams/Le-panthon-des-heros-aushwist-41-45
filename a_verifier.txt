@@ -2,7 +2,7 @@ RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
 Femmes 31000 : 224
 Hommes 45000 : 560
-À vérifier : 65
+À vérifier : 71
 
 IMAGE MANQUANTE — 31-836-31000.html
 IMAGE MANQUANTE — 31-843-31000.html
@@ -19,6 +19,12 @@ NON CLASSÉ — contact.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 IMAGE MANQUANTE — delphine_presset_nee_jallat_31638.html
 IMAGE MANQUANTE — elisabeth_dupeyron_nee_dufour_31731.html
 IMAGE MANQUANTE — emilie_angeline_porcher_31789.html
+NON CLASSÉ — enfants/familles/famille-adamsbaum.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — enfants/familles/famille-dreyfus.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — enfants/familles/famille-pikovsky.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — enfants/familles/famille-wassermann.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — enfants/googleee168e6072006973.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — enfants/public/googleee168e6072006973.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 IMAGE MANQUANTE — felicia-dite-lucia-felicja-rostkowska-31701.html
 IMAGE MANQUANTE — felicienne-bierge-31734.html
 IMAGE MANQUANTE — fernande-laurent-31748.html
