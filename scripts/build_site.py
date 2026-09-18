@@ -656,10 +656,10 @@ def home_page(
     <h1>{title}</h1>
     <p class="intro">{description}</p>
     <p class="content-notice" role="note">Avertissement : certaines photographies d’archives documentées peuvent heurter la sensibilité, notamment celle des enfants.</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{tiktok_link}{about_link}{support_link}<a href="contact.html">Contact</a><a href="https://victeams.github.io/enfants-deportes-1939-1945/">Enfants déportés ↗</a></nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a><a href="enfants/">Enfants déportés</a>{database_link}{gallery_link}{tiktok_link}{about_link}{support_link}<a href="contact.html">Contact</a></nav>
     <div class="stats"><span class="stat"><strong>{total}</strong> fiches</span><span class="stat"><strong>{len(women)}</strong> femmes</span><span class="stat"><strong>{len(men)}</strong> hommes</span></div>
     {free_notice}
-    <div class="sister-site" role="note"><p><strong>Découvrez aussi : Enfants déportés 1939-1945</strong>Un mémorial numérique consacré aux visages et aux histoires des enfants déportés.</p><a class="button" href="https://victeams.github.io/enfants-deportes-1939-1945/">Ouvrir le mémorial →</a></div>
+    <div class="sister-site" role="note"><p><strong>Découvrez aussi : Enfants déportés 1939-1945</strong>Un mémorial numérique consacré aux visages et aux histoires des enfants déportés.</p><a class="button" href="enfants/">Ouvrir le mémorial →</a></div>
     <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:Gate_of_Auschwitz_II,_28_November_2007_(3).jpg" target="_blank" rel="noopener noreferrer">Photographie d’arrière-plan : Auschwitz II-Birkenau, vue depuis les rails, Logaritmo, domaine public.</a>
   </header>
   <main>
@@ -689,7 +689,7 @@ def home_page(
     </section>
     <section class="contribute" aria-label="Contribuer au mémorial"><div><h2>Une photographie ou une information à transmettre</h2><p>Les familles et chercheurs peuvent proposer un document, signaler une erreur ou compléter un parcours.</p></div><a class="button" href="contact.html">Contribuer à la mémoire</a></section>
   </main>
-  <footer>Préserver leur histoire, transmettre leur mémoire. · <a href="https://victeams.github.io/enfants-deportes-1939-1945/">Enfants déportés 1939-1945</a></footer>
+  <footer>Préserver leur histoire, transmettre leur mémoire. · <a href="enfants/">Enfants déportés 1939-1945</a></footer>
   <script>{HOME_SEARCH_SCRIPT}</script>
 </body>
 </html>
