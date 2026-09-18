@@ -26,6 +26,7 @@ jobs:
         run: git pull --ff-only origin main
       - name: Intégrer le mémorial des enfants au domaine principal
         run: |
+          rm -rf enfants
           git clone --depth 1 https://github.com/victeams/enfants-deportes-1939-1945.git enfants
           rm -rf enfants/.git
           git grep -Il 'https://victeams.github.io/enfants-deportes-1939-1945' -- enfants | xargs -r sed -i 's#https://victeams.github.io/enfants-deportes-1939-1945#https://memoiredesdeportes.fr/enfants#g'
