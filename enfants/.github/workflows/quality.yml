@@ -1,0 +1,48 @@
+name: Vérification du site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      - name: Vérifier la qualité
+        run: npm run lint
+
+      - name: Compiler le site
+        run: npm run build
+
+      - name: Construire les pages GitHub et les sitemaps
+        if: github.event_name == 'push'
+        run: node --experimental-strip-types scripts/build-github-pages.mjs
+
+      - name: Publier les nouvelles pages de portraits
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- index.html portraits familles sitemap.xml sitemap-google.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Mise à jour automatique des portraits et sitemaps [skip ci]"
+            git push
+          fi
