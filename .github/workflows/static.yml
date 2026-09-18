@@ -3,6 +3,8 @@ name: Classer et publier le site
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: write
