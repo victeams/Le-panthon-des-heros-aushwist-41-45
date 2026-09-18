@@ -5,7 +5,7 @@ import "./globals.css";
 const title = "Enfants déportés 1939-1945";
 const description =
   "Un mémorial numérique consacré aux enfants déportés pendant la Seconde Guerre mondiale, à leurs visages, leurs familles et leurs histoires.";
-const siteUrl = "https://victeams.github.io/enfants-deportes-1939-1945";
+const siteUrl = "https://memoiredesdeportes.fr/enfants";
 const companionSiteUrl =
   "https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45/";
 

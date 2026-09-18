@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "github-portraits-additions.json"
 INDEX_PATH = ROOT / "index.html"
 PORTRAITS_DIR = ROOT / "portraits"
-BASE_URL = "https://victeams.github.io/enfants-deportes-1939-1945/"
+BASE_URL = "https://memoiredesdeportes.fr/enfants/"
 START = "          <!-- NEW_PORTRAITS_START -->"
 END = "          <!-- NEW_PORTRAITS_END -->"
 

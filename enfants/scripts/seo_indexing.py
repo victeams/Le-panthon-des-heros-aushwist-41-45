@@ -2,7 +2,7 @@ from pathlib import Path
 import html
 import re
 
-BASE = "https://victeams.github.io/enfants-deportes-1939-1945/"
+BASE = "https://memoiredesdeportes.fr/enfants/"
 ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED = {"404.html"}
 

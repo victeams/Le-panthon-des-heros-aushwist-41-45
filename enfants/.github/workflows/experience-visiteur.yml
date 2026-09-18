@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Installer les améliorations
         env:
-          SITE_BASE: "https://victeams.github.io/enfants-deportes-1939-1945"
-          SITE_HOME: "https://victeams.github.io/enfants-deportes-1939-1945/"
+          SITE_BASE: "https://memoiredesdeportes.fr/enfants"
+          SITE_HOME: "https://memoiredesdeportes.fr/enfants/"
         run: |
           mkdir -p assets
           cat > assets/memorial-ux.css <<'CSS'

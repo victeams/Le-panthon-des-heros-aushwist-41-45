@@ -7,7 +7,7 @@ import { families } from "../data/families.ts";
 const projectRoot = dirname(dirname(fileURLToPath(import.meta.url)));
 const portraitsDirectory = join(projectRoot, "portraits");
 const familiesDirectory = join(projectRoot, "familles");
-const githubBase = "https://victeams.github.io/enfants-deportes-1939-1945";
+const githubBase = "https://memoiredesdeportes.fr/enfants";
 const formerSiteBase = "https://enfants-deportes-1939-1945.fdhrddsveg.chatgpt.site";
 
 const escapeHtml = (value = "") =>
