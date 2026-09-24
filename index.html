@@ -34,6 +34,7 @@ main{max-width:1180px;margin:0 auto;padding:34px 22px 64px}.collections{display:
 @media(max-width:680px){.search-filters{grid-template-columns:1fr}.contribute{align-items:stretch;flex-direction:column}.contribute .button{text-align:center}.free-notice,.sister-site{align-items:stretch;flex-direction:column}.free-notice .button,.sister-site .button{text-align:center}}</style>
   <meta property="og:image" content="https://memoiredesdeportes.fr/assets/logo-resistants3945.webp">
   <meta property="og:image:alt" content="Mémoire des Déportés 1939-1945">
+  <link rel="stylesheet" href="https://memoiredesdeportes.fr/assets/memorial-ux.css?v=1">
 </head>
 <body>
   <header class="hero home-hero">
@@ -128,5 +129,6 @@ main{max-width:1180px;margin:0 auto;padding:34px 22px 64px}.collections{display:
   groupFilter.addEventListener('change',renderSearch);
   statusFilter.addEventListener('change',renderSearch);
   resetButton.addEventListener('click',()=>{input.value='';groupFilter.value='';statusFilter.value='';renderSearch();input.focus();});</script>
+  <script defer src="https://memoiredesdeportes.fr/assets/memorial-ux.js?v=1" data-base="https://memoiredesdeportes.fr" data-home="https://memoiredesdeportes.fr/"></script>
 </body>
 </html>

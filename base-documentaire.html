@@ -22,6 +22,7 @@
   <meta name="twitter:card" content="summary">
   <meta property="og:image" content="https://memoiredesdeportes.fr/assets/logo-resistants3945.webp">
   <meta property="og:image:alt" content="Mémoire des Déportés 1939-1945">
+  <link rel="stylesheet" href="https://memoiredesdeportes.fr/assets/memorial-ux.css?v=1">
 </head>
 <body>
   <header class="hero">
@@ -50,5 +51,6 @@ function filter(){const query=normalize(search.value.trim());filtered=!query?rec
 async function loadCategory(){const category=manifest.categories.find(item=>item.slug===select.value);summary.textContent='Chargement…';grid.replaceChildren();const files=category.files||[category.file];const payloads=await Promise.all(files.map(async file=>{const response=await fetch(file);if(!response.ok)throw new Error(`Erreur ${response.status}`);return response.json();}));records=payloads.flat();filtered=records;search.value='';page=1;render();}
 fetch('data/base-documentaire/manifest.json').then(response=>response.json()).then(data=>{manifest=data;document.getElementById('total').textContent=manifest.record_count.toLocaleString('fr-FR');document.getElementById('categories').textContent=manifest.categories.length.toLocaleString('fr-FR');manifest.categories.forEach(category=>{const option=document.createElement('option');option.value=category.slug;option.textContent=`${category.title} (${category.count.toLocaleString('fr-FR')})`;select.append(option);});return loadCategory();}).catch(error=>{summary.textContent=`Impossible de charger la base : ${error.message}`;});
 select.addEventListener('change',()=>loadCategory().catch(error=>{summary.textContent=`Impossible de charger cette catégorie : ${error.message}`;}));search.addEventListener('input',filter);previous.addEventListener('click',()=>{page--;render();window.scrollTo({top:document.querySelector('.tools').offsetTop,behavior:'smooth'});});next.addEventListener('click',()=>{page++;render();window.scrollTo({top:document.querySelector('.tools').offsetTop,behavior:'smooth'});});</script>
+  <script defer src="https://memoiredesdeportes.fr/assets/memorial-ux.js?v=1" data-base="https://memoiredesdeportes.fr" data-home="https://memoiredesdeportes.fr/"></script>
 </body>
 </html>

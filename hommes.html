@@ -31,6 +31,7 @@ main{max-width:1180px;margin:0 auto;padding:34px 22px 64px}.collections{display:
 @media(max-width:680px){.support-banner{grid-template-columns:auto 1fr}.support-banner .button{grid-column:1/-1;text-align:center}}@media(max-width:560px){.hero{padding-top:42px}.stat{min-width:105px}.grid{grid-template-columns:1fr}.card{min-height:200px}}</style>
   <meta property="og:image" content="https://memoiredesdeportes.fr/assets/logo-resistants3945.webp">
   <meta property="og:image:alt" content="Mémoire des Déportés 1939-1945">
+  <link rel="stylesheet" href="https://memoiredesdeportes.fr/assets/memorial-ux.css?v=1">
 </head>
 <body>
   <header class="hero">
@@ -3987,5 +3988,6 @@ main{max-width:1180px;margin:0 auto;padding:34px 22px 64px}.collections{display:
     cards.forEach(card=>{const visible=!query||normalize(card.dataset.search).includes(query);card.hidden=!visible;if(visible)count++;});
     result.textContent=`${count} fiche${count>1?'s':''} affichée${count>1?'s':''}`;
   });</script>
+  <script defer src="https://memoiredesdeportes.fr/assets/memorial-ux.js?v=1" data-base="https://memoiredesdeportes.fr" data-home="https://memoiredesdeportes.fr/"></script>
 </body>
 </html>
