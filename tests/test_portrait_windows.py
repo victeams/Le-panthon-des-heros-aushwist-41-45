@@ -29,6 +29,22 @@ class PortraitCoreTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 core.validate(self.sample(photo_path=str(photo), photo_credit=""))
 
+    def test_guided_biography_keeps_memorial_order(self):
+        text = core.compose_guided_biography({
+            "deportation": "Troisième partie sur la déportation.",
+            "origins": "Première partie sur les origines.",
+            "arrest": "Deuxième partie sur l’arrestation.",
+        })
+        self.assertEqual(text.split("\n\n"), [
+            "Première partie sur les origines.",
+            "Deuxième partie sur l’arrestation.",
+            "Troisième partie sur la déportation.",
+        ])
+
+    def test_guided_biography_requires_three_sections(self):
+        with self.assertRaises(ValueError):
+            core.compose_guided_biography({"origins": "Origines", "arrest": "Arrestation"})
+
     def test_html_escapes_text_and_keeps_exact_source(self):
         data = self.sample(name="Jeanne & Exemple", biography="Texte vérifié avec <document> et suffisamment de détails pour la publication.")
         page = core.portrait_html(data, "jeanne-exemple-31600.html", "portraits/test.jpg", True)

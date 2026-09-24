@@ -74,6 +74,18 @@ def validate(data: PortraitData) -> None:
             raise ValueError("Indiquez obligatoirement le crédit de la photographie.")
 
 
+GUIDED_SECTION_ORDER = ("origins", "engagement", "arrest", "deportation", "afterwar", "memory")
+
+
+def compose_guided_biography(sections: dict[str, str]) -> str:
+    """Assemble des faits rédigés par l’utilisateur dans l’ordre du mémorial."""
+    blocks = [sections.get(key, "").strip() for key in GUIDED_SECTION_ORDER]
+    blocks = [block for block in blocks if block]
+    if len(blocks) < 3:
+        raise ValueError("Le mode guidé nécessite au moins trois parties renseignées.")
+    return "\n\n".join(blocks)
+
+
 def paragraphs(text: str) -> str:
     blocks = [block.strip() for block in re.split(r"\n\s*\n", text.strip()) if block.strip()]
     return "\n".join(f"<p>{html.escape(block).replace(chr(10), '<br>')}</p>" for block in blocks)
