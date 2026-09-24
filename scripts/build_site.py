@@ -36,6 +36,7 @@ GENERATED_HTML = {
     "a-propos.html",
     "convoi-des-31000.html",
     "sources-femmes.html",
+    "sources-hommes.html",
     "convoi-des-45000.html",
 }
 EXCLUDED_DIRS = {".git", ".github", "scripts", "tests", "portraits"}
@@ -478,6 +479,7 @@ def collection_page(
       <p>Pour constituer ces fiches, plusieurs listes et sites spécialisés ont été consultés et recoupés. Certaines sources conservent davantage de témoignages, tandis que d’autres apportent plus de photographies ou de renseignements d’identité. Ces éléments complémentaires ont été réunis et comparés afin de restituer au mieux chaque parcours.</p>
       <p>Les portraits nouvellement recoupés avec le site <a href="https://deportes-politiques-auschwitz.fr/biographies-index-alpha/" target="_blank" rel="noopener noreferrer"><strong>Déportés politiques à Auschwitz</strong></a> renvoient, dans chaque fiche, vers la notice et les crédits d’origine. Les images présentées par cette source comme des identifications possibles mais non confirmées ne sont pas utilisées comme portraits établis.</p>
       <p>Les <strong>portraits d’immatriculation d’Auschwitz</strong> présentés ici proviennent des archives retrouvées après la libération du camp. Lorsqu’aucune image n’est connue, les documents et témoignages disponibles permettent malgré tout de préserver leur mémoire.</p>
+      <p>La source documentaire principale de nombreuses notices est l’association <strong>Mémoire Vive des convois des 45 000 et des 31 000 d’Auschwitz-Birkenau</strong>. <a href="sources-hommes.html">Consulter l’origine des informations et notre méthode de vérification.</a></p>
     </section>"""
     )
     filename = f"{group}.html"
@@ -713,6 +715,7 @@ def sitemap_xml(
         url_for(base_url, "femmes.html"),
         url_for(base_url, "hommes.html"),
         url_for(base_url, "sources-femmes.html"),
+        url_for(base_url, "sources-hommes.html"),
     ]
     if database_available:
         entries.append(url_for(base_url, "base-documentaire.html"))
