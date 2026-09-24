@@ -34,6 +34,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Retirer les anciennes pages de don
+        run: python scripts/remove_donation_pages.py
       - name: Vérifier le SEO et reconstruire le sitemap
         run: python scripts/seo_indexing.py
       - name: Enregistrer les améliorations

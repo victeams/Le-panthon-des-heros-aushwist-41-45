@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED = {"404.html"}
 NON_PROFILE = {
     "index.html", "femmes.html", "hommes.html", "base-documentaire.html",
-    "photos.html", "soutien.html", "tiktok.html", "a-propos.html",
+    "photos.html", "tiktok.html", "a-propos.html",
     "contact.html", "convoi-des-31000.html", "convoi-des-45000.html",
 }
 

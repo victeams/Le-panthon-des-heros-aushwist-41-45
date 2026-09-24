@@ -37,6 +37,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Retirer les anciennes pages de don
+        run: python scripts/remove_donation_pages.py
+
       - name: Installer la lecture du classeur maître
         run: python -m pip install --disable-pip-version-check -r requirements.txt
 

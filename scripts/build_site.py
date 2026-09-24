@@ -31,7 +31,6 @@ GENERATED_HTML = {
     "hommes.html",
     "base-documentaire.html",
     "photos.html",
-    "soutien.html",
     "tiktok.html",
     "a-propos.html",
     "convoi-des-31000.html",
@@ -454,7 +453,6 @@ def collection_page(
     group: str,
     database_available: bool = False,
     photo_gallery_available: bool = False,
-    support_available: bool = False,
     tiktok_available: bool = False,
     about_available: bool = False,
 ) -> str:
@@ -498,7 +496,6 @@ def collection_page(
         cards = '<p class="empty">Aucune fiche n’est encore publiée dans cette section.</p>'
     database_link = '<a href="base-documentaire.html">Base documentaire</a>' if database_available else ""
     gallery_link = '<a href="photos.html">Photothèque</a>' if photo_gallery_available else ""
-    support_link = '<a href="soutien.html">Soutenir</a>' if support_available else ""
     tiktok_link = '<a href="tiktok.html">Chaîne TikTok</a>' if tiktok_available else ""
     about_link = '<a href="a-propos.html">À propos</a>' if about_available else ""
     return f"""<!DOCTYPE html>
@@ -512,7 +509,7 @@ def collection_page(
     <p class="eyebrow">Mémoire • Résistance • Déportation</p>
     <h1>{escape(label)}</h1>
     <p class="intro">{escape(intro)}</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{tiktok_link}{about_link}{support_link}</nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{tiktok_link}{about_link}</nav>
     <div class="stats"><span class="stat"><strong>{len(people)}</strong> fiche{'s' if len(people) != 1 else ''}</span></div>
   </header>
   <main>
@@ -596,7 +593,6 @@ def home_page(
     verification: str,
     database_records: int | None = None,
     photo_records: int | None = None,
-    support_available: bool = False,
     tiktok_available: bool = False,
     about_available: bool = False,
 ) -> str:
@@ -618,7 +614,6 @@ def home_page(
     }
     database_link = '<a href="base-documentaire.html">Base documentaire</a>' if database_records is not None else ""
     gallery_link = '<a href="photos.html">Photothèque</a>' if photo_records is not None else ""
-    support_link = '<a href="soutien.html">Soutenir</a>' if support_available else ""
     tiktok_link = '<a href="tiktok.html">Chaîne TikTok</a>' if tiktok_available else ""
     about_link = '<a href="a-propos.html">À propos</a>' if about_available else ""
     brand_logo = (
@@ -636,16 +631,6 @@ def home_page(
         if photo_records is not None
         else ""
     )
-    support_banner = (
-        '<section class="support-banner" aria-label="Soutenir le projet"><img src="assets/icons/coeur-soutien.svg" alt=""><div><h2>Soutenir ce travail de mémoire</h2><p>Découvrez le travail réalisé au quotidien et les façons simples d’aider à transmettre ces histoires.</p></div><a class="button" href="soutien.html">Découvrir la page de soutien</a></section>'
-        if support_available
-        else ""
-    )
-    free_notice = (
-        '<div class="free-notice" role="note"><div><strong>Un site sans publicité, entièrement gratuit.</strong><span>Votre visite ne génère aucun revenu publicitaire. Si vous souhaitez aider à poursuivre les recherches et améliorer le projet, vous pouvez apporter un soutien libre par PayPal.</span></div><a class="button" href="soutien.html">Faire un don par PayPal</a></div>'
-        if support_available
-        else ""
-    )
     return f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -660,9 +645,8 @@ def home_page(
     <h1>{title}</h1>
     <p class="intro">{description}</p>
     <p class="content-notice" role="note">Avertissement : certaines photographies d’archives documentées peuvent heurter la sensibilité, notamment celle des enfants.</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a><a href="enfants/">Enfants déportés</a>{database_link}{gallery_link}{tiktok_link}{about_link}{support_link}<a href="contact.html">Contact</a></nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a><a href="enfants/">Enfants déportés</a>{database_link}{gallery_link}{tiktok_link}{about_link}<a href="contact.html">Contact</a></nav>
     <div class="stats"><span class="stat"><strong>{total}</strong> fiches</span><span class="stat"><strong>{len(women)}</strong> femmes</span><span class="stat"><strong>{len(men)}</strong> hommes</span></div>
-    {free_notice}
     <div class="sister-site" role="note"><p><strong>Découvrez aussi : Enfants déportés 1939-1945</strong>Un mémorial numérique consacré aux visages et aux histoires des enfants déportés.</p><a class="button" href="enfants/">Ouvrir le mémorial →</a></div>
     <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:Gate_of_Auschwitz_II,_28_November_2007_(3).jpg" target="_blank" rel="noopener noreferrer">Photographie d’arrière-plan : Auschwitz II-Birkenau, vue depuis les rails, Logaritmo, domaine public.</a>
   </header>
@@ -678,7 +662,6 @@ def home_page(
       {database_card}
       {gallery_card}
     </section>
-    {support_banner}
     <section id="recherche" aria-labelledby="search-title" style="margin-top:38px">
       <h2 id="search-title">Rechercher dans toutes les biographies</h2>
       <label class="visually-hidden" for="global-search">Nom ou matricule</label>
@@ -705,7 +688,6 @@ def sitemap_xml(
     people: list[Biography],
     database_available: bool = False,
     photo_gallery_available: bool = False,
-    support_available: bool = False,
     tiktok_available: bool = False,
     about_available: bool = False,
     convoi_available: bool = False,
@@ -721,8 +703,6 @@ def sitemap_xml(
         entries.append(url_for(base_url, "base-documentaire.html"))
     if photo_gallery_available:
         entries.append(url_for(base_url, "photos.html"))
-    if support_available:
-        entries.append(url_for(base_url, "soutien.html"))
     if tiktok_available:
         entries.append(url_for(base_url, "tiktok.html"))
     if about_available:
@@ -832,7 +812,6 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
 
     database_available = database_records is not None
     photo_gallery_available = photo_records is not None
-    support_available = (root / "soutien.html").is_file()
     tiktok_available = (root / "tiktok.html").is_file()
     about_available = (root / "a-propos.html").is_file()
     convoi_available = (root / "convoi-des-45000.html").is_file()
@@ -844,7 +823,6 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             verification,
             database_records,
             photo_records,
-            support_available,
             tiktok_available,
             about_available,
         ),
@@ -857,7 +835,6 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             "femmes",
             database_available,
             photo_gallery_available,
-            support_available,
             tiktok_available,
             about_available,
         ),
@@ -870,7 +847,6 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             "hommes",
             database_available,
             photo_gallery_available,
-            support_available,
             tiktok_available,
             about_available,
         ),
@@ -882,7 +858,6 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             biographies,
             database_available,
             photo_gallery_available,
-            support_available,
             tiktok_available,
             about_available,
             convoi_available,

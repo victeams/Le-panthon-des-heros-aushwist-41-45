@@ -2,7 +2,7 @@ RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
 Femmes 31000 : 224
 Hommes 45000 : 560
-À vérifier : 71
+À vérifier : 72
 
 IMAGE MANQUANTE — 31-836-31000.html
 IMAGE MANQUANTE — 31-843-31000.html
@@ -25,6 +25,7 @@ NON CLASSÉ — enfants/familles/famille-pikovsky.html — aucun matricule 31xxx
 NON CLASSÉ — enfants/familles/famille-wassermann.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 NON CLASSÉ — enfants/googleee168e6072006973.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 NON CLASSÉ — enfants/public/googleee168e6072006973.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — enfants/soutien.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 IMAGE MANQUANTE — felicia-dite-lucia-felicja-rostkowska-31701.html
 IMAGE MANQUANTE — felicienne-bierge-31734.html
 IMAGE MANQUANTE — fernande-laurent-31748.html

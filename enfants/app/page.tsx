@@ -77,29 +77,6 @@ export default function Home() {
       </section>
 
       <TributeSection />
-
-      <section className="support" id="soutenir" aria-labelledby="support-title">
-        <div>
-          <p className="eyebrow">Un site sans publicité</p>
-          <h2 id="support-title">Soutenir le travail de mémoire</h2>
-          <p>
-            La consultation reste gratuite. Les dons servent à documenter de
-            nouveaux portraits, préserver les archives et maintenir le site.
-          </p>
-        </div>
-        <div className="support__action">
-          <p>Dans PayPal, utilisez l’adresse :</p>
-          <strong>tardy42350@gmail.com</strong>
-          <a
-            className="button button--light"
-            href="https://www.paypal.com/fr/home"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Ouvrir PayPal
-          </a>
-        </div>
-      </section>
     </main>
   );
 }

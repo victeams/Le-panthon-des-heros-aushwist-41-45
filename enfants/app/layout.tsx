@@ -83,7 +83,6 @@ export default function RootLayout({
             <Link href="/galerie">Galerie</Link>
             <Link href="/#comprendre">Comprendre</Link>
             <Link href="/#hommages">Hommages</Link>
-            <Link href="/#soutenir">Soutenir</Link>
             <a
               className="site-switch"
               href={companionSiteUrl}

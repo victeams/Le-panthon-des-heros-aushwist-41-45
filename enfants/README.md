@@ -19,7 +19,6 @@ d’hommages modéré.
 - recherche et filtres par pays et destin ;
 - galerie photographique avec crédits et liens vers les sources ;
 - formulaire d’hommage persistant sur Cloudflare D1 ;
-- section de soutien par PayPal ;
 - interface responsive et accessible en français.
 
 ## Développement
