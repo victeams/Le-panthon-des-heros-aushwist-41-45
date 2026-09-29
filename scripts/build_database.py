@@ -409,6 +409,20 @@ def build_database(root: Path, sql_path: Path, workbook_path: Path, output_dir: 
     if not sql_path.is_file():
         raise FileNotFoundError(f"Base SQL introuvable : {sql_path}")
     records_by_slug = sql_records(sql_path)
+    # Une fiche déjà publiée ne doit plus rester « À faire » dans la base.
+    published = {path.stem for path in (root / "hommes").glob("*.html")}
+    for record in records_by_slug.get("hommes-45000", []):
+        values = record["values"]
+        if values.get("État de vérification") != "À faire":
+            continue
+        number = re.search(r"\\b(?:45|46)\\d{3}\\b", str(values.get("Matricule", "")))
+        surname = normalized(values.get("Nom", "")).replace(" ", "-")
+        if not number or not surname:
+            continue
+        number_pattern = re.compile(rf"(?:^|-){number.group()}(?:-|$)")
+        surname_pattern = re.compile(rf"(?:^|-){re.escape(surname)}(?:-|$)")
+        if any(number_pattern.search(stem) and surname_pattern.search(stem) for stem in published):
+            values["État de vérification"] = "Fiche faite"
     if workbook_path.is_file():
         records_by_slug.update(workbook_records(workbook_path))
     else:
