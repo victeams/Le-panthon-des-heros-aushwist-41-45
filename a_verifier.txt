@@ -2,12 +2,13 @@ RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
 Femmes 31000 : 224
 Hommes 45000 : 904
-À vérifier : 73
+À vérifier : 74
 
 IMAGE MANQUANTE — 31-836-31000.html
 IMAGE MANQUANTE — 31-843-31000.html
 IMAGE MANQUANTE — adrienne_hardenberg_31636.html
 IMAGE MANQUANTE — aimee_dite_manette_doridat_nee_godefroy_31767.html
+NON CLASSÉ — aktion-t4.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 IMAGE MANQUANTE — alice_cailbault_nee_gardelle_31738.html
 IMAGE MANQUANTE — alice-viterbo-31822.html
 IMAGE MANQUANTE — alida_delasalle_31659.html
