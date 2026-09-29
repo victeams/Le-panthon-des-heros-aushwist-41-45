@@ -2,7 +2,7 @@ RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
 Femmes 31000 : 224
 Hommes 45000 : 904
-À vérifier : 74
+À vérifier : 75
 
 IMAGE MANQUANTE — 31-836-31000.html
 IMAGE MANQUANTE — 31-843-31000.html
@@ -61,6 +61,7 @@ IMAGE MANQUANTE — marie-louise-dite-louisette-ou-marilou-colombain-31853.html
 IMAGE MANQUANTE — marie-mathilde-chaux-31824.html
 IMAGE MANQUANTE — marthe_dite_violette_hebrard_nee_guay_31832.html
 IMAGE MANQUANTE — noemie-durand-31727.html
+NON CLASSÉ — plaques-memorielles.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 IMAGE MANQUANTE — rachel-fernandes-31723.html
 IMAGE MANQUANTE — raymonde-georges-31000.html
 IMAGE MANQUANTE — rose_blanc_31652.html

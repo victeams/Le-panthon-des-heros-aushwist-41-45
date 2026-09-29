@@ -16,6 +16,18 @@ main{max-width:1180px;margin:0 auto;padding:34px 22px 64px}.notice{padding:24px 
 footer{padding:24px;text-align:center;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}@media(max-width:600px){.filters{grid-template-columns:1fr}.hero{padding-top:42px}}
 </style>
 <link rel="stylesheet" href="https://memoiredesdeportes.fr/assets/memorial-ux.css?v=1">
+  <link rel="icon" href="https://memoiredesdeportes.fr/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://memoiredesdeportes.fr/favicon.png">
+  <link rel="icon" type="image/svg+xml" href="https://memoiredesdeportes.fr/favicon.svg">
+  <link rel="apple-touch-icon" sizes="96x96" href="https://memoiredesdeportes.fr/apple-touch-icon.png">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Plaques et lieux de mémoire des déportés | Mémoire des Déportés">
+  <meta property="og:description" content="Plaques, stèles et lieux de mémoire consacrés aux résistants et déportés en France, reliés à leurs parcours documentés.">
+  <meta property="og:url" content="https://memoiredesdeportes.fr/plaques-memorielles.html">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://memoiredesdeportes.fr/assets/logo-resistants3945.webp">
+  <meta property="og:image:alt" content="Mémoire des Déportés 1939-1945">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","name":"Plaques et lieux de mémoire des déportés | Mémoire des Déportés","description":"Plaques, stèles et lieux de mémoire consacrés aux résistants et déportés en France, reliés à leurs parcours documentés.","url":"https://memoiredesdeportes.fr/plaques-memorielles.html","inLanguage":"fr-FR","isPartOf":{"@type":"WebSite","name":"Mémoire des Déportés","url":"https://memoiredesdeportes.fr/"}}</script>
 </head><body>
 <header class="hero"><p class="eyebrow">Mémoire • France • Traces</p><h1>Plaques et lieux de mémoire des déportés</h1>
 <p class="intro">Une carte humaine des plaques, stèles et lieux qui conservent, dans nos villes et nos villages, le nom de celles et ceux qui furent arrêtés, résistants, persécutés ou déportés.</p>
@@ -38,4 +50,5 @@ const q=document.getElementById('q'),region=document.getElementById('region'),ca
 function norm(s){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()}
 function filter(){const term=norm(q.value),r=region.value;let n=0;cards.forEach(c=>{const ok=norm(c.dataset.search).includes(term)&&(!r||c.dataset.region===r);c.hidden=!ok;if(ok)n++});count.textContent=n+' lieu'+(n>1?'x':'')+' de mémoire affiché'+(n>1?'s':'')}
 q.addEventListener('input',filter);region.addEventListener('change',filter);filter();
-</script></body></html>
+</script>  <script defer src="https://memoiredesdeportes.fr/assets/memorial-ux.js?v=1" data-base="https://memoiredesdeportes.fr" data-home="https://memoiredesdeportes.fr/"></script>
+</body></html>
