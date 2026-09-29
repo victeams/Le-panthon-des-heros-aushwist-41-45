@@ -415,7 +415,7 @@ def build_database(root: Path, sql_path: Path, workbook_path: Path, output_dir: 
         values = record["values"]
         if values.get("État de vérification") != "À faire":
             continue
-        number = re.search(r"\\b(?:45|46)\\d{3}\\b", str(values.get("Matricule", "")))
+        number = re.search(r"\b(?:45|46)\d{3}\b", str(values.get("Matricule", "")))
         surname = normalized(values.get("Nom", "")).replace(" ", "-")
         if not number or not surname:
             continue
