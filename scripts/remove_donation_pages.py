@@ -18,6 +18,7 @@ def remove_financial_links(path: Path) -> None:
         text,
         flags=re.IGNORECASE | re.DOTALL,
     )
+    updated = re.sub(r"(?m)^[ \t]+$", "", updated)
     if updated != text:
         path.write_text(updated, encoding="utf-8")
 
