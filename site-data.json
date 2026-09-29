@@ -26,7 +26,7 @@
     "search": "31 843 convoi 31000 notice commemorative"
   },
   {
-    "name": "45000",
+    "name": "45000 | Mémoire des Déportés",
     "file": "hommes/45000.html",
     "group": "hommes",
     "matricule": null,
@@ -35,8 +35,8 @@
     "status_class": "other",
     "portrait": null,
     "portrait_alt": null,
-    "description": "Biographie commémorative de 45000.",
-    "search": "45000 convoi 45000 notice commemorative"
+    "description": "Portrait et biographie de 45000, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
+    "search": "45000 memoire des deportes convoi 45000 notice commemorative"
   },
   {
     "name": "Abel BUISSON",
@@ -48,7 +48,7 @@
     "status_class": "other",
     "portrait": "portraits/abel-buisson-45310.jpg",
     "portrait_alt": "Photographie de Abel BUISSON",
-    "description": "Abel, Lucien, Buisson naît le 26 août 1913 à Bagnolet [1] (Seine / Seine-Saint-Denis – 93).",
+    "description": "Portrait et biographie de Abel BUISSON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "abel buisson 45310 matricule 45310 notice commemorative"
   },
   {
@@ -217,7 +217,7 @@
     "status_class": "other",
     "portrait": "portraits/adrien-dit-marcel-lamboley-45720.jpg",
     "portrait_alt": "Photographie de Adrien Dit Marcel LAMBOLEY",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Adrien Dit Marcel LAMBOLEY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "adrien dit marcel lamboley 45720 matricule 45720 notice commemorative"
   },
   {
@@ -256,7 +256,7 @@
     "status_class": "other",
     "portrait": "portraits/adrien-gentil-45588.jpg",
     "portrait_alt": "Photographie de Adrien GENTIL",
-    "description": "Adrien, Jean-Baptiste, Gentil naît le 10 août 1916 à Rouen (Seine-Maritime [1] – 76).",
+    "description": "Portrait et biographie de Adrien GENTIL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "adrien gentil 45588 matricule 45588 notice commemorative"
   },
   {
@@ -269,7 +269,7 @@
     "status_class": "other",
     "portrait": "portraits/adrien-humbert-45674.jpg",
     "portrait_alt": "Photographie de Adrien HUMBERT",
-    "description": "Adrien Humbert naît le 28 juin 1921 à Paris 13e.",
+    "description": "Portrait et biographie de Adrien HUMBERT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "adrien humbert 45674 matricule 45674 notice commemorative"
   },
   {
@@ -282,7 +282,7 @@
     "status_class": "other",
     "portrait": "portraits/adrien-raynal-46036.jpg",
     "portrait_alt": "Photographie de Adrien RAYNAL",
-    "description": "Collection Nelly Mathieu. Droits réservés.",
+    "description": "Portrait et biographie de Adrien RAYNAL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "adrien raynal 46036 matricule 46036 notice commemorative"
   },
   {
@@ -321,7 +321,7 @@
     "status_class": "other",
     "portrait": "portraits/aime-doisy-45478.jpg",
     "portrait_alt": "Photographie de Aimé DOISY",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Aimé DOISY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "aime doisy 45478 matricule 45478 notice commemorative"
   },
   {
@@ -412,7 +412,7 @@
     "status_class": "other",
     "portrait": "portraits/albert-champin-45350.jpg",
     "portrait_alt": "Photographie de Albert CHAMPIN",
-    "description": "Albert, Lucien, Adolphe, Champin naît le 8 avril 1904 à Limésy (Seine / Seine-Maritime [1] – 76), fils de Joseph Champin, 38 ans, domestique chez Joseph…",
+    "description": "Portrait et biographie de Albert CHAMPIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "albert champin 45350 matricule 45350 notice commemorative"
   },
   {
@@ -438,7 +438,7 @@
     "status_class": "other",
     "portrait": "portraits/albert-creuset-45412.jpg",
     "portrait_alt": "Photographie de Albert CREUSET",
-    "description": "Albert, Louis, Origène, Creuset naît le 9 décembre 1901 à Nibas, entre Abbeville et la mer (Somme – 80), fils de Marie Alfred Creuset, 32 ans, serrurier…",
+    "description": "Portrait et biographie de Albert CREUSET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "albert creuset 45412 matricule 45412 notice commemorative"
   },
   {
@@ -464,7 +464,7 @@
     "status_class": "other",
     "portrait": "portraits/albert-dugales-45500.jpg",
     "portrait_alt": "Photographie de Albert DUGALÈS",
-    "description": "Albert (dit « Bébert »), Julien, Marie, Dugalès naît le 25 septembre 1894 à Guéhenno (Morbihan – 56), fils d’Eugène Dugalès, 29 ans, menuisier, et de…",
+    "description": "Portrait et biographie de Albert DUGALÈS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "albert dugales 45500 matricule 45500 notice commemorative"
   },
   {
@@ -490,7 +490,7 @@
     "status_class": "other",
     "portrait": "portraits/albert-fouquet-45553.jpg",
     "portrait_alt": "Photographie de Albert FOUQUET",
-    "description": "Albert, Jean, Marie, Fouquet naît le 16 mars 1902 à Paris 14e, fils de Jean Fouquet, 25 ans, employé, et de Jeanne Day, son épouse, 22 ans, domiciliés au…",
+    "description": "Portrait et biographie de Albert FOUQUET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "albert fouquet 45553 matricule 45553 notice commemorative"
   },
   {
@@ -568,7 +568,7 @@
     "status_class": "other",
     "portrait": "portraits/albert-robert-46063.jpg",
     "portrait_alt": "Photographie de Albert ROBERT",
-    "description": "Albert, Léon, ROBERT naît le 28 septembre 1900 à Régeat, commune de Saint-Bonnet-de-Condat (Cantal), chez ses parents, Guillaume Robert, menuisier, 37 ans…",
+    "description": "Portrait et biographie de Albert ROBERT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "albert robert 46063 matricule 46063 notice commemorative"
   },
   {
@@ -646,7 +646,7 @@
     "status_class": "other",
     "portrait": "portraits/albert-watel-46209.jpg",
     "portrait_alt": "Photographie de Albert WATEL",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Albert WATEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "albert watel 46209 matricule 46209 notice commemorative"
   },
   {
@@ -724,7 +724,7 @@
     "status_class": "other",
     "portrait": "portraits/alexandre-varoteaux-46177.jpg",
     "portrait_alt": "Photographie de Alexandre VAROTEAUX",
-    "description": "Alexandre, Louis, Varoteaux naît le 7 mars 1905 à Cuirieux (Aisne), fils de Louis Varoteaux, domestique de culture, et de Marie Collier, 27 ans, son…",
+    "description": "Portrait et biographie de Alexandre VAROTEAUX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "alexandre varoteaux 46177 matricule 46177 notice commemorative"
   },
   {
@@ -776,7 +776,7 @@
     "status_class": "other",
     "portrait": "portraits/alfred-marinelli-45835.jpg",
     "portrait_alt": "Photographie de Alfred MARINELLI",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Alfred MARINELLI, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "alfred marinelli 45835 matricule 45835 notice commemorative"
   },
   {
@@ -919,7 +919,7 @@
     "status_class": "other",
     "portrait": "portraits/alphonse-doucet-45479.jpg",
     "portrait_alt": "Photographie de Alphonse DOUCET",
-    "description": "Alphonse, Jean-Baptiste, Edmond, Doucet naît le 4 novembre 1914 au Vast (Manche – 50), fils de Jean-Baptiste Doucet, 29 ans, et de Marie-Louise Challe. Son…",
+    "description": "Portrait et biographie de Alphonse DOUCET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "alphonse doucet 45479 matricule 45479 notice commemorative"
   },
   {
@@ -984,7 +984,7 @@
     "status_class": "other",
     "portrait": "portraits/ambroise-sorin-46108.jpg",
     "portrait_alt": "Photographie de Ambroise SORIN",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Ambroise SORIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "ambroise sorin 46108 matricule 46108 notice commemorative"
   },
   {
@@ -1075,7 +1075,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-blaison-45255.jpg",
     "portrait_alt": "Photographie de André BLAISON",
-    "description": "André, Jules, Blaison naît le 17 septembre 1901 dans la petite commune de Borville (Meurthe-et-Moselle – 54), chez ses parents, Émile Blaison, 46 ans…",
+    "description": "Portrait et biographie de André BLAISON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre blaison 45255 matricule 45255 notice commemorative"
   },
   {
@@ -1088,7 +1088,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-bondu-45267.jpg",
     "portrait_alt": "Photographie de André BONDU",
-    "description": "André, Louis, Bondu naît le 26 juillet 1900 à Mustapha (Algérie), au 16, rue Flatters, chez ses parents, Henri Bondu, 37 ans, né à Mustapha, ajusteur, et…",
+    "description": "Portrait et biographie de André BONDU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre bondu 45267 matricule 45267 notice commemorative"
   },
   {
@@ -1140,7 +1140,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-crepin-45411.jpg",
     "portrait_alt": "Photographie de André CRÉPIN",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de André CRÉPIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre crepin 45411 matricule 45411 notice commemorative"
   },
   {
@@ -1166,7 +1166,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-delozien-45445.jpg",
     "portrait_alt": "Photographie de André DELOZIEN",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de André DELOZIEN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre delozien 45445 matricule 45445 notice commemorative"
   },
   {
@@ -1192,7 +1192,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-doucet-45480.jpg",
     "portrait_alt": "Photographie de André DOUCET",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de André DOUCET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre doucet 45480 matricule 45480 notice commemorative"
   },
   {
@@ -1218,7 +1218,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-faudry-45528.jpg",
     "portrait_alt": "Photographie de André FAUDRY",
-    "description": "André, Louis, Faudry naît le 19 mai 1914 à Marspich (Moselle), fils de Joseph, Louis, Faudry, 32 ans, et de Marie, Hélène, Krestchmer, 23 ans. André a un…",
+    "description": "Portrait et biographie de André FAUDRY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre faudry 45528 matricule 45528 notice commemorative"
   },
   {
@@ -1270,7 +1270,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-fontalbat-45549.jpg",
     "portrait_alt": "Photographie de André FONTALBAT",
-    "description": "André, Louis, Fontalbat naît le 7 septembre 1907 à Decazeville (Aveyron).",
+    "description": "Portrait et biographie de André FONTALBAT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre fontalbat 45549 matricule 45549 notice commemorative"
   },
   {
@@ -1335,7 +1335,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-godebout-45611.jpg",
     "portrait_alt": "Photographie de André GODEBOUT",
-    "description": "André, Marcel, Godebout naît le 3 août 1910 à Déville-lès-Rouen (Seine-Inférieure / Seine-Maritime [1] – 76).",
+    "description": "Portrait et biographie de André GODEBOUT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre godebout 45611 matricule 45611 notice commemorative"
   },
   {
@@ -1530,7 +1530,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-moutard-45913.jpg",
     "portrait_alt": "Photographie de André MOUTARD",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de André MOUTARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre moutard 45913 matricule 45913 notice commemorative"
   },
   {
@@ -1543,7 +1543,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-paulin-45953.jpg",
     "portrait_alt": "Photographie de André PAULIN",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de André PAULIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre paulin 45953 matricule 45953 notice commemorative"
   },
   {
@@ -1556,7 +1556,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-perrin-45967.png",
     "portrait_alt": "Photographie de André PERRIN",
-    "description": "André, Sincère, Henri, Louis, Perrin naît le 20 juillet 1907 à Coussay-les-Bois (Vienne – 86), fils de Sincère Perrin, 29 ans, métayer, et de Berthe…",
+    "description": "Portrait et biographie de André PERRIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre perrin 45967 matricule 45967 notice commemorative"
   },
   {
@@ -1595,7 +1595,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-renard-46045.jpg",
     "portrait_alt": "Photographie de André RENARD",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de André RENARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre renard 46045 matricule 46045 notice commemorative"
   },
   {
@@ -1634,7 +1634,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-sevens-46102.jpg",
     "portrait_alt": "Photographie de André SEVENS",
-    "description": "Auschwitz-I, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Coll. Mémoire Vive. Droits réservés.",
+    "description": "Portrait et biographie de André SEVENS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre sevens 46102 matricule 46102 notice commemorative"
   },
   {
@@ -1660,7 +1660,7 @@
     "status_class": "other",
     "portrait": "portraits/andre-touret-46152.jpg",
     "portrait_alt": "Photographie de André TOURET",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de André TOURET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre touret 46152 matricule 46152 notice commemorative"
   },
   {
@@ -1699,7 +1699,7 @@
     "status_class": "other",
     "portrait": "portraits/ange-marie-mace-45809.jpg",
     "portrait_alt": "Photographie de Ange-Marie MACÉ",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Ange-Marie MACÉ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "ange marie mace 45809 matricule 45809 notice commemorative"
   },
   {
@@ -1881,7 +1881,7 @@
     "status_class": "other",
     "portrait": "portraits/antoine-omnes-45936.jpg",
     "portrait_alt": "Photographie de Antoine OMNÈS",
-    "description": "Antoine, Jean-Baptiste Omnès naît le 15 juillet 1913 au Havre (Seine-Maritime [1] – 76).",
+    "description": "Portrait et biographie de Antoine OMNÈS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "antoine omnes 45936 matricule 45936 notice commemorative"
   },
   {
@@ -1907,7 +1907,7 @@
     "status_class": "other",
     "portrait": "portraits/antoine-sue-46261.jpg",
     "portrait_alt": "Photographie de Antoine SUE",
-    "description": "Prisonnier de guerre à l’été 1940. © BAVCC, Caen.",
+    "description": "Portrait et biographie de Antoine SUE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "antoine sue 46261 matricule 46261 notice commemorative"
   },
   {
@@ -1946,7 +1946,7 @@
     "status_class": "other",
     "portrait": "portraits/aristide-besse-45239.jpg",
     "portrait_alt": "Photographie de Aristide BESSÉ",
-    "description": "Aristide Bessé.",
+    "description": "Portrait et biographie de Aristide BESSÉ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "aristide besse 45239 matricule 45239 notice commemorative"
   },
   {
@@ -1959,7 +1959,7 @@
     "status_class": "other",
     "portrait": "portraits/aristide-mandron-45822.jpg",
     "portrait_alt": "Photographie de Aristide MANDRON",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Aristide MANDRON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "aristide mandron 45822 matricule 45822 notice commemorative"
   },
   {
@@ -2154,7 +2154,7 @@
     "status_class": "other",
     "portrait": "portraits/auguste-cabartier-45321.jpg",
     "portrait_alt": "Photographie de Auguste CABARTIER",
-    "description": "Auguste, Marius, Cabartier naît le 9 octobre 1894 à Rachecourt-sur-Marne (Haute-Marne – 52), 19 km au sud-est de Saint-Dizier, chez ses parents, Alexandre…",
+    "description": "Portrait et biographie de Auguste CABARTIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "auguste cabartier 45321 matricule 45321 notice commemorative"
   },
   {
@@ -2167,7 +2167,7 @@
     "status_class": "other",
     "portrait": "portraits/auguste-dardenne-45423.jpg",
     "portrait_alt": "Photographie de Auguste DARDENNE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Auguste DARDENNE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "auguste dardenne 45423 matricule 45423 notice commemorative"
   },
   {
@@ -2180,7 +2180,7 @@
     "status_class": "other",
     "portrait": "portraits/auguste-deshaies-45464.jpg",
     "portrait_alt": "Photographie de Auguste DESHAIES",
-    "description": "Auguste, Marie, Deshaies naît le 18 janvier 1896 au Cellier (Loire-Atlantique [1]), fils de Pierre Deshaies et Joséphine Hardy, son épouse, cultivateurs…",
+    "description": "Portrait et biographie de Auguste DESHAIES, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "auguste deshaies 45464 matricule 45464 notice commemorative"
   },
   {
@@ -2245,7 +2245,7 @@
     "status_class": "other",
     "portrait": "portraits/auguste-marie-45832.jpg",
     "portrait_alt": "Photographie de Auguste MARIE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Auguste MARIE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "auguste marie 45832 matricule 45832 notice commemorative"
   },
   {
@@ -2362,7 +2362,7 @@
     "status_class": "other",
     "portrait": "portraits/bernard-hacquin-45649.jpg",
     "portrait_alt": "Photographie de Bernard HACQUIN",
-    "description": "Bernard, Léon, Hacquin naît le 14 août 1905 à Longchamp [1] (Aube), fils de Jules Hacquin, 29 ans, forgeron, natif de Nogent-en-Bassigny (Haute-Marne –…",
+    "description": "Portrait et biographie de Bernard HACQUIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "bernard hacquin 45649 matricule 45649 notice commemorative"
   },
   {
@@ -2427,7 +2427,7 @@
     "status_class": "other",
     "portrait": "portraits/camille-delattre-45436.jpg",
     "portrait_alt": "Photographie de Camille DELATTRE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Camille DELATTRE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "camille delattre 45436 matricule 45436 notice commemorative"
   },
   {
@@ -2583,7 +2583,7 @@
     "status_class": "other",
     "portrait": "portraits/charles-barthelemy-45199.jpg",
     "portrait_alt": "Photographie de Charles BARTHÉLÉMY",
-    "description": "Charles, Joseph, BARTHELÉMY naît le 22 avril 1911 à Plainfaing (Vosges – 88), fils de Charles Barthélémy et de Joséphine Paulus, ouvriers.",
+    "description": "Portrait et biographie de Charles BARTHÉLÉMY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "charles barthelemy 45199 matricule 45199 notice commemorative"
   },
   {
@@ -2596,7 +2596,7 @@
     "status_class": "other",
     "portrait": "portraits/charles-burton-45316.jpg",
     "portrait_alt": "Photographie de Charles BURTON",
-    "description": "Charles, Joseph, Burton naît le 24 janvier 1890 à Château-Regnault-Bogny [1] (Ardennes – 08), chez ses parents, Jean Joseph Burton, 56 ans, journalier, et…",
+    "description": "Portrait et biographie de Charles BURTON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "charles burton 45316 matricule 45316 notice commemorative"
   },
   {
@@ -2648,7 +2648,7 @@
     "status_class": "other",
     "portrait": "portraits/charles-durand-45513.jpg",
     "portrait_alt": "Photographie de Charles DURAND",
-    "description": "Charles, Jérôme, Louis, René, Durand naît le 1er avril 1902 à Quimperlé (Finistère).",
+    "description": "Portrait et biographie de Charles DURAND, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "charles durand 45513 matricule 45513 notice commemorative"
   },
   {
@@ -2843,7 +2843,7 @@
     "status_class": "other",
     "portrait": "portraits/charles-rouyer-46082.jpg",
     "portrait_alt": "Photographie de Charles ROUYER",
-    "description": "Charles Rouyer naît le 22 juillet 1907 à Clichy-la-Garenne [1] (Seine / Hauts-de-Seine – 92), chez ses parents, Oscar Rouyer, 25 ans, et Joséphine Alleno…",
+    "description": "Portrait et biographie de Charles ROUYER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "charles rouyer 46082 matricule 46082 notice commemorative"
   },
   {
@@ -2973,7 +2973,7 @@
     "status_class": "other",
     "portrait": "portraits/christophe-le-meur-46247.jpg",
     "portrait_alt": "Photographie de Christophe Le MEUR",
-    "description": "Collection André Le Breton. D.R.",
+    "description": "Portrait et biographie de Christophe Le MEUR, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "christophe le meur 46247 matricule 46247 notice commemorative"
   },
   {
@@ -2999,7 +2999,7 @@
     "status_class": "other",
     "portrait": "portraits/claude-cellier-45346.jpg",
     "portrait_alt": "Photographie de Claude CELLIER",
-    "description": "Claude, Marie, Cellier naît le 13 août 1897, à Messimy, à 15 km de Lyon (Rhône – 69), de Guillaume Cellier, veloutier au moment de sa naissance, et de…",
+    "description": "Portrait et biographie de Claude CELLIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "claude cellier 45346 matricule 45346 notice commemorative"
   },
   {
@@ -3012,7 +3012,7 @@
     "status_class": "other",
     "portrait": "portraits/claude-chassepot-45358.jpg",
     "portrait_alt": "Photographie de Claude CHASSEPOT",
-    "description": "Claude-Marie, Pierre, Chassepot naît le 11 juillet 1903 à Saint-Vallier (Saône-et-Loire – 71), fils de Philibert Chassepot, 37 ans, manœuvre aux Mines de…",
+    "description": "Portrait et biographie de Claude CHASSEPOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "claude chassepot 45358 matricule 45358 notice commemorative"
   },
   {
@@ -3103,7 +3103,7 @@
     "status_class": "other",
     "portrait": "portraits/clotaire-marcel-paumier-45954.jpg",
     "portrait_alt": "Photographie de Clotaire Marcel PAUMIER",
-    "description": "Clotaire, Marcel, Paumier naît le 31 janvier 1924 à Chémery (Loir-et-Cher – 41), dans une famille de vignerons.",
+    "description": "Portrait et biographie de Clotaire Marcel PAUMIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "clotaire marcel paumier 45954 matricule 45954 notice commemorative"
   },
   {
@@ -3116,7 +3116,7 @@
     "status_class": "other",
     "portrait": "portraits/clovis-dehorter-45475.jpg",
     "portrait_alt": "Photographie de Clovis DEHORTER",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Clovis DEHORTER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "clovis dehorter 45475 matricule 45475 notice commemorative"
   },
   {
@@ -3142,7 +3142,7 @@
     "status_class": "other",
     "portrait": "portraits/constant-launay-45731.jpg",
     "portrait_alt": "Photographie de Constant LAUNAY",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Constant LAUNAY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "constant launay 45731 matricule 45731 notice commemorative"
   },
   {
@@ -3337,7 +3337,7 @@
     "status_class": "other",
     "portrait": "portraits/desire-brel-45299.png",
     "portrait_alt": "Photographie de Désiré BREL",
-    "description": "Désiré, Henri, Brel naît le 9 février 1895 à Pont-à-Mousson (Meurthe-et-Moselle), fils de François Brel, 43 ans, mouleur, et de Jeanne Lombard, 36 ans, son…",
+    "description": "Portrait et biographie de Désiré BREL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "desire brel 45299 matricule 45299 notice commemorative"
   },
   {
@@ -3376,7 +3376,7 @@
     "status_class": "other",
     "portrait": "portraits/edmond-delaume-45438.jpg",
     "portrait_alt": "Photographie de Edmond DELAUME",
-    "description": "Edmond, Marie, Laurent, Delaume naît le 6 mai 1901 à Souvigny (Allier), chez ses parents, Gustave Delaume, trente ans, sabotier, et Louise Villechenon, son…",
+    "description": "Portrait et biographie de Edmond DELAUME, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "edmond delaume 45438 matricule 45438 notice commemorative"
   },
   {
@@ -3428,7 +3428,7 @@
     "status_class": "other",
     "portrait": "portraits/edouard-andre-roguet-46065.jpg",
     "portrait_alt": "Photographie de Édouard André ROGUET",
-    "description": "Édouard, André , Louis, Roguet naît le 2 août 1891 à Romorantin (Loir-et-Cher – 41), chez ses parents, Édouard Roguet, 25 ans, ouvrier (tisseur en drap)…",
+    "description": "Portrait et biographie de Édouard André ROGUET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "edouard andre roguet 46065 matricule 46065 notice commemorative"
   },
   {
@@ -3545,7 +3545,7 @@
     "status_class": "other",
     "portrait": "portraits/elie-delville-45448.jpg",
     "portrait_alt": "Photographie de Élie DELVILLE",
-    "description": "Élie, Léopold, Joseph, Delville naît le 6 juillet 1894 à Beuvry (Pas-de-Calais – 62), fils de Jules Delville et de Marie Vantouroux.",
+    "description": "Portrait et biographie de Élie DELVILLE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "elie delville 45448 matricule 45448 notice commemorative"
   },
   {
@@ -3558,7 +3558,7 @@
     "status_class": "other",
     "portrait": "portraits/elie-gaudefroy-45575.jpg",
     "portrait_alt": "Photographie de Élie GAUDEFROY",
-    "description": "Élie, (Jean ?), Gaudefroy naît le 11 décembre 1892 à Paris 10e, à la maternité de l’hôpital Lariboisière, 2 rue Ambroise Paré, fils de Jules Gaudefroy, 33…",
+    "description": "Portrait et biographie de Élie GAUDEFROY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "elie gaudefroy 45575 matricule 45575 notice commemorative"
   },
   {
@@ -3597,7 +3597,7 @@
     "status_class": "other",
     "portrait": "portraits/emile-andres-45173.jpg",
     "portrait_alt": "Photographie de Émile ANDRÈS",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Émile ANDRÈS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "emile andres 45173 matricule 45173 notice commemorative"
   },
   {
@@ -3675,7 +3675,7 @@
     "status_class": "other",
     "portrait": "portraits/emile-desplanques-45467.jpg",
     "portrait_alt": "Photographie de Émile DESPLANQUES",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Émile DESPLANQUES, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "emile desplanques 45467 matricule 45467 notice commemorative"
   },
   {
@@ -3688,7 +3688,7 @@
     "status_class": "other",
     "portrait": "portraits/emile-drouillas-45485.jpg",
     "portrait_alt": "Photographie de Émile DROUILLAS",
-    "description": "Collection Renée Thouanel. Droits réservés.",
+    "description": "Portrait et biographie de Émile DROUILLAS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "emile drouillas 45485 matricule 45485 notice commemorative"
   },
   {
@@ -3766,7 +3766,7 @@
     "status_class": "other",
     "portrait": "portraits/emile-obel-45933.jpg",
     "portrait_alt": "Photographie de Émile OBEL",
-    "description": "Émile, Jean, Obel naît le 13 janvier 1896 à Courbevoie [1] (Seine / Hauts-de-Seine), chez sa mère, Charlotte, Jeanne , Obel, 23 ans, couturière, domiciliée…",
+    "description": "Portrait et biographie de Émile OBEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "emile obel 45933 matricule 45933 notice commemorative"
   },
   {
@@ -3779,7 +3779,7 @@
     "status_class": "other",
     "portrait": "portraits/emile-poupleau-46006.jpg",
     "portrait_alt": "Photographie de Émile POUPLEAU",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Émile POUPLEAU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "emile poupleau 46006 matricule 46006 notice commemorative"
   },
   {
@@ -3909,7 +3909,7 @@
     "status_class": "other",
     "portrait": "portraits/ernest-clement-45373.jpg",
     "portrait_alt": "Photographie de Ernest CLÉMENT",
-    "description": "Ernest, Maurice, CLÉMENT naît le 13 février 1902 à Cerdon (Loiret), chez ses parents, Jean Clément, 24 ans, domestique, et Marie Mercier, 21 ans…",
+    "description": "Portrait et biographie de Ernest CLÉMENT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "ernest clement 45373 matricule 45373 notice commemorative"
   },
   {
@@ -4078,7 +4078,7 @@
     "status_class": "other",
     "portrait": "portraits/eugene-charil-45353.jpg",
     "portrait_alt": "Photographie de Eugène CHARIL",
-    "description": "Eugène, Jean, Pascal, Louis, Charil naît le soir du 13 avril 1899 à La Roë (Mayenne), chez ses parents, Eugène Charil, 28 ans, journalier (domestique…",
+    "description": "Portrait et biographie de Eugène CHARIL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "eugene charil 45353 matricule 45353 notice commemorative"
   },
   {
@@ -4104,7 +4104,7 @@
     "status_class": "other",
     "portrait": "portraits/eugene-clement-45374.jpg",
     "portrait_alt": "Photographie de Eugène CLÉMENT",
-    "description": "Eugène, Marcel, CLÉMENT naît le 11 mai 1903 à Cerdon (Loiret), chez ses parents, Jean Clément, 25 ans, domestique, et Marie Mercier, 22 ans, couturière…",
+    "description": "Portrait et biographie de Eugène CLÉMENT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "eugene clement 45374 matricule 45374 notice commemorative"
   },
   {
@@ -4234,7 +4234,7 @@
     "status_class": "other",
     "portrait": "portraits/eugene-omphalius-45937.jpg",
     "portrait_alt": "Photographie de Eugène OMPHALIUS",
-    "description": "Eugène, Paul, Louis, Omphalius naît le 6 janvier 1921 à Rosny-sous-Bois [1] (Seine-Saint-Denis – 93), fils d’Auguste Omphalius et de Marie Platrier, son…",
+    "description": "Portrait et biographie de Eugène OMPHALIUS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "eugene omphalius 45937 matricule 45937 notice commemorative"
   },
   {
@@ -4403,7 +4403,7 @@
     "status_class": "other",
     "portrait": "portraits/felix-pommier-46000.jpg",
     "portrait_alt": "Photographie de Félix POMMIER",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Félix POMMIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "felix pommier 46000 matricule 46000 notice commemorative"
   },
   {
@@ -4455,7 +4455,7 @@
     "status_class": "other",
     "portrait": "portraits/ferdinand-thiault-46138.jpg",
     "portrait_alt": "Photographie de Ferdinand THIAULT",
-    "description": "Ferdinand, Marcel, Thiault naît le 12 janvier 1888 à Rueil [1] (Seine-et-Oise / Hauts-de-Seine), fils d’Urbain Thiault, 23 ans, jardinier, et de Marie…",
+    "description": "Portrait et biographie de Ferdinand THIAULT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "ferdinand thiault 46138 matricule 46138 notice commemorative"
   },
   {
@@ -4507,7 +4507,7 @@
     "status_class": "other",
     "portrait": "portraits/fernand-blanchard-45256.jpg",
     "portrait_alt": "Photographie de Fernand BLANCHARD",
-    "description": "Fernand, Maurice, Blanchard naît le 31 décembre 1923 à Paris 8e, fils d’André Blanchard, 20 ans, plombier, et de Marcelle Aline Legrand, 22 ans.",
+    "description": "Portrait et biographie de Fernand BLANCHARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "fernand blanchard 45256 matricule 45256 notice commemorative"
   },
   {
@@ -4559,7 +4559,7 @@
     "status_class": "other",
     "portrait": "portraits/fernand-carteron-45336.jpg",
     "portrait_alt": "Photographie de Fernand CARTERON",
-    "description": "Fernand, Lucien, Carteron naît le 18 mai 1914 à Saint-Loup-de-Naud (Seine-et-Marne – 77), fils de Charles Carteron et d’Antoinette Pron, son épouse.…",
+    "description": "Portrait et biographie de Fernand CARTERON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "fernand carteron 45336 matricule 45336 notice commemorative"
   },
   {
@@ -4637,7 +4637,7 @@
     "status_class": "other",
     "portrait": "portraits/fernand-salmon-46093.jpg",
     "portrait_alt": "Photographie de Fernand SALMON",
-    "description": "Fernand, Joseph, Salmon naît le 16 juin 1897 à Genneton (Deux-Sèvres – 79), fils d’André Salmon, 31 ans, tailleur, décédé chez lui vingt jours avant la…",
+    "description": "Portrait et biographie de Fernand SALMON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "fernand salmon 46093 matricule 46093 notice commemorative"
   },
   {
@@ -4793,7 +4793,7 @@
     "status_class": "other",
     "portrait": "portraits/francois-daoudal-45422.jpg",
     "portrait_alt": "Photographie de François DAOUDAL",
-    "description": "François, Jean, Marie, Daoudal naît le 16 février 1922 à Guérande (Loire-Atlantique [1]), fils de Jean Daoudal et Louise Le Moal, une famille d’ouvriers…",
+    "description": "Portrait et biographie de François DAOUDAL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "francois daoudal 45422 matricule 45422 notice commemorative"
   },
   {
@@ -4871,7 +4871,7 @@
     "status_class": "other",
     "portrait": "portraits/francois-le-bris-45745.png",
     "portrait_alt": "Photographie de François Le BRIS",
-    "description": "François, Marie, Le Bris naît le 4 février 1903 à Sizun (Finistère – 29), fils de Jean Le Bris et de Jeanne Autret.",
+    "description": "Portrait et biographie de François Le BRIS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "francois le bris 45745 matricule 45745 notice commemorative"
   },
   {
@@ -4910,7 +4910,7 @@
     "status_class": "other",
     "portrait": "portraits/francois-pelletan-45959.jpg",
     "portrait_alt": "Photographie de François PELLETAN",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de François PELLETAN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "francois pelletan 45959 matricule 45959 notice commemorative"
   },
   {
@@ -4949,7 +4949,7 @@
     "status_class": "other",
     "portrait": "portraits/francois-stephan-46120.jpg",
     "portrait_alt": "Photographie de François STÉPHAN",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de François STÉPHAN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "francois stephan 46120 matricule 46120 notice commemorative"
   },
   {
@@ -4975,7 +4975,7 @@
     "status_class": "other",
     "portrait": "portraits/francois-viaud-46190.jpg",
     "portrait_alt": "Photographie de François VIAUD",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de François VIAUD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "francois viaud 46190 matricule 46190 notice commemorative"
   },
   {
@@ -4988,7 +4988,7 @@
     "status_class": "other",
     "portrait": "portraits/frederic-ginollin-45602.jpg",
     "portrait_alt": "Photographie de Frédéric GINOLLIN",
-    "description": "Frédéric, Jean, Marie, Ginollin naît le 10 mai 1912 à Suresnes [1] (Hauts-de-Seine), chez ses parents, Marie, Frédéric, Ginollin, 30 ans, livreur, et Eva…",
+    "description": "Portrait et biographie de Frédéric GINOLLIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "frederic ginollin 45602 matricule 45602 notice commemorative"
   },
   {
@@ -5014,7 +5014,7 @@
     "status_class": "other",
     "portrait": "portraits/gabriel-dit-gaby-lejard-45772.jpg",
     "portrait_alt": "Photographie de Gabriel Dit Gaby LEJARD",
-    "description": "Gabriel, Jean, Léon, Lejard, naît le 5 juillet 1901 à Barges (Côte-d’Or – 21) de Auguste Lejard, 31 ans, “pensionné”, et de Jeanne Chevalier, 25 ans, sans…",
+    "description": "Portrait et biographie de Gabriel Dit Gaby LEJARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "gabriel dit gaby lejard 45772 matricule 45772 notice commemorative"
   },
   {
@@ -5027,7 +5027,7 @@
     "status_class": "other",
     "portrait": "portraits/gabriel-eustache-46233.jpg",
     "portrait_alt": "Photographie de Gabriel EUSTACHE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Gabriel EUSTACHE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "gabriel eustache 46233 matricule 46233 notice commemorative"
   },
   {
@@ -5040,7 +5040,7 @@
     "status_class": "other",
     "portrait": "portraits/gabriel-lacassagne-45709.jpg",
     "portrait_alt": "Photographie de Gabriel LACASSAGNE",
-    "description": "Droits réservés.",
+    "description": "Portrait et biographie de Gabriel LACASSAGNE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "gabriel lacassagne 45709 matricule 45709 notice commemorative"
   },
   {
@@ -5105,7 +5105,7 @@
     "status_class": "other",
     "portrait": "portraits/gabriel-royer-46074.jpg",
     "portrait_alt": "Photographie de Gabriel ROYER",
-    "description": "Gabriel, Maurice, Royer naît le 27 juillet 1901 à Esternay (Marne – 51), chez sa grand-mère maternelle Louise Marion, fils de Henri Royer, 26 ans, facteur…",
+    "description": "Portrait et biographie de Gabriel ROYER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "gabriel royer 46074 matricule 46074 notice commemorative"
   },
   {
@@ -5339,7 +5339,7 @@
     "status_class": "other",
     "portrait": "portraits/georges-collin-45387.jpg",
     "portrait_alt": "Photographie de Georges COLLIN",
-    "description": "Georges, Louis, Collin naît le 4 avril 1894 à Semoutiers (Haute-Marne – 52),, chez une sage-femme. Il est le fils de Louise Collin, 29 ans, célibataire…",
+    "description": "Portrait et biographie de Georges COLLIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "georges collin 45387 matricule 45387 notice commemorative"
   },
   {
@@ -5365,7 +5365,7 @@
     "status_class": "other",
     "portrait": "portraits/georges-delaunay-45439.jpg",
     "portrait_alt": "Photographie de Georges DELAUNAY",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Georges DELAUNAY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "georges delaunay 45439 matricule 45439 notice commemorative"
   },
   {
@@ -5378,7 +5378,7 @@
     "status_class": "other",
     "portrait": "portraits/georges-denance-45454.jpg",
     "portrait_alt": "Photographie de Georges DENANCÉ",
-    "description": "Georges, Alfred, Louis, Denancé naît le 24 septembre 1891 à Laval (Mayenne), fils de Victoire Denancé, cultivatrice, née en 1859 à Oisseau (53).",
+    "description": "Portrait et biographie de Georges DENANCÉ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "georges denance 45454 matricule 45454 notice commemorative"
   },
   {
@@ -5404,7 +5404,7 @@
     "status_class": "other",
     "portrait": "portraits/georges-dupressoir-45511.jpg",
     "portrait_alt": "Photographie de Georges DUPRESSOIR",
-    "description": "Georges, Julien, Lumet naît le 17 juillet 1893 à Reuilly, entre Issoudun et Vierzon (Indre, à la limite du Cher), fils de Juliette Lumet, 25 ans…",
+    "description": "Portrait et biographie de Georges DUPRESSOIR, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "georges dupressoir 45511 matricule 45511 notice commemorative"
   },
   {
@@ -5469,7 +5469,7 @@
     "status_class": "other",
     "portrait": "portraits/georges-giraud-45608.jpg",
     "portrait_alt": "Photographie de Georges GIRAUD",
-    "description": "Georges, Jules, Giraud naît le 12 avril 1889 à Bourges (Cher), chez ses parents, Louis Giraud, 46 ans, charron, et Thérèse Very, 42 ans, son épouse…",
+    "description": "Portrait et biographie de Georges GIRAUD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "georges giraud 45608 matricule 45608 notice commemorative"
   },
   {
@@ -5560,7 +5560,7 @@
     "status_class": "other",
     "portrait": "portraits/georges-mapataud-45824.jpg",
     "portrait_alt": "Photographie de Georges MAPATAUD",
-    "description": "Georges, Marcel, Mapataud nait le 9 juin 1922 à Paris 13e (75). Sa mère, Catherine Mapataud, ouvrière (mécanicienne) en usine, vit maritalement avec un…",
+    "description": "Portrait et biographie de Georges MAPATAUD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "georges mapataud 45824 matricule 45824 notice commemorative"
   },
   {
@@ -5573,7 +5573,7 @@
     "status_class": "other",
     "portrait": "portraits/georges-marin-45834.jpg",
     "portrait_alt": "Photographie de Georges MARIN",
-    "description": "Georges, Jules, Édouard, Marin naît le 13 février 1921 à Paris 10e, fils de Jean Marin et de Suzanne Georget ; son père est infirmier de nuit à l’hôpital…",
+    "description": "Portrait et biographie de Georges MARIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "georges marin 45834 matricule 45834 notice commemorative"
   },
   {
@@ -5729,7 +5729,7 @@
     "status_class": "other",
     "portrait": "portraits/georges-thorez-46326.jpg",
     "portrait_alt": "Photographie de Georges THOREZ",
-    "description": "Georges Thorez naît le 18 novembre 1905 aux Attaques (Pas-de-Calais), fils d’Édgard Thorez, 33 ans, batelier, et de Marie Éléonore Triquet, 23 ans…",
+    "description": "Portrait et biographie de Georges THOREZ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "georges thorez 46326 matricule 46326 notice commemorative"
   },
   {
@@ -5833,7 +5833,7 @@
     "status_class": "other",
     "portrait": "portraits/gerard-gillot-45601.jpg",
     "portrait_alt": "Photographie de Gérard GILLOT",
-    "description": "Gérard, Lucien, Gillot naît le 17 juillet 1921 à Saint-Éliph (Eure-et-Loir – 28), fils de Julien Gillot, 24 ans, et de Thérèse Gouyer, son épouse, 20 ans.",
+    "description": "Portrait et biographie de Gérard GILLOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "gerard gillot 45601 matricule 45601 notice commemorative"
   },
   {
@@ -6119,7 +6119,7 @@
     "status_class": "other",
     "portrait": "portraits/guiseppe-joseph-carattoni-45328.jpg",
     "portrait_alt": "Photographie de Guiseppe Joseph CARATTONI",
-    "description": "Guiseppe (Joseph) Carattoni naît le 10 juin 1915 à San Marino (Italie).",
+    "description": "Portrait et biographie de Guiseppe Joseph CARATTONI, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "guiseppe joseph carattoni 45328 matricule 45328 notice commemorative"
   },
   {
@@ -6158,7 +6158,7 @@
     "status_class": "other",
     "portrait": "portraits/gustave-depriester-45458.jpg",
     "portrait_alt": "Photographie de Gustave DEPRIESTER",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Gustave DEPRIESTER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "gustave depriester 45458 matricule 45458 notice commemorative"
   },
   {
@@ -6236,7 +6236,7 @@
     "status_class": "other",
     "portrait": "portraits/hai-king-wang-46205.jpg",
     "portrait_alt": "Photographie de Haï-King WANG",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Haï-King WANG, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "hai king wang 46205 matricule 46205 notice commemorative"
   },
   {
@@ -6366,7 +6366,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-asselineau-45179.jpg",
     "portrait_alt": "Photographie de Henri ASSELINEAU",
-    "description": "Henri, Jules, Asselineau naît le 27 février 1893 à Entrains-sur-Nohain, non loin de Clamecy (Nièvre – 58), fils de Jules François Asselineau, 35 ans…",
+    "description": "Portrait et biographie de Henri ASSELINEAU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri asselineau 45179 matricule 45179 notice commemorative"
   },
   {
@@ -6431,7 +6431,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-corne-45398.jpg",
     "portrait_alt": "Photographie de Henri CORNE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Henri CORNE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri corne 45398 matricule 45398 notice commemorative"
   },
   {
@@ -6483,7 +6483,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-duplat-45508.jpg",
     "portrait_alt": "Photographie de Henri DUPLAT",
-    "description": "Henri, Lucien, Duplat naît le 11 décembre 1912 à Paris 12e, fils d’Henri Duplat et d’Anne Marie Latinier.",
+    "description": "Portrait et biographie de Henri DUPLAT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri duplat 45508 matricule 45508 notice commemorative"
   },
   {
@@ -6509,7 +6509,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-ferchaud-45535.jpg",
     "portrait_alt": "Photographie de Henri FERCHAUD",
-    "description": "Henri, Louis, Ferchaud naît le 14 décembre 1895 à Gonnord [1] (Maine-et-Loire – 49), chez ses parents, Jean Ferchaud, 35 ans, tailleur d’habits, et Anne…",
+    "description": "Portrait et biographie de Henri FERCHAUD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri ferchaud 45535 matricule 45535 notice commemorative"
   },
   {
@@ -6613,7 +6613,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-hureau-45676.jpg",
     "portrait_alt": "Photographie de Henri HUREAU",
-    "description": "Henri, Jean-Baptiste, Hureau naît le 16 juin 1893 à Béthencourt (Nord – 59), , chez ses parents, Jean-Baptiste Hureau, 36 ans, cuiseur de sucre (Delangre à…",
+    "description": "Portrait et biographie de Henri HUREAU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri hureau 45676 matricule 45676 notice commemorative"
   },
   {
@@ -6639,7 +6639,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-jouffin-45693.jpg",
     "portrait_alt": "Photographie de Henri JOUFFIN",
-    "description": "Henri, Jean, Jouffin naît le 3 octobre 1916 à Saignes (Cantal), fils d’Henri Jouffin, 34 ans, jardinier, alors mobilisé, et de d’Anna (Coullon ?), 27 ans…",
+    "description": "Portrait et biographie de Henri JOUFFIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri jouffin 45693 matricule 45693 notice commemorative"
   },
   {
@@ -6652,7 +6652,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-jules-pernot-45964.jpg",
     "portrait_alt": "Photographie de Henri Jules PERNOT",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Henri Jules PERNOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri jules pernot 45964 matricule 45964 notice commemorative"
   },
   {
@@ -6665,7 +6665,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-lefevre-45762.jpg",
     "portrait_alt": "Photographie de Henri LEFEVRE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Henri LEFEVRE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri lefevre 45762 matricule 45762 notice commemorative"
   },
   {
@@ -6678,7 +6678,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-marchand-45828.jpg",
     "portrait_alt": "Photographie de Henri MARCHAND",
-    "description": "Henri, Lucien, Marchand, né le 22 mars 1899 aux Lilas [1] (Seine-Saint-Denis – 93), fils de Lucien Marchand, polisseur, et de Berthe Héron. Il a – au moins…",
+    "description": "Portrait et biographie de Henri MARCHAND, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri marchand 45828 matricule 45828 notice commemorative"
   },
   {
@@ -6743,7 +6743,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-philippart-45979.jpg",
     "portrait_alt": "Photographie de Henri PHILIPPART",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Henri PHILIPPART, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri philippart 45979 matricule 45979 notice commemorative"
   },
   {
@@ -6769,7 +6769,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-queruel-46027.jpg",
     "portrait_alt": "Photographie de Henri QUÉRUEL",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Henri QUÉRUEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri queruel 46027 matricule 46027 notice commemorative"
   },
   {
@@ -6782,7 +6782,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-riochet-46059.jpg",
     "portrait_alt": "Photographie de Henri RIOCHET",
-    "description": "Henri, Yves, Généreux, Marie, Riochet naît le 6 mai 1903 à Troyon (Meuse), fils de Pierre Riochet et d’Alphonsine, née Hillion.",
+    "description": "Portrait et biographie de Henri RIOCHET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri riochet 46059 matricule 46059 notice commemorative"
   },
   {
@@ -6795,7 +6795,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-rolland-46067.jpg",
     "portrait_alt": "Photographie de Henri ROLLAND",
-    "description": "Henri, Joseph, Marie, Rolland naît le 18 décembre 1922 à Paris 11e, fils de Joseph Marie Rolland, 22 ans, et d’Agnès Kerguen.",
+    "description": "Portrait et biographie de Henri ROLLAND, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri rolland 46067 matricule 46067 notice commemorative"
   },
   {
@@ -6860,7 +6860,7 @@
     "status_class": "other",
     "portrait": "portraits/henri-varlet-46177.jpg",
     "portrait_alt": "Photographie de Henri VARLET",
-    "description": "Henri, Jean, Varlet naît le 22 juillet 1920 à Paris 20e, fils d’Henri Varlet et de Victorine Vallée. Il est l’aîné d’une famille de cinq enfants, dont son…",
+    "description": "Portrait et biographie de Henri VARLET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "henri varlet 46177 matricule 46177 notice commemorative"
   },
   {
@@ -7029,7 +7029,7 @@
     "status_class": "other",
     "portrait": "portraits/isidore-petat-45974.jpg",
     "portrait_alt": "Photographie de Isidore PETAT",
-    "description": "Isidore, Louis, Petat naît le 18 novembre 1892 à Dun-le-Poëlier (Indre – 36), fils de Henri Petat, 38 ans, vigneron, cultivateur, et de Marie Louise…",
+    "description": "Portrait et biographie de Isidore PETAT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "isidore petat 45974 matricule 45974 notice commemorative"
   },
   {
@@ -7185,7 +7185,7 @@
     "status_class": "other",
     "portrait": "portraits/jacques-marteaux-45840.jpg",
     "portrait_alt": "Photographie de Jacques MARTEAUX",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Jacques MARTEAUX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jacques marteaux 45840 matricule 45840 notice commemorative"
   },
   {
@@ -7224,7 +7224,7 @@
     "status_class": "other",
     "portrait": "portraits/jan-jean-krecioch-45706.jpg",
     "portrait_alt": "Photographie de Jan Jean KRECIOCH",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Jan Jean KRECIOCH, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jan jean krecioch 45706 matricule 45706 notice commemorative"
   },
   {
@@ -7237,7 +7237,7 @@
     "status_class": "other",
     "portrait": "portraits/jan-jean-trzeciak-46162.jpg",
     "portrait_alt": "Photographie de Jan Jean TRZECIAK",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Jan Jean TRZECIAK, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jan jean trzeciak 46162 matricule 46162 notice commemorative"
   },
   {
@@ -7276,7 +7276,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-baptiste-lory-45804.jpg",
     "portrait_alt": "Photographie de Jean Baptiste LORY",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Jean Baptiste LORY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean baptiste lory 45804 matricule 45804 notice commemorative"
   },
   {
@@ -7419,7 +7419,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-even-45524.jpg",
     "portrait_alt": "Photographie de Jean ÉVEN",
-    "description": "Jean, François, Marie, Éven naît le 22 août 1919 à Quéven (Morbihan), fils de Jean Louis Even, 28 ans, cultivateur, et de Jeanne Marie Hellou, 28 ans, son…",
+    "description": "Portrait et biographie de Jean ÉVEN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean even 45524 matricule 45524 notice commemorative"
   },
   {
@@ -7432,7 +7432,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-favret-45531.jpg",
     "portrait_alt": "Photographie de Jean FAVRET",
-    "description": "Jean Favret naît le 1er août 1913 à Montigny-lès-Cherlieu (Haute-Saône – 70), fils de Florentin Favret, 31 ans, terrassier, et de Marie Louise Morlot, 27…",
+    "description": "Portrait et biographie de Jean FAVRET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean favret 45531 matricule 45531 notice commemorative"
   },
   {
@@ -7458,7 +7458,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-gros-46242.jpg",
     "portrait_alt": "Photographie de Jean GROS",
-    "description": "Jean, Charles, Louis, Gros naît le 20 mars 1922 à Paris 20e (75).",
+    "description": "Portrait et biographie de Jean GROS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean gros 46242 matricule 46242 notice commemorative"
   },
   {
@@ -7471,7 +7471,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-guenon-45630.jpg",
     "portrait_alt": "Photographie de Jean GUÉNON",
-    "description": "Jean Guénon naît le 11 septembre 1916 au lieu dit Matrat, sur la commune de Clérac (Charente-Inférieure / Charente-Maritime – 17), fils de Marguerite…",
+    "description": "Portrait et biographie de Jean GUÉNON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean guenon 45630 matricule 45630 notice commemorative"
   },
   {
@@ -7484,7 +7484,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-guier-45638.jpg",
     "portrait_alt": "Photographie de Jean GUÏER",
-    "description": "Jean, Marie (ou Jean-Marie, mais il signe « Jean »), Marcel, Cordier naît le 12 juin 1920 à l’hôpital Cochin, 123 boulevard de Port-Royal à Paris 14e, fils…",
+    "description": "Portrait et biographie de Jean GUÏER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean guier 45638 matricule 45638 notice commemorative"
   },
   {
@@ -7497,7 +7497,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-guilbert-45639.jpg",
     "portrait_alt": "Photographie de Jean GUILBERT",
-    "description": "Jean Guilbert naît le 10 septembre 1908 à Avesnes-lez-Aubert, entre Cambrai et Valenciennes (Nord), chez ses parents, Jean-Baptiste Guilbert, 40 ans…",
+    "description": "Portrait et biographie de Jean GUILBERT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean guilbert 45639 matricule 45639 notice commemorative"
   },
   {
@@ -7510,7 +7510,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-hernando-45659.jpg",
     "portrait_alt": "Photographie de Jean HERNANDO",
-    "description": "Auschwitz-I, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+    "description": "Portrait et biographie de Jean HERNANDO, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean hernando 45659 matricule 45659 notice commemorative"
   },
   {
@@ -7575,7 +7575,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-louis-le-mouel-45781.jpg",
     "portrait_alt": "Photographie de Jean-Louis Le MOUËL",
-    "description": "Jean, Louis, Le Mouël naît le 7 janvier 1909 à Plouay (Morbihan – 56), fils de Louis Le Mouel, 49 ans, retraité, et de Marie Jaouen, son épouse, 41 ans…",
+    "description": "Portrait et biographie de Jean-Louis Le MOUËL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean louis le mouel 45781 matricule 45781 notice commemorative"
   },
   {
@@ -7588,7 +7588,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-louis-stervinou-46122.jpg",
     "portrait_alt": "Photographie de Jean-Louis STERVINOU",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Jean-Louis STERVINOU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean louis stervinou 46122 matricule 46122 notice commemorative"
   },
   {
@@ -7627,7 +7627,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-maretheux-45830.jpg",
     "portrait_alt": "Photographie de Jean MARETHEUX",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Jean MARETHEUX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean maretheux 45830 matricule 45830 notice commemorative"
   },
   {
@@ -7640,7 +7640,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-marie-prugnot-46023.jpg",
     "portrait_alt": "Photographie de Jean-Marie PRUGNOT",
-    "description": "Collection Stéphanie Coutant. Droits réservés.",
+    "description": "Portrait et biographie de Jean-Marie PRUGNOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean marie prugnot 46023 matricule 46023 notice commemorative"
   },
   {
@@ -7653,7 +7653,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-matrisciano-45862.jpg",
     "portrait_alt": "Photographie de Jean MATRISCIANO",
-    "description": "Jean Matrisciano naît le 15 janvier 1923 à Chabris (Indre).",
+    "description": "Portrait et biographie de Jean MATRISCIANO, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean matrisciano 45862 matricule 45862 notice commemorative"
   },
   {
@@ -7666,7 +7666,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-maurice-46251.jpg",
     "portrait_alt": "Photographie de Jean MAURICE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Jean MAURICE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean maurice 46251 matricule 46251 notice commemorative"
   },
   {
@@ -7692,7 +7692,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-nageot-45917.jpg",
     "portrait_alt": "Photographie de Jean NAGEOT",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Jean NAGEOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean nageot 45917 matricule 45917 notice commemorative"
   },
   {
@@ -7718,7 +7718,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-paupy-45955.jpg",
     "portrait_alt": "Photographie de Jean PAUPY",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Jean PAUPY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean paupy 45955 matricule 45955 notice commemorative"
   },
   {
@@ -7731,7 +7731,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-perot-46255.jpg",
     "portrait_alt": "Photographie de Jean PÉROT",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Jean PÉROT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean perot 46255 matricule 46255 notice commemorative"
   },
   {
@@ -7770,7 +7770,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-pomier-45999.jpg",
     "portrait_alt": "Photographie de Jean POMIER",
-    "description": "Jean Eugène Pomier naît le 13 décembre 1907 à Paris 8e, à la maternité de l’hôpital Beaujon, 208 rue du Faubourg-Saint-Honoré, fils de Jacques Alphonse…",
+    "description": "Portrait et biographie de Jean POMIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean pomier 45999 matricule 45999 notice commemorative"
   },
   {
@@ -7822,7 +7822,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-reich-46041.jpg",
     "portrait_alt": "Photographie de Jean REICH",
-    "description": "Auschwitz-I, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Collection Mémoire Vive. Droits réservés.",
+    "description": "Portrait et biographie de Jean REICH, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean reich 46041 matricule 46041 notice commemorative"
   },
   {
@@ -7848,7 +7848,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-romanet-46068.jpg",
     "portrait_alt": "Photographie de Jean ROMANET",
-    "description": "Auschwitz-I, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Coll. Mémoire Vive. Droits réservés.",
+    "description": "Portrait et biographie de Jean ROMANET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean romanet 46068 matricule 46068 notice commemorative"
   },
   {
@@ -7887,7 +7887,7 @@
     "status_class": "other",
     "portrait": "portraits/jean-tarnus-46129.jpg",
     "portrait_alt": "Photographie de Jean TARNUS",
-    "description": "Jean (dit « Jeannot » ?), Louis, Tarnus, naît le 7 mai 1914 à Bouligny, 35 km au nord-est de Verdun (Meuse – 55).",
+    "description": "Portrait et biographie de Jean TARNUS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean tarnus 46129 matricule 46129 notice commemorative"
   },
   {
@@ -8095,7 +8095,7 @@
     "status_class": "other",
     "portrait": "portraits/josef-marmelstein-46299.jpg",
     "portrait_alt": "Photographie de Josef MARMELSTEIN",
-    "description": "Joseph Marmelstein (Marmelsztejn) naît le 18 janvier 1899 à Varsovie (Pologne). Il est de nationalité polonaise.",
+    "description": "Portrait et biographie de Josef MARMELSTEIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "josef marmelstein 46299 matricule 46299 notice commemorative"
   },
   {
@@ -8108,7 +8108,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-besnier-45238.jpg",
     "portrait_alt": "Photographie de Joseph BESNIER",
-    "description": "Joseph, Jacques, Émile, Besnier naît le 26 mai 1921 à Trun (Orne), fils de Joseph Besnier, 23 ans, “garde moulin”, et de Solange Dudouit, 18 ans, son…",
+    "description": "Portrait et biographie de Joseph BESNIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph besnier 45238 matricule 45238 notice commemorative"
   },
   {
@@ -8121,7 +8121,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-biffe-45246.jpg",
     "portrait_alt": "Photographie de Joseph BIFFE",
-    "description": "En mars 1937… © RATP/Archives définitives.",
+    "description": "Portrait et biographie de Joseph BIFFE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph biffe 45246 matricule 45246 notice commemorative"
   },
   {
@@ -8134,7 +8134,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-daniel-45421.jpg",
     "portrait_alt": "Photographie de Joseph DANIEL",
-    "description": "Joseph, Marie, DANIEL, naît le 14 septembre 1902 à Saint-Nazaire (Loire-Inférieure / Loire-Atlantique [1] – 44), dans le quartier des « Prévôts » à…",
+    "description": "Portrait et biographie de Joseph DANIEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph daniel 45421 matricule 45421 notice commemorative"
   },
   {
@@ -8147,7 +8147,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-filloux-45541.jpg",
     "portrait_alt": "Photographie de Joseph FILLOUX",
-    "description": "Joseph, François, Filloux naît le 22 mars 1899 à Villefranche-sur-Cher, à 6 km de Romorantin (Loir-et-Cher – 41), chez ses parents, François, Ambroise…",
+    "description": "Portrait et biographie de Joseph FILLOUX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph filloux 45541 matricule 45541 notice commemorative"
   },
   {
@@ -8160,7 +8160,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-germain-45595.jpg",
     "portrait_alt": "Photographie de Joseph GERMAIN",
-    "description": "Joseph GERMAIN naît le 1er octobre 1910 au lieu-dit Boisbelle à Henrichemont (Cher – 18), chez ses parents, Joseph Germain, 34 ans, étameur, et…",
+    "description": "Portrait et biographie de Joseph GERMAIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph germain 45595 matricule 45595 notice commemorative"
   },
   {
@@ -8173,7 +8173,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-gilles-45600.jpg",
     "portrait_alt": "Photographie de Joseph GILLES",
-    "description": "Joseph GILLES naît le 26 novembre 1897 à Épinac-les-Mines (Saône-et-Loire – 71), fils de Henri Gilles, 25 ans, verrier chez Trunel et Compagnie, et de…",
+    "description": "Portrait et biographie de Joseph GILLES, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph gilles 45600 matricule 45600 notice commemorative"
   },
   {
@@ -8186,7 +8186,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-kerherve-45702.jpg",
     "portrait_alt": "Photographie de Joseph KERHERVÉ",
-    "description": "Joseph Kerhervé naît le 6 juin 1904 à Lohuec (Côtes-du-Nord / Côtes-d’Armor [1]), de François Kerhervé, 38 ans, laboureur, et de Maria Jaouen, son épouse…",
+    "description": "Portrait et biographie de Joseph KERHERVÉ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph kerherve 45702 matricule 45702 notice commemorative"
   },
   {
@@ -8199,7 +8199,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-kermen-45703.jpg",
     "portrait_alt": "Photographie de Joseph KERMEN",
-    "description": "Joseph Kermen en mai 1941. Collection P. Labate. Droits Réservés.",
+    "description": "Portrait et biographie de Joseph KERMEN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph kermen 45703 matricule 45703 notice commemorative"
   },
   {
@@ -8212,7 +8212,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-llorens-45798.jpg",
     "portrait_alt": "Photographie de Joseph LLORENS",
-    "description": "Portrait extrait de la photo familiale. Collection Christophe Llorens, droits réservés.",
+    "description": "Portrait et biographie de Joseph LLORENS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph llorens 45798 matricule 45798 notice commemorative"
   },
   {
@@ -8225,7 +8225,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-matis-45861.jpg",
     "portrait_alt": "Photographie de Joseph MATIS",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Joseph MATIS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph matis 45861 matricule 45861 notice commemorative"
   },
   {
@@ -8238,7 +8238,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-millerioux-46252.jpg",
     "portrait_alt": "Photographie de Joseph MILLERIOUX",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Joseph MILLERIOUX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph millerioux 46252 matricule 46252 notice commemorative"
   },
   {
@@ -8251,7 +8251,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-ou-josef-gawron-ou-gavron-46276.jpg",
     "portrait_alt": "Photographie de Joseph Ou Josef Gawron Ou GAVRON",
-    "description": "Josef Gawron naît le 3 mars 1924 à Bruxelles (Belgique), fils de Szmul Gawron et de Perla Nasielska.",
+    "description": "Portrait et biographie de Joseph Ou Josef Gawron Ou GAVRON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph ou josef gawron ou gavron 46276 matricule 46276 notice commemorative"
   },
   {
@@ -8264,7 +8264,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-schneider-46258.jpg",
     "portrait_alt": "Photographie de Joseph SCHNEIDER",
-    "description": "Joseph, Georges, Schneider naît le 23 avril 1898 à Villerupt (Meurthe-et-Moselle – 54), fils de Michel Schneider, 35 ans, journalier, et de Barbe Feldmann…",
+    "description": "Portrait et biographie de Joseph SCHNEIDER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph schneider 46258 matricule 46258 notice commemorative"
   },
   {
@@ -8277,7 +8277,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-tortora-46151.jpg",
     "portrait_alt": "Photographie de Joseph TORTORA",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Joseph TORTORA, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph tortora 46151 matricule 46151 notice commemorative"
   },
   {
@@ -8290,7 +8290,7 @@
     "status_class": "other",
     "portrait": "portraits/joseph-verger-46185.jpg",
     "portrait_alt": "Photographie de Joseph VERGER",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Joseph VERGER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph verger 46185 matricule 46185 notice commemorative"
   },
   {
@@ -8355,7 +8355,7 @@
     "status_class": "other",
     "portrait": "portraits/jules-crampon-45409.jpg",
     "portrait_alt": "Photographie de Jules CRAMPON",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Jules CRAMPON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jules crampon 45409 matricule 45409 notice commemorative"
   },
   {
@@ -8368,7 +8368,7 @@
     "status_class": "other",
     "portrait": "portraits/jules-dubrulle-45490.jpg",
     "portrait_alt": "Photographie de Jules DUBRULLE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Jules DUBRULLE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jules dubrulle 45490 matricule 45490 notice commemorative"
   },
   {
@@ -8381,7 +8381,7 @@
     "status_class": "other",
     "portrait": "portraits/jules-huon-45675.jpg",
     "portrait_alt": "Photographie de Jules HUON",
-    "description": "Jules Huon naît le 20 janvier 1890 à Reims (Marne – 51), chez ses parents, Paul Huon, 28 ans, tisseur, et Françoise Félicité Devise, son épouse, 26 ans…",
+    "description": "Portrait et biographie de Jules HUON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jules huon 45675 matricule 45675 notice commemorative"
   },
   {
@@ -8394,7 +8394,7 @@
     "status_class": "other",
     "portrait": "portraits/jules-le-troadec-45766.jpg",
     "portrait_alt": "Photographie de Jules Le TROADEC",
-    "description": "Jules, Joseph, Marie, Le Troadec naît le 27 janvier 1895 à Bourbriac (Côtes-d’Armor [1]. – 22), fils de Jean-François Le Troadec, 35 ans, et de…",
+    "description": "Portrait et biographie de Jules Le TROADEC, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jules le troadec 45766 matricule 45766 notice commemorative"
   },
   {
@@ -8420,7 +8420,7 @@
     "status_class": "other",
     "portrait": "portraits/jules-polosecki-46305.jpg",
     "portrait_alt": "Photographie de Jules POLOSECKI",
-    "description": "Golola, Jules, Polosecki naît le 15 juin 1909 à Lomazy (Pologne). Orphelin à cinq ans, placé chez une tante, il apprend très jeune à se débrouiller.…",
+    "description": "Portrait et biographie de Jules POLOSECKI, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jules polosecki 46305 matricule 46305 notice commemorative"
   },
   {
@@ -8446,7 +8446,7 @@
     "status_class": "other",
     "portrait": "portraits/julien-aligny-46214.jpg",
     "portrait_alt": "Photographie de Julien ALIGNY",
-    "description": "Julien, Gustave, Charles, Aligny naît le 4 mai 1914 à Prétot-Vicquemare (Seine-Inférieure / Seine-Maritime [1] – 76), fils d’un bûcheron et d’une lingère.…",
+    "description": "Portrait et biographie de Julien ALIGNY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "julien aligny 46214 matricule 46214 notice commemorative"
   },
   {
@@ -8472,7 +8472,7 @@
     "status_class": "other",
     "portrait": "portraits/julien-deluce-45447.jpg",
     "portrait_alt": "Photographie de Julien DELUCE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Julien DELUCE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "julien deluce 45447 matricule 45447 notice commemorative"
   },
   {
@@ -8485,7 +8485,7 @@
     "status_class": "other",
     "portrait": "portraits/julien-faradon-45527.jpg",
     "portrait_alt": "Photographie de Julien FARADON",
-    "description": "Julien Faradon avant guerre. © Collection Éric de Villepoix.",
+    "description": "Portrait et biographie de Julien FARADON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "julien faradon 45527 matricule 45527 notice commemorative"
   },
   {
@@ -8498,7 +8498,7 @@
     "status_class": "other",
     "portrait": "portraits/julien-jurion-45701.jpg",
     "portrait_alt": "Photographie de Julien JURION",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Julien JURION, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "julien jurion 45701 matricule 45701 notice commemorative"
   },
   {
@@ -8511,7 +8511,7 @@
     "status_class": "other",
     "portrait": "portraits/julien-loulmet-45807.jpg",
     "portrait_alt": "Photographie de Julien LOULMET",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Julien LOULMET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "julien loulmet 45807 matricule 45807 notice commemorative"
   },
   {
@@ -8524,7 +8524,7 @@
     "status_class": "other",
     "portrait": "portraits/julien-masse-45857.jpg",
     "portrait_alt": "Photographie de Julien MASSÉ",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Julien MASSÉ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "julien masse 45857 matricule 45857 notice commemorative"
   },
   {
@@ -8537,7 +8537,7 @@
     "status_class": "other",
     "portrait": "portraits/julien-villette-46194.jpg",
     "portrait_alt": "Photographie de Julien VILLETTE",
-    "description": "Julien, Henri, Paul, Villette naît le 1er juin 1921 à Déville-lès-Rouen, à l’ouest de l’agglomération de Rouen (Seine-Maritime [1] – 76), fils d’Henri…",
+    "description": "Portrait et biographie de Julien VILLETTE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "julien villette 46194 matricule 46194 notice commemorative"
   },
   {
@@ -8563,7 +8563,7 @@
     "status_class": "other",
     "portrait": "portraits/julius-kraemer-46289.jpg",
     "portrait_alt": "Photographie de Julius KRAEMER",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Julius KRAEMER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "julius kraemer 46289 matricule 46289 notice commemorative"
   },
   {
@@ -8576,7 +8576,7 @@
     "status_class": "other",
     "portrait": "portraits/justin-daguts-45419.jpg",
     "portrait_alt": "Photographie de Justin DAGUTS",
-    "description": "Justin, Léopold, Daguts naît le 3 mars 1896 à Graulhet (Tarn – 81), chez ses parents, Frédéric Daguts, 36 ans, cultivateur, et Catherine Bascoul, 28 ans…",
+    "description": "Portrait et biographie de Justin DAGUTS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "justin daguts 45419 matricule 45419 notice commemorative"
   },
   {
@@ -8589,7 +8589,7 @@
     "status_class": "other",
     "portrait": "portraits/justin-salamite-46089.jpg",
     "portrait_alt": "Photographie de Justin SALAMITE",
-    "description": "Justin, Louis, Salamite (dit “Jacob”) naît le 10 avril 1908 à Cassis (Bouches-du-Rhône).",
+    "description": "Portrait et biographie de Justin SALAMITE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "justin salamite 46089 matricule 46089 notice commemorative"
   },
   {
@@ -8654,7 +8654,7 @@
     "status_class": "other",
     "portrait": "portraits/laurent-pantin-45947.jpg",
     "portrait_alt": "Photographie de Laurent PANTIN",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Laurent PANTIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "laurent pantin 45947 matricule 45947 notice commemorative"
   },
   {
@@ -8680,7 +8680,7 @@
     "status_class": "other",
     "portrait": "portraits/leo-souque-laforgue-46111.jpg",
     "portrait_alt": "Photographie de Léo SOUQUE-LAFORGUE",
-    "description": "Léo, Robert, Joseph, Souque-Laforgue naît le 10 ou 13 août 1913 à Bègles (Gironde – 33), chez ses parents, André Souque-Laforgue, 28 ans, chaudronnier, et…",
+    "description": "Portrait et biographie de Léo SOUQUE-LAFORGUE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "leo souque laforgue 46111 matricule 46111 notice commemorative"
   },
   {
@@ -8719,7 +8719,7 @@
     "status_class": "other",
     "portrait": "portraits/leon-busarello-45318.jpg",
     "portrait_alt": "Photographie de Léon BUSARELLO",
-    "description": "Léon, René, Busarello naît le 20 avril 1894 à Fagnon (Ardennes – 08), fils d’Antoine Busarello, 30 ans, marchand forain, et de Maria Beury, 24 ans, son…",
+    "description": "Portrait et biographie de Léon BUSARELLO, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "leon busarello 45318 matricule 45318 notice commemorative"
   },
   {
@@ -8758,7 +8758,7 @@
     "status_class": "other",
     "portrait": "portraits/leon-conord-45391.jpg",
     "portrait_alt": "Photographie de Léon CONORD",
-    "description": "Léon, Eugène, Conord naît le 29 juin 1896 à Paris, 5e arrondissement, sous le nom de sa mère, Eugénie Dayez, 35 ans, veuve depuis décembre 1890…",
+    "description": "Portrait et biographie de Léon CONORD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "leon conord 45391 matricule 45391 notice commemorative"
   },
   {
@@ -8810,7 +8810,7 @@
     "status_class": "other",
     "portrait": "portraits/leon-leriche-45784.jpg",
     "portrait_alt": "Photographie de Léon LERICHE",
-    "description": "Léon, Victor, Eugène, Marie, Leriche naît le 14 février 1896 à Husson (Manche), fils de Denis Marie Auguste Leriche, 32 ans, et de Julie (dite Julina ?)…",
+    "description": "Portrait et biographie de Léon LERICHE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "leon leriche 45784 matricule 45784 notice commemorative"
   },
   {
@@ -8823,7 +8823,7 @@
     "status_class": "other",
     "portrait": "portraits/leon-michaud-45876.jpg",
     "portrait_alt": "Photographie de Léon MICHAUD",
-    "description": "Léon Michaud, né le 25 février 1921 à Chalon-sur-Saône (Saône-et-Loire), domicilié à Chalon-sur-Saône, mort à Auschwitz, probablement avant la mi-mars…",
+    "description": "Portrait et biographie de Léon MICHAUD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "leon michaud 45876 matricule 45876 notice commemorative"
   },
   {
@@ -8875,7 +8875,7 @@
     "status_class": "other",
     "portrait": "portraits/leon-truffert-46161.jpg",
     "portrait_alt": "Photographie de Léon TRUFFERT",
-    "description": "Léon, Clément, Louis, Truffert naît le 21 mai 1901 à Vaudreville (Manche – 50), fils de Jean Truffert, forgeron, et de Marie Mahier.",
+    "description": "Portrait et biographie de Léon TRUFFERT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "leon truffert 46161 matricule 46161 notice commemorative"
   },
   {
@@ -8940,7 +8940,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-allaire-45164.jpg",
     "portrait_alt": "Photographie de Louis ALLAIRE",
-    "description": "Louis, Jérôme, Allaire naît le 31 juillet 1913 à la maternité de l’hôpital Tenon à Paris 20e, fils de Jérôme, Louis, Marie, Allaire, 33 ans, employé, et de…",
+    "description": "Portrait et biographie de Louis ALLAIRE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis allaire 45164 matricule 45164 notice commemorative"
   },
   {
@@ -8966,7 +8966,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-bedet-45220.jpg",
     "portrait_alt": "Photographie de Louis BEDET",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Louis BEDET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis bedet 45220 matricule 45220 notice commemorative"
   },
   {
@@ -8979,7 +8979,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-boccard-45259.jpg",
     "portrait_alt": "Photographie de Louis BOCCARD",
-    "description": "Louis, Marius, Boccard naît le 18 octobre 1907 à Chalon-sur-Saône (Saône-et-Loire) ; fils d’Isidore Boccard, verrier, et d’Anne Desvignes. Ses parents…",
+    "description": "Portrait et biographie de Louis BOCCARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis boccard 45259 matricule 45259 notice commemorative"
   },
   {
@@ -8992,7 +8992,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-brenner-45300.jpg",
     "portrait_alt": "Photographie de Louis BRENNER",
-    "description": "Louis, Joseph, Brenner naît le 21 juin 1896 au bourg de Saint-Cadou, sur la commune de Sizun (Finistère – 29), fils de Jean Marie Brenner, 25 ans, alors…",
+    "description": "Portrait et biographie de Louis BRENNER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis brenner 45300 matricule 45300 notice commemorative"
   },
   {
@@ -9005,7 +9005,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-bresolin-46223.jpg",
     "portrait_alt": "Photographie de Louis BRESOLIN",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Louis BRESOLIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis bresolin 46223 matricule 46223 notice commemorative"
   },
   {
@@ -9018,7 +9018,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-briand-45301.jpg",
     "portrait_alt": "Photographie de Louis BRIAND",
-    "description": "Louis Briand dans son uniforme de douanier. © Dominique Dard, son petit-fils.",
+    "description": "Portrait et biographie de Louis BRIAND, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis briand 45301 matricule 45301 notice commemorative"
   },
   {
@@ -9044,7 +9044,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-burtin-45317.jpg",
     "portrait_alt": "Photographie de Louis BURTIN",
-    "description": "Louis Burtin naît le 7 novembre 1900, à Mouacourt (Meurthe-et-Moselle – 54), fils de Jules Burtin, 40 ans, propriétaire exploitant, et d’Amélie Caroline…",
+    "description": "Portrait et biographie de Louis BURTIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis burtin 45317 matricule 45317 notice commemorative"
   },
   {
@@ -9070,7 +9070,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-castel-45339.jpg",
     "portrait_alt": "Photographie de Louis CASTEL",
-    "description": "Louis Castel naît le 8 février 1902 à Lézignan-Corbières (Aude), fils de Jeanne Castel et de père non dénommé.",
+    "description": "Portrait et biographie de Louis CASTEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis castel 45339 matricule 45339 notice commemorative"
   },
   {
@@ -9109,7 +9109,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-chevalier-45366.jpg",
     "portrait_alt": "Photographie de Louis CHEVALIER",
-    "description": "Collection de Madame Louise Digani. Droits réservés.",
+    "description": "Portrait et biographie de Louis CHEVALIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis chevalier 45366 matricule 45366 notice commemorative"
   },
   {
@@ -9122,7 +9122,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-daens-45418.jpg",
     "portrait_alt": "Photographie de Louis DAENS",
-    "description": "Louis Daens naît le 25 février 1892 à Lens (Pas-de-Calais – 62), fils de Louis, Philippe Daens, 27 ans, ouvrier mineur natif de Belgique, et de la…",
+    "description": "Portrait et biographie de Louis DAENS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis daens 45418 matricule 45418 notice commemorative"
   },
   {
@@ -9161,7 +9161,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-dit-laurent-guizard-45646.jpg",
     "portrait_alt": "Photographie de Louis Dit Laurent GUIZARD",
-    "description": "(« dit Laurent »), Lucas naît le 24 octobre 1906 chez une sage-femme ou dans une maternité à Paris 10e, fils de Louise Lucas, 21 ans, journalière…",
+    "description": "Portrait et biographie de Louis Dit Laurent GUIZARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis dit laurent guizard 45646 matricule 45646 notice commemorative"
   },
   {
@@ -9174,7 +9174,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-dusselier-45517.jpg",
     "portrait_alt": "Photographie de Louis DUSSELIER",
-    "description": "Louis, Jules, Dusselier naît le 10 février 1898 à Narcy (Haute-Marne – 52), fils de Léon Claude Dusselier, 44 ans, homme d’équipe, et de Marie Albertine…",
+    "description": "Portrait et biographie de Louis DUSSELIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis dusselier 45517 matricule 45517 notice commemorative"
   },
   {
@@ -9187,7 +9187,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-eudier-45523.jpg",
     "portrait_alt": "Photographie de Louis EUDIER",
-    "description": "Né le 30 avril 1903 au Havre (Seine-Maritime [1] – 76). Il est le quatrième d’une famille de onze enfants. Gravement blessé au pied droit à l’âge de six…",
+    "description": "Portrait et biographie de Louis EUDIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis eudier 45523 matricule 45523 notice commemorative"
   },
   {
@@ -9200,7 +9200,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-faure-46234.jpg",
     "portrait_alt": "Photographie de Louis FAURE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Louis FAURE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis faure 46234 matricule 46234 notice commemorative"
   },
   {
@@ -9213,7 +9213,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-fernex-45537.jpg",
     "portrait_alt": "Photographie de Louis FERNEX",
-    "description": "Louis, Eugène, Henri, Fernex naît le 16 mai 1906 au 16, rue de Reuilly à Paris 12e, chez ses parents, Henri (Claude ?) Fernex, 23 ans, lithographe, et…",
+    "description": "Portrait et biographie de Louis FERNEX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis fernex 45537 matricule 45537 notice commemorative"
   },
   {
@@ -9226,7 +9226,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-galant-45566.jpg",
     "portrait_alt": "Photographie de Louis GALANT",
-    "description": "Louis (René) Galant [1] naît le 13 octobre 1893 à Paris 5e, fils de Marie Léonie Galant, 19 ans, journalière, domiciliée 132, boulevard de la Villette…",
+    "description": "Portrait et biographie de Louis GALANT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis galant 45566 matricule 45566 notice commemorative"
   },
   {
@@ -9239,7 +9239,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-gangloff-45569.jpg",
     "portrait_alt": "Photographie de Louis GANGLOFF",
-    "description": "ît le 11 avril 1897 à Kerprich-lès-Dieuzé ou Kerprich-aux-Bois, en Moselle annexée au Reich allemand (Moselle), fils de Louis Gangloff et de Marie Durand.",
+    "description": "Portrait et biographie de Louis GANGLOFF, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis gangloff 45569 matricule 45569 notice commemorative"
   },
   {
@@ -9252,7 +9252,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-girard-45605.jpg",
     "portrait_alt": "Photographie de Louis GIRARD",
-    "description": "Louis, Georges, Henri, Girard, dit “Gigi”, naît le 23 mai 1904 à Aix-les-Bains (Savoie), fils de Joseph Girard, sommelier, et de Jeanne Guiguiet, lingère…",
+    "description": "Portrait et biographie de Louis GIRARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis girard 45605 matricule 45605 notice commemorative"
   },
   {
@@ -9265,7 +9265,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-gouelian-45619.jpg",
     "portrait_alt": "Photographie de Louis GOUÉLIAN",
-    "description": "IDENTIFICATION INCERTAINE… Auschwitz-I, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Coll. Mémoire Vive. Droits réservés.",
+    "description": "Portrait et biographie de Louis GOUÉLIAN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis gouelian 45619 matricule 45619 notice commemorative"
   },
   {
@@ -9291,7 +9291,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-hamel-45650.jpg",
     "portrait_alt": "Photographie de Louis HAMEL",
-    "description": "Louis Hamel naît le 20 janvier 1904 à Bricquebosq (Manche – 50)",
+    "description": "Portrait et biographie de Louis HAMEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis hamel 45650 matricule 45650 notice commemorative"
   },
   {
@@ -9304,7 +9304,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-jouvin-45000.jpg",
     "portrait_alt": "Photographie de Louis JOUVIN",
-    "description": "Louis, Eugène, Alphonse, Jouvin, né le 28 décembre 1907 à Caen (Calvados), domicilié au Grand-Quevilly (Seine-Maritime), rescapé, libéré au KL Dachau le 29…",
+    "description": "Portrait et biographie de Louis JOUVIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis jouvin convoi 45000 notice commemorative"
   },
   {
@@ -9317,7 +9317,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-killian-45705.jpg",
     "portrait_alt": "Photographie de Louis KILLIAN",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Louis KILLIAN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis killian 45705 matricule 45705 notice commemorative"
   },
   {
@@ -9330,7 +9330,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-lacour-45710.jpg",
     "portrait_alt": "Photographie de Louis LACOUR",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Louis LACOUR, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis lacour 45710 matricule 45710 notice commemorative"
   },
   {
@@ -9343,7 +9343,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-lacroix-45712.jpg",
     "portrait_alt": "Photographie de Louis LACROIX",
-    "description": "Les jeunes frères Lacroix. La mémoire de leur identification s’est perdue et il n’est pas possible de distinguer André et Louis. Collection de Madame…",
+    "description": "Portrait et biographie de Louis LACROIX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis lacroix 45712 matricule 45712 notice commemorative"
   },
   {
@@ -9356,7 +9356,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-lahaie-45714.jpg",
     "portrait_alt": "Photographie de Louis LAHAIE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Louis LAHAIE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis lahaie 45714 matricule 45714 notice commemorative"
   },
   {
@@ -9369,7 +9369,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-laurent-45733.jpg",
     "portrait_alt": "Photographie de Louis LAURENT",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Louis LAURENT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis laurent 45733 matricule 45733 notice commemorative"
   },
   {
@@ -9382,7 +9382,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-lecoq-45753.jpg",
     "portrait_alt": "Photographie de Louis LECOQ",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Louis LECOQ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis lecoq 45753 matricule 45753 notice commemorative"
   },
   {
@@ -9408,7 +9408,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-meresse-45871.jpg",
     "portrait_alt": "Photographie de Louis MÉRESSE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Louis MÉRESSE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis meresse 45871 matricule 45871 notice commemorative"
   },
   {
@@ -9421,7 +9421,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-momon-45884.jpg",
     "portrait_alt": "Photographie de Louis MOMON",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Louis MOMON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis momon 45884 matricule 45884 notice commemorative"
   },
   {
@@ -9434,7 +9434,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-morel-45896.jpg",
     "portrait_alt": "Photographie de Louis MOREL",
-    "description": "© Ministère de la Défense, direction des patrimoines de la mémoire et des archives (DPMA), Caen.",
+    "description": "Portrait et biographie de Louis MOREL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis morel 45896 matricule 45896 notice commemorative"
   },
   {
@@ -9447,7 +9447,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-muel-45915.jpg",
     "portrait_alt": "Photographie de Louis MUEL",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Louis MUEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis muel 45915 matricule 45915 notice commemorative"
   },
   {
@@ -9460,7 +9460,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-paul-45952.jpg",
     "portrait_alt": "Photographie de Louis PAUL",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Louis PAUL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis paul 45952 matricule 45952 notice commemorative"
   },
   {
@@ -9473,7 +9473,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-richard-46053.jpg",
     "portrait_alt": "Photographie de Louis RICHARD",
-    "description": "Louis, Auguste, Joseph, Richard naît le 12 décembre 1900 à Cherbourg (Manche – 50), chez ses parents, Louis Richard, 25 ans, charpentier, et Joséphine…",
+    "description": "Portrait et biographie de Louis RICHARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis richard 46053 matricule 46053 notice commemorative"
   },
   {
@@ -9486,7 +9486,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-thiery-46141.jpg",
     "portrait_alt": "Photographie de Louis THIÉRY",
-    "description": "Louis Thiéry naît le 24 mai 1908 à Noncourt-sur-le-Rongeant (Haute-Marne – 52), fils d’Isidore Thiéry, vigneron, 45 ans, et d’Henriette Ancina, 21 ans, sa…",
+    "description": "Portrait et biographie de Louis THIÉRY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis thiery 46141 matricule 46141 notice commemorative"
   },
   {
@@ -9512,7 +9512,7 @@
     "status_class": "other",
     "portrait": "portraits/louis-welscher-46208.jpg",
     "portrait_alt": "Photographie de Louis WELSCHER",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Louis WELSCHER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis welscher 46208 matricule 46208 notice commemorative"
   },
   {
@@ -9616,7 +9616,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-bellet-45224.jpg",
     "portrait_alt": "Photographie de Lucien BELLET",
-    "description": "Auschwitz, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+    "description": "Portrait et biographie de Lucien BELLET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien bellet 45224 matricule 45224 notice commemorative"
   },
   {
@@ -9629,7 +9629,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-blin-45257.jpg",
     "portrait_alt": "Photographie de Lucien BLIN",
-    "description": "Lucien, Louis, Blin naît le 24 mars 1898 au hameau des Douaires [1], sur la commune de Gaillon (Eure), fils de Pierre Blin, 31 ans, surveillant de…",
+    "description": "Portrait et biographie de Lucien BLIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien blin 45257 matricule 45257 notice commemorative"
   },
   {
@@ -9642,7 +9642,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-bonhomme-45269.jpg",
     "portrait_alt": "Photographie de Lucien BONHOMME",
-    "description": "Lucien Bonhomme, né le 9 décembre 1906 à Bar-le-Duc (Meuse), domicilié à Bar-le-Duc, mort à Auschwitz le 19 septembre 1942 (sélectionné, gazé ?)",
+    "description": "Portrait et biographie de Lucien BONHOMME, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien bonhomme 45269 matricule 45269 notice commemorative"
   },
   {
@@ -9668,7 +9668,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-colin-45378.jpg",
     "portrait_alt": "Photographie de Lucien COLIN",
-    "description": "Lucien, Valéry, Louis, Colin naît le 1er juillet 1923 à Lamballe (Côtes-d’Armor [1] – 22). Son père, Arsène Colin, est pendant un temps directeur de…",
+    "description": "Portrait et biographie de Lucien COLIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien colin 45378 matricule 45378 notice commemorative"
   },
   {
@@ -9681,7 +9681,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-desenclos-45463.jpg",
     "portrait_alt": "Photographie de Lucien DESENCLOS",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Lucien DESENCLOS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien desenclos 45463 matricule 45463 notice commemorative"
   },
   {
@@ -9694,7 +9694,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-dubeaux-45486.jpg",
     "portrait_alt": "Photographie de Lucien DUBEAUX",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Lucien DUBEAUX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien dubeaux 45486 matricule 45486 notice commemorative"
   },
   {
@@ -9707,7 +9707,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-ducastel-45491.jpg",
     "portrait_alt": "Photographie de Lucien DUCASTEL",
-    "description": "Lucien Ducastel naît le 28 août 1920 à Darnétal (Seine-Inférieure / Seine-Maritime [1] – 76), fils de Lucien, Louis, Hippolyte, Ducastel, 24 ans…",
+    "description": "Portrait et biographie de Lucien DUCASTEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien ducastel 45491 matricule 45491 notice commemorative"
   },
   {
@@ -9733,7 +9733,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-godard-45610.jpg",
     "portrait_alt": "Photographie de Lucien GODARD",
-    "description": "En avril 1941. © DAVCC, Caen.",
+    "description": "Portrait et biographie de Lucien GODARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien godard 45610 matricule 45610 notice commemorative"
   },
   {
@@ -9746,7 +9746,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-leducq-45759.jpg",
     "portrait_alt": "Photographie de Lucien LEDUCQ",
-    "description": "Source : Memorial GenWeb. Droits réservés.",
+    "description": "Portrait et biographie de Lucien LEDUCQ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien leducq 45759 matricule 45759 notice commemorative"
   },
   {
@@ -9759,7 +9759,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-lehmann-46293.jpg",
     "portrait_alt": "Photographie de Lucien LEHMANN",
-    "description": "Sedan. L’avenue Philippoteaux vue depuis le pont dans les les années 1900. Carte postale, collection Mémoire Vive.",
+    "description": "Portrait et biographie de Lucien LEHMANN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien lehmann 46293 matricule 46293 notice commemorative"
   },
   {
@@ -9772,7 +9772,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-levaufre-45792.jpg",
     "portrait_alt": "Photographie de Lucien LEVAUFRE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Lucien LEVAUFRE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien levaufre 45792 matricule 45792 notice commemorative"
   },
   {
@@ -9798,7 +9798,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-michel-45877.jpg",
     "portrait_alt": "Photographie de Lucien MICHEL",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Lucien MICHEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien michel 45877 matricule 45877 notice commemorative"
   },
   {
@@ -9811,7 +9811,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-moreau-45894.jpg",
     "portrait_alt": "Photographie de Lucien MOREAU",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Lucien MOREAU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien moreau 45894 matricule 45894 notice commemorative"
   },
   {
@@ -9850,7 +9850,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-penner-45962.jpg",
     "portrait_alt": "Photographie de Lucien PENNER",
-    "description": "Lucien, Jean, Penner naît le 11 mars 1912 à la maternité de l’hôpital Cochin, 123 boulevard de Port-Royal à Paris 14e, fils de Xavier Marcel Penner, 22…",
+    "description": "Portrait et biographie de Lucien PENNER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien penner 45962 matricule 45962 notice commemorative"
   },
   {
@@ -9863,7 +9863,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-perriot-45969.jpg",
     "portrait_alt": "Photographie de Lucien PERRIOT",
-    "description": "Lucien Perriot naît le 17 janvier 1896 à Fontaine-Française (Côte-d’Or), fils de Joseph Perriot, 45 ans, plâtrier, et de Joséphine Lagneau, 39 ans, son…",
+    "description": "Portrait et biographie de Lucien PERRIOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien perriot 45969 matricule 45969 notice commemorative"
   },
   {
@@ -9876,7 +9876,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-pierson-45986.jpg",
     "portrait_alt": "Photographie de Lucien PIERSON",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Lucien PIERSON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien pierson 45986 matricule 45986 notice commemorative"
   },
   {
@@ -9902,7 +9902,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-rosier-46069.jpg",
     "portrait_alt": "Photographie de Lucien ROSIER",
-    "description": "Lucien Rosier naît le 15 mars 1924 à Chalon-sur-Saône (Saône-et-Loire – 71), fils de Marthe Rosier.",
+    "description": "Portrait et biographie de Lucien ROSIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien rosier 46069 matricule 46069 notice commemorative"
   },
   {
@@ -9915,7 +9915,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-siouville-46106.jpg",
     "portrait_alt": "Photographie de Lucien SIOUVILLE",
-    "description": "(portrait de Lucien Siouville sur le site WikiManche)",
+    "description": "Portrait et biographie de Lucien SIOUVILLE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien siouville 46106 matricule 46106 notice commemorative"
   },
   {
@@ -9928,7 +9928,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-tourte-46153.jpg",
     "portrait_alt": "Photographie de Lucien TOURTE",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Lucien TOURTE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien tourte 46153 matricule 46153 notice commemorative"
   },
   {
@@ -9941,7 +9941,7 @@
     "status_class": "other",
     "portrait": "portraits/lucien-vannier-46173.jpg",
     "portrait_alt": "Photographie de Lucien VANNIER",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Lucien VANNIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien vannier 46173 matricule 46173 notice commemorative"
   },
   {
@@ -10032,7 +10032,7 @@
     "status_class": "other",
     "portrait": "portraits/ludwig-motloch-45904.jpg",
     "portrait_alt": "Photographie de Ludwig MOTLOCH",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Ludwig MOTLOCH, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "ludwig motloch 45904 matricule 45904 notice commemorative"
   },
   {
@@ -10162,7 +10162,7 @@
     "status_class": "other",
     "portrait": "portraits/magloire-faiteau-45526.jpg",
     "portrait_alt": "Photographie de Magloire FAITEAU",
-    "description": "Magloire Faiteau naît le 25 mars 1904 à Mehun-sur-Yèvre, à 16 km au nord-ouest de Bourges (Cher – 18), fils d’Édouard Faiteau et de Maria Moriset, son…",
+    "description": "Portrait et biographie de Magloire FAITEAU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "magloire faiteau 45526 matricule 45526 notice commemorative"
   },
   {
@@ -10175,7 +10175,7 @@
     "status_class": "other",
     "portrait": "portraits/marc-grunberg-46280.jpg",
     "portrait_alt": "Photographie de Marc GRUNBERG",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Marc GRUNBERG, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marc grunberg 46280 matricule 46280 notice commemorative"
   },
   {
@@ -10188,7 +10188,7 @@
     "status_class": "other",
     "portrait": "portraits/marc-quenardel-46026.jpg",
     "portrait_alt": "Photographie de Marc QUÉNARDEL",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Marc QUÉNARDEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marc quenardel 46026 matricule 46026 notice commemorative"
   },
   {
@@ -10214,7 +10214,7 @@
     "status_class": "other",
     "portrait": "portraits/marceau-lannoy-45727.jpg",
     "portrait_alt": "Photographie de Marceau LANNOY",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Marceau LANNOY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marceau lannoy 45727 matricule 45727 notice commemorative"
   },
   {
@@ -10227,7 +10227,7 @@
     "status_class": "other",
     "portrait": "portraits/marceau-rebourg-46039.jpg",
     "portrait_alt": "Photographie de Marceau REBOURG",
-    "description": "Marceau, Louis, Rebourg, naît le 3 juin 1920 à Foug, 10 km à l’ouest de Toul (Meurthe-et-Moselle), fils de Julien, Marceau, Rebourg, 22 ans, et de Louise…",
+    "description": "Portrait et biographie de Marceau REBOURG, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marceau rebourg 46039 matricule 46039 notice commemorative"
   },
   {
@@ -10266,7 +10266,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-alizard-45163.jpg",
     "portrait_alt": "Photographie de Marcel ALIZARD",
-    "description": "Marcel, Constant, Alizard naît le 14 octobre 1901 à Chauny (Aisne), chez ses parents, Léopold Alizard, 26 ans, manouvrier, et Eugénie Chatelain, son…",
+    "description": "Portrait et biographie de Marcel ALIZARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel alizard 45163 matricule 45163 notice commemorative"
   },
   {
@@ -10279,7 +10279,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-andreas-45172.jpg",
     "portrait_alt": "Photographie de Marcel ANDRÉAS",
-    "description": "Marcel, Louis, Andréas naît le 21 août 1922 à Saint-Ouen [1] (Seine / Seine-Saint-Denis – 93), fils de Charles Andréas, 33 ans, chiffonnier, fils de…",
+    "description": "Portrait et biographie de Marcel ANDRÉAS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel andreas 45172 matricule 45172 notice commemorative"
   },
   {
@@ -10292,7 +10292,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-bataillard-45203.jpg",
     "portrait_alt": "Photographie de Marcel BATAILLARD",
-    "description": "Marcel Bataillard naît le 23 juin 1912 à Nogent-sur-Oise (Oise – 60) dans une famille d’ouvriers d’usine et de vignerons, fils de Félix Bataillard, ouvrier…",
+    "description": "Portrait et biographie de Marcel BATAILLARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel bataillard 45203 matricule 45203 notice commemorative"
   },
   {
@@ -10305,7 +10305,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-bessot-45241.jpg",
     "portrait_alt": "Photographie de Marcel BESSOT",
-    "description": "Auschwitz-I, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+    "description": "Portrait et biographie de Marcel BESSOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel bessot 45241 matricule 45241 notice commemorative"
   },
   {
@@ -10318,7 +10318,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-boubou-45276.jpg",
     "portrait_alt": "Photographie de Marcel BOUBOU",
-    "description": "© CERCIL, Orléans, donation Pivain, fonds Cyprien Depardieu.",
+    "description": "Portrait et biographie de Marcel BOUBOU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel boubou 45276 matricule 45276 notice commemorative"
   },
   {
@@ -10331,7 +10331,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-boyer-45295.jpg",
     "portrait_alt": "Photographie de Marcel BOYER",
-    "description": "Marcel Boyer.",
+    "description": "Portrait et biographie de Marcel BOYER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel boyer 45295 matricule 45295 notice commemorative"
   },
   {
@@ -10344,7 +10344,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-burel-45312.jpg",
     "portrait_alt": "Photographie de Marcel BUREL",
-    "description": "Marcel, Alphonse, Alexandre, Burel naît le 8 juillet 1896 à Rouen (Seine-Inférieure / Seine-Maritime [1] – 76), chez ses parents, Alexandre Burel, 26 ans…",
+    "description": "Portrait et biographie de Marcel BUREL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel burel 45312 matricule 45312 notice commemorative"
   },
   {
@@ -10357,7 +10357,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-carville-45333.jpg",
     "portrait_alt": "Photographie de Marcel CARVILLE",
-    "description": "Marcel, Fernand, Carville naît le 30 février 1893 à Elbeuf (Seine-Maritime [1] – 76), fils d’Auguste Carville et d’Augustine Ridaux (ou Redoult ?).",
+    "description": "Portrait et biographie de Marcel CARVILLE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel carville 45333 matricule 45333 notice commemorative"
   },
   {
@@ -10370,7 +10370,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-chabot-45349.jpg",
     "portrait_alt": "Photographie de Marcel CHABOT",
-    "description": "Marcel Chabot naît le 5 février 1900 à Saint-Séverin (Charente – 16), fils de Charles Chabot, 25 ans, et de Clémentine Bayonne, 23 ans, son épouse…",
+    "description": "Portrait et biographie de Marcel CHABOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel chabot 45349 matricule 45349 notice commemorative"
   },
   {
@@ -10383,7 +10383,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-claus-45372.jpg",
     "portrait_alt": "Photographie de Marcel CLAUS",
-    "description": "Marcel Claus naît le 8 octobre 1917 à Nancy (Meurthe-et-Moselle – 54), chez ses parents, Georges Claus, 32 ans, margeur, et Georgette Pierrard, 30 ans, son…",
+    "description": "Portrait et biographie de Marcel CLAUS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel claus 45372 matricule 45372 notice commemorative"
   },
   {
@@ -10422,7 +10422,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-couillon-45381.jpg",
     "portrait_alt": "Photographie de Marcel COUILLON",
-    "description": "Marcel, Eugène, Pierre, Marie, Couillon naît le 14 mai 1905 à Orléans (Loiret), fils d’Albert Couillon, 32 ans typographe, et de Jeanne Magloire, son…",
+    "description": "Portrait et biographie de Marcel COUILLON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel couillon 45381 matricule 45381 notice commemorative"
   },
   {
@@ -10435,7 +10435,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-couriol-45405.jpg",
     "portrait_alt": "Photographie de Marcel COURIOL",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Marcel COURIOL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel couriol 45405 matricule 45405 notice commemorative"
   },
   {
@@ -10474,7 +10474,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-deschamps-45461.jpg",
     "portrait_alt": "Photographie de Marcel DESCHAMPS",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Marcel DESCHAMPS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel deschamps 45461 matricule 45461 notice commemorative"
   },
   {
@@ -10513,7 +10513,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-gaudin-45576.jpg",
     "portrait_alt": "Photographie de Marcel GAUDIN",
-    "description": "Marcel Gaudin naît le 17 janvier 1899 à Paris 11e, chez ses parents, Édouard Gaudin, 34 ans, fabriquant de cadres, et Victorine Deléaval, son épouse, 32…",
+    "description": "Portrait et biographie de Marcel GAUDIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel gaudin 45576 matricule 45576 notice commemorative"
   },
   {
@@ -10526,7 +10526,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-gauthier-45582.jpg",
     "portrait_alt": "Photographie de Marcel GAUTHIER",
-    "description": "Marcel Gauthier naît le 4 novembre 1897 au Creusot (Saône-et-Loire – 71), fils de Charles Gauthier, 32 ans, manœuvre, et de Catherine, née Dechaume, 26…",
+    "description": "Portrait et biographie de Marcel GAUTHIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel gauthier 45582 matricule 45582 notice commemorative"
   },
   {
@@ -10539,7 +10539,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-genvrin-45590.jpg",
     "portrait_alt": "Photographie de Marcel GENVRIN",
-    "description": "Marcel, Jules, André, Genvrin naît le 29 janvier 1902 au Pin, 13 km au nord-Est de Lisieux (Calvados), chez ses parents, Arnaud Genvrin, 50 ans, terrassier…",
+    "description": "Portrait et biographie de Marcel GENVRIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel genvrin 45590 matricule 45590 notice commemorative"
   },
   {
@@ -10552,7 +10552,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-gere-45593.jpg",
     "portrait_alt": "Photographie de Marcel GÉRÉ",
-    "description": "Marcel Géré naît le 31 mars 1910 à Sarge-sur-Braye ou à Brou (Loir-et-Cher – 41).",
+    "description": "Portrait et biographie de Marcel GÉRÉ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel gere 45593 matricule 45593 notice commemorative"
   },
   {
@@ -10578,7 +10578,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-hebrant-45656.jpg",
     "portrait_alt": "Photographie de Marcel HÉBRANT",
-    "description": "Marcel Hébrant naît le 21 mai 1906 à Villerupt, près de la frontière avec le Luxembourg (Meurthe-et-Moselle – 54), fils de Joseph Hébrant, né en 1865 à…",
+    "description": "Portrait et biographie de Marcel HÉBRANT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel hebrant 45656 matricule 45656 notice commemorative"
   },
   {
@@ -10591,7 +10591,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-hodiesne-45664.jpg",
     "portrait_alt": "Photographie de Marcel HODIESNE",
-    "description": "Droits réservés.",
+    "description": "Portrait et biographie de Marcel HODIESNE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel hodiesne 45664 matricule 45664 notice commemorative"
   },
   {
@@ -10604,7 +10604,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-laval-45735.jpg",
     "portrait_alt": "Photographie de Marcel LAVAL",
-    "description": "Marcel Laval naît le 24 décembre 1920, chez ses parents, au 42 ou au 47, rue du Vivier (devenue rue Henri-Barbusse) à Aubervilliers [1] (Seine-Saint-Denis…",
+    "description": "Portrait et biographie de Marcel LAVAL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel laval 45735 matricule 45735 notice commemorative"
   },
   {
@@ -10617,7 +10617,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-le-dret-45757.jpg",
     "portrait_alt": "Photographie de Marcel Le DRET",
-    "description": "Droits réservés.",
+    "description": "Portrait et biographie de Marcel Le DRET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel le dret 45757 matricule 45757 notice commemorative"
   },
   {
@@ -10630,7 +10630,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-le-fevre-45764.jpg",
     "portrait_alt": "Photographie de Marcel Le FÈVRE",
-    "description": "Marcel, Louis, Le Fèvre [1] naît le 3 janvier 1895 à Levallois-Perret [2] (Seine / Hauts-de-Seine – 92), chez ses parents, Auguste Le Fèvre, 25 ans…",
+    "description": "Portrait et biographie de Marcel Le FÈVRE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel le fevre 45764 matricule 45764 notice commemorative"
   },
   {
@@ -10643,7 +10643,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-leclercq-45749.jpg",
     "portrait_alt": "Photographie de Marcel LECLERCQ",
-    "description": "Marcel Leclercq, né le 26 janvier 1901 au Cateau-Cambraisis (Nord), domicilié à Romainville (Seine-Saint-Denis), mort à Auschwitz le 25 septembre 1942.",
+    "description": "Portrait et biographie de Marcel LECLERCQ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel leclercq 45749 matricule 45749 notice commemorative"
   },
   {
@@ -10721,7 +10721,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-marty-45852.png",
     "portrait_alt": "Photographie de Marcel MARTY",
-    "description": ", fils de Pierre Marty et de Charlotte Forestier.",
+    "description": "Portrait et biographie de Marcel MARTY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel marty 45852 matricule 45852 notice commemorative"
   },
   {
@@ -10734,7 +10734,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-moroy-45902.jpg",
     "portrait_alt": "Photographie de Marcel MOROY",
-    "description": "En septembre 1925, la famille s’installe au 14, rue Fontaine à Bondy [1] (93).",
+    "description": "Portrait et biographie de Marcel MOROY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel moroy 45902 matricule 45902 notice commemorative"
   },
   {
@@ -10760,7 +10760,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-nevraumont-45922.jpg",
     "portrait_alt": "Photographie de Marcel NÉVRAUMONT",
-    "description": "Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+    "description": "Portrait et biographie de Marcel NÉVRAUMONT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel nevraumont 45922 matricule 45922 notice commemorative"
   },
   {
@@ -10773,7 +10773,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-nonnet-45929.jpg",
     "portrait_alt": "Photographie de Marcel NONNET",
-    "description": "Marcel Nonnet naît le 20 avril 1910 à Buzançais (Indre), fils de Benjamin Nonnet, 20 ans, et de Jeanne tapissier, et de Jeanne Nonet, son épouse, 21 ans…",
+    "description": "Portrait et biographie de Marcel NONNET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel nonnet 45929 matricule 45929 notice commemorative"
   },
   {
@@ -10786,7 +10786,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-nouvian-46253.jpg",
     "portrait_alt": "Photographie de Marcel NOUVIAN",
-    "description": "Marcel Nouvian naît le 24 août 1918 à Aubervilliers [1] (Seine / Seine-Saint-Denis – 93), au domicile de ses parents, Lucien Nouvian, 25 ans, plombier, et…",
+    "description": "Portrait et biographie de Marcel NOUVIAN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel nouvian 46253 matricule 46253 notice commemorative"
   },
   {
@@ -10851,7 +10851,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-randou-46032.jpg",
     "portrait_alt": "Photographie de Marcel RANDOU",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Marcel RANDOU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel randou 46032 matricule 46032 notice commemorative"
   },
   {
@@ -10877,7 +10877,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-sallenave-46092.jpg",
     "portrait_alt": "Photographie de Marcel SALLENAVE",
-    "description": "Marcel, Jean, Sallenave naît le 7 mars 1905 à Paris 18e, au 36 boulevard Barbès à Paris 18e (?), fils de Jacques Sallenave, 42 ans, forgeron, et de Marthe…",
+    "description": "Portrait et biographie de Marcel SALLENAVE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel sallenave 46092 matricule 46092 notice commemorative"
   },
   {
@@ -10890,7 +10890,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-simon-46105.png",
     "portrait_alt": "Photographie de Marcel SIMON",
-    "description": "Marcel SIMON naît le 16 novembre 1921 à Saint-Ouen [1] (Seine-Saint-Denis – 93)",
+    "description": "Portrait et biographie de Marcel SIMON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel simon 46105 matricule 46105 notice commemorative"
   },
   {
@@ -10903,7 +10903,7 @@
     "status_class": "other",
     "portrait": "portraits/marcel-starck-46118.jpg",
     "portrait_alt": "Photographie de Marcel STARCK",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Marcel STARCK, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel starck 46118 matricule 46118 notice commemorative"
   },
   {
@@ -10955,7 +10955,7 @@
     "status_class": "other",
     "portrait": "portraits/marcelin-camusson-45326.jpg",
     "portrait_alt": "Photographie de Marcelin CAMUSSON",
-    "description": "Marcelin Camusson.",
+    "description": "Portrait et biographie de Marcelin CAMUSSON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcelin camusson 45326 matricule 45326 notice commemorative"
   },
   {
@@ -11449,7 +11449,7 @@
     "status_class": "other",
     "portrait": "portraits/marius-adam-45159.jpg",
     "portrait_alt": "Photographie de Marius ADAM",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Marius ADAM, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marius adam 45159 matricule 45159 notice commemorative"
   },
   {
@@ -11462,7 +11462,7 @@
     "status_class": "other",
     "portrait": "portraits/marius-amiel-45170.jpg",
     "portrait_alt": "Photographie de Marius AMIEL",
-    "description": "Marius, Joseph, Amiel naît le 11 janvier 1913 à Tuchan (Aude), fils de Joseph Amiel et de Marie Moly.",
+    "description": "Portrait et biographie de Marius AMIEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marius amiel 45170 matricule 45170 notice commemorative"
   },
   {
@@ -11488,7 +11488,7 @@
     "status_class": "other",
     "portrait": "portraits/marius-briet-45302.jpg",
     "portrait_alt": "Photographie de Marius BRIET",
-    "description": "Marius, Ludovic, Louis, Briet naît le 13 juillet 1902 à Chépy (Somme – 80), chez ses parents, Julien Briet, 47 ans, tisserand, et Félicité Amélie…",
+    "description": "Portrait et biographie de Marius BRIET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marius briet 45302 matricule 45302 notice commemorative"
   },
   {
@@ -11501,7 +11501,7 @@
     "status_class": "other",
     "portrait": "portraits/marius-guerin-45632.jpg",
     "portrait_alt": "Photographie de Marius GUÉRIN",
-    "description": "Marius Guérin naît le 24 avril 1905 à Provins (Seine-et-Marne – 77), à l’Hôtel-Dieu, au 5, rue Saint-Thibault, fils d’Ernest Guérin, 39 ans, manouvrier, et…",
+    "description": "Portrait et biographie de Marius GUÉRIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marius guerin 45632 matricule 45632 notice commemorative"
   },
   {
@@ -11553,7 +11553,7 @@
     "status_class": "other",
     "portrait": "portraits/marius-zanzi-46266.jpg",
     "portrait_alt": "Photographie de Marius ZANZI",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Marius ZANZI, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marius zanzi 46266 matricule 46266 notice commemorative"
   },
   {
@@ -11592,7 +11592,7 @@
     "status_class": "other",
     "portrait": "portraits/martial-georget-45592.jpg",
     "portrait_alt": "Photographie de Martial GEORGET",
-    "description": "Martial, Alexandre, Georget naît le 28 février 1910 à Crézancy (Aisne), près de Château-Thierry (sur la rive opposée de la Marne), de Paul Georget et…",
+    "description": "Portrait et biographie de Martial GEORGET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "martial georget 45592 matricule 45592 notice commemorative"
   },
   {
@@ -11605,7 +11605,7 @@
     "status_class": "other",
     "portrait": "portraits/mathieu-filloux-45542.jpg",
     "portrait_alt": "Photographie de Mathieu FILLOUX",
-    "description": "Mathieu, Émile, Filloux naît le 21 septembre 1893 à Villefranche-sur-Cher, six kilomètres au sud de Romorantin (Loir-et-Cher – 41), chez ses parents…",
+    "description": "Portrait et biographie de Mathieu FILLOUX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "mathieu filloux 45542 matricule 45542 notice commemorative"
   },
   {
@@ -11618,7 +11618,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-auvray-45187.jpg",
     "portrait_alt": "Photographie de Maurice AUVRAY",
-    "description": "Maurice, Marcel, Ferdinand, Auvray naît le 23 janvier 1920 au petit village d’Orbois (Calvados – 14) [1], fils de Victor Auvray, 40 ans, boulanger, et de…",
+    "description": "Portrait et biographie de Maurice AUVRAY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice auvray 45187 matricule 45187 notice commemorative"
   },
   {
@@ -11657,7 +11657,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-billard-45249.jpg",
     "portrait_alt": "Photographie de Maurice BILLARD",
-    "description": "Maurice, Charles, Billard naît le 29 juillet 1900 à Paris 20e (75), chez ses parents, Jean Marie Billard, 35 ans, graveur, et Pauline Comte, son épouse, 30…",
+    "description": "Portrait et biographie de Maurice BILLARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice billard 45249 matricule 45249 notice commemorative"
   },
   {
@@ -11683,7 +11683,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-chaumond-45361.jpg",
     "portrait_alt": "Photographie de Maurice CHAUMOND",
-    "description": "Maurice, François, André, Chaumond naît le 18 juin 1916 au Houlme (Seine-Inférieure / Seine-Maritime [1] – 76), fils de François Louis Chaumond, 49 ans…",
+    "description": "Portrait et biographie de Maurice CHAUMOND, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice chaumond 45361 matricule 45361 notice commemorative"
   },
   {
@@ -11696,7 +11696,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-clouet-46228.jpg",
     "portrait_alt": "Photographie de Maurice CLOUET",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Maurice CLOUET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice clouet 46228 matricule 46228 notice commemorative"
   },
   {
@@ -11709,7 +11709,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-coulin-45404.jpg",
     "portrait_alt": "Photographie de Maurice COULIN",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Maurice COULIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice coulin 45404 matricule 45404 notice commemorative"
   },
   {
@@ -11735,7 +11735,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-dade-45417.jpg",
     "portrait_alt": "Photographie de Maurice DADÉ",
-    "description": "Maurice DADÉ, photographie réalisée en studio. © Division des archives des victimes des conflits contemporains, ministère de la Défense, direction des…",
+    "description": "Portrait et biographie de Maurice DADÉ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice dade 45417 matricule 45417 notice commemorative"
   },
   {
@@ -11748,7 +11748,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-dehoux-45434.jpg",
     "portrait_alt": "Photographie de Maurice DEHOUX",
-    "description": "Maurice, Émile, Marie, Lucien, Dehoux naît le 13 novembre 1909 à Dieppe (Seine-Maritime [1] – 76), fils d’Émile Dehoux, 21 ans, employé de commerce, et…",
+    "description": "Portrait et biographie de Maurice DEHOUX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice dehoux 45434 matricule 45434 notice commemorative"
   },
   {
@@ -11761,7 +11761,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-denis-45456.jpg",
     "portrait_alt": "Photographie de Maurice DENIS",
-    "description": "Pierre, Maurice , DENIS naît le 3 avril 1909 au village du Château à Gournay-le-Guérin (Eure), fils de Narcisse Denis, 38 ans, jardinier, et de Georgette…",
+    "description": "Portrait et biographie de Maurice DENIS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice denis 45456 matricule 45456 notice commemorative"
   },
   {
@@ -11774,7 +11774,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-elet-45521.jpg",
     "portrait_alt": "Photographie de Maurice ÉLET",
-    "description": "Droits réservés.",
+    "description": "Portrait et biographie de Maurice ÉLET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice elet 45521 matricule 45521 notice commemorative"
   },
   {
@@ -11787,7 +11787,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-ferstla-46274.jpg",
     "portrait_alt": "Photographie de Maurice FERSTLA",
-    "description": "Maurice Ferstla naît le 27 janvier 1893 à Ulstrom ou Ustron (Pologne) Listrow ou Ulstrom (Pologne), fils de Chaïm Ferstla et de Kajla Feldmann, son épouse.",
+    "description": "Portrait et biographie de Maurice FERSTLA, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice ferstla 46274 matricule 46274 notice commemorative"
   },
   {
@@ -11800,7 +11800,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-fontes-45550.jpg",
     "portrait_alt": "Photographie de Maurice FONTÈS",
-    "description": "Maurice Fontès naît le 17 février 1907 à Paris 15e (75), chez ses parents, Albert Fontes, 24 ans (Saint-Étienne, près Allègre, Haute-Loire, 18 août 1882)…",
+    "description": "Portrait et biographie de Maurice FONTÈS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice fontes 45550 matricule 45550 notice commemorative"
   },
   {
@@ -11813,7 +11813,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-foubert-45552.jpg",
     "portrait_alt": "Photographie de Maurice FOUBERT",
-    "description": "Maurice, Lucien, Foubert naît le 15 septembre 1904 à Gisors (Eure), fils de Lucien Foubert et de Marie Vigneux ou Vigreux, son épouse.",
+    "description": "Portrait et biographie de Maurice FOUBERT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice foubert 45552 matricule 45552 notice commemorative"
   },
   {
@@ -11826,7 +11826,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-froment-46237.jpg",
     "portrait_alt": "Photographie de Maurice FROMENT",
-    "description": "Photographié en militaire (accomplissant son service national en 1929 ?). Revue Pagus Orniensis, bulletin périodique de l’association Mémoire du Pays de…",
+    "description": "Portrait et biographie de Maurice FROMENT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice froment 46237 matricule 46237 notice commemorative"
   },
   {
@@ -11839,7 +11839,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-granjon-45628.jpg",
     "portrait_alt": "Photographie de Maurice GRANJON",
-    "description": "Maurice, Marcel, Granjon naît le 8 décembre 1895 à Paris 20e, chez ses parents, Joseph Granjon, 31 ans, et Joséphine Pierre, son épouse, 31 ans, tous deux…",
+    "description": "Portrait et biographie de Maurice GRANJON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice granjon 45628 matricule 45628 notice commemorative"
   },
   {
@@ -11852,7 +11852,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-guerrier-45633.jpg",
     "portrait_alt": "Photographie de Maurice GUERRIER",
-    "description": "Maurice Guerrier naît le 28 avril 1898 à Noyers-sur-Cher (Loir-et-Cher), fils de Jules Guerrier, 38 ans, vigneron, et de Léonie Marteau, son épouse, 28…",
+    "description": "Portrait et biographie de Maurice GUERRIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice guerrier 45633 matricule 45633 notice commemorative"
   },
   {
@@ -11878,7 +11878,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-guillot-45644.jpg",
     "portrait_alt": "Photographie de Maurice GUILLOT",
-    "description": "Maurice, Constant, Marcel, Guillot naît le 19 septembre 1899 à Morières [1] (Calvados – 14), limitrophe de Vendeuvre, fils de Constant Guillot, 41 ans…",
+    "description": "Portrait et biographie de Maurice GUILLOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice guillot 45644 matricule 45644 notice commemorative"
   },
   {
@@ -11904,7 +11904,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-hayot-45655.jpg",
     "portrait_alt": "Photographie de Maurice HAYOT",
-    "description": "Maurice, Léon, Hayot naît le 14 juillet 1901 à Dissay-sous-Courcillon (Sarthe), fils de Léon Hayot, maréchal-ferrant (lui même fils de maréchal-ferrant)…",
+    "description": "Portrait et biographie de Maurice HAYOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice hayot 45655 matricule 45655 notice commemorative"
   },
   {
@@ -11943,7 +11943,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-marchal-46250.jpg",
     "portrait_alt": "Photographie de Maurice MARCHAL",
-    "description": "Maurice, Xavier, Marchal naît le 18 février 1921 à Saint-Dié-des-Vosges (Vosges), fils de Julien Maurice Marchal, 25 ans, et d’Anne Kereller, 19 ans…",
+    "description": "Portrait et biographie de Maurice MARCHAL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice marchal 46250 matricule 46250 notice commemorative"
   },
   {
@@ -11956,7 +11956,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-metais-45872.jpg",
     "portrait_alt": "Photographie de Maurice MÉTAIS",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Maurice MÉTAIS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice metais 45872 matricule 45872 notice commemorative"
   },
   {
@@ -11995,7 +11995,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-ostorero-45941.jpg",
     "portrait_alt": "Photographie de Maurice OSTORERO",
-    "description": "Maurice Ostorero naît le 3 février 1910 à Thil, à l’ouest de Villerupt (Meurthe-et-Moselle – 54), fils de Félix Ostorero et de Marceline Dodelingen.",
+    "description": "Portrait et biographie de Maurice OSTORERO, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice ostorero 45941 matricule 45941 notice commemorative"
   },
   {
@@ -12021,7 +12021,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-poursain-46007.jpg",
     "portrait_alt": "Photographie de Maurice POURSAIN",
-    "description": "IDENTIFICATION INCERTAINE… Auschwitz-I, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Coll. Mémoire Vive. Droits réservés.",
+    "description": "Portrait et biographie de Maurice POURSAIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice poursain 46007 matricule 46007 notice commemorative"
   },
   {
@@ -12034,7 +12034,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-raimond-46030.jpg",
     "portrait_alt": "Photographie de Maurice RAIMOND",
-    "description": "https://www.des-gens.net/Maurice-REIMOND",
+    "description": "Portrait et biographie de Maurice RAIMOND, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice raimond 46030 matricule 46030 notice commemorative"
   },
   {
@@ -12086,7 +12086,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-scharf-46308.jpg",
     "portrait_alt": "Photographie de Maurice SCHARF",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Maurice SCHARF, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice scharf 46308 matricule 46308 notice commemorative"
   },
   {
@@ -12112,7 +12112,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-trouve-46160.jpg",
     "portrait_alt": "Photographie de Maurice TROUVÉ",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Maurice TROUVÉ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice trouve 46160 matricule 46160 notice commemorative"
   },
   {
@@ -12125,7 +12125,7 @@
     "status_class": "other",
     "portrait": "portraits/maurice-vernichon-46188.jpg",
     "portrait_alt": "Photographie de Maurice VERNICHON",
-    "description": "© Archives de l’Institut d’histoire sociale CGT de Seine-Maritime.",
+    "description": "Portrait et biographie de Maurice VERNICHON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice vernichon 46188 matricule 46188 notice commemorative"
   },
   {
@@ -12164,7 +12164,7 @@
     "status_class": "other",
     "portrait": "portraits/mayer-wyszynski-46315.jpg",
     "portrait_alt": "Photographie de Mayer WYSZYNSKI",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Mayer WYSZYNSKI, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "mayer wyszynski 46315 matricule 46315 notice commemorative"
   },
   {
@@ -12177,7 +12177,7 @@
     "status_class": "other",
     "portrait": "portraits/moise-bodin-45262.jpg",
     "portrait_alt": "Photographie de Moïse BODIN",
-    "description": "Moïse, Albert, Joseph, Bodin naît le 28 décembre 1899 à la Garde, lieur-dit de Gy-en-Sologne (Loir-et-Cher – 41), fils de Pierre Bodin, 36 ans…",
+    "description": "Portrait et biographie de Moïse BODIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "moise bodin 45262 matricule 45262 notice commemorative"
   },
   {
@@ -12242,7 +12242,7 @@
     "status_class": "other",
     "portrait": "portraits/omer-proust-46019.jpg",
     "portrait_alt": "Photographie de Omer PROUST",
-    "description": "© Archives municipales d’Ivry-sur-Seine.",
+    "description": "Portrait et biographie de Omer PROUST, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "omer proust 46019 matricule 46019 notice commemorative"
   },
   {
@@ -12320,7 +12320,7 @@
     "status_class": "other",
     "portrait": "portraits/paul-faurie-45530.jpg",
     "portrait_alt": "Photographie de Paul FAURIE",
-    "description": "Léonard, Paul, Faurie, né le 28 juillet 1905 à Chamboulive (Corrèze – 19), fils de Jean Faurie, 26 ans, cultivateur, et de Marie Ferrière, 25 ans, son…",
+    "description": "Portrait et biographie de Paul FAURIE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "paul faurie 45530 matricule 45530 notice commemorative"
   },
   {
@@ -12385,7 +12385,7 @@
     "status_class": "other",
     "portrait": "portraits/paul-louis-brun-45306.jpg",
     "portrait_alt": "Photographie de Paul Louis BRUN",
-    "description": "Paul, Louis, Brun naît le 5 novembre 1905 à Bellenaves (Allier – 03), fils d’Antoine Brun et de Marie Bidet, son épouse.",
+    "description": "Portrait et biographie de Paul Louis BRUN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "paul louis brun 45306 matricule 45306 notice commemorative"
   },
   {
@@ -12398,7 +12398,7 @@
     "status_class": "other",
     "portrait": "portraits/paul-louis-mougeot-45907.jpg",
     "portrait_alt": "Photographie de Paul Louis MOUGEOT",
-    "description": "Paul, Louis , Minette naît le 18 mai 1905 à Poissons (Haute-Marne – 52), fils de Gustave Mougeot, 27 ans, et d’Émilienne Minette, 38 ans, son épouse…",
+    "description": "Portrait et biographie de Paul Louis MOUGEOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "paul louis mougeot 45907 matricule 45907 notice commemorative"
   },
   {
@@ -12463,7 +12463,7 @@
     "status_class": "other",
     "portrait": "portraits/paulin-coutelas-45408.jpg",
     "portrait_alt": "Photographie de Paulin COUTELAS",
-    "description": "Auschwitz-I, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oświęcim, Pologne. Coll. Claudie Trocmé, fille de Paulin Coutelas. Droits réservés.",
+    "description": "Portrait et biographie de Paulin COUTELAS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "paulin coutelas 45408 matricule 45408 notice commemorative"
   },
   {
@@ -12489,7 +12489,7 @@
     "status_class": "other",
     "portrait": "portraits/pierre-cadiou-45323.jpg",
     "portrait_alt": "Photographie de Pierre CADIOU",
-    "description": "Pierre, Marie, Cadiou naît le 29 mai 1901 à Pont-Kerjean-en-Pleyben (Finistère), fils de Jean Cadiou, 29 ans, maçon, et de Marguerite Grannec, 24 ans, son…",
+    "description": "Portrait et biographie de Pierre CADIOU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "pierre cadiou 45323 matricule 45323 notice commemorative"
   },
   {
@@ -12515,7 +12515,7 @@
     "status_class": "other",
     "portrait": "portraits/pierre-collas-45383.jpg",
     "portrait_alt": "Photographie de Pierre COLLAS",
-    "description": "Auschwitz-I, le 8 juillet 1942. Musée d’État d’Auschwitz-Birkenau, Oswiecim, Pologne. Collection Mémoire Vive. Droits réservés.",
+    "description": "Portrait et biographie de Pierre COLLAS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "pierre collas 45383 matricule 45383 notice commemorative"
   },
   {
@@ -12554,7 +12554,7 @@
     "status_class": "other",
     "portrait": "portraits/pierre-duchemin-45492.jpg",
     "portrait_alt": "Photographie de Pierre DUCHEMIN",
-    "description": "Pierre, Jules, Duchemin naît le 11 avril 1920 à Paris 14e, chez ses parents, Léon Jules Duchemin, 33 ans, alors employé de commerce, et Suzanne Maria…",
+    "description": "Portrait et biographie de Pierre DUCHEMIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "pierre duchemin 45492 matricule 45492 notice commemorative"
   },
   {
@@ -12580,7 +12580,7 @@
     "status_class": "other",
     "portrait": "portraits/pierre-gazelot-45584.jpg",
     "portrait_alt": "Photographie de Pierre GAZELOT",
-    "description": "Pierre Gazelot naît le 30 août 1913 à Bar-le-Duc (Meuse – 55), fils de Jules Gazelot et de Maria Hélène Fridrich, son épouse, dans une famille de six…",
+    "description": "Portrait et biographie de Pierre GAZELOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "pierre gazelot 45584 matricule 45584 notice commemorative"
   },
   {
@@ -12671,7 +12671,7 @@
     "status_class": "other",
     "portrait": "portraits/pierre-peschard-45971.jpg",
     "portrait_alt": "Photographie de Pierre PESCHARD",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Pierre PESCHARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "pierre peschard 45971 matricule 45971 notice commemorative"
   },
   {
@@ -12684,7 +12684,7 @@
     "status_class": "other",
     "portrait": "portraits/pierre-picquenot-45984.jpg",
     "portrait_alt": "Photographie de Pierre PICQUENOT",
-    "description": "Collection Sylvie Picquenot. D.R.",
+    "description": "Portrait et biographie de Pierre PICQUENOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "pierre picquenot 45984 matricule 45984 notice commemorative"
   },
   {
@@ -12697,7 +12697,7 @@
     "status_class": "other",
     "portrait": "portraits/pierre-primel-46017.jpg",
     "portrait_alt": "Photographie de Pierre PRIMEL",
-    "description": "© Yvette Porato et Marie-Christine Frare.",
+    "description": "Portrait et biographie de Pierre PRIMEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "pierre primel 46017 matricule 46017 notice commemorative"
   },
   {
@@ -12710,7 +12710,7 @@
     "status_class": "other",
     "portrait": "portraits/pierre-raunier-46034.jpg",
     "portrait_alt": "Photographie de Pierre RAUNIER",
-    "description": "Pierre Raunier. © Collection Pierre…",
+    "description": "Portrait et biographie de Pierre RAUNIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "pierre raunier 46034 matricule 46034 notice commemorative"
   },
   {
@@ -12736,7 +12736,7 @@
     "status_class": "other",
     "portrait": "portraits/pierre-voillemin-46200.jpg",
     "portrait_alt": "Photographie de Pierre VOILLEMIN",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Pierre VOILLEMIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "pierre voillemin 46200 matricule 46200 notice commemorative"
   },
   {
@@ -12814,7 +12814,7 @@
     "status_class": "other",
     "portrait": "portraits/raoul-gaillanne-45564.jpg",
     "portrait_alt": "Photographie de Raoul GAILLANNE",
-    "description": "Raoul, Victor, Louis, Gaillanne naît le 21 novembre 1909 à Saint-Ouen [1] (Seine / Seine-Saint-Denis), fils de Gustave, Marie, Gaillanne, employé au Chemin…",
+    "description": "Portrait et biographie de Raoul GAILLANNE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "raoul gaillanne 45564 matricule 45564 notice commemorative"
   },
   {
@@ -12827,7 +12827,7 @@
     "status_class": "other",
     "portrait": "portraits/raoul-mary-45855.jpg",
     "portrait_alt": "Photographie de Raoul MARY",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Raoul MARY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "raoul mary 45855 matricule 45855 notice commemorative"
   },
   {
@@ -12892,7 +12892,7 @@
     "status_class": "other",
     "portrait": "portraits/raymond-chevallier-45368.jpg",
     "portrait_alt": "Photographie de Raymond CHEVALLIER",
-    "description": "Raymond Chevallier naît le 18 août 1894 au hameau de la Pérelle à Hébécourt (Eure), fils d’Auguste Chevallier, 40 ans, « propriétaire » (sic), et de Marie…",
+    "description": "Portrait et biographie de Raymond CHEVALLIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "raymond chevallier 45368 matricule 45368 notice commemorative"
   },
   {
@@ -12905,7 +12905,7 @@
     "status_class": "other",
     "portrait": "portraits/raymond-delorme-45446.jpg",
     "portrait_alt": "Photographie de Raymond DELORME",
-    "description": "Il est maçon (dans quelle entreprise ?), adhérant « au syndicat de sa corporation », sans activité particulière. Il adhère au Parti communiste en 1936.",
+    "description": "Portrait et biographie de Raymond DELORME, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "raymond delorme 45446 matricule 45446 notice commemorative"
   },
   {
@@ -12970,7 +12970,7 @@
     "status_class": "other",
     "portrait": "portraits/raymond-mouret-45911.jpg",
     "portrait_alt": "Photographie de Raymond MOURET",
-    "description": "Raymond Mouret naît le 4 janvier 1910 à Rouen (Seine-Inférieure / Seine-Maritime [1] – 76), fils de Lucien Mouret et de Joséphine Demarest, son épouse.",
+    "description": "Portrait et biographie de Raymond MOURET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "raymond mouret 45911 matricule 45911 notice commemorative"
   },
   {
@@ -12983,7 +12983,7 @@
     "status_class": "other",
     "portrait": "portraits/raymond-saint-lary-46088.jpg",
     "portrait_alt": "Photographie de Raymond SAINT-LARY",
-    "description": "Raymond, Émile, Saint-Lary naît le 13 novembre 1920 à Montrouge [1] (Seine / Hauts-de-Seine), de Jean Saint-Lary, né le 13 octobre 1887 à Nîmes, garagiste…",
+    "description": "Portrait et biographie de Raymond SAINT-LARY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "raymond saint lary 46088 matricule 46088 notice commemorative"
   },
   {
@@ -13061,7 +13061,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-besse-45240.jpg",
     "portrait_alt": "Photographie de René BESSE",
-    "description": "René, Louis, Besse naît le 14 mai 1923 à Créteil [1] (Seine / Val-de-Marne), fils de Louis Besse, maçon, et de Louise Madranges, son épouse, tous deux…",
+    "description": "Portrait et biographie de René BESSE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene besse 45240 matricule 45240 notice commemorative"
   },
   {
@@ -13074,7 +13074,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-blin-45258.jpg",
     "portrait_alt": "Photographie de René BLIN",
-    "description": "René, Marcel, Eugène, Blin naît le 23 janvier 1907 à Caen (Calvados – 14), chez ses parents, Eugène Blin, 27 ans, journalier, et Rachel Dujardin, 21 ans…",
+    "description": "Portrait et biographie de René BLIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene blin 45258 matricule 45258 notice commemorative"
   },
   {
@@ -13087,7 +13087,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-bordy-45275.jpg",
     "portrait_alt": "Photographie de René BORDY",
-    "description": "René, Louis, Bordy naît le 3 septembre 1901 à Pontarlier (Doubs – 25), chez ses parents, François Émile Bordy, 25 ans, employé au chemin de fer (Compagnie…",
+    "description": "Portrait et biographie de René BORDY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene bordy 45275 matricule 45275 notice commemorative"
   },
   {
@@ -13113,7 +13113,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-carpentier-45332.jpg",
     "portrait_alt": "Photographie de René CARPENTIER",
-    "description": "René Carpentier en 1937, portrait extrait du journal Front Rouge reproduit ci-dessous (en bas à gauche).",
+    "description": "Portrait et biographie de René CARPENTIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene carpentier 45332 matricule 45332 notice commemorative"
   },
   {
@@ -13126,7 +13126,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-coquet-45394.jpg",
     "portrait_alt": "Photographie de René COQUET",
-    "description": "René Coquet naît le 29 novembre 1908 à Mont-Saint-Aignan, agglomération de Rouen (Seine-Inférieure / Seine-Maritime [1]- 76).",
+    "description": "Portrait et biographie de René COQUET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene coquet 45394 matricule 45394 notice commemorative"
   },
   {
@@ -13139,7 +13139,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-cronier-45415.jpg",
     "portrait_alt": "Photographie de René CRONIER",
-    "description": "© Collection Mireille et Michel Tricot. Droits réservés.",
+    "description": "Portrait et biographie de René CRONIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene cronier 45415 matricule 45415 notice commemorative"
   },
   {
@@ -13217,7 +13217,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-gondol-45616.jpg",
     "portrait_alt": "Photographie de René GONDOL",
-    "description": "René, Jean, Martinet naît le 24 janvier 1899 à Paris 18e, chez sa mère, Marie, Léonie, Martinet, 24 ans, couturière, domiciliée au 40, rue Trézel. Sur…",
+    "description": "Portrait et biographie de René GONDOL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene gondol 45616 matricule 45616 notice commemorative"
   },
   {
@@ -13321,7 +13321,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-maroteaux-45837.jpg",
     "portrait_alt": "Photographie de René MAROTEAUX",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de René MAROTEAUX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene maroteaux 45837 matricule 45837 notice commemorative"
   },
   {
@@ -13334,7 +13334,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-masblanc-45856.jpg",
     "portrait_alt": "Photographie de René MASBLANC",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de René MASBLANC, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene masblanc 45856 matricule 45856 notice commemorative"
   },
   {
@@ -13399,7 +13399,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-prigent-46016.jpg",
     "portrait_alt": "Photographie de René PRIGENT",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de René PRIGENT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene prigent 46016 matricule 46016 notice commemorative"
   },
   {
@@ -13412,7 +13412,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-richard-46054.jpg",
     "portrait_alt": "Photographie de René RICHARD",
-    "description": "René, Joseph, RICHARD naît le 24 juillet 1906 à Saint-Didier-d’Allier (Haute-Loire), chez ses parents, Joseph Richard, 35 ans, cultivateur, et Marie Léonie…",
+    "description": "Portrait et biographie de René RICHARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene richard 46054 matricule 46054 notice commemorative"
   },
   {
@@ -13425,7 +13425,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-rigaud-46058.jpg",
     "portrait_alt": "Photographie de René RIGAUD",
-    "description": "René Rigaud naît le 27 janvier 1914 à Paris 14e, fils de Jean Rigaud, 28 ans, livreur, et de Renée Marie Cochet, 22 ans, couturière, son épouse, domiciliés…",
+    "description": "Portrait et biographie de René RIGAUD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene rigaud 46058 matricule 46058 notice commemorative"
   },
   {
@@ -13451,7 +13451,7 @@
     "status_class": "other",
     "portrait": "portraits/rene-sale-46090.jpg",
     "portrait_alt": "Photographie de René SALÉ",
-    "description": "René, Maxime, Salé naît le 11 juillet 1917 à Wissous [1] (Seine-et-Oise / Essonne), fils de Maxime Germain Augustin Salé, 28 ans, charretier (puis…",
+    "description": "Portrait et biographie de René SALÉ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene sale 46090 matricule 46090 notice commemorative"
   },
   {
@@ -13633,7 +13633,7 @@
     "status_class": "other",
     "portrait": "portraits/robert-moura-45910.jpg",
     "portrait_alt": "Photographie de Robert MOURA",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Robert MOURA, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "robert moura 45910 matricule 45910 notice commemorative"
   },
   {
@@ -13672,7 +13672,7 @@
     "status_class": "other",
     "portrait": "portraits/roger-allou-45166.jpg",
     "portrait_alt": "Photographie de Roger ALLOU",
-    "description": "Roger, Léon, Léopold, Allou naît le 6 juillet 1910 à Marcelcave (Somme – 80), fils de Léon Louis Allou, 25 ans, berger, et de Claire Marie Madeleine Opron…",
+    "description": "Portrait et biographie de Roger ALLOU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "roger allou 45166 matricule 45166 notice commemorative"
   },
   {
@@ -13685,7 +13685,7 @@
     "status_class": "other",
     "portrait": "portraits/roger-aumont-45185.jpg",
     "portrait_alt": "Photographie de Roger AUMONT",
-    "description": "Roher Aumont, photographié au camp de Gaillon en mars 1942.",
+    "description": "Portrait et biographie de Roger AUMONT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "roger aumont 45185 matricule 45185 notice commemorative"
   },
   {
@@ -13698,7 +13698,7 @@
     "status_class": "other",
     "portrait": "portraits/roger-bonnifet-46221.jpg",
     "portrait_alt": "Photographie de Roger BONNIFET",
-    "description": "Roger, Louis, Jacques, Honoré, Bonnifet naît le 27 décembre 1907 à Cherbourg (Manche). Il a un frère, Marcel, né le 7 août 1912 à Cherbourg (et qui…",
+    "description": "Portrait et biographie de Roger BONNIFET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "roger bonnifet 46221 matricule 46221 notice commemorative"
   },
   {
@@ -13711,7 +13711,7 @@
     "status_class": "other",
     "portrait": "portraits/roger-brisset-45304.jpg",
     "portrait_alt": "Photographie de Roger BRISSET",
-    "description": "Roger, Louis, Brisset naît le 24 septembre 1907 à Brie-Comte-Robert (Seine-et-Marne – 77), fils d’Étienne Maurice Brisset, 27 ans, ouvrier maçon, et de…",
+    "description": "Portrait et biographie de Roger BRISSET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "roger brisset 45304 matricule 45304 notice commemorative"
   },
   {
@@ -13815,7 +13815,7 @@
     "status_class": "other",
     "portrait": "portraits/roger-josselin-45000.jpg",
     "portrait_alt": "Photographie de Roger JOSSELIN",
-    "description": "Roger, Jean, Josselin naît le 13 août 1920 à Dijon (Côte-d’Or – 21), 21 ruelle des Poussots, de Jean Josselin, 33 ans, coiffeur, et de Jeanne Juliette…",
+    "description": "Portrait et biographie de Roger JOSSELIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "roger josselin convoi 45000 notice commemorative"
   },
   {
@@ -13828,7 +13828,7 @@
     "status_class": "other",
     "portrait": "portraits/roger-le-bras-45743.jpg",
     "portrait_alt": "Photographie de Roger Le BRAS",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz lors de l’évacuation du camp en janvier 1945. Le portrait d’immatriculation de ce détenu a…",
+    "description": "Portrait et biographie de Roger Le BRAS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "roger le bras 45743 matricule 45743 notice commemorative"
   },
   {
@@ -13880,7 +13880,7 @@
     "status_class": "other",
     "portrait": "portraits/roger-mauger-45865.jpg",
     "portrait_alt": "Photographie de Roger MAUGER",
-    "description": "Droits réservés.",
+    "description": "Portrait et biographie de Roger MAUGER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "roger mauger 45865 matricule 45865 notice commemorative"
   },
   {
@@ -13932,7 +13932,7 @@
     "status_class": "other",
     "portrait": "portraits/roger-rivet-46061.jpg",
     "portrait_alt": "Photographie de Roger RIVET",
-    "description": "Roger, Maxime, Rivet naît le 5 février 1905 à Pougny (Nièvre – 58), , chez ses parents, Arthur Rivet, 47 ans, receveur buraliste, et Marie Séron, 37 ans…",
+    "description": "Portrait et biographie de Roger RIVET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "roger rivet 46061 matricule 46061 notice commemorative"
   },
   {
@@ -13958,7 +13958,7 @@
     "status_class": "other",
     "portrait": "portraits/roland-pannetrat-45946.jpg",
     "portrait_alt": "Photographie de Roland PANNETRAT",
-    "description": "Roland, Jean, Pannetrat naît le 15 décembre 1923 à Paris 11e (75), fils de Pierre Pannetrat, 32 ans, monteur en fer, et de Marguerite Pellé, son épouse, 27…",
+    "description": "Portrait et biographie de Roland PANNETRAT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "roland pannetrat 45946 matricule 45946 notice commemorative"
   },
   {
@@ -14036,7 +14036,7 @@
     "status_class": "other",
     "portrait": "portraits/serge-marteau-45839.jpg",
     "portrait_alt": "Photographie de Serge MARTEAU",
-    "description": "Les SS ont détruit la plupart des archives du KL Auschwitz. Le portrait d’immatriculation de ce détenu a disparu.",
+    "description": "Portrait et biographie de Serge MARTEAU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "serge marteau 45839 matricule 45839 notice commemorative"
   },
   {
@@ -14335,7 +14335,7 @@
     "status_class": "other",
     "portrait": "portraits/valentin-garreau-45572.jpg",
     "portrait_alt": "Photographie de Valentin GARREAU",
-    "description": "Valentin, Joseph, Garreau naît le 6 novembre 1915 à Paris 20e, chez ses parents, Paul Garreau, 46 ans, journaliers, et Hélène Marchat, 41 ans, son épouse…",
+    "description": "Portrait et biographie de Valentin GARREAU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "valentin garreau 45572 matricule 45572 notice commemorative"
   },
   {
@@ -14439,7 +14439,7 @@
     "status_class": "other",
     "portrait": "portraits/yves-cariou-45330.jpg",
     "portrait_alt": "Photographie de Yves CARIOU",
-    "description": "Yves Cariou naît le 8 septembre 1908 à Cherbourg (Manche), fils d’Yves, Marie, Cariou et de Françoise Calvez (tous deux seront décédés lors de son…",
+    "description": "Portrait et biographie de Yves CARIOU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "yves cariou 45330 matricule 45330 notice commemorative"
   },
   {
