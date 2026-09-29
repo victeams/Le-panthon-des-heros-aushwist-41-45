@@ -1,8 +1,8 @@
 RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
 Femmes 31000 : 224
-Hommes 45000 : 560
-À vérifier : 71
+Hommes 45000 : 904
+À vérifier : 73
 
 IMAGE MANQUANTE — 31-836-31000.html
 IMAGE MANQUANTE — 31-843-31000.html
@@ -39,6 +39,7 @@ IMAGE MANQUANTE — gisele-laguesse-31667.html
 IMAGE MANQUANTE — helene_allaire_31807.html
 IMAGE MANQUANTE — helene_antoine_nee_demangeat_31775.html
 IMAGE MANQUANTE — helene_hascoet_31755.html
+IMAGE MANQUANTE — hommes/45000.html
 IMAGE MANQUANTE — jeanne_grandperret_31770.html
 IMAGE MANQUANTE — jeannine_dite_jeanne_herschtel.html
 IMAGE MANQUANTE — josephine-dite-mado-umido-31000.html
@@ -75,3 +76,4 @@ IMAGE MANQUANTE — yvonne-cave-31691.html
 IMAGE MANQUANTE — yvonne-courtillat-31799.html
 IMAGE MANQUANTE — yvonne-rose-llucia-31704.html
 IMAGE MANQUANTE — yvonne_souchaud_nee_houdayer_31791.html
+DOUBLON À VÉRIFIER — matricule 46177 — hommes/alexandre-varoteaux-46177.html / hommes/henri-varlet-46177.html
