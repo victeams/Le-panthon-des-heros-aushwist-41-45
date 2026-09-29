@@ -509,7 +509,7 @@ def collection_page(
     <p class="eyebrow">Mémoire • Résistance • Déportation</p>
     <h1>{escape(label)}</h1>
     <p class="intro">{escape(intro)}</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}{gallery_link}{tiktok_link}{about_link}</nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}<a href="aktion-t4.html">Aktion T4</a>{gallery_link}{tiktok_link}{about_link}</nav>
     <div class="stats"><span class="stat"><strong>{len(people)}</strong> fiche{'s' if len(people) != 1 else ''}</span></div>
   </header>
   <main>
@@ -645,7 +645,7 @@ def home_page(
     <h1>{title}</h1>
     <p class="intro">{description}</p>
     <p class="content-notice" role="note">Avertissement : certaines photographies d’archives documentées peuvent heurter la sensibilité, notamment celle des enfants.</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a><a href="enfants/">Enfants déportés</a>{database_link}{gallery_link}{tiktok_link}{about_link}<a href="contact.html">Contact</a></nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a><a href="enfants/">Enfants déportés</a>{database_link}<a href="aktion-t4.html">Aktion T4</a>{gallery_link}{tiktok_link}{about_link}<a href="contact.html">Contact</a></nav>
     <div class="stats"><span class="stat"><strong>{total}</strong> fiches</span><span class="stat"><strong>{len(women)}</strong> femmes</span><span class="stat"><strong>{len(men)}</strong> hommes</span></div>
     <div class="sister-site" role="note"><p><strong>Découvrez aussi : Enfants déportés 1939-1945</strong>Un mémorial numérique consacré aux visages et aux histoires des enfants déportés.</p><a class="button" href="enfants/">Ouvrir le mémorial →</a></div>
     <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:Gate_of_Auschwitz_II,_28_November_2007_(3).jpg" target="_blank" rel="noopener noreferrer">Photographie d’arrière-plan : Auschwitz II-Birkenau, vue depuis les rails, Logaritmo, domaine public.</a>
