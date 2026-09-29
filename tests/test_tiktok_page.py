@@ -21,7 +21,7 @@ class TikTokPageTests(unittest.TestCase):
         match = re.search(r'<script type="application/ld\+json">(.*?)</script>', page, re.DOTALL)
         self.assertIsNotNone(match)
         payload = json.loads(match.group(1))
-        self.assertEqual(payload["@type"], "ProfilePage")
+        self.assertEqual(payload["@type"], "CollectionPage")
 
 
 if __name__ == "__main__":
