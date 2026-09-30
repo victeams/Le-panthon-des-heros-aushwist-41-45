@@ -1,0 +1,15 @@
+
+.t4-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:start}
+.t4-portrait{background:var(--panel);border:1px solid var(--line);border-radius:13px;overflow:hidden;scroll-margin-top:24px}
+.t4-portrait[hidden]{display:none}.t4-portrait figure{margin:0;background:#222831}
+.t4-portrait figure img{display:block;width:100%;height:260px;object-fit:contain;background:#222831}
+.t4-portrait figcaption{padding:9px 12px;font-size:.72rem;line-height:1.4;color:var(--muted);min-height:38px}
+.t4-portrait-body{padding:17px}.t4-portrait h3{font-size:1.25rem;margin:6px 0 10px;overflow-wrap:anywhere}
+.t4-label{font-size:.73rem;color:var(--gold);margin:0;line-height:1.5}.t4-dates{font-size:.9rem;color:var(--muted);margin-bottom:14px}
+.t4-portrait details{font-size:.94rem;line-height:1.65}.t4-portrait summary{color:var(--gold);font-weight:bold;cursor:pointer;padding:7px 0;margin-bottom:10px}.t4-portrait summary:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.t4-source{margin:16px 0 0;font-size:.75rem;line-height:1.5}.t4-context{font-size:.9rem;color:var(--muted)}
+.t4-controls{display:grid;grid-template-columns:1.4fr 1fr;gap:16px;margin:24px 0 14px}.t4-controls[hidden]{display:none}
+.t4-controls label{display:block;margin-bottom:6px;font-weight:bold;font-size:.9rem}.t4-controls input,.t4-controls select{width:100%;min-height:46px;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);font:inherit;font-size:.94rem}
+.t4-result{font-size:.9rem;color:var(--muted)}.biography{margin-bottom:18px}.biography figure{margin:0 0 16px}.biography img{max-width:100%;max-height:380px;object-fit:contain}.biography figcaption{font-size:.85rem;color:var(--muted)}
+@media(max-width:760px){.t4-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.t4-portrait figure img{height:240px}}
+@media(max-width:520px){.t4-gallery,.t4-controls{grid-template-columns:1fr}.t4-portrait figure img{height:320px}}
