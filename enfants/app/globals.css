@@ -439,11 +439,95 @@ input:focus, select:focus, textarea:focus { border-color: var(--accent); box-sha
 .gallery-item figcaption a { width: fit-content; margin-top: .35rem; color: var(--accent-soft); }
 
 .site-footer {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem clamp(1rem, 4vw, 4rem) 2.5rem;
+  border-top: 1px solid var(--line);
+  color: var(--ink-muted);
+  font-size: .75rem;
+}
+
+.site-footer__brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1rem, 4vw, 3rem);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border-radius: 2rem;
+  background: #ecf0ee;
+  box-shadow: inset 0 0 0 1px rgba(14, 22, 27, 0.08);
+  color: #25597d;
+}
+
+.site-footer__brand-mark {
+  flex: 0 0 auto;
+  width: clamp(120px, 21vw, 240px);
+  color: #1b4f7a;
+}
+
+.site-footer__brand-mark svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.site-footer__brand-copy {
+  display: grid;
+  gap: .6rem;
+  width: min(100%, 960px);
+  text-align: center;
+}
+
+.site-footer__wordmark {
+  display: grid;
+  align-items: end;
+  justify-items: center;
+  line-height: .9;
+  letter-spacing: -.07em;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  color: #1b4f7a;
+}
+
+.site-footer__tourisme,
+.site-footer__territoire,
+.site-footer__region {
+  display: block;
+}
+
+.site-footer__tourisme {
+  font-size: clamp(2.4rem, 6vw, 7rem);
+  color: #d4b77d;
+}
+
+.site-footer__territoire {
+  font-size: clamp(2.8rem, 8vw, 8rem);
+  color: #1b4f7a;
+}
+
+.site-footer__region {
+  font-size: clamp(2.2rem, 6vw, 6rem);
+  color: #4c9d9a;
+}
+
+.site-footer__location {
+  color: #1b4f7a;
+  font-size: clamp(1.1rem, 2vw, 2rem);
+  font-weight: 600;
+}
+
+.site-footer__tagline {
+  font-family: "Segoe Print", "Bradley Hand", cursive;
+  font-size: clamp(1.5rem, 2.8vw, 3rem);
+  line-height: 1.2;
+  color: #1a4d6d;
+  font-style: italic;
+}
+
+.site-footer__meta {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
-  padding: 2rem clamp(1rem, 4vw, 4rem);
-  border-top: 1px solid var(--line);
   color: var(--ink-muted);
   font-size: .75rem;
 }
