@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 
 const title = "Enfants déportés 1939-1945";
@@ -95,26 +96,14 @@ export default function RootLayout({
         </header>
         <div id="contenu">{children}</div>
         <footer className="site-footer">
-          <div className="site-footer__brand" aria-label="Tourisme Territoire Nord-Picardie">
-            <div className="site-footer__brand-mark" aria-hidden="true">
-              <svg viewBox="0 0 260 220" role="img" aria-hidden="true">
-                <path d="M104 30L172 90L148 112L104 62L80 94L57 77L104 30Z" fill="none" stroke="currentColor" strokeWidth="8" strokeLinejoin="round"/>
-                <path d="M39 120L118 46L164 100L124 142L87 116L50 149L39 120Z" fill="none" stroke="currentColor" strokeWidth="8" strokeLinejoin="round"/>
-                <path d="M110 112L202 24L210 41L148 112L110 112Z" fill="none" stroke="currentColor" strokeWidth="8" strokeLinejoin="round"/>
-                <path d="M126 118L190 157L156 192L116 158L126 118Z" fill="none" stroke="currentColor" strokeWidth="8" strokeLinejoin="round"/>
-                <path d="M97 172L87 208C105 194 122 190 146 188C156 183 163 177 176 169" fill="none" stroke="currentColor" strokeWidth="6" strokeLinecap="round"/>
-                <path d="M200 156C222 156 231 171 233 188C211 180 199 174 187 163" fill="none" stroke="currentColor" strokeWidth="6" strokeLinecap="round"/>
-              </svg>
-            </div>
-            <div className="site-footer__brand-copy">
-              <div className="site-footer__wordmark" aria-label="Tourisme Territoire Nord-Picardie">
-                <span className="site-footer__tourisme">Tourisme</span>
-                <span className="site-footer__territoire">Territoire</span>
-                <span className="site-footer__region">Nord-Picardie</span>
-              </div>
-              <div className="site-footer__location">Doullens • Somme</div>
-              <div className="site-footer__tagline">“Ressourcez-vous entre nature et patrimoine”</div>
-            </div>
+          <div className="site-footer__brand">
+            <Image
+              src="/logo-tourisme-territoire-nord-picardie.png"
+              alt="Tourisme Territoire Nord-Picardie, Doullens Somme. Ressourcez-vous entre nature et patrimoine."
+              width={1271}
+              height={652}
+              unoptimized
+            />
           </div>
           <div className="site-footer__meta">
             <p>Enfants déportés 1939-1945 · Mémoire, documentation, transmission.</p>
