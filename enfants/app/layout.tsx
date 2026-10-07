@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import "./globals.css";
 
 const title = "Enfants déportés 1939-1945";
@@ -96,23 +95,12 @@ export default function RootLayout({
         </header>
         <div id="contenu">{children}</div>
         <footer className="site-footer">
-          <div className="site-footer__brand">
-            <Image
-              src="/logo-tourisme-territoire-nord-picardie.png"
-              alt="Tourisme Territoire Nord-Picardie, Doullens Somme. Ressourcez-vous entre nature et patrimoine."
-              width={1271}
-              height={652}
-              unoptimized
-            />
-          </div>
-          <div className="site-footer__meta">
-            <p>Enfants déportés 1939-1945 · Mémoire, documentation, transmission.</p>
-            <p>
-              <a href={companionSiteUrl}>Le Panthéon des héros</a>
-              <span aria-hidden="true"> · </span>
-              Aucune publicité. Aucun profilage publicitaire.
-            </p>
-          </div>
+          <p>Enfants déportés 1939-1945 · Mémoire, documentation, transmission.</p>
+          <p>
+            <a href={companionSiteUrl}>Le Panthéon des héros</a>
+            <span aria-hidden="true"> · </span>
+            Aucune publicité. Aucun profilage publicitaire.
+          </p>
         </footer>
       </body>
     </html>
