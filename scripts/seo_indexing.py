@@ -73,6 +73,8 @@ def ensure_head_tags(path: Path) -> bool:
 
     original = text
     text = text.replace(OLD_BASE, BASE)
+    text = re.sub(r"(memorial-ux\.css\?v=)\d+", r"\g<1>2", text)
+    text = re.sub(r"(memorial-ux\.js\?v=)\d+", r"\g<1>2", text)
     text = text.replace(
         '<link rel="icon" href="https://memoiredesdeportes.fr/favicon.ico" sizes="any">\n  <link rel="icon" type="image/png" sizes="96x96" href="https://memoiredesdeportes.fr/favicon.png">\n  <link rel="icon" type="image/svg+xml" href="https://memoiredesdeportes.fr/favicon.svg">\n  <link rel="apple-touch-icon" sizes="96x96" href="https://memoiredesdeportes.fr/apple-touch-icon.png">',
         '<link rel="icon" href="https://memoiredesdeportes.fr/favicon.ico" sizes="any">\n  <link rel="icon" type="image/png" sizes="96x96" href="https://memoiredesdeportes.fr/favicon.png">\n  <link rel="icon" type="image/svg+xml" href="https://memoiredesdeportes.fr/favicon.svg">\n  <link rel="apple-touch-icon" sizes="96x96" href="https://memoiredesdeportes.fr/apple-touch-icon.png">',
@@ -104,7 +106,7 @@ def ensure_head_tags(path: Path) -> bool:
 
     inserts = []
     if "memorial-ux.css" not in text:
-        inserts.append('<link rel="stylesheet" href="https://memoiredesdeportes.fr/assets/memorial-ux.css?v=1">')
+        inserts.append('<link rel="stylesheet" href="https://memoiredesdeportes.fr/assets/memorial-ux.css?v=2">')
     if not re.search(r'<link\s+[^>]*rel=["\']icon["\']', text, flags=re.I):
         inserts.append('<link rel="icon" href="https://memoiredesdeportes.fr/favicon.ico" sizes="any">\n  <link rel="icon" type="image/png" sizes="96x96" href="https://memoiredesdeportes.fr/favicon.png">\n  <link rel="icon" type="image/svg+xml" href="https://memoiredesdeportes.fr/favicon.svg">\n  <link rel="apple-touch-icon" sizes="96x96" href="https://memoiredesdeportes.fr/apple-touch-icon.png">')
     if not re.search(r'<meta\s+[^>]*name=["\']theme-color["\']', text, flags=re.I):
@@ -157,7 +159,7 @@ def ensure_head_tags(path: Path) -> bool:
         text = re.sub(r"</head>", "  " + "\n  ".join(inserts) + "\n</head>", text, count=1, flags=re.I)
 
     if "memorial-ux.js" not in text and "</body>" in text.lower():
-        script = ('  <script defer src="https://memoiredesdeportes.fr/assets/memorial-ux.js?v=1" '
+        script = ('  <script defer src="https://memoiredesdeportes.fr/assets/memorial-ux.js?v=2" '
                   'data-base="https://memoiredesdeportes.fr" '
                   'data-home="https://memoiredesdeportes.fr/"></script>\n')
         text = re.sub(r"</body>", script + "</body>", text, count=1, flags=re.I)
