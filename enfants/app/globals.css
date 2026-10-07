@@ -439,11 +439,29 @@ input:focus, select:focus, textarea:focus { border-color: var(--accent); box-sha
 .gallery-item figcaption a { width: fit-content; margin-top: .35rem; color: var(--accent-soft); }
 
 .site-footer {
+  display: grid;
+  gap: 1.5rem;
+  padding: 2rem clamp(1rem, 4vw, 4rem) 2.5rem;
+  border-top: 1px solid var(--line);
+  color: var(--ink-muted);
+  font-size: .75rem;
+}
+
+.site-footer__brand {
+  display: flex;
+  justify-content: center;
+}
+
+.site-footer__brand img {
+  display: block;
+  width: min(100%, 1000px);
+  height: auto;
+}
+
+.site-footer__meta {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
-  padding: 2rem clamp(1rem, 4vw, 4rem);
-  border-top: 1px solid var(--line);
   color: var(--ink-muted);
   font-size: .75rem;
 }
@@ -477,7 +495,7 @@ input:focus, select:focus, textarea:focus { border-color: var(--accent); box-sha
   .portrait-card { grid-template-rows: 340px 1fr; }
   .tribute-list { grid-template-columns: 1fr; }
   .support { padding: 2rem 1.1rem; }
-  .portrait-page__footer, .site-footer { align-items: flex-start; flex-direction: column; }
+  .portrait-page__footer, .site-footer__meta { align-items: flex-start; flex-direction: column; }
   .facts div { grid-template-columns: 88px 1fr; }
 }
 
