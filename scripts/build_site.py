@@ -24,6 +24,7 @@ from urllib.parse import quote
 DEFAULT_BASE_URL = (
     "https://memoiredesdeportes.fr"
 )
+USHMM_INDEX_URL = "https://encyclopedia.ushmm.org/landing/fr/id-cards"
 DEFAULT_GOOGLE_VERIFICATION = "Ps2YA3umzm7WkI3vXbghKUg9ybi9iYKRJ7PONsI-8vU"
 GENERATED_HTML = {
     "index.html",
@@ -37,7 +38,9 @@ GENERATED_HTML = {
     "sources-femmes.html",
     "sources-hommes.html",
     "convoi-des-45000.html",
+    "cartes-identite-ushmm.html",
 }
+USHMM_CARD_GROUPS = {"femmes", "hommes", "non_documente"}
 EXCLUDED_DIRS = {".git", ".github", "scripts", "tests", "portraits"}
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
 # Exception historique : cette fiche publiée ne contient ni matricule ni
@@ -455,6 +458,7 @@ def collection_page(
     photo_gallery_available: bool = False,
     tiktok_available: bool = False,
     about_available: bool = False,
+    ushmm_cards_available: bool = False,
 ) -> str:
     is_women = group == "femmes"
     label = "Femmes du convoi des 31000" if is_women else "Hommes du convoi des 45000"
@@ -498,6 +502,11 @@ def collection_page(
     gallery_link = '<a href="photos.html">Photothèque</a>' if photo_gallery_available else ""
     tiktok_link = '<a href="tiktok.html">Chaîne TikTok</a>' if tiktok_available else ""
     about_link = '<a href="a-propos.html">À propos</a>' if about_available else ""
+    ushmm_link = (
+        '<a href="cartes-identite-ushmm.html">Notices biographiques USHMM</a>'
+        if ushmm_cards_available
+        else ""
+    )
     return f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -509,7 +518,7 @@ def collection_page(
     <p class="eyebrow">Mémoire • Résistance • Déportation</p>
     <h1>{escape(label)}</h1>
     <p class="intro">{escape(intro)}</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}<a href="aktion-t4.html">Aktion T4</a>{gallery_link}{tiktok_link}{about_link}</nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}<a href="aktion-t4.html">Aktion T4</a>{gallery_link}{tiktok_link}{about_link}{ushmm_link}</nav>
     <div class="stats"><span class="stat"><strong>{len(people)}</strong> fiche{'s' if len(people) != 1 else ''}</span></div>
   </header>
   <main>
@@ -595,6 +604,7 @@ def home_page(
     photo_records: int | None = None,
     tiktok_available: bool = False,
     about_available: bool = False,
+    ushmm_card_counts: dict[str, int] | None = None,
 ) -> str:
     total = len(women) + len(men)
     title = "Le Panthéon des héros 1939-1945"
@@ -616,6 +626,12 @@ def home_page(
     gallery_link = '<a href="photos.html">Photothèque</a>' if photo_records is not None else ""
     tiktok_link = '<a href="tiktok.html">Chaîne TikTok</a>' if tiktok_available else ""
     about_link = '<a href="a-propos.html">À propos</a>' if about_available else ""
+    ushmm_cards_available = ushmm_card_counts is not None
+    ushmm_link = (
+        '<a href="cartes-identite-ushmm.html">Notices biographiques USHMM</a>'
+        if ushmm_cards_available
+        else ""
+    )
     brand_logo = (
         '<a class="brand-link" href="tiktok.html" aria-label="Découvrir la chaîne TikTok Résistants3945"><img class="brand-logo" src="assets/logo-resistants3945.webp" width="690" height="690" alt="Logo Femmes d’Auschwitz, Résistance et Vie"></a>'
         if tiktok_available
@@ -629,6 +645,11 @@ def home_page(
     gallery_card = (
         f'''<article class="collection"><a class="collection-visual" href="photos.html" aria-label="Ouvrir la photothèque historique"><img src="https://encyclopedia.ushmm.org/images/large/64903df2-0191-4d48-bb5c-7e6c8528c1da.jpeg" alt="Un enfant rescapé est emmené hors d’un baraquement à Auschwitz" loading="lazy"></a><div class="collection-body"><h2>Photothèque historique</h2><p>{photo_records} photographies avec leur nom, leur description et leur notice source.</p><a class="collection-credit" href="https://encyclopedia.ushmm.org/content/fr/photo/a-child-survivor-is-carried-out-of-barracks-at-auschwitz" target="_blank" rel="noopener">Photographie : Rafael Abramovich Mazelev</a><br><a class="button" href="photos.html">Voir les photographies</a></div></article>'''
         if photo_records is not None
+        else ""
+    )
+    ushmm_card = (
+        f'''<article class="collection"><div class="collection-body"><h2>Notices biographiques de l’USHMM</h2><p>{sum(ushmm_card_counts.values())} notices avec liens directs vers les fiches officielles, réparties en {ushmm_card_counts["femmes"]} femmes, {ushmm_card_counts["hommes"]} hommes et {ushmm_card_counts["non_documente"]} à vérifier.</p><a class="button" href="cartes-identite-ushmm.html">Parcourir les notices</a></div></article>'''
+        if ushmm_card_counts is not None
         else ""
     )
     return f"""<!DOCTYPE html>
@@ -645,7 +666,7 @@ def home_page(
     <h1>{title}</h1>
     <p class="intro">{description}</p>
     <p class="content-notice" role="note">Avertissement : certaines photographies d’archives documentées peuvent heurter la sensibilité, notamment celle des enfants.</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a><a href="enfants/">Enfants déportés</a>{database_link}<a href="aktion-t4.html">Aktion T4</a>{gallery_link}{tiktok_link}{about_link}<a href="contact.html">Contact</a></nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a><a href="enfants/">Enfants déportés</a>{database_link}<a href="aktion-t4.html">Aktion T4</a>{gallery_link}{tiktok_link}{about_link}{ushmm_link}<a href="contact.html">Contact</a></nav>
     <div class="stats"><span class="stat"><strong>{total}</strong> fiches</span><span class="stat"><strong>{len(women)}</strong> femmes</span><span class="stat"><strong>{len(men)}</strong> hommes</span></div>
     <div class="sister-site" role="note"><p><strong>Découvrez aussi : Enfants déportés 1939-1945</strong>Un mémorial numérique consacré aux visages et aux histoires des enfants déportés.</p><a class="button" href="enfants/">Ouvrir le mémorial →</a></div>
     <a class="hero-credit" href="https://commons.wikimedia.org/wiki/File:Gate_of_Auschwitz_II,_28_November_2007_(3).jpg" target="_blank" rel="noopener noreferrer">Photographie d’arrière-plan : Auschwitz II-Birkenau, vue depuis les rails, Logaritmo, domaine public.</a>
@@ -661,6 +682,7 @@ def home_page(
       <article class="collection"><a class="collection-visual" href="hommes.html" aria-label="Découvrir les hommes du convoi des 45000"><img src="https://encyclopedia.ushmm.org/images/large/c1c40791-4e4a-4373-97ab-8c822b985f45.jpeg" alt="Hommes, femmes et enfants sur la rampe d’Auschwitz-Birkenau en 1944" loading="lazy"></a><div class="collection-body"><h2>Hommes du convoi des 45000</h2><p>{len(men)} biographie{'s' if len(men) != 1 else ''} actuellement accessible{'s' if len(men) != 1 else ''}.</p><a class="collection-credit" href="https://encyclopedia.ushmm.org/content/fr/photo/arrival-in-auschwitz-birkenau" target="_blank" rel="noopener">Photographie : notice et crédits</a><br><a class="button" href="hommes.html">Découvrir les hommes</a></div></article>
       {database_card}
       {gallery_card}
+      {ushmm_card}
     </section>
     <section id="recherche" aria-labelledby="search-title" style="margin-top:38px">
       <h2 id="search-title">Rechercher dans toutes les biographies</h2>
@@ -691,6 +713,7 @@ def sitemap_xml(
     tiktok_available: bool = False,
     about_available: bool = False,
     convoi_available: bool = False,
+    ushmm_cards_available: bool = False,
 ) -> str:
     entries: list[str] = [
         f"{base_url}/",
@@ -709,6 +732,8 @@ def sitemap_xml(
         entries.append(url_for(base_url, "a-propos.html"))
     if convoi_available:
         entries.append(url_for(base_url, "convoi-des-45000.html"))
+    if ushmm_cards_available:
+        entries.append(url_for(base_url, "cartes-identite-ushmm.html"))
 
     root_files = {Path(person.file).name for person in people if "/" not in person.file}
     entries.extend(
@@ -730,6 +755,147 @@ def sitemap_xml(
             "",
         ]
     )
+
+
+def ushmm_id_cards_page(
+    base_url: str,
+    records: list[dict[str, str]],
+) -> str:
+    groups = (
+        ("femmes", "Femmes"),
+        ("hommes", "Hommes"),
+        ("non_documente", "Sexe à vérifier"),
+    )
+    counts = {
+        group: sum(record["gender_group"] == group for record in records)
+        for group, _ in groups
+    }
+    structured = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Notices biographiques de l’USHMM",
+        "description": (
+            "Répertoire de noms et de liens vers les notices biographiques "
+            "officielles de l’United States Holocaust Memorial Museum."
+        ),
+        "url": url_for(base_url, "cartes-identite-ushmm.html"),
+        "inLanguage": "fr",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Le Panthéon des héros 1939-1945",
+            "url": f"{base_url}/",
+        },
+    }
+    nav_links = "\n".join(
+        f'<a href="#ushmm-{group}">{label} ({counts[group]})</a>'
+        for group, label in groups
+    )
+    sections = []
+    for group, label in groups:
+        cards = [
+            f'''<article class="ushmm-card" data-search="{escape(normalized(record["name"]), quote=True)}"><a href="{escape(record["url"], quote=True)}" target="_blank" rel="noopener noreferrer">{escape(record["name"])}<span>Voir la notice officielle <span aria-hidden="true">↗</span></span></a></article>'''
+            for record in records
+            if record["gender_group"] == group
+        ]
+        if not cards:
+            cards = ['<p class="empty">Aucune notice dans cette catégorie.</p>']
+        sections.append(
+            f'''<section class="ushmm-section" id="ushmm-{group}" aria-labelledby="ushmm-title-{group}"><h2 id="ushmm-title-{group}">{label} <span>({counts[group]})</span></h2><div class="ushmm-grid">{"".join(cards)}</div></section>'''
+        )
+    description = (
+        "Ce répertoire contient les noms et liens directs vers les notices "
+        "officielles de l’USHMM. Les biographies et les images restent sur "
+        "le site du musée. Le classement par sexe s’appuie uniquement sur "
+        "les indices grammaticaux explicites associés au nom au début de la "
+        "notice ; les cas ambigus sont séparés."
+    )
+    page_css = """
+      .ushmm-page{max-width:1180px;margin:0 auto;padding:36px 20px 70px}
+      .ushmm-page>p{max-width:850px;color:var(--muted)}
+      .ushmm-links{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}
+      .ushmm-links a{padding:10px 14px;border:1px solid var(--line);border-radius:999px;text-decoration:none}
+      .ushmm-section{margin-top:38px;scroll-margin-top:20px}
+      .ushmm-section h2{font:clamp(1.5rem,3vw,2.2rem) Georgia,serif}
+      .ushmm-section h2 span{color:var(--muted);font:normal .8em Arial,sans-serif}
+      .ushmm-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+      .ushmm-card{min-width:0;padding:0;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+      .ushmm-card a{display:grid;gap:8px;height:100%;padding:14px;color:var(--text);font-weight:700;text-decoration:none}
+      .ushmm-card a span{color:var(--gold);font-size:.85rem}
+      .ushmm-card[hidden]{display:none}
+      .ushmm-empty{padding:24px;text-align:center;color:var(--muted)}
+      @media(max-width:600px){.ushmm-page{padding:24px 14px 48px}.ushmm-grid{grid-template-columns:1fr}}
+    """
+    return f"""<!DOCTYPE html>
+<html lang="fr">
+<head>
+  {head_markup("Notices biographiques de l’USHMM — Le Panthéon des héros", description, url_for(base_url, "cartes-identite-ushmm.html"), structured)}
+  <style>{COMMON_CSS}
+{page_css}</style>
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">Répertoire de notices officielles</p>
+    <h1>Cartes d’identité de l’USHMM</h1>
+    <p class="intro">{escape(description)}</p>
+    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a><a href="{escape(USHMM_INDEX_URL, quote=True)}" target="_blank" rel="noopener noreferrer">Catalogue USHMM ↗</a></nav>
+  </header>
+  <main class="ushmm-page">
+    <p>{len(records)} noms indexés. Chaque lien ouvre la notice correspondante sur le site officiel de l’USHMM ; aucune biographie ni image n’est recopiée ici.</p>
+    <label for="ushmm-search">Rechercher un nom</label>
+    <input id="ushmm-search" type="search" placeholder="Nom, prénom…" autocomplete="off">
+    <nav class="ushmm-links" aria-label="Sections du catalogue">{nav_links}</nav>
+    {"".join(sections)}
+    <p class="ushmm-empty" id="ushmm-empty" hidden>Aucun nom ne correspond à cette recherche.</p>
+    <p>Source : <a href="{escape(USHMM_INDEX_URL, quote=True)}" target="_blank" rel="noopener noreferrer">United States Holocaust Memorial Museum — notices biographiques</a>.</p>
+  </main>
+  <footer>Les textes et images des notices restent la propriété de leurs ayants droit et sont consultables sur le site de l’USHMM.</footer>
+  <script>
+    const search=document.getElementById('ushmm-search');
+    const cards=[...document.querySelectorAll('.ushmm-card')];
+    const normalize=value=>value.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
+    search.addEventListener('input',()=>{{const query=normalize(search.value.trim());let shown=0;cards.forEach(card=>{{const visible=!query||card.dataset.search.includes(query);card.hidden=!visible;if(visible)shown++;}});document.querySelectorAll('.ushmm-section').forEach(section=>{{section.hidden=!section.querySelector('.ushmm-card:not([hidden])');}});document.getElementById('ushmm-empty').hidden=shown>0;}});
+  </script>
+</body>
+</html>
+"""
+
+
+def read_ushmm_id_cards(root: Path) -> tuple[list[dict[str, str]], dict[str, int]]:
+    catalog_path = root / "data" / "ushmm-id-cards.json"
+    payload = json.loads(catalog_path.read_text(encoding="utf-8"))
+    records = payload["records"]
+    if not isinstance(records, list) or not records:
+        raise ValueError("liste de notices absente")
+
+    validated: list[dict[str, str]] = []
+    seen_urls: set[str] = set()
+    for record in records:
+        if not isinstance(record, dict):
+            raise ValueError("notice invalide")
+        name = record.get("name")
+        url = record.get("url")
+        group = record.get("gender_group")
+        if (
+            not isinstance(name, str)
+            or not name.strip()
+            or not isinstance(url, str)
+            or not url.startswith("https://encyclopedia.ushmm.org/content/fr/id-card/")
+            or group not in USHMM_CARD_GROUPS
+            or url in seen_urls
+        ):
+            raise ValueError("nom, lien officiel, classement ou unicité invalide")
+        seen_urls.add(url)
+        validated.append({"name": name, "url": url, "gender_group": group})
+
+    if payload.get("count") != len(validated):
+        raise ValueError("compteur incohérent")
+    counts = {
+        group: sum(record["gender_group"] == group for record in validated)
+        for group in sorted(USHMM_CARD_GROUPS)
+    }
+    if payload.get("counts") != counts:
+        raise ValueError("compteurs de catégories incohérents")
+    return validated, counts
 
 
 def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[str]]:
@@ -800,6 +966,15 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             warnings.append("PHOTOTHÈQUE — fichier de données invalide")
             photo_records = None
 
+    ushmm_id_cards: list[dict[str, str]] | None = None
+    ushmm_card_counts: dict[str, int] | None = None
+    ushmm_cards_path = root / "data" / "ushmm-id-cards.json"
+    if ushmm_cards_path.is_file():
+        try:
+            ushmm_id_cards, ushmm_card_counts = read_ushmm_id_cards(root)
+        except (KeyError, OSError, TypeError, ValueError, json.JSONDecodeError):
+            warnings.append("NOTICES USHMM — fichier de données invalide")
+
     seen: dict[tuple[str, str], str] = {}
     for person in biographies:
         if not person.matricule:
@@ -825,6 +1000,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             photo_records,
             tiktok_available,
             about_available,
+            ushmm_card_counts,
         ),
         encoding="utf-8",
     )
@@ -837,6 +1013,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             photo_gallery_available,
             tiktok_available,
             about_available,
+            ushmm_id_cards is not None,
         ),
         encoding="utf-8",
     )
@@ -849,6 +1026,7 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             photo_gallery_available,
             tiktok_available,
             about_available,
+            ushmm_id_cards is not None,
         ),
         encoding="utf-8",
     )
@@ -861,10 +1039,21 @@ def build(root: Path, base_url: str, verification: str) -> tuple[int, int, list[
             tiktok_available,
             about_available,
             convoi_available,
+            ushmm_id_cards is not None,
         ),
         encoding="utf-8",
     )
     (root / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {base_url}/sitemap.xml\n", encoding="utf-8")
+    if ushmm_id_cards is not None:
+        (root / "cartes-identite-ushmm.html").write_text(
+            ushmm_id_cards_page(base_url, ushmm_id_cards),
+            encoding="utf-8",
+        )
+    else:
+        try:
+            (root / "cartes-identite-ushmm.html").unlink()
+        except FileNotFoundError:
+            pass
     public_data = [
         {
             **asdict(person),

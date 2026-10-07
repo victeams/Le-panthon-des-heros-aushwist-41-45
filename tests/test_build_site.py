@@ -235,6 +235,84 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("2 photographies", home)
             self.assertIn("photos.html", (root / "sitemap.xml").read_text(encoding="utf-8"))
 
+    def test_builds_ushmm_name_and_link_catalog_by_gender(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            data = root / "data"
+            data.mkdir()
+            records = [
+                {
+                    "name": "Alice FEMME",
+                    "url": "https://encyclopedia.ushmm.org/content/fr/id-card/alice",
+                    "gender_group": "femmes",
+                },
+                {
+                    "name": "Édouard <script>alert(1)</script>",
+                    "url": "https://encyclopedia.ushmm.org/content/fr/id-card/edouard",
+                    "gender_group": "hommes",
+                },
+                {
+                    "name": "Personne à vérifier",
+                    "url": "https://encyclopedia.ushmm.org/content/fr/id-card/personne",
+                    "gender_group": "non_documente",
+                },
+            ]
+            (data / "ushmm-id-cards.json").write_text(
+                json.dumps({
+                    "count": 3,
+                    "counts": {
+                        "femmes": 1,
+                        "hommes": 1,
+                        "non_documente": 1,
+                    },
+                    "records": records,
+                }),
+                encoding="utf-8",
+            )
+
+            women, men, warnings = build(root, "https://example.test", "test")
+
+            self.assertEqual((women, men), (0, 0))
+            self.assertFalse(warnings)
+            page = (root / "cartes-identite-ushmm.html").read_text(encoding="utf-8")
+            self.assertIn("Alice FEMME", page)
+            self.assertIn("Édouard &lt;script&gt;alert(1)&lt;/script&gt;", page)
+            self.assertNotIn("<script>alert(1)</script>", page)
+            self.assertIn('id="ushmm-femmes"', page)
+            self.assertIn('id="ushmm-hommes"', page)
+            self.assertIn('id="ushmm-non_documente"', page)
+            self.assertIn("cartes-identite-ushmm.html", (root / "sitemap.xml").read_text(encoding="utf-8"))
+            self.assertIn("Notices biographiques USHMM", (root / "index.html").read_text(encoding="utf-8"))
+            self.assertIn("cartes-identite-ushmm.html", (root / "femmes.html").read_text(encoding="utf-8"))
+
+    def test_ignores_invalid_ushmm_catalog_and_reports_warning(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            data = root / "data"
+            data.mkdir()
+            (data / "ushmm-id-cards.json").write_text(
+                json.dumps({
+                    "count": 1,
+                    "counts": {"femmes": 1, "hommes": 0, "non_documente": 0},
+                    "records": [{
+                        "name": "Alice",
+                        "url": "https://example.test/unsafe",
+                        "gender_group": "femmes",
+                    }],
+                }),
+                encoding="utf-8",
+            )
+            (root / "cartes-identite-ushmm.html").write_text(
+                "<!doctype html><title>Ancien catalogue</title>",
+                encoding="utf-8",
+            )
+
+            _, _, warnings = build(root, "https://example.test", "test")
+
+            self.assertIn("NOTICES USHMM — fichier de données invalide", warnings)
+            self.assertFalse((root / "cartes-identite-ushmm.html").exists())
+            self.assertNotIn("cartes-identite-ushmm.html", (root / "sitemap.xml").read_text(encoding="utf-8"))
+
     def test_links_tiktok_page_without_image_markup(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

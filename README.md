@@ -93,3 +93,16 @@ python scripts/build_site.py
 ```
 
 La sortie `data/ushmm-photos/` contient, pour chaque photographie, le nom de la notice, une description courte, les mots-clés, l’URL de la miniature, l’URL d’affichage et le lien vers la source. Les notices sont réparties en petits fichiers afin de rester rapides à charger et simples à publier sur GitHub.
+
+## Répertoire des cartes d’identité de l’USHMM
+
+Le répertoire `cartes-identite-ushmm.html` rassemble les noms et les liens directs vers les notices officielles du catalogue des cartes d’identité. Il sépare les femmes, les hommes et les notices dont le classement n’est pas clairement documenté. Les biographies et les images ne sont pas copiées : chaque lien ouvre la page de l’USHMM.
+
+Pour actualiser le répertoire depuis l’onglet **Actions**, lancer **Actualiser les notices de cartes d’identité USHMM**. Sur un ordinateur avec Python 3, les mêmes opérations sont :
+
+```bash
+python scripts/scrape_ushmm_id_cards.py
+python scripts/build_site.py
+```
+
+Le fichier `data/ushmm-id-cards.json` ne conserve que les noms, les liens officiels et la catégorie de classement. Le classement est prudent : il repose sur les indices grammaticaux explicites associés au nom au début de la notice, et les cas ambigus ou dont la page n’est plus disponible restent dans « Sexe à vérifier ».

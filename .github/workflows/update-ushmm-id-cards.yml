@@ -1,0 +1,69 @@
+name: Actualiser les notices de cartes d’identité USHMM
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "update-ushmm-id-cards"
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Télécharger le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Extraire les noms et liens officiels
+        run: python scripts/scrape_ushmm_id_cards.py --delay 0.5
+
+      - name: Tester le répertoire
+        run: python -m unittest tests.test_scrape_ushmm_id_cards tests.test_build_site -v
+
+      - name: Reconstruire le site
+        run: python scripts/build_site.py
+
+      - name: Vérifier les fichiers générés
+        run: git diff --check
+
+      - name: Configurer GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: actions/configure-pages@v5
+
+      - name: Préparer les fichiers du site
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Enregistrer la mise à jour
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/ushmm-id-cards.json cartes-identite-ushmm.html index.html femmes.html hommes.html sitemap.xml robots.txt site-data.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualisation des notices USHMM"
+            git push
+          fi
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publier GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

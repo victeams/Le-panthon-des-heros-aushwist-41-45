@@ -1,0 +1,1589 @@
+{
+  "source_name": "United States Holocaust Memorial Museum",
+  "source_index_url": "https://encyclopedia.ushmm.org/landing/fr/id-cards",
+  "generated_at": "2026-10-07T16:44:33+00:00",
+  "count": 315,
+  "counts": {
+    "femmes": 40,
+    "hommes": 48,
+    "non_documente": 227
+  },
+  "records": [
+    {
+      "name": "Abraham Lewent",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/abraham-lewent",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Adela Litwak",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/adela-litwak",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Adolphe Arnold",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/adolphe-arnold",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Agnes Mandl",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/agnes-mandl",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Alexander Bernstein",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/alexander-bernstein",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Alice Edelstein-Friedmann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/alice-edelstein-friedmann",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Alice Lok",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/alice-lok",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Andras Muhlrad",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/andras-muhlrad",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Anna Pfeffer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/anna-pfeffer",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Arlette Waldmann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/arlette-waldmann",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Aron Dereczynski",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/aron-dereczynski",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Aron Tabrys",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/aron-tabrys",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Arthur Karl Heinz Oertelt",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/arthur-karl-heinz-oertelt",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Arthur Menke",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/arthur-menke",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Barbara Ledermann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/barbara-ledermann",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Bella Judelowitz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/bella-judelowitz",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Ben Stern",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ben-stern",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Benjamin Bornstein",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/benjamin-bornstein",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Benjamin Frydmacher",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/benjamin-frydmacher",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Benjamin Soep",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/benjamin-soep",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Bernhard Liebster",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/bernhard-liebster",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Berta Rivkina",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/berta-rivkina",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Bertha Adler",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/bertha-adler",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Bertha Wolffberg Gottschalk",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/bertha-wolffberg-gottschalk",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Berthold Mewes",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/berthold-mewes",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Betty Leiter Lauchheimer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/betty-leiter-lauchheimer",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Blimcia Lische",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/blimcia-lische",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Boria Lerner",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/boria-lerner",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Bruna Sevini",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/bruna-sevini",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Carl Heumann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/carl-heumann",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Cedomir Milan Sorak",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/cedomir-milan-sorak",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Ceija Stojka",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ceija-stojka",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Chaia Gurvitz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/chaia-gurvitz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Chaim Engel",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/chaim-engel",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Chaje Isakovic Adler",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/chaje-isakovic-adler",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Channah Mazansky-Zaidel",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/channah-mazansky-zaidel",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Chil Meyer Rajchman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/chil-meyer-rajchman",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Claude J. Letulle",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/claude-j-letulle",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Coenraad Rood",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/coenraad-rood",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Daniel Judelowitz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/daniel-judelowitz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Daniel Schwarzwald",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/daniel-schwarzwald",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "David Bergman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/david-bergman",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "David J. Selznik",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/david-j-selznik",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Dawid Szpiro",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/dawid-szpiro",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Dezso Rozsa",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/dezso-rozsa",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Dora Rivkina",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/dora-rivkina",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Dora Unger",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/dora-unger",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Doriane Kurz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/dorianne-kurz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Dorotka Goldstein",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/dorotka-goldstein",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Edith Fuhrmann Brandmann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/edith-fuhrmann-brandmann",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Edith Riemer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/edith-riemer",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Elias (Elya) Grosmann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/elias-elya-grosmann",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Elizabeth Kaufmann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/elizabeth-kaufmann",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Elsa (Eliska) Skutezka Kulkova",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/elsa-eliska-skutezka-kulkova",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Else Rosenberg",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/else-rosenberg",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Elzbieta Lusthaus",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/elzbieta-lusthaus",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ema Schwarzova Skutezka",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ema-schwarzova-skutezka",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Emanuel Litwak",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/emanuel-litwak",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Emanuel (Manny) Mandel",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/emanuel-manny-mandel",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Emma Arnold",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/emma-arnold",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Emma Freund",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/emma-freund",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Erich Schon",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/erich-schon",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Erika Neuman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/erika-neuman",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Erna Schumer Unger",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/erna-schumer-unger",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ernest Dombi",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ernest-dombi",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ernest G. Heppner",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ernest-g-heppner",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ernst Reiter",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ernst-reiter",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ethel Stern",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ethel-stern",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Eva Braun Levine",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/eva-braun-levine",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Eva Brigitte Marum",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/eva-brigitte-marum",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Eva Gredinger",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/eva-gredinger",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Eva Rappoport",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/eva-rapaport",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Ezra BenGershom",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ezra-bengershom",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Fanny Judelowitz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/fanny-judelowitz",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Feiga Kisielnicki",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/feiga-kisielnicki",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Feiga Malnik",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/feiga-malnik",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Fela Perznianko",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/fela-perznianko",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Feliks Bruks",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/feliks-bruks",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Felix Krakauer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/felix-krakauer",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Flora Mendelovicz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/flora-mendelovicz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Francis Ofner",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/francis-ofner",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Franco Cesana",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/franco-cesana",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Frank Meissner",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/frank-meissner",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Franz Monjau",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/franz-monjau",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Franz Wohlfahrt",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/franz-wohlfahrt",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Frederick Dermer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/frederick-dermer",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Frederik Polak",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/frederik-polak",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Frida Adler",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/frida-adler",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Friedrich-Paul von Groszheim",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/friedrich-paul-von-groszheim",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Frimit Bursztyn",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/frimit-bursztyn",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Fritz Alexander Rosenberg",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/fritz-alexander-rosenberg",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Gabrielle Weidner",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/gabrielle-weidner",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Gerda Blachmann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/gerda-blachmann",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Gerda Weissmann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/gerda-weissmann",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Gerhard (Gad) Beck",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/gad-beck",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Gertrud Teppich",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/gertrud-teppich",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Gertruda Nowak",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/gertruda-nowak",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Gideon Boissevain",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/gideon-boissevain",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Gisha Galina Bursztyn",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/gisha-galina-bursztyn",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Golda (Olga) Bancic",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/golda-olga-bancic",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Gregor Wohlfahrt",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/gregor-wohlfahrt",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Grietje Polak",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/grietje-polak",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "György (George) Pick",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/gyorgy-george-pick",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Hacia Rivkina",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/hacia-rivkina",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Hana Müller",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/hana-mueller",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Hanandel Drobiarz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/hanandel-drobiarz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Hans Heimann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/hans-heimann",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Hans (John) Sachs",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/hans-john-sachs",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Hans Rudelsheim",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/hans-rudelsheim",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Harry Pauly",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/harry-pauly",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Heinrich Baehr",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/heinrich-baehr",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Heinz Rosenberg",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/heinz-rosenberg",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Hela Los",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/hela-los",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Hela Szabszevicz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/hela-szabszevicz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Helen Katz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/helen-katz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Helene Melanie Lebel",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/helene-melanie-lebel",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Henia Ring",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/henia-ring",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Henny Schermann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/henny-schermann",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Henoch Kornfeld",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/henoch-kornfeld",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Henry Maslowicz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/henry-maslowicz",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Herman Judelowitz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/herman-judelowitz",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Herschel Rosenblat",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/herschel-rosenblat",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Hersh Gordon",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/hersh-gordon",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Herta Scheer-Krygier",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/herta-scheer-krygier",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Hetty d'Ancona",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/hetty-dancona",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Hilda Kusserow",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/hilda-kusserow",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Hilde Verdoner-Sluizer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/hilde-verdoner-sluizer",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ida Baehr Lang",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ida-baehr-lang",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ida Edelstein",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ida-edelstein",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Ilija Lemajiþ",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ilija-lemajith",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Ilona Karfunkel Kalman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ilona-karfunkel-kalman",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Inge Auerbacher",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/inge-auerbacher",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Inge Berg",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/inge-berg",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Iosif Rivkin",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/iosif-rivkin",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Irene Freund",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/irene-freund",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Isadore Frenkiel",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/isadore-frenkiel",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Isak Saleschutz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/isak-saleschutz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Israel Cendorf",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/israel-cendorf",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ita Grynbaum",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ita-grynbaum",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ivo Herzer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ivo-herzer",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Izabella Katz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/izabella-katz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Jacob Gamper",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/jacob-gamper",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Jacob Polak",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/jacob-polak",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Jacob Unger",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/jacob-unger",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Jacob Wasserman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/jacob-wasserman",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Jakob Frenkiel",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/jakob-frenkiel",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Jan-Peter Pfeffer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/jan-peter-pfeffer",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Janka Glueck Gruenberger",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/janka-glueck-gruenberger",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Janusz Piotrowski",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/janusz-piotrowski",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Jenine Gutman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/jenine-gutman",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Jeno Muhlrad",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/jeno-muhlrad",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Johann (Hansi) Stojka",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/johann-hansi-stojka",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Johann Stossier",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/johann-stossier",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Johanna (Hanne) Hirsch",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/johanna-hanne-hirsch",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Johanna Niedermeier Buchner",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/johanna-niedermeier-buchner",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Johannes M. Lublink",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/johannes-m-lublink",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Josef Litwak",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/josef-litwak",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Josef Schoen",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/josef-schoen",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Joseph Gani",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/joseph-gani",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Joseph Muscha Mueller",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/joseph-muscha-mueller",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Joseph von Hoppen Waldhorn",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/joseph-von-hoppen-waldhorn",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Josephine Kohn Dermer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/josephine-kohn-dermer",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Jovanka Jovicic Babunovic",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/jovanka-jovicic-babunovic",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Jozef Rapaport",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/jozef-rapaport",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Jozef Wilk",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/jozef-wilk",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Judith Beker",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/judith-beker",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Judith Gabriel Dichter",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/judith-gabriel-dichter",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Judith Kalman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/judith-kalman",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Judith Margareth Konijn",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/judith-margareth-konijn",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Julian Noga",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/julian-noga",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Julius (Julo) Levin",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/julius-julo-levin",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Kalman Goldberg",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/kalman-goldberg",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Kalman Kernweiss",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/kalman-kernweiss",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Karl Gorath",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/karl-gorath",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Karl Lange",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/karl-lange",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Karl Stojka",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/karl-stojka",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Kathe Ert Reichstein",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/kathe-ert-reichstein",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Kato Dicker Nagy",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/kato-dicker-nagy",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Klara Gottfried Reif",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/klara-gottfried-reif",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Kornelia Mahrer Deutsch",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/kornelia-mahrer-deutsch",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Kurt Pauly",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/kurt-pauly",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Lajos Nagy",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/lajos-nagy",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Leah Kohl Rapaport",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/leah-kohl-rapaport",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Leibke Kaganowicz (Leon Kahn)",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/leibke-kaganowicz-leon-kahn",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Leif Donde",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/leif-donde",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Leo Bretholz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/leo-bretholz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Leo Hanin",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/leo-hanin",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Leon Franko",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/leon-franko",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Liane Reif",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/liane-reif",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Lidia Lebowitz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/lidia-lebowitz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Lila Lam",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/lila-lam",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Liliana Guzenfiter",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/liliana-guzenfiter",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Lilly Appelbaum Malnik",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/lilly-appelbaum-malnik",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Lucie Kupefer Munzer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/lucie-kupefer-munzer",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Machla Spicehandler Braun",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/machla-spicehandler-braun",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Magda Rein",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/magda-rein",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Magdalena Kusserow",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/magdalena-kusserow",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Malvin Katz Fried",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/malvin-katz-fried",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Mara Jovicic Popovic",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/mara-jovicic-popovic",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Marcus Fass",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/marcus-fass",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Margit Nemeth Fekete",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/margit-nemeth-fekete",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Maria Justyna",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/maria-justyna",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Maria Nemeth",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/maria-nemeth",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Maria Orlicka",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/maria-orlicka",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Maria Sava Moise",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/maria-sava-moise",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Marie Sidi Stojka",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/marie-sidi-stojka",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Mario Finzi",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/mario-finzi",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Marta Herman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/marta-herman",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Martin Hans Munzer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/martin-hans-munzer",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Martin Spett",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/martin-spett",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Martin Weiss",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/martin-weiss",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Matvey Gredinger",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/matvey-gredinger",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Max Gutmann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/max-gutmann",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Max Rosenblat",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/max-rosenblat",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Mendel Grynberg",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/mendel-grynberg",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Mendel Rozenblit",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/mendel-rozenblit",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Michael von Hoppen Waldhorn",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/michael-von-hoppen-waldhorn",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Michal Scislowski",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/michal-scislowski",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Michel Margosis",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/michel-margosis",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Milica Popovic Kuhn",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/milica-popovic-kuhn",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Mina Beker",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/mina-beker",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Mina Schaerf Litwak",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/mina-schaerf-litwak",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Miriam Kabacznik Shulman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/miriam-kabacznik-shulman",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Mirjana Babunovic Dimitrijevic",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/mirjana-babunovic-dimitrijevic",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Miso Vogel",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/miso-vogel",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Moise Gani",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/moise-gani",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Moishe Felman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/moishe-felman",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Moniek Rozen",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/moniek-rozen",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Monique Jackson",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/monique-jackson",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Nadine Schatz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/nadine-schatz",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Naftali Saleschutz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/naftali-saleschutz",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Nanny Gottschalk Lewin",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/nanny-gottschalk-lewin",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Nelly Adler",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/nelly-adler",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Nenad Dusan Popovic",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/nenad-dusan-popovic",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Nesse Galperin",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/nesse-galperin",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Nikola Mrvos",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/nikola-mrvos",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Norbert Yasharoff",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/norbert-yasharoff",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ossi Stojka",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ossi-stojka",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Otto-Karl Gruenbaum",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/otto-karl-gruenbaum",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Paul Matasovski",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/paul-matasovski",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Paula Garfinkel",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/paula-garfinkel",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Paula Wajcman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/paula-wajcman",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Pinchas Gerszonowicz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/pinchas-gerszonowicz",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Preben Munch-Nielsen",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/preben-munch-nielsen",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Rachel Lea Galperin",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/rachel-lea-galperin",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Rachel Saleschutz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/rachel-saleschutz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Rebecca Pissirilo",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/rebecca-pissirilo",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Reidar Dittmann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/reidar-dittmann",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Remy Dumoncel",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/remy-dumoncel",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Renate Guttmann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/renate-guttmann",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Rene Guttmann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/rene-guttmann",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Renee Schwalb",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/renee-schwalb",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Rev. Marian Jacek Dabrowski",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/rev-marian-jacek-dabrowski",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Robert Freund",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/robert-freund",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Robert Kulka",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/robert-kulka",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Robert Oelbermann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/robert-oelbermann",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Robert T. Odeman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/robert-t-odeman",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Rosa Israel Waldhorn",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/rosa-israel-waldhorn",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Rosalia Wourgaft Schatz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/rosalia-wourgaft-schatz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Rozia Susskind",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/rozia-susskind",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Rubin Segalowicz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/rubin-segalowicz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Rudolf Acohen",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/rudolf-acohen",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ruth Freund Reiser",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ruth-freund-reiser",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ruth (Huppert) Elias",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ruth-huppert-elias",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Ruth Warter",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/ruth-warter",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Sabina Szwarc",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/sabina-szwarc",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Samuel Zoltan",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/samuel-zoltan",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Sara Galperin",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/sara-galperin",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Sarah Judelowitz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/sarah-judelowitz",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Schloma Wolf (Willy) Szapiro",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/schloma-wolf-willy-szapiro",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Sevek Fishman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/sevek-fishman",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Shlomo Reich",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/shlomo-reich",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Shulamit Perlmutter (Charlene Schiff)",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/shulamit-perlmutter-charlene-schiff",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Shulim Saleschutz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/shulim-saleschutz",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Siegfried Wohlfarth",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/siegfried-wohlfarth",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Smiljka Ljoljic Visnjevac",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/smiljka-ljoljic-visnjevac",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Sophie Weisz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/sophie-weisz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Sossia Frenkiel",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/sossia-frenkiel",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Stefan Moise",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/stefan-moise",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Stefania (Fusia) Podgorska",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/stefania-fusia-podgorska",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Susanne Ledermann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/susanne-ledermann",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Sylvia Winawer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/sylvia-winawer",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Szlamach Radoszynski",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/szlamach-radoszynski",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Terez Spitz Katz",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/terez-spitz-katz",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Thomas Buergenthal",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/thomas-buergenthal",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Thomas Elek",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/thomas-elek",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Thomas Pfeffer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/thomas-pfeffer",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Tomas Kulka",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/tomas-kulka",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Tomasz (Toivi) Blatt",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/tomasz-toivi-blatt",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Valtr Krakauer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/valtr-krakauer",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Walter Schnell",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/walter-schnell",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Walter Szczeniak",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/walter-szczeniak",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Walther Hamann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/walther-hamann",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Welwel Rzondzinski",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/welwel-rzondzinski",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Wilek Loew",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/wilek-loew",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Wilhelm Edelstein",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/wilhelm-edelstein",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Willem Arondeus",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/willem-arondeus",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Willibald Wohlfahrt",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/willibald-wohlfahrt",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Wilma Schlesinger Mahrer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/wilma-schlesinger-mahrer",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Wladyslaw Piotrowski",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/wladyslaw-piotrowski",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Wladyslaw Tadeusz Surmacki",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/wladyslaw-tadeusz-surmacki",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Wolf Wajsbrot",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/wolf-wajsbrot",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Wolfgang Lachman",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/wolfgang-lachman",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Wolfgang Munzer",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/wolfgang-munzer",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Yakob Braun",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/yakob-braun",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Yennj Baehr",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/yennj-baehr",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Yona Dickmann",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/yona-wygocka-dickmann",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Yosel Coller",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/yosel-coller",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Yves Oppert",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/yves-oppert",
+      "gender_group": "hommes"
+    },
+    {
+      "name": "Zalie Waldhorn",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/zalie-waldhorn",
+      "gender_group": "femmes"
+    },
+    {
+      "name": "Zdenka Popper",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/zdenka-popper",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Zigmond Adler",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/zigmond-adler",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Zofia Yamaika",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/zofia-yamaika",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Zuzana Gruenberger",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/zuzana-gruenberger",
+      "gender_group": "non_documente"
+    },
+    {
+      "name": "Zwi Michaelowsky (Zvi Michaeli)",
+      "url": "https://encyclopedia.ushmm.org/content/fr/id-card/zwi-michaelowsky-zvi-michaeli",
+      "gender_group": "non_documente"
+    }
+  ],
+  "usage_notice": "Ce catalogue conserve uniquement les noms, les liens directs vers les notices officielles et une catégorie de classement prudente. Les biographies et les images restent hébergées par l'USHMM."
+}
