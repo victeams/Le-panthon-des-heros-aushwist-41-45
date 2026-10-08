@@ -6,6 +6,8 @@ import re
 OLD_BASE = "https://victeams.github.io/Le-panthon-des-heros-aushwist-41-45/"
 BASE = "https://memoiredesdeportes.fr/"
 ROOT = Path(__file__).resolve().parents[1]
+PROFILE_LOGO_PAGE = "edouard-dumoulin-45506.html"
+PROFILE_LOGO_URL = BASE + "assets/logo-resistants3945.webp"
 
 # La vérification Google reste accessible, mais n'a pas sa place dans le sitemap SEO.
 EXCLUDED = {"404.html"}
@@ -133,9 +135,37 @@ def ensure_head_tags(path: Path) -> bool:
             f'<meta property="og:url" content="{html.escape(url, quote=True)}">',
             '<meta name="twitter:card" content="summary">',
         ])
-    if not re.search(r'<meta\s+[^>]*property=["\']og:image["\']', text, flags=re.I):
+    is_profile_logo_page = path == ROOT / PROFILE_LOGO_PAGE
+    has_logo_image = re.search(
+        r'<meta\b(?=[^>]*\bproperty=["\']og:image["\'])'
+        r'(?=[^>]*\bcontent=["\']'
+        + re.escape(PROFILE_LOGO_URL)
+        + r'["\'])[^>]*>',
+        text,
+        flags=re.I,
+    )
+    if has_logo_image and not is_profile_logo_page:
+        text = re.sub(
+            r'<meta\b(?=[^>]*\bproperty=["\']og:image["\'])'
+            r'(?=[^>]*\bcontent=["\']'
+            + re.escape(PROFILE_LOGO_URL)
+            + r'["\'])[^>]*>',
+            '',
+            text,
+            flags=re.I,
+        )
+        text = re.sub(
+            r'<meta\b(?=[^>]*\bproperty=["\']og:image:alt["\'])'
+            r'(?=[^>]*\bcontent=["\']Mémoire des Déportés 1939-1945["\'])[^>]*>',
+            '',
+            text,
+            flags=re.I | re.M,
+        )
+    if is_profile_logo_page and not re.search(
+        r'<meta\s+[^>]*property=["\']og:image["\']', text, flags=re.I
+    ):
         inserts.extend([
-            '<meta property="og:image" content="https://memoiredesdeportes.fr/assets/logo-resistants3945.webp">',
+            f'<meta property="og:image" content="{PROFILE_LOGO_URL}">',
             '<meta property="og:image:alt" content="Mémoire des Déportés 1939-1945">',
         ])
     is_profile = path.name not in NON_PROFILE and not path.name.startswith("google")
