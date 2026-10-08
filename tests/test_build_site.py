@@ -248,7 +248,7 @@ class BuildSiteTests(unittest.TestCase):
             self.assertFalse(warnings)
             home = (root / "index.html").read_text(encoding="utf-8")
             self.assertIn("Chaîne TikTok", home)
-            self.assertIn("assets/logo-resistants3945.webp", home)
+            self.assertNotIn("assets/logo-resistants3945.webp", home)
             sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
             self.assertIn("tiktok.html", sitemap)
             self.assertNotIn("<image:image>", sitemap)

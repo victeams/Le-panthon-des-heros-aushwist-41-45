@@ -8,12 +8,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class TikTokPageTests(unittest.TestCase):
-    def test_tiktok_page_has_logo_profile_and_secure_external_link(self):
+    def test_tiktok_page_has_profile_and_secure_external_link_without_global_logo(self):
         page = (ROOT / "tiktok.html").read_text(encoding="utf-8")
-        self.assertIn("assets/logo-resistants3945.webp", page)
+        self.assertNotIn("assets/logo-resistants3945.webp", page)
         self.assertIn("https://www.tiktok.com/@resistants3945", page)
         self.assertIn('rel="noopener noreferrer"', page)
-        self.assertIn('width="690" height="690"', page)
         self.assertTrue((ROOT / "assets" / "logo-resistants3945.webp").is_file())
 
     def test_tiktok_structured_data_is_valid_json(self):
