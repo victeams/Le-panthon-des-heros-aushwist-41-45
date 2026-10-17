@@ -653,7 +653,7 @@ def home_page(
       <div class="grid" id="daily-grid"></div>
     </section>
     <section class="collections" aria-label="Collections">
-      <article class="collection"><a class="collection-visual" href="femmes.html" aria-label="Découvrir les femmes du convoi des 31000"><img src="portraits/denise_moret_31820.jpg" alt="Planche d’immatriculation de Denise Moret, matricule 31820" loading="lazy"></a><div class="collection-body"><h2>Femmes du convoi des 31000</h2><p>{len(women)} biographies actuellement accessibles.</p><a class="collection-credit" href="denise_moret_31820.html">Denise Moret, matricule 31820</a><br><a class="button" href="femmes.html">Découvrir les femmes</a></div></article>
+      <article class="collection"><a class="collection-visual" href="femmes.html" aria-label="Découvrir les femmes du convoi des 31000"><img src="portraits/denise_moret_31820.jpg" alt="Planche d’immatriculation de Denise Moret, matricule 31820" loading="lazy"></a><div class="collection-body"><h2>Femmes du convoi des 31000</h2><p>{len(women)} biographies actuellement accessibles.</p><a class="collection-credit" href="denise_moret_31820.html">Denise Moret, matricule 31820</a><br><a class="button" href="femmes.html">Découvrir les femmes</a><br><a class="button" href="femmes-deportees-france.html">Autres femmes déportées</a></div></article>
       <article class="collection"><a class="collection-visual" href="hommes.html" aria-label="Découvrir les hommes du convoi des 45000"><img src="https://encyclopedia.ushmm.org/images/large/c1c40791-4e4a-4373-97ab-8c822b985f45.jpeg" alt="Hommes, femmes et enfants sur la rampe d’Auschwitz-Birkenau en 1944" loading="lazy"></a><div class="collection-body"><h2>Hommes du convoi des 45000</h2><p>{len(men)} biographie{'s' if len(men) != 1 else ''} actuellement accessible{'s' if len(men) != 1 else ''}.</p><a class="collection-credit" href="https://encyclopedia.ushmm.org/content/fr/photo/arrival-in-auschwitz-birkenau" target="_blank" rel="noopener">Photographie : notice et crédits</a><br><a class="button" href="hommes.html">Découvrir les hommes</a></div></article>
       {database_card}
       {gallery_card}
@@ -694,6 +694,7 @@ def sitemap_xml(
         url_for(base_url, "hommes.html"),
         url_for(base_url, "sources-femmes.html"),
         url_for(base_url, "sources-hommes.html"),
+        url_for(base_url, "femmes-deportees-france.html"),
     ]
     if database_available:
         entries.append(url_for(base_url, "base-documentaire.html"))
