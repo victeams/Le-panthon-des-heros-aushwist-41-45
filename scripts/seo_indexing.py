@@ -75,8 +75,8 @@ def ensure_head_tags(path: Path) -> bool:
 
     original = text
     text = text.replace(OLD_BASE, BASE)
-    text = re.sub(r"(memorial-ux\.css\?v=)\d+", r"\g<1>2", text)
-    text = re.sub(r"(memorial-ux\.js\?v=)\d+", r"\g<1>2", text)
+    text = re.sub(r"(memorial-ux\.css\?v=)\d+", r"\g<1>3", text)
+    text = re.sub(r"(memorial-ux\.js\?v=)\d+", r"\g<1>3", text)
     text = text.replace(
         '<link rel="icon" href="https://memoiredesdeportes.fr/favicon.ico" sizes="any">\n  <link rel="icon" type="image/png" sizes="96x96" href="https://memoiredesdeportes.fr/favicon.png">\n  <link rel="icon" type="image/svg+xml" href="https://memoiredesdeportes.fr/favicon.svg">\n  <link rel="apple-touch-icon" sizes="96x96" href="https://memoiredesdeportes.fr/apple-touch-icon.png">',
         '<link rel="icon" href="https://memoiredesdeportes.fr/favicon.ico" sizes="any">\n  <link rel="icon" type="image/png" sizes="96x96" href="https://memoiredesdeportes.fr/favicon.png">\n  <link rel="icon" type="image/svg+xml" href="https://memoiredesdeportes.fr/favicon.svg">\n  <link rel="apple-touch-icon" sizes="96x96" href="https://memoiredesdeportes.fr/apple-touch-icon.png">',
