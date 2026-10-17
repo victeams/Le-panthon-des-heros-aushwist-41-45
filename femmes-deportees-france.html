@@ -13,7 +13,7 @@
     *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 20% 0,#202630 0,transparent 35%),var(--bg);color:var(--text);font:1rem/1.65 Arial,Helvetica,sans-serif}
     a{color:var(--gold)}.hero{padding:50px 20px 34px;text-align:center;border-bottom:1px solid var(--line)}.eyebrow{color:var(--gold);font-size:.8rem;font-weight:bold;letter-spacing:.16em;text-transform:uppercase}.hero h1{max-width:850px;margin:10px auto;font:clamp(2rem,5vw,3.5rem)/1.12 Georgia,serif}.intro{max-width:780px;margin:18px auto 0;color:var(--muted)}
     nav{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin:24px auto 0}nav a,.button{padding:9px 14px;border:1px solid #5b5140;border-radius:999px;text-decoration:none;font-weight:700}
-    main{max-width:1100px;margin:auto;padding:30px 20px 60px}.note{padding:18px 22px;border:1px solid #5d5039;border-left:5px solid var(--gold);border-radius:12px;background:linear-gradient(135deg,#211d17,#15191f);color:#d3d7dc}.note p{margin:0 0 8px}.note p:last-child{margin:0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;margin-top:22px}.card{padding:22px;background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 28px #0003}.card h2{margin:0 0 10px;font:1.5rem/1.2 Georgia,serif}.card p{margin:8px 0;color:#d3d7dc}.tag{display:inline-block;margin:0 0 10px;padding:3px 9px;border-radius:999px;background:#303844;color:#f4f1e8;font-size:.78rem;font-weight:bold}.sources{margin-top:15px}.sources a{font-weight:700}.sources a:focus-visible,nav a:focus-visible{outline:3px solid #f4f1e8;outline-offset:3px}footer{padding:22px;text-align:center;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+    main{max-width:1100px;margin:auto;padding:30px 20px 60px}.note{padding:18px 22px;border:1px solid #5d5039;border-left:5px solid var(--gold);border-radius:12px;background:linear-gradient(135deg,#211d17,#15191f);color:#d3d7dc}.note p{margin:0 0 8px}.note p:last-child{margin:0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:16px;margin-top:22px}.card{padding:22px;background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 28px #0003}.card h2{margin:0 0 10px;font:1.5rem/1.2 Georgia,serif}.card p{margin:8px 0;color:#d3d7dc}.portrait{margin:0 0 16px;padding:9px;border:1px solid var(--line);border-radius:12px;background:#0b0d10}.portrait img{display:block;width:100%;height:260px;object-fit:contain;border-radius:7px}.portrait figcaption{margin-top:8px;color:var(--muted);font-size:.78rem;line-height:1.45}.portrait a{color:var(--gold)}.tag{display:inline-block;margin:0 0 10px;padding:3px 9px;border-radius:999px;background:#303844;color:#f4f1e8;font-size:.78rem;font-weight:bold}.sources{margin-top:15px}.sources a{font-weight:700}.sources a:focus-visible,nav a:focus-visible{outline:3px solid #f4f1e8;outline-offset:3px}footer{padding:22px;text-align:center;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
     @media(max-width:520px){.hero{padding-top:36px}.card{padding:18px}}
   </style>
   <link rel="icon" href="https://memoiredesdeportes.fr/favicon.ico" sizes="any">
@@ -43,42 +43,66 @@
   <main>
     <section class="note" aria-label="Méthode">
       <p>Les informations ci-dessous sont limitées à ce que confirment les sources indiquées, principalement le Mémorial de la Shoah et la Fondation pour la Mémoire de la Shoah.</p>
-      <p>Les photographies ne sont pas reproduites ici : les liens permettent de consulter les notices et crédits des institutions qui les conservent.</p>
+      <p>Les légendes indiquent les crédits et les notices des archives ou institutions qui conservent les photographies. Certaines images sont des photos de famille où plusieurs personnes apparaissent.</p>
     </section>
     <section class="grid" aria-label="Femmes déportées depuis la France">
       <article class="card">
         <span class="tag">Convoi 71 • Auschwitz</span>
         <h2>Yvonne Jacob, née Steinmetz</h2>
+        <figure class="portrait">
+          <img src="https://www.ajpn.org/images-pers/1311090787_yvonne_enfants.jpg" alt="Yvonne Jacob avec ses quatre enfants, dont Madeleine et Simone, à Nice vers 1929" width="600" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+          <figcaption>Yvonne Jacob avec ses quatre enfants, dont Madeleine et Simone. Archives Simone Veil, crédit D.R. — <a href="https://www.ajpn.org/personne-Yvonne-Jacob-6374.html" target="_blank" rel="noopener noreferrer">notice AJPN</a>.</figcaption>
+        </figure>
         <p>Née à Paris en 1900, elle est arrêtée en mars 1944 puis déportée à Auschwitz le 13 avril avec ses filles Madeleine et Simone. Elle meurt à Bergen-Belsen en mars 1945.</p>
         <p class="sources"><a href="https://www.memorialdelashoah.org/exposition-simone-veil-biographie-famille-jacob.html" target="_blank" rel="noopener noreferrer">Lire sa biographie au Mémorial de la Shoah</a></p>
       </article>
       <article class="card">
         <span class="tag">Convoi 71 • Auschwitz</span>
         <h2>Madeleine « Milou » Jampolsky, née Jacob</h2>
+        <figure class="portrait">
+          <img src="https://www.ajpn.org/images-pers/1311090787_yvonne_enfants.jpg" alt="Madeleine Jacob avec sa mère Yvonne et ses frères et sœurs sur une photo de famille à Nice vers 1929" width="600" height="400" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+          <figcaption>Madeleine figure sur cette photo de famille avec Yvonne Jacob, Simone et leurs frère et sœur. Archives Simone Veil, crédit D.R. — <a href="https://www.ajpn.org/personne-Yvonne-Jacob-6374.html" target="_blank" rel="noopener noreferrer">notice AJPN</a>.</figcaption>
+        </figure>
         <p>Née à Paris en 1923, elle est déportée avec sa mère Yvonne et sa sœur Simone. Elle survit à la déportation et à la libération de Bergen-Belsen en avril 1945.</p>
         <p class="sources"><a href="https://www.memorialdelashoah.org/exposition-simone-veil-biographie-famille-jacob.html" target="_blank" rel="noopener noreferrer">Lire sa biographie au Mémorial de la Shoah</a></p>
       </article>
       <article class="card">
         <span class="tag">Convoi 71 • Auschwitz</span>
         <h2>Simone Veil, née Jacob</h2>
+        <figure class="portrait">
+          <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Simone_Veil_%281984%29.jpg?width=600" alt="Portrait de Simone Veil en 1984, par Rob Croes pour Anefo" width="600" height="800" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+          <figcaption>Simone Veil en 1984 — Rob Croes/Anefo, Nationaal Archief, CC0. <a href="https://commons.wikimedia.org/wiki/File:Simone_Veil_(1984).jpg" target="_blank" rel="noopener noreferrer">Voir la notice et la licence</a>.</figcaption>
+        </figure>
         <p>Née à Nice en 1927, elle est arrêtée en mars 1944 et déportée à Auschwitz le 13 avril par le convoi 71. Elle survit et est libérée en avril 1945.</p>
         <p class="sources"><a href="https://www.memorialdelashoah.org/exposition-simone-veil-biographie-famille-jacob.html" target="_blank" rel="noopener noreferrer">Lire sa biographie au Mémorial de la Shoah</a></p>
       </article>
       <article class="card">
         <span class="tag">Convoi 71 • Auschwitz</span>
         <h2>Ginette Kolinka, née Cherkasky</h2>
+        <figure class="portrait">
+          <img src="https://billetterie.memorialdelashoah.org/media/cache/sylius_shop_product_original/11/ae/3c8d3ee2725c204f5c8d1fbacf9f.jpeg" alt="Portrait de Ginette Kolinka publié par le Mémorial de la Shoah" width="600" height="600" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+          <figcaption>Portrait publié par le Mémorial de la Shoah — <a href="https://billetterie.memorialdelashoah.org/fr/products/ginette-kolinka" target="_blank" rel="noopener noreferrer">notice de la source</a>.</figcaption>
+        </figure>
         <p>Née à Paris en 1925, elle est déportée à Auschwitz en avril 1944 avec son père, son frère et son neveu. Sélectionnée pour le travail forcé, elle survit et rentre en France en 1945.</p>
         <p class="sources"><a href="https://drancy.memorialdelashoah.org/exposition-ginette-kolinka-itineraire-dune-survivante-dauschwitz.html" target="_blank" rel="noopener noreferrer">Lire son parcours au Mémorial de la Shoah de Drancy</a></p>
       </article>
       <article class="card">
         <span class="tag">Convoi 71 • Auschwitz</span>
         <h2>Marceline Loridan-Ivens, née Rozenberg</h2>
+        <figure class="portrait">
+          <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Marceline_Loridan_%281989%29_%28cropped%29.jpg?width=600" alt="Portrait de Marceline Loridan en 1989, photographiée par Rob Croes pour Anefo" width="600" height="800" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+          <figcaption>Marceline Loridan en 1989 — Rob Croes/Anefo, Nationaal Archief, CC BY-SA 3.0. <a href="https://commons.wikimedia.org/wiki/File:Marceline_Loridan_(1989)_(cropped).jpg" target="_blank" rel="noopener noreferrer">Voir la notice et la licence</a>.</figcaption>
+        </figure>
         <p>Née en 1928, elle est arrêtée dans le Vaucluse avec son père et déportée à Auschwitz le 13 avril 1944. Transférée ensuite à Bergen-Belsen et Theresienstadt, elle est libérée en mai 1945.</p>
         <p class="sources"><a href="https://www.fondationshoah.org/hommages/hommage-marceline-loridan-ivens" target="_blank" rel="noopener noreferrer">Lire son hommage à la Fondation pour la Mémoire de la Shoah</a> · <a href="https://www.fondationshoah.org/sites/default/files/1-enseignement/CNRD%202024-2025%20Biographie%20Marceline%20Loridan-Ivens.pdf" target="_blank" rel="noopener noreferrer">Biographie historique (PDF)</a></p>
       </article>
       <article class="card">
         <span class="tag">Convoi 70 • Auschwitz</span>
         <h2>Hélène Berr</h2>
+        <figure class="portrait">
+          <img src="https://www.chrd.lyon.fr/sites/chrd/files/styles/carousel_w_490/public/content/medias/images/2021-05/%C2%A9MemorialShoah_Photo-HeleneBerr.jpg?itok=4Kox1c2g" alt="Portrait d’Hélène Berr, conservé dans la collection Job du Mémorial de la Shoah" width="490" height="650" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+          <figcaption>© Mémorial de la Shoah / CDJC, Collection Job — <a href="https://www.chrd.lyon.fr/chrd/objet-phare-musee/portrait-dhelene-berr" target="_blank" rel="noopener noreferrer">notice du CHRD de Lyon</a>.</figcaption>
+        </figure>
         <p>Étudiante juive parisienne, elle est arrêtée avec ses parents en mars 1944 et déportée à Auschwitz le 27 mars par le convoi 70, le jour de ses 23 ans.</p>
         <p class="sources"><a href="https://www.memorialdelashoah.org/wp-content/uploads/2016/05/livret-pedagogique-helene-berr.pdf" target="_blank" rel="noopener noreferrer">Consulter le livret pédagogique du Mémorial de la Shoah (PDF)</a></p>
       </article>
