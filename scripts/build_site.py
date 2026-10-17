@@ -458,11 +458,11 @@ def collection_page(
     about_available: bool = False,
 ) -> str:
     is_women = group == "femmes"
-    label = "Femmes du convoi des 31000" if is_women else "Hommes du convoi des 45000"
+    label = "Femmes du convoi des 31000" if is_women else "Hommes du convoi des 45 000"
     intro = (
         "Retrouvez les biographies commémoratives des femmes déportées depuis Compiègne vers Auschwitz le 24 janvier 1943."
         if is_women
-        else "Retrouvez les biographies commémoratives des hommes déportés dans le convoi dit des 45000 vers Auschwitz le 6 juillet 1942."
+        else "Biographies, noms et matricules des hommes déportés à Auschwitz le 6 juillet 1942 dans le convoi des 45 000. Recherchez une fiche et consultez les sources disponibles."
     )
     archive_note = (
         """<section class="archive-note" aria-labelledby="archive-note-title">
@@ -484,6 +484,11 @@ def collection_page(
     )
     filename = f"{group}.html"
     canonical = url_for(base_url, filename)
+    page_title = (
+        f"{label} — Le Panthéon des héros"
+        if is_women
+        else "Hommes du convoi des 45 000 : biographies et matricules — Mémoire des Déportés"
+    )
     structured = {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
@@ -503,7 +508,7 @@ def collection_page(
     return f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
-  {head_markup(f"{label} — Le Panthéon des héros", intro, canonical, structured)}
+  {head_markup(page_title, intro, canonical, structured)}
   <style>{COMMON_CSS}</style>
 </head>
 <body>
