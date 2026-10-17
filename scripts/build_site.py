@@ -37,6 +37,7 @@ GENERATED_HTML = {
     "sources-femmes.html",
     "sources-hommes.html",
     "convoi-des-45000.html",
+    "femmes-deportees-france.html",
 }
 EXCLUDED_DIRS = {".git", ".github", "scripts", "tests", "portraits"}
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
@@ -469,6 +470,7 @@ def collection_page(
       <p>Plusieurs femmes ne disposent d’aucune photographie individuelle connue. Les <strong>portraits d’immatriculation d’Auschwitz</strong> présentés dans ce catalogue proviennent des archives retrouvées après la libération du camp.</p>
       <p>Les récits ont été reconstitués à partir de documents et des témoignages de survivantes ou de personnes ayant connu leur parcours. Quand une image manque, la fiche conserve leur nom, leur histoire et les traces disponibles.</p>
       <p>La source documentaire principale de nombreuses notices est l’association <strong>Mémoire Vive des convois des 45 000 et des 31 000 d’Auschwitz-Birkenau</strong>. <a href="sources-femmes.html">Consulter l’origine des informations et notre méthode de vérification.</a></p>
+      <p><a class="button" href="femmes-deportees-france.html">Découvrir d’autres femmes déportées depuis la France →</a></p>
     </section>"""
         if is_women
         else """<section class="archive-note" aria-labelledby="archive-note-title">
@@ -509,7 +511,7 @@ def collection_page(
     <p class="eyebrow">Mémoire • Résistance • Déportation</p>
     <h1>{escape(label)}</h1>
     <p class="intro">{escape(intro)}</p>
-    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a><a href="hommes.html">Hommes 45000</a>{database_link}<a href="aktion-t4.html">Aktion T4</a>{gallery_link}{tiktok_link}{about_link}</nav>
+    <nav class="nav" aria-label="Navigation principale"><a href="index.html">Accueil</a><a href="femmes.html">Femmes 31000</a>{'<a href="femmes-deportees-france.html">Autres femmes déportées</a>' if is_women else ""}<a href="hommes.html">Hommes 45000</a>{database_link}<a href="aktion-t4.html">Aktion T4</a>{gallery_link}{tiktok_link}{about_link}</nav>
     <div class="stats"><span class="stat"><strong>{len(people)}</strong> fiche{'s' if len(people) != 1 else ''}</span></div>
   </header>
   <main>
