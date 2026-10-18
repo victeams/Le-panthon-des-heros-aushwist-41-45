@@ -2,7 +2,7 @@ RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
 Femmes 31000 : 224
 Hommes 45000 : 904
-À vérifier : 77
+À vérifier : 78
 
 IMAGE MANQUANTE — 31-836-31000.html
 IMAGE MANQUANTE — 31-843-31000.html
@@ -50,6 +50,7 @@ IMAGE MANQUANTE — lina_kuhn_ou_kuhne_31795.html
 IMAGE MANQUANTE — lucie_mansuy_31648.html
 IMAGE MANQUANTE — lucienne-dite-lulu-thevenin-31642.html
 IMAGE MANQUANTE — madeleine_damous_nee_demiot_31690.html
+NON CLASSÉ — mairies.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 NON CLASSÉ — mairies-partenaires.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 IMAGE MANQUANTE — marcelle-bureau-31000 (1).html
 IMAGE MANQUANTE — marcelle-bureau-31000.html
