@@ -20,7 +20,7 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 20% 0,#202630 0,transparent 35%),var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.7}
 header{padding:48px 20px 34px;text-align:center;border-bottom:1px solid var(--line)}.eyebrow{color:var(--gold);font-size:.82rem;font-weight:bold;letter-spacing:.16em;text-transform:uppercase}h1,h2{font-family:Georgia,serif;line-height:1.2}h1{font-size:clamp(2rem,5vw,3.3rem);margin:12px auto;max-width:850px}.intro{max-width:760px;margin:15px auto;color:var(--muted);font-size:1.05rem}
 nav{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin-top:24px}nav a,.button{display:inline-block;padding:9px 14px;border:1px solid #5b5140;border-radius:999px;color:var(--gold);text-decoration:none;font-weight:bold}nav a:hover,.button:hover{background:#d4ad6217}
-main{max-width:950px;margin:auto;padding:34px 20px 60px}.panel{padding:clamp(20px,4vw,34px);background:linear-gradient(145deg,#1c222a,#15191f);border:1px solid var(--line);border-radius:16px;margin-bottom:20px}.panel h2{margin-top:0}.panel p{color:var(--muted)}.highlight{border-left:4px solid var(--gold)}.steps{padding-left:22px;color:var(--muted)}.steps li{padding:5px 0}.contact{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}.contact p{flex:1;min-width:230px}footer{text-align:center;padding:24px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}footer a{color:var(--gold)}
+main{max-width:950px;margin:auto;padding:34px 20px 60px}.panel{padding:clamp(20px,4vw,34px);background:linear-gradient(145deg,#1c222a,#15191f);border:1px solid var(--line);border-radius:16px;margin-bottom:20px}.panel h2{margin-top:0}.panel p{color:var(--muted)}.highlight{border-left:4px solid var(--gold)}.partners{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-top:20px}.partner{display:flex;align-items:flex-start;gap:14px;padding:18px;border:1px solid var(--line);border-radius:12px;background:#0e1217}.partner-mark{display:flex;flex:0 0 48px;height:48px;align-items:center;justify-content:center;border:1px solid #5d5039;border-radius:50%;color:var(--gold);font: bold 1.35rem Georgia,serif}.partner h3{margin:0 0 6px;font:1.15rem Georgia,serif}.partner p{margin:0 0 8px}.partner a{color:var(--gold);font-weight:bold;text-decoration:none}.partner a:hover{text-decoration:underline}.partner-note{font-size:.9rem}.steps{padding-left:22px;color:var(--muted)}.steps li{padding:5px 0}.contact{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}.contact p{flex:1;min-width:230px}footer{text-align:center;padding:24px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}footer a{color:var(--gold)}
 </style>
   <link rel="stylesheet" href="https://memoiredesdeportes.fr/assets/memorial-ux.css?v=6">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","name":"Mairies partenaires | Mémoire des Déportés","description":"Découvrez les communes et partenaires qui contribuent à faire vivre la mémoire des déportés et à transmettre leurs histoires aux générations futures.","url":"https://memoiredesdeportes.fr/mairies.html","inLanguage":"fr-FR","isPartOf":{"@type":"WebSite","name":"Mémoire des Déportés","url":"https://memoiredesdeportes.fr/"}}</script>
@@ -41,9 +41,19 @@ main{max-width:950px;margin:auto;padding:34px 20px 60px}.panel{padding:clamp(20p
 <p>Les communes, services d’archives et institutions qui relaient ce travail contribuent à rendre cette mémoire plus visible et plus accessible.</p>
 </section>
 <section class="panel highlight">
-<h2>Les communes qui relaient le mémorial</h2>
-<p>Cette page a vocation à remercier les mairies et partenaires qui choisissent de faire connaître le mémorial depuis leur site officiel. Leurs logos, noms et liens directs seront ajoutés ici au fur et à mesure que les informations sont confirmées.</p>
-<p>Pour éviter toute erreur, seuls les partenariats confirmés seront présentés comme tels.</p>
+<h2>Les communes et services d’archives partenaires</h2>
+<p>Merci aux collectivités et aux services d’archives qui contribuent à faire connaître les parcours des personnes déportées. Les références ci-dessous renvoient vers les portraits concernés sur le mémorial. Les logos et liens vers les sites institutionnels seront ajoutés après vérification des adresses officielles.</p>
+<div class="partners">
+<article class="partner">
+<div class="partner-mark" aria-hidden="true">H</div>
+<div><h3>Commune du Hohwald</h3><p>Relais annoncé du portrait d’Adélaïde Hautval.</p><a href="https://memoiredesdeportes.fr/femmes.html" rel="noopener">Consulter les biographies des femmes →</a></div>
+</article>
+<article class="partner">
+<div class="partner-mark" aria-hidden="true">L</div>
+<div><h3>Archives municipales de Lorient</h3><p>Relais signalé du portrait de Maurice Le Gal.</p><a href="https://memoiredesdeportes.fr/hommes/maurice-le-gal-45767.html" rel="noopener">Lire le portrait de Maurice Le Gal →</a></div>
+</article>
+</div>
+<p class="partner-note">Cette liste est mise à jour progressivement. Les logos officiels ne seront utilisés qu’après vérification de leur provenance et des liens correspondants.</p>
 </section>
 <section class="panel">
 <h2>Vous représentez une commune ou un service d’archives ?</h2>
