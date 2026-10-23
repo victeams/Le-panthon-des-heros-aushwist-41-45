@@ -63,7 +63,7 @@ const search = document.getElementById('search');
 const people = document.getElementById('people');
 const status = document.getElementById('status');
 function typeFor(p){
-  const m = String(p.matricule || (String(p.file||'').match(/(?:31|45|46)\\d{3}/)||[])[0] || '');
+  const m = String(p.matricule || (String(p.file||'').match(/(?:31|45|46)\d{3}/)||[])[0] || '');
   if(m.startsWith('31')) return '31000';
   if(m.startsWith('45') || m.startsWith('46')) return '45000';
   return '';
