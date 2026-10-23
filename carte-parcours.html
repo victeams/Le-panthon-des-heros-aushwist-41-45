@@ -84,7 +84,7 @@ function render(){
   filtered.forEach(p=>{
     const a=document.createElement('a');
     a.className='person';
-    const path=String(p.file||'').replace(/^\\/+/, '');
+    let path=String(p.file||''); while(path.startsWith('/')) path=path.slice(1);
     a.href=path ? new URL(path,document.baseURI).href : '#';
     const m=p.matricule ? ' · matricule '+p.matricule : '';
     const t=typeFor(p)==='31000'?'Convoi des 31 000':typeFor(p)==='45000'?'Convoi des 45 000':'Parcours non associé';
