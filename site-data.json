@@ -14404,19 +14404,6 @@
     "search": "vittoria viva daubeuf 31635 matricule 31635 notice commemorative"
   },
   {
-    "name": "X THOMAS",
-    "file": "hommes/x-thomas-46146.html",
-    "group": "hommes",
-    "matricule": "46146",
-    "subtitle": "Matricule 46146",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": "portraits/x-thomas-46146.jpg",
-    "portrait_alt": "Portrait d’Yves Guy Thomas (matricule 46146)",
-    "description": "Portrait et biographie de X THOMAS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
-    "search": "x thomas 46146 matricule 46146 notice commemorative"
-  },
-  {
     "name": "Yolande GILI",
     "file": "yolande-gili-31743.html",
     "group": "femmes",
@@ -14441,6 +14428,19 @@
     "portrait_alt": "Photographie de Yves CARIOU",
     "description": "Portrait et biographie de Yves CARIOU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "yves cariou 45330 matricule 45330 notice commemorative"
+  },
+  {
+    "name": "Yves, Guy Thomas",
+    "file": "hommes/x-thomas-46146.html",
+    "group": "hommes",
+    "matricule": null,
+    "subtitle": "Convoi du 6 juillet 1942 — Compiègne vers Auschwitz",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": "portraits/x-thomas-46146.jpg",
+    "portrait_alt": "Portrait d’Yves, Guy Thomas",
+    "description": "Biographie d’Yves, Guy Thomas, cheminot de Saint-Dizier, arrêté en 1941 comme otage communiste et déporté à Auschwitz en juillet 1942.",
+    "search": "yves guy thomas convoi du 6 juillet 1942 compiegne vers auschwitz notice commemorative"
   },
   {
     "name": "Yvette FEUILLET",
