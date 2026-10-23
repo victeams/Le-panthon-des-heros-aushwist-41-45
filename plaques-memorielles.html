@@ -50,5 +50,5 @@ const q=document.getElementById('q'),region=document.getElementById('region'),ca
 function norm(s){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()}
 function filter(){const term=norm(q.value),r=region.value;let n=0;cards.forEach(c=>{const ok=norm(c.dataset.search).includes(term)&&(!r||c.dataset.region===r);c.hidden=!ok;if(ok)n++});count.textContent=n+' lieu'+(n>1?'x':'')+' de mémoire affiché'+(n>1?'s':'')}
 q.addEventListener('input',filter);region.addEventListener('change',filter);filter();
-</script>  <script defer src="https://memoiredesdeportes.fr/assets/memorial-ux.js?v=6" data-base="https://memoiredesdeportes.fr" data-home="https://memoiredesdeportes.fr/"></script>
+</script>  <script defer src="https://memoiredesdeportes.fr/assets/memorial-ux.js?v=7" data-base="https://memoiredesdeportes.fr" data-home="https://memoiredesdeportes.fr/"></script>
 </body></html>
