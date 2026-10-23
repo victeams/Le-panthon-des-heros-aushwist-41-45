@@ -15,6 +15,20 @@ header{padding:18px;background:#171a20;border-bottom:1px solid var(--line)}h1{fo
 .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#191d24;color:#f0f0ed}.leaflet-popup-content a{color:#b8d6ff}
 @media(max-width:800px){main{grid-template-columns:1fr;padding:8px}#map{height:55vh;min-height:340px}#results{max-height:35vh}}
 </style>
+  <link rel="stylesheet" href="https://memoiredesdeportes.fr/assets/memorial-ux.css?v=6">
+  <link rel="icon" href="https://memoiredesdeportes.fr/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://memoiredesdeportes.fr/favicon.png">
+  <link rel="icon" type="image/svg+xml" href="https://memoiredesdeportes.fr/favicon.svg">
+  <link rel="apple-touch-icon" sizes="96x96" href="https://memoiredesdeportes.fr/apple-touch-icon.png">
+  <meta name="theme-color" content="#0b0d10">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://memoiredesdeportes.fr/carte-camps.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Carte des camps et parcours documentés | Mémoire des Déportés">
+  <meta property="og:description" content="Carte géographique des camps nazis et accès aux biographies du mémorial Mémoire des Déportés.">
+  <meta property="og:url" content="https://memoiredesdeportes.fr/carte-camps.html">
+  <meta name="twitter:card" content="summary">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","name":"Carte des camps et parcours documentés | Mémoire des Déportés","description":"Carte géographique des camps nazis et accès aux biographies du mémorial Mémoire des Déportés.","url":"https://memoiredesdeportes.fr/carte-camps.html","inLanguage":"fr-FR","isPartOf":{"@type":"WebSite","name":"Mémoire des Déportés","url":"https://memoiredesdeportes.fr/"}}</script>
 </head>
 <body>
 <header><h1>Carte des camps et lieux de déportation</h1>
@@ -56,5 +70,6 @@ status.textContent=rows.length+' fiche(s) affichée(s)';results.innerHTML=rows.s
 search.addEventListener('input',render);group.addEventListener('change',render);
 fetch(new URL('site-data.json',document.baseURI)).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{catalog=Array.isArray(d)?d:[];render()}).catch(()=>{status.textContent='Catalogue non disponible pour le moment.';});
 </script>
+  <script defer src="https://memoiredesdeportes.fr/assets/memorial-ux.js?v=6" data-base="https://memoiredesdeportes.fr" data-home="https://memoiredesdeportes.fr/"></script>
 </body>
 </html>
