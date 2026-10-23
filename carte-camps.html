@@ -39,7 +39,7 @@ header{padding:18px;background:#171a20;border-bottom:1px solid var(--line)}h1{fo
 <div class="note"><strong>Précaution historique :</strong> la présence d’un camp sur cette carte ne signifie pas qu’une personne y a été détenue. Un parcours individuel ne sera affiché que lorsqu’il est appuyé par une source. Les lieux et dates doivent être vérifiés avant d’ajouter des étapes nominatives.</div></section>
 <aside class="panel"><h2>Rechercher dans les biographies</h2><input id="search" type="search" placeholder="Nom, prénom ou matricule…" autocomplete="off">
 <label for="group">Parcours collectifs identifiés</label><select id="group"><option value="all">Tous les profils</option><option value="31000">Convoi des 31 000</option><option value="45000">Convoi des 45 000</option></select>
-<div id="status" class="muted">Chargement du catalogue…</div><div id="results"></div>
+<div id="personalNotice" class="note" hidden></div><div id="status" class="muted">Chargement du catalogue…</div><div id="results"></div>
 <div class="note">Les résultats ouvrent les fiches déjà présentes dans le mémorial. Le filtre des convois identifie un parcours collectif, pas toutes les étapes individuelles.</div></aside>
 </main>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -62,13 +62,15 @@ let extra=c.key?'<p><a href="#results" onclick="document.getElementById(\'group\
 marker.bindPopup('<strong>'+c.name+'</strong><br><small>'+c.period+'</small><p>'+c.desc+'</p>'+extra);
 });
 let catalog=[];
+const requestedPerson=new URLSearchParams(location.search).get('person');
+const personalNotice=document.getElementById('personalNotice');
 const search=document.getElementById('search'),group=document.getElementById('group'),results=document.getElementById('results'),status=document.getElementById('status');
 function convoyFor(p){const s=String(p.subtitle||'')+' '+String(p.file||'')+' '+String(p.name||'')+' '+String(p.search||'');if(/31\s?000|31-\d{3}-31000|31\d{3}/i.test(s))return '31000';if(/45\s?000|46\d{3}|45\d{3}/i.test(s))return '45000';return '';}
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-function render(){const term=search.value.trim().toLocaleLowerCase('fr'),chosen=group.value;const rows=catalog.filter(p=>{const cv=convoyFor(p),txt=[p.name,p.matricule,p.file,p.subtitle,p.search].filter(Boolean).join(' ').toLocaleLowerCase('fr');return(!term||txt.includes(term))&&(chosen==='all'||cv===chosen);});
+function render(){const term=search.value.trim().toLocaleLowerCase('fr'),chosen=group.value;const rows=catalog.filter(p=>{const cv=convoyFor(p),txt=[p.name,p.matricule,p.file,p.subtitle,p.search].filter(Boolean).join(' ').toLocaleLowerCase('fr');const fileName=String(p.file||'').split('/').pop();const wanted=requestedPerson?decodeURIComponent(requestedPerson).split('/').pop():'';return(!requestedPerson||fileName===wanted)&&(!term||txt.includes(term))&&(chosen==='all'||cv===chosen);});
 status.textContent=rows.length+' fiche(s) affichée(s)';results.innerHTML=rows.slice(0,500).map(p=>{let path=String(p.file||'').replace(/^\/+/,''),cv=convoyFor(p);return '<a class="person" href="'+esc(path||'#')+'"><strong>'+esc(p.name||'Nom non renseigné')+'</strong><small>'+esc(cv==='31000'?'Convoi des 31 000':cv==='45000'?'Convoi des 45 000':'Notice du mémorial')+'</small></a>';}).join('')||'<p class="muted">Aucun résultat. Essayez un autre nom ou un autre filtre.</p>';if(rows.length>500)status.textContent+=' · premiers 500 résultats affichés';}
 search.addEventListener('input',render);group.addEventListener('change',render);
-fetch(new URL('site-data.json',document.baseURI)).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{catalog=Array.isArray(d)?d:[];render()}).catch(()=>{status.textContent='Catalogue non disponible pour le moment.';});
+fetch(new URL('site-data.json',document.baseURI)).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{catalog=Array.isArray(d)?d:[];if(requestedPerson){const wanted=decodeURIComponent(requestedPerson).split('/').pop();const person=catalog.find(p=>String(p.file||'').split('/').pop()===wanted);if(person){search.value=person.name||'';group.value=convoyFor(person)||'all';personalNotice.hidden=false;personalNotice.innerHTML='<strong>Carte personnalisée : '+esc(person.name||'Personne recherchée')+'</strong><p>Cette carte affiche les repères historiques généraux. Le parcours individuel de cette personne ne sera tracé qu’après vérification de ses étapes par des sources fiables.</p><p><a href="'+esc(String(person.file||'#'))+'">← Retour à sa fiche</a></p>';document.querySelector('header h1').textContent='Carte personnalisée — '+(person.name||'Déporté');}else{personalNotice.hidden=false;personalNotice.textContent='Fiche non retrouvée dans le catalogue. Vous pouvez rechercher son nom ci-dessous.';}}render()}).catch(()=>{status.textContent='Catalogue non disponible pour le moment.';});
 </script>
   <script defer src="https://memoiredesdeportes.fr/assets/memorial-ux.js?v=6" data-base="https://memoiredesdeportes.fr" data-home="https://memoiredesdeportes.fr/"></script>
 </body>
