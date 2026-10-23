@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Carte interactive des parcours documentés des déportés, reliée aux biographies du Panthéon des héros 1939-1945.">
+<title>Carte des parcours des déportés | Le Panthéon des héros</title>
+<style>
+:root{color-scheme:dark;--bg:#101216;--panel:#191d24;--line:#343b47;--text:#f0f0ed;--muted:#a5acb7;--gold:#e4c16a;--blue:#9dc7ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 Georgia,serif}
+header{padding:22px 18px;border-bottom:1px solid var(--line);background:#171a20}
+header a{color:var(--blue)}h1{font-size:clamp(1.4rem,3vw,2.2rem);font-weight:normal;margin:0 0 6px}p{margin:8px 0}.muted,small{color:var(--muted)}main{max-width:1200px;margin:auto;padding:18px;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);gap:18px}
+section,.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}h2{font-size:1.2rem;font-weight:normal;margin:0 0 10px}h3{font-size:1rem;font-weight:normal;margin:0 0 5px;color:var(--gold)}
+input,select{width:100%;padding:11px;background:#0f1217;color:var(--text);border:1px solid #454d59;border-radius:7px;font:inherit;margin:5px 0 12px}
+.route{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;margin:18px 0}.place{border:1px solid #555f6e;border-radius:9px;padding:13px;text-align:center;background:#11151b}.arrow{color:var(--gold);font-size:1.4rem}.date{display:block;font-size:.83rem;color:var(--muted);margin-top:4px}
+.people{display:flex;flex-direction:column;gap:7px;max-height:58vh;overflow:auto}.person{display:block;padding:10px 12px;border:1px solid #343b47;border-radius:7px;color:var(--text);text-decoration:none;background:#12161c}.person:hover,.person:focus{border-color:var(--gold);background:#202630}.person strong{display:block;font-weight:normal}.person small{display:block}.tag{font: .78rem Arial,sans-serif;color:var(--gold)}
+.note{font: .9rem/1.5 Arial,sans-serif;color:var(--muted);border-left:3px solid var(--gold);padding:9px 12px;background:#11151b;margin-top:14px}
+#status{color:var(--muted);font-size:.9rem;margin:6px 0 10px}.empty{padding:15px;color:var(--muted)}
+@media(max-width:760px){main{grid-template-columns:1fr;padding:10px}header{padding:18px 12px}.people{max-height:45vh}.route{grid-template-columns:1fr}.arrow{transform:rotate(90deg);text-align:center}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Carte des parcours des déportés</h1>
+  <p class="muted">Le Panthéon des héros 1939-1945 · une entrée vers les biographies et les lieux de déportation</p>
+  <p><a href="index.html">← Retour à l’accueil du mémorial</a></p>
+</header>
+<main>
+  <section>
+    <h2>Parcours collectifs documentés</h2>
+    <p class="muted">Choisissez un convoi pour afficher les biographies associées dans le catalogue du site.</p>
+    <label for="convoy">Convoi</label>
+    <select id="convoy">
+      <option value="all">Tous les parcours identifiés</option>
+      <option value="31000">Femmes — convoi des 31 000</option>
+      <option value="45000">Hommes — convoi des 45 000</option>
+    </select>
+    <div class="route" aria-label="Parcours collectif du convoi des 45000">
+      <div class="place"><h3>Compiègne-Royallieu</h3><span class="muted">Lieu de rassemblement et de départ</span><span class="date">Convoi des 45 000 : 6 juillet 1942</span></div>
+      <div class="arrow" aria-hidden="true">→</div>
+      <div class="place"><h3>Auschwitz</h3><span class="muted">Camp de destination du convoi</span><span class="date">Convoi des 45 000 : arrivée le 8 juillet 1942</span></div>
+    </div>
+    <div class="route" aria-label="Parcours collectif du convoi des 31000">
+      <div class="place"><h3>Compiègne-Royallieu</h3><span class="muted">Lieu de rassemblement et de départ</span><span class="date">Convoi des 31 000 : janvier 1943</span></div>
+      <div class="arrow" aria-hidden="true">→</div>
+      <div class="place"><h3>Auschwitz-Birkenau</h3><span class="muted">Camp de destination du convoi</span><span class="date">Arrivée le 27 janvier 1943</span></div>
+    </div>
+    <div class="note"><strong>Important :</strong> ces lignes représentent les étapes communes des convois, pas un itinéraire individuel complet. Elles ne signifient pas que le site dispose déjà de toutes les dates de détention ou de décès de chaque personne. Les informations individuelles doivent être confirmées par les biographies et des sources historiques.</div>
+  </section>
+  <section>
+    <h2>Biographies du mémorial</h2>
+    <input id="search" type="search" placeholder="Rechercher un nom, un prénom ou un matricule…" autocomplete="off">
+    <div id="status">Chargement du catalogue…</div>
+    <div id="people" class="people"></div>
+    <div class="note">Chaque nom ouvre la fiche existante du mémorial. Les biographies sont chargées depuis <code>site-data.json</code> : les nouveaux portraits ajoutés au catalogue apparaîtront après la reconstruction automatique du site.</div>
+  </section>
+</main>
+<script>
+const catalogUrl = new URL('site-data.json', document.baseURI);
+let catalog = [];
+const convoy = document.getElementById('convoy');
+const search = document.getElementById('search');
+const people = document.getElementById('people');
+const status = document.getElementById('status');
+function typeFor(p){
+  const m = String(p.matricule || (String(p.file||'').match(/(?:31|45|46)\d{3}/)||[])[0] || '');
+  if(m.startsWith('31')) return '31000';
+  if(m.startsWith('45') || m.startsWith('46')) return '45000';
+  return '';
+}
+function safeText(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function render(){
+  const term=search.value.trim().toLocaleLowerCase('fr');
+  const chosen=convoy.value;
+  const filtered=catalog.filter(p=>{
+    const type=typeFor(p);
+    const text=[p.name,p.matricule,p.file,p.subtitle].filter(Boolean).join(' ').toLocaleLowerCase('fr');
+    return (!chosen || chosen==='all' ? !!type : type===chosen) && (!term || text.includes(term));
+  });
+  status.textContent=filtered.length+' biographies affichées'+(chosen==='31000'?' · convoi des 31 000':chosen==='45000'?' · convoi des 45 000':' · parcours collectifs identifiés');
+  people.innerHTML='';
+  if(!filtered.length){people.innerHTML='<div class="empty">Aucune biographie correspondante dans ce parcours. Essayez un autre nom ou un autre convoi.</div>';return;}
+  const fragment=document.createDocumentFragment();
+  filtered.forEach(p=>{
+    const a=document.createElement('a');
+    a.className='person';
+    let path=String(p.file||''); while(path.startsWith('/')) path=path.slice(1);
+    a.href=path ? new URL(path,document.baseURI).href : '#';
+    const m=p.matricule ? ' · matricule '+p.matricule : '';
+    const t=typeFor(p)==='31000'?'Convoi des 31 000':typeFor(p)==='45000'?'Convoi des 45 000':'Parcours non associé';
+    a.innerHTML='<strong>'+safeText(p.name||'Nom non renseigné')+'</strong><small>'+safeText(t+m)+'</small>';
+    fragment.appendChild(a);
+  });
+  people.appendChild(fragment);
+}
+convoy.addEventListener('change',render);search.addEventListener('input',render);
+fetch(catalogUrl.href,{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(data=>{
+  catalog=Array.isArray(data)?data:(Array.isArray(data.people)?data.people:[]);
+  if(!catalog.length)throw new Error('Catalogue vide ou format inattendu');
+  render();
+}).catch(err=>{status.textContent='Impossible de charger le catalogue automatiquement. Vérifiez que site-data.json est accessible.';people.innerHTML='<div class="empty">Erreur de chargement du catalogue. ('+safeText(err.message)+')</div>';});
+</script>
+</body>
+</html>

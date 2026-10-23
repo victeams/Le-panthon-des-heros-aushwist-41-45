@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Carte géographique des camps nazis et accès aux biographies du mémorial Mémoire des Déportés.">
+<title>Carte des camps et parcours documentés | Mémoire des Déportés</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{color-scheme:dark;--bg:#101216;--panel:#191d24;--line:#343b47;--text:#f0f0ed;--muted:#b3bac4;--gold:#e4c16a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 Georgia,serif}
+header{padding:18px;background:#171a20;border-bottom:1px solid var(--line)}h1{font-size:clamp(1.4rem,3vw,2rem);font-weight:normal;margin:0 0 5px}a{color:#b8d6ff}main{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(280px,.8fr);gap:14px;padding:14px;max-width:1500px;margin:auto}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;min-width:0}#map{height:min(72vh,720px);min-height:420px;border-radius:7px;background:#d9d8d1}h2{font-size:1.15rem;font-weight:normal;margin:0 0 8px}.muted,small{color:var(--muted)}input,select{width:100%;padding:10px;background:#101216;color:var(--text);border:1px solid #454d59;border-radius:7px;font:inherit;margin:5px 0 10px}
+#results{max-height:42vh;overflow:auto;display:flex;flex-direction:column;gap:6px}.person{display:block;padding:9px;border:1px solid var(--line);border-radius:7px;text-decoration:none;color:var(--text)}.person:hover{border-color:var(--gold)}.note{font: .9rem/1.5 Arial,sans-serif;color:var(--muted);border-left:3px solid var(--gold);padding:9px 12px;background:#11151b;margin-top:12px}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#191d24;color:#f0f0ed}.leaflet-popup-content a{color:#b8d6ff}
+@media(max-width:800px){main{grid-template-columns:1fr;padding:8px}#map{height:55vh;min-height:340px}#results{max-height:35vh}}
+</style>
+</head>
+<body>
+<header><h1>Carte des camps et lieux de déportation</h1>
+<p class="muted">Mémoire des Déportés · repères historiques et accès aux biographies existantes</p>
+<p><a href="index.html">← Retour à l’accueil du mémorial</a></p></header>
+<main>
+<section class="panel"><h2>Carte géographique</h2><p class="muted">Touchez un repère pour lire les informations disponibles sur le lieu.</p><div id="map" role="application" aria-label="Carte interactive des camps en Europe"></div>
+<div class="note"><strong>Précaution historique :</strong> la présence d’un camp sur cette carte ne signifie pas qu’une personne y a été détenue. Un parcours individuel ne sera affiché que lorsqu’il est appuyé par une source. Les lieux et dates doivent être vérifiés avant d’ajouter des étapes nominatives.</div></section>
+<aside class="panel"><h2>Rechercher dans les biographies</h2><input id="search" type="search" placeholder="Nom, prénom ou matricule…" autocomplete="off">
+<label for="group">Parcours collectifs identifiés</label><select id="group"><option value="all">Tous les profils</option><option value="31000">Convoi des 31 000</option><option value="45000">Convoi des 45 000</option></select>
+<div id="status" class="muted">Chargement du catalogue…</div><div id="results"></div>
+<div class="note">Les résultats ouvrent les fiches déjà présentes dans le mémorial. Le filtre des convois identifie un parcours collectif, pas toutes les étapes individuelles.</div></aside>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const map=L.map('map').setView([49.2,13.5],4);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap contributors',maxZoom:10}).addTo(map);
+const camps=[
+{name:'Auschwitz I et Auschwitz II-Birkenau',coords:[50.035,19.178],period:'1940–1945',desc:'Complexe concentrationnaire et centre de mise à mort nazi situé près d’Oświęcim, en Pologne. Le convoi des 45 000 arrive à Auschwitz le 8 juillet 1942 ; le convoi des 31 000 arrive à Auschwitz-Birkenau le 27 janvier 1943.',key:'auschwitz'},
+{name:'Dachau',coords:[48.269,11.467],period:'1933–1945',desc:'Camp de concentration ouvert en mars 1933 près de Munich, en Allemagne.'},
+{name:'Buchenwald',coords:[51.022,11.249],period:'1937–1945',desc:'Camp de concentration près de Weimar, en Allemagne.'},
+{name:'Ravensbrück',coords:[53.188,13.175],period:'1939–1945',desc:'Camp de concentration principalement destiné aux femmes, au nord de Berlin.'},
+{name:'Mauthausen',coords:[48.258,14.501],period:'1938–1945',desc:'Camp de concentration situé en Autriche, près de Linz.'},
+{name:'Bergen-Belsen',coords:[52.758,9.904],period:'1940–1945',desc:'Camp situé en Basse-Saxe, en Allemagne.'},
+{name:'Drancy',coords:[48.932,2.461],period:'1941–1944',desc:'Camp d’internement et de transit en région parisienne, d’où partirent de nombreux convois de déportation.'},
+{name:'Compiègne-Royallieu',coords:[49.411,2.814],period:'1941–1944',desc:'Camp d’internement et de transit. Point de départ des convois des 45 000 (6 juillet 1942) et des 31 000 (janvier 1943).'}
+];
+const campLayer=L.layerGroup().addTo(map);
+camps.forEach(c=>{const marker=L.circleMarker(c.coords,{radius:7,color:'#e4c16a',weight:2,fillColor:'#7c5c16',fillOpacity:.95}).addTo(campLayer);
+let extra=c.key?'<p><a href="#results" onclick="document.getElementById(\'group\').value=\'all\';document.getElementById(\'search\').value=\'\';render();return true">Afficher les profils des convois associés</a></p>':'';
+marker.bindPopup('<strong>'+c.name+'</strong><br><small>'+c.period+'</small><p>'+c.desc+'</p>'+extra);
+});
+let catalog=[];
+const search=document.getElementById('search'),group=document.getElementById('group'),results=document.getElementById('results'),status=document.getElementById('status');
+function convoyFor(p){const s=String(p.subtitle||'')+' '+String(p.file||'')+' '+String(p.name||'')+' '+String(p.search||'');if(/31\s?000|31-\d{3}-31000|31\d{3}/i.test(s))return '31000';if(/45\s?000|46\d{3}|45\d{3}/i.test(s))return '45000';return '';}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function render(){const term=search.value.trim().toLocaleLowerCase('fr'),chosen=group.value;const rows=catalog.filter(p=>{const cv=convoyFor(p),txt=[p.name,p.matricule,p.file,p.subtitle,p.search].filter(Boolean).join(' ').toLocaleLowerCase('fr');return(!term||txt.includes(term))&&(chosen==='all'||cv===chosen);});
+status.textContent=rows.length+' fiche(s) affichée(s)';results.innerHTML=rows.slice(0,500).map(p=>{let path=String(p.file||'').replace(/^\/+/,''),cv=convoyFor(p);return '<a class="person" href="'+esc(path||'#')+'"><strong>'+esc(p.name||'Nom non renseigné')+'</strong><small>'+esc(cv==='31000'?'Convoi des 31 000':cv==='45000'?'Convoi des 45 000':'Notice du mémorial')+'</small></a>';}).join('')||'<p class="muted">Aucun résultat. Essayez un autre nom ou un autre filtre.</p>';if(rows.length>500)status.textContent+=' · premiers 500 résultats affichés';}
+search.addEventListener('input',render);group.addEventListener('change',render);
+fetch(new URL('site-data.json',document.baseURI)).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{catalog=Array.isArray(d)?d:[];render()}).catch(()=>{status.textContent='Catalogue non disponible pour le moment.';});
+</script>
+</body>
+</html>
