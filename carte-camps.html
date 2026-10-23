@@ -61,7 +61,7 @@ const camps=[
 ];
 const campLayer=L.layerGroup().addTo(map);
 camps.forEach(c=>{const marker=L.circleMarker(c.coords,{radius:7,color:'#e4c16a',weight:2,fillColor:'#7c5c16',fillOpacity:.95}).addTo(campLayer);
-let extra=c.key?'<p><a href="#results" onclick="document.getElementById(\'group\').value=\'all\';document.getElementById(\'search\').value=\'\';render();return true">Afficher les profils des convois associés</a></p>':'';
+let extra=c.key?'<p><a href="#results">Afficher les profils des convois associés</a></p>':'';
 marker.bindPopup('<strong>'+c.name+'</strong><br><small>'+c.period+'</small><p>'+c.desc+'</p>'+extra);
 });
 let thomasTrainFrame=null;
