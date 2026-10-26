@@ -262,17 +262,12 @@ def find_or_create_portrait(
     old_map: dict[str, str],
 ) -> str | None:
     relative_bio = biography.relative_to(root).as_posix()
-    mapped = old_map.get(relative_bio)
-    if mapped and (root / mapped).is_file():
-        return mapped
-
     portrait_dir = root / "portraits"
     portrait_dir.mkdir(exist_ok=True)
-    for extension in IMAGE_EXTENSIONS:
-        for candidate in (portrait_dir / f"{biography.stem}{extension}", portrait_dir / f"{biography.stem}{extension.upper()}"):
-            if candidate.is_file():
-                return candidate.relative_to(root).as_posix()
 
+    # Priorité à la première photo réellement intégrée à la biographie afin
+    # que la vignette du catalogue corresponde à la fiche ouverte. Les autres
+    # photos et le texte de la biographie ne sont jamais modifiés.
     local = safe_local_image(root, biography, parser.first_image)
     if local:
         return local.relative_to(root).as_posix()
@@ -281,9 +276,22 @@ def find_or_create_portrait(
     if extracted:
         payload, extension = extracted
         target = portrait_dir / f"{biography.stem}{extension}"
-        if not target.exists():
+        # La miniature générée suit la photo intégrée à la fiche. La fiche
+        # HTML originale, y compris toutes ses images, reste intacte.
+        if not target.exists() or target.read_bytes() != payload:
             target.write_bytes(payload)
         return target.relative_to(root).as_posix()
+
+    # Si la fiche ne contient pas de photo locale exploitable, conserver les
+    # repères historiques et miniatures déjà disponibles comme solution de repli.
+    mapped = old_map.get(relative_bio)
+    if mapped and (root / mapped).is_file():
+        return mapped
+
+    for extension in IMAGE_EXTENSIONS:
+        for candidate in (portrait_dir / f"{biography.stem}{extension}", portrait_dir / f"{biography.stem}{extension.upper()}"):
+            if candidate.is_file():
+                return candidate.relative_to(root).as_posix()
     return None
 
 
