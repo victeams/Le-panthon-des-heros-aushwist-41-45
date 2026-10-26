@@ -43,6 +43,37 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn('src="images/photo-non-trouvee-femmes.jpg"', women_page)
             self.assertIn('Photographie non retrouvée pour Alice EXEMPLE', women_page)
 
+    def test_catalog_uses_biography_photo_and_preserves_all_embedded_photos_and_text(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            first_photo = f"data:image/png;base64,{PIXEL_PNG}"
+            second_photo = "data:image/jpeg;base64," + base64.b64encode(b"second-photo").decode("ascii")
+            page = biography("Alice EXEMPLE", "31802", "Morte en déportation")
+            page = page.replace(
+                f'src="{first_photo}" alt="Portrait"',
+                f'src="{first_photo}" alt="Portrait"><img src="{second_photo}" alt="Photo de famille"',
+            )
+            (root / "alice_31802.html").write_text(page, encoding="utf-8")
+            (root / "portraits").mkdir()
+            (root / "portraits" / "alice_31802.jpg").write_bytes(b"ancienne-miniature")
+            (root / "index.html").write_text(
+                '<article><a href="alice_31802.html"><img src="portraits/alice_31802.jpg"></a></article>',
+                encoding="utf-8",
+            )
+
+            women, men, warnings = build(root, "https://example.test", "test")
+
+            self.assertEqual((women, men), (1, 0))
+            self.assertFalse(warnings)
+            data = json.loads((root / "site-data.json").read_text(encoding="utf-8"))
+            self.assertEqual(data[0]["portrait"], "portraits/alice_31802.png")
+            self.assertEqual((root / "portraits" / "alice_31802.png").read_bytes(), base64.b64decode(PIXEL_PNG))
+            original_after_build = (root / "alice_31802.html").read_text(encoding="utf-8")
+            self.assertEqual(original_after_build.count("<img "), 2)
+            self.assertIn("Une biographie documentée pour transmettre sa mémoire.", original_after_build)
+            women_page = (root / "femmes.html").read_text(encoding="utf-8")
+            self.assertIn('src="portraits/alice_31802.png"', women_page)
+
     def test_classifies_female_and_male_and_builds_seo(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
