@@ -1,0 +1,45 @@
+name: Centre de pilotage du mémorial
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 7 * * *'
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: centre-pilotage
+  cancel-in-progress: false
+
+jobs:
+  rapport-central:
+    name: Générer le rapport central en lecture seule
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Récupérer le dépôt sans modifier les biographies
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Installer Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Générer le rapport du centre
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/centre_pilotage.py
+      - name: Afficher le rapport dans le résumé Actions
+        if: always()
+        run: |
+          if [ -f rapports/centre-pilotage.md ]; then
+            cat rapports/centre-pilotage.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Conserver le rapport téléchargeable
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: rapport-centre-pilotage
+          path: rapports/centre-pilotage.md
+          if-no-files-found: error
+          retention-days: 30
