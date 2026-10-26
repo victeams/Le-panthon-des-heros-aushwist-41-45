@@ -1,0 +1,39 @@
+name: Contrôle automatique des liens et des pages
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 5 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: controle-liens-pages
+  cancel-in-progress: false
+
+jobs:
+  controle:
+    name: Détecter les liens internes cassés
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Installer Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+      - name: Contrôler les liens et pages sans modifier le site
+        run: python scripts/controle_liens_pages.py
+      - name: Conserver le rapport détaillé
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: controle-liens-pages
+          path: rapport-liens/
+          if-no-files-found: error
+          retention-days: 30
+      - name: Résumé du contrôle
+        if: always()
+        run: |
+          if [ -f rapport-liens/rapport.md ]; then
+            cat rapport-liens/rapport.md >> "$GITHUB_STEP_SUMMARY"
+          fi
