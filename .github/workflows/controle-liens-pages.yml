@@ -2,7 +2,7 @@ name: Contrôle automatique des liens et des pages
 on:
   workflow_dispatch:
   schedule:
-    - cron: "41 5 * * 1"
+    - cron: "41 5 * * *"
 
 permissions:
   contents: read
