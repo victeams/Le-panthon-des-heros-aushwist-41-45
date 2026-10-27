@@ -45,9 +45,9 @@ jobs:
                       sample = path.read_text(encoding="utf-8", errors="ignore")
                   except OSError:
                       continue
-                  if not re.search(r"(?<!\\d)(?:31|45|46)\\d{3}(?!\\d)", path.stem + " " + sample):
+                  if not re.search(r"(?<!\d)(?:31|45|46)\d{3}(?!\d)", path.stem + " " + sample):
                       continue
-                  if not re.search(r"<h1\\b", sample, re.I):
+                  if not re.search(r"<h1\b", sample, re.I):
                       continue
                   candidates.append(path)
 
