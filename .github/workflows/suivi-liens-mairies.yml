@@ -3,7 +3,7 @@ name: Suivi hebdomadaire des liens des mairies
 on:
   workflow_dispatch:
   schedule:
-    - cron: "12 6 * * 2"
+    - cron: "12 6 * * *"
 
 permissions:
   contents: read
