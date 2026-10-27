@@ -1,0 +1,41 @@
+name: Veille consolidée du mémorial
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 6 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: veille-memorial
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    name: Produire les rapports de veille sans modifier le site
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Installer Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Exécuter la veille en lecture seule
+        run: python scripts/veille_memorial.py
+      - name: Afficher le rapport dans le résumé Actions
+        if: always()
+        run: |
+          if [ -f rapports/veille-memorial/rapport.md ]; then
+            cat rapports/veille-memorial/rapport.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Conserver les rapports téléchargeables
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: veille-memorial
+          path: rapports/veille-memorial/
+          if-no-files-found: error
+          retention-days: 30
