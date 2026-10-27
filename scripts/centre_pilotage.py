@@ -20,6 +20,10 @@ WORKFLOWS = {
     "update-photos.yml": "Actualisation des photos",
     "experience-visiteur.yml": "Expérience visiteurs",
     "fix-favicons.yml": "Gestion des favicons",
+    "tiktok-memorial.yml": "Préparation quotidienne TikTok",
+    "controle-liens-pages.yml": "Contrôle quotidien des liens et pages",
+    "controle-qualite-memorial.yml": "Contrôle qualité quotidien",
+    "suivi-liens-mairies.yml": "Vérification quotidienne des liens des mairies",
 }
 
 def html_count(path):
