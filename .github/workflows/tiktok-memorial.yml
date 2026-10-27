@@ -3,7 +3,7 @@ name: Préparer une publication TikTok du mémorial
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 7 * * 3'
+    - cron: '0 7 * * *'
 
 permissions:
   contents: read
@@ -21,22 +21,33 @@ jobs:
         run: |
           python - <<'PY'
           import html
-          import random
           import re
           from pathlib import Path
 
           excluded = {
               "index.html", "femmes.html", "hommes.html", "photos.html",
-              "base-documentaire.html", "404.html", "contact.html"
+              "base-documentaire.html", "404.html", "contact.html",
+              "tiktok.html", "mairies-partenaires.html", "a-propos.html",
+              "convoi-des-31000.html", "convoi-des-45000.html",
+              "carte-camps.html", "carte-parcours.html", "sitemap.html"
           }
           candidates = []
-          for folder in [Path("."), Path("hommes"), Path("femmes"), Path("enfants/portraits")]:
+          for folder in [Path("."), Path("hommes"), Path("femmes")]:
               if not folder.exists():
                   continue
               for path in folder.glob("*.html"):
                   if path.name.lower() in excluded or path.name.startswith("_"):
                       continue
                   if path.stat().st_size < 500:
+                      continue
+                  # N'accepter que les fiches qui ressemblent à des portraits documentés.
+                  try:
+                      sample = path.read_text(encoding="utf-8", errors="ignore")
+                  except OSError:
+                      continue
+                  if not re.search(r"(?<!\\d)(?:31|45|46)\\d{3}(?!\\d)", path.stem + " " + sample):
+                      continue
+                  if not re.search(r"<h1\\b", sample, re.I):
                       continue
                   candidates.append(path)
 
