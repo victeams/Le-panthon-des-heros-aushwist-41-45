@@ -17,8 +17,9 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Préparer le carrousel à partir d'une biographie existante
-        shell: python
+        shell: bash
         run: |
+          python - <<'PY'
           import html
           import random
           import re
@@ -95,6 +96,8 @@ jobs:
                   "- [ ] Publier manuellement après vérification."
               ]
               Path("publication-tiktok.md").write_text("\n".join(out) + "\n", encoding="utf-8")
+
+          PY
 
       - name: Afficher le brouillon dans le résumé GitHub
         run: cat publication-tiktok.md >> "$GITHUB_STEP_SUMMARY"
