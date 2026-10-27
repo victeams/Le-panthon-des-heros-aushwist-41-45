@@ -63,7 +63,10 @@ def main():
         mats = re.findall(r"(?i)(?:matricule\s*[:#-]?\s*|\b)(\d{5})(?!\d)", clean(" ".join(parser.text)))
         mat = mats[0] if mats else ""
         if title and mat:
-            known_mats.add(mat); duplicate_map[mat].append((rel, title))
+            known_mats.add(mat)
+            # Les pages racine et les copies hommes/femmes peuvent être volontaires.
+            if path.parent == ROOT:
+                duplicate_map[mat].append((rel, title))
         if path.parent == ROOT or path.parent.name in PROFILE_DIRS:
             if not title or not mat:
                 missing = []
