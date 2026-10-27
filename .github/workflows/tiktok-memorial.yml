@@ -1,0 +1,108 @@
+name: Préparer une publication TikTok du mémorial
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 7 * * 3'
+
+permissions:
+  contents: read
+
+jobs:
+  preparer-publication:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Préparer le carrousel à partir d'une biographie existante
+        shell: python
+        run: |
+          import html
+          import random
+          import re
+          from pathlib import Path
+
+          excluded = {
+              "index.html", "femmes.html", "hommes.html", "photos.html",
+              "base-documentaire.html", "404.html", "contact.html"
+          }
+          candidates = []
+          for folder in [Path("."), Path("hommes"), Path("femmes"), Path("enfants/portraits")]:
+              if not folder.exists():
+                  continue
+              for path in folder.glob("*.html"):
+                  if path.name.lower() in excluded or path.name.startswith("_"):
+                      continue
+                  if path.stat().st_size < 500:
+                      continue
+                  candidates.append(path)
+
+          if not candidates:
+              Path("publication-tiktok.md").write_text(
+                  "# Publication TikTok\n\nAucune biographie HTML candidate n'a été trouvée. "
+                  "Vérifier les dossiers du dépôt.\n",
+                  encoding="utf-8"
+              )
+          else:
+              # Choix stable pour la semaine : évite de choisir une autre fiche à chaque relance.
+              import datetime
+              week = datetime.date.today().isocalendar().week
+              candidates = sorted(set(candidates), key=lambda p: str(p).lower())
+              path = candidates[week % len(candidates)]
+              source = path.read_text(encoding="utf-8", errors="ignore")
+              title_match = re.search(r"<title[^>]*>(.*?)</title>", source, re.I | re.S)
+              title = html.unescape(re.sub(r"<[^>]+>", " ", title_match.group(1))).strip() if title_match else path.stem.replace("-", " ").replace("_", " ")
+              text = re.sub(r"(?is)<(script|style).*?>.*?</\1>", " ", source)
+              text = re.sub(r"(?i)<br\s*/?>|</p>|</h[1-6]>|</li>", "\n", text)
+              text = html.unescape(re.sub(r"<[^>]+>", " ", text))
+              lines = [re.sub(r"\s+", " ", line).strip() for line in text.splitlines()]
+              lines = [line for line in lines if len(line) > 45 and "http" not in line.lower()]
+              bio = " ".join(lines)
+              bio = re.sub(r"\s+", " ", bio).strip()
+              bio = bio[:1200].rsplit(" ", 1)[0] if len(bio) > 1200 else bio
+              url = "https://memoiredesdeportes.fr/" + (str(path).replace("\\", "/").removeprefix("./"))
+              slides = [
+                  "TU SAVAIS ?\nDerrière chaque matricule, une vie.",
+                  title + "\nUn portrait à redécouvrir.",
+                  bio[:350] if bio else "Retrouvons le parcours de cette personne à partir des informations conservées dans sa fiche.",
+                  "Transmettre ces histoires, c'est préserver la mémoire des déportés.",
+                  "Découvre d'autres portraits sur memoiredesdeportes.fr\nSite gratuit et sans publicité."
+              ]
+              out = [
+                  "# Publication TikTok — brouillon à vérifier",
+                  "",
+                  f"**Biographie choisie :** {title}",
+                  f"**Fichier source :** [{path}]({url})",
+                  "",
+                  "> Vérifie le texte et les dates dans la fiche d'origine avant publication. Ce brouillon est généré automatiquement et n'est pas publié sur TikTok.",
+                  "",
+                  "## Carrousel",
+              ]
+              for i, slide in enumerate(slides, 1):
+                  out += ["", f"### Diapositive {i}", "", slide]
+              out += [
+                  "", "## Légende proposée", "",
+                  f"Une vie, une histoire, une mémoire à transmettre. Découvre la fiche et les sources sur {url}",
+                  "Le mémorial est gratuit et sans publicité.",
+                  "", "## Hashtags", "",
+                  "#Memoire #Deportation #Histoire #SecondeGuerreMondiale #DevoirDeMemoire #TuSavais",
+                  "", "## Vérifications avant publication", "",
+                  "- [ ] Vérifier le nom, les dates et les informations dans la fiche source.",
+                  "- [ ] Vérifier les droits d'utilisation des photos.",
+                  "- [ ] Ajouter le lien du site à la bio TikTok si nécessaire.",
+                  "- [ ] Publier manuellement après vérification."
+              ]
+              Path("publication-tiktok.md").write_text("\n".join(out) + "\n", encoding="utf-8")
+
+      - name: Afficher le brouillon dans le résumé GitHub
+        run: cat publication-tiktok.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Conserver le brouillon en téléchargement
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: brouillon-tiktok-memorial
+          path: publication-tiktok.md
+          if-no-files-found: error
+          retention-days: 30
