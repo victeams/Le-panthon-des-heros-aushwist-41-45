@@ -16,6 +16,7 @@ jobs:
   inventaire:
     name: Préparer les lieux candidats sans publier de pages
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Récupérer le dépôt
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
@@ -26,7 +27,14 @@ jobs:
       - name: Construire l'inventaire exploratoire
         run: python scripts/inventaire_communes.py
       - name: Publier le résumé dans le journal du workflow
-        run: cat rapport-communes/rapport.md >> "$GITHUB_STEP_SUMMARY"
+        if: always()
+        run: |
+          if [ -f rapport-communes/rapport.md ]; then
+            cat rapport-communes/rapport.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Le script n'a pas produit le rapport attendu." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
       - name: Conserver le rapport et les prévisualisations comme artefact
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
