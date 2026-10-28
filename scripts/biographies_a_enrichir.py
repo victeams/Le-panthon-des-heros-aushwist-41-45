@@ -119,8 +119,9 @@ def main():
         identity=matricule or path.stem.lower()
         if identity in seen:continue
         seen.add(identity)
-        if signals:candidates.append({"priority":len(signals),"sort":title.casefold(),"path":path.relative_to(ROOT).as_posix(),"title":title,"signals":signals,"external_links":external_links,"text_len":len(text),"matricule":matricule})
+        if signals:candidates.append({"priority":len(signals),"sort":title.casefold(),"path":path.relative_to(ROOT).as_posix(),"title":title,"signals":signals,"external_links":external_links,"text_len":len(text),"current_text":text,"matricule":matricule})
     candidates.sort(key=lambda x:(-x["priority"],x["sort"],x["path"]))
+    proposals=["# Dossiers de propositions biographiques à vérifier","","> Document de travail uniquement. Aucun fait nouveau n’est affirmé sans vérification humaine. Aucune biographie publiée n’est modifiée.","",f"- Fiches repérées : {len(candidates)}","","## Dossiers par personne",""]
     from datetime import date
     live_errors=0
     if candidates:
@@ -161,6 +162,13 @@ def main():
             md.append("- Résultats web repérés automatiquement (à vérifier) :")
             for result in item["web_results"]:md.append(f"  - [{result['title'] or result['url']}]({result['url']})")
         elif item["search_error"]:md.append(f"- Recherche web directe : aucun résultat récupéré ({item['search_error']}). Les liens de recherche ci-dessus restent disponibles.")
+        proposals += [f"### {item['title']}", "", f"- Fichier de la fiche : `{item['path']}`", f"- Matricule repéré : {item['matricule'] or 'à confirmer'}", "", "**Texte actuellement présent sur le site (à préserver et relire) :**", "", (item.get("current_text") or "_Aucun texte extrait automatiquement._")[:5000], "", "**Pistes web repérées automatiquement — à vérifier avant toute utilisation :**", ""]
+        if item["web_results"]:
+            for result in item["web_results"]:
+                proposals.append(f"- [{result['title'] or result['url']}]({result['url']})")
+        else:
+            proposals.append("- Aucun résultat direct récupéré pour cette fiche aujourd’hui ; consulter les liens de recherche du rapport principal.")
+        proposals += ["", "**Proposition d’enrichissement :**", "", "_À rédiger uniquement après lecture des sources. Vérifier séparément l’identité, les dates et lieux, l’arrestation, le parcours de déportation et le sort de la personne. Ne pas déduire une information absente. Citer les sources précises utilisées._", "", "**Validation humaine :** ☐ Identité confirmée  ☐ Faits recoupés  ☐ Sources citées  ☐ Prêt pour révision manuelle", "", "---", ""]
         md.append("")
         rows.append({"biographie":item["title"],"fichier":item["path"],"matricule":item["matricule"],"longueur_texte":item["text_len"],"points_a_examiner":" | ".join(item["signals"]),"liens_externes_existants":" | ".join(item["external_links"]),"recherche_web":google,"resultats_web":" | ".join(r["url"] for r in item["web_results"]),"statut":"À vérifier manuellement"})
     md += ["## Sources à consulter","",
@@ -168,6 +176,7 @@ def main():
            "## Protection du mémorial","",
            "Ce rapport et le CSV ne modifient aucune biographie, photo, page publiée ni sitemap. Aucune donnée issue d'une recherche web n'est injectée automatiquement dans le site."]
     (OUT/"biographies-a-enrichir.md").write_text("\n".join(md)+"\n",encoding="utf-8")
+    (OUT/"propositions-biographies-a-verifier.md").write_text("\n".join(proposals)+"\n",encoding="utf-8")
     with (OUT/"biographies-a-enrichir.csv").open("w",newline="",encoding="utf-8-sig") as f:
         writer=csv.DictWriter(f,fieldnames=["biographie","fichier","matricule","longueur_texte","points_a_examiner","liens_externes_existants","recherche_web","resultats_web","statut"])
         writer.writeheader();writer.writerows(rows)
