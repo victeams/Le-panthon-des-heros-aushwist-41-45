@@ -48,5 +48,6 @@ jobs:
           path: |
             rapports/biographies-a-enrichir.md
             rapports/biographies-a-enrichir.csv
+            rapports/propositions-biographies-a-verifier.md
           if-no-files-found: error
           retention-days: 30
