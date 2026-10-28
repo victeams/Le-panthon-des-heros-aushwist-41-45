@@ -100,7 +100,7 @@ jobs:
               " Pour préserver la mémoire des déportés et transmettre leurs histoires, "
               "retrouve les biographies sur Mémoire des Déportés : " + source_url
           )
-          Path("publication-tiktok.txt").write_text(post + "\\n", encoding="utf-8")
+          Path("publication-tiktok.txt").write_text(post + "\n", encoding="utf-8")
           print(f"Texte unique préparé depuis : {path}")
           print(f"Longueur : {len(post)} caractères")
           PY
