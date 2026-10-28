@@ -1,6 +1,10 @@
 name: Inventaire quotidien des communes
 
 on:
+  push:
+    paths:
+      - "scripts/inventaire_communes.py"
+      - ".github/workflows/inventaire-communes.yml"
   workflow_dispatch:
   schedule:
     - cron: "17 5 * * *"
