@@ -1,6 +1,10 @@
 name: Centre de pilotage du mémorial
 
 on:
+  push:
+    paths:
+      - "scripts/centre_pilotage.py"
+      - ".github/workflows/centre-pilotage.yml"
   workflow_dispatch:
   schedule:
     - cron: '0 7 * * *'
