@@ -23,7 +23,7 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Récupérer le dépôt en lecture seule
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7.0.1
       - name: Installer Python
         uses: actions/setup-python@v6
         with:
