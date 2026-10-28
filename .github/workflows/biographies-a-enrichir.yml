@@ -25,7 +25,7 @@ jobs:
       - name: Récupérer le dépôt en lecture seule
         uses: actions/checkout@v6
       - name: Installer Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7.1.0
         with:
           python-version: "3.12"
       - name: Analyser les biographies et rechercher des sources en ligne
