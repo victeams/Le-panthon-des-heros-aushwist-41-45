@@ -1,4 +1,4 @@
-name: Préparer une publication TikTok du mémorial
+name: Préparer un texte TikTok du mémorial
 
 on:
   workflow_dispatch:
@@ -16,10 +16,11 @@ jobs:
       - name: Récupérer le dépôt
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
-      - name: Préparer le carrousel à partir d'une biographie existante
+      - name: Générer un seul texte continu depuis une biographie existante
         shell: bash
         run: |
           python - <<'PY'
+          import datetime
           import html
           import re
           from pathlib import Path
@@ -32,7 +33,7 @@ jobs:
               "carte-camps.html", "carte-parcours.html", "sitemap.html"
           }
           candidates = []
-          for folder in [Path("."), Path("hommes"), Path("femmes")]:
+          for folder in (Path("hommes"), Path("femmes"), Path(".")):
               if not folder.exists():
                   continue
               for path in folder.glob("*.html"):
@@ -40,83 +41,77 @@ jobs:
                       continue
                   if path.stat().st_size < 500:
                       continue
-                  # N'accepter que les fiches qui ressemblent à des portraits documentés.
-                  try:
-                      sample = path.read_text(encoding="utf-8", errors="ignore")
-                  except OSError:
+                  source = path.read_text(encoding="utf-8", errors="ignore")
+                  if not re.search(r"(?<!\d)(?:31|45|46)\d{3}(?!\d)", path.stem + " " + source):
                       continue
-                  if not re.search(r"(?<!\d)(?:31|45|46)\d{3}(?!\d)", path.stem + " " + sample):
-                      continue
-                  if not re.search(r"<h1\b", sample, re.I):
+                  if not re.search(r"<h1\b", source, re.I):
                       continue
                   candidates.append(path)
 
+          candidates = sorted(set(candidates), key=lambda p: str(p).lower())
           if not candidates:
-              Path("publication-tiktok.md").write_text(
-                  "# Publication TikTok\n\nAucune biographie HTML candidate n'a été trouvée. "
-                  "Vérifier les dossiers du dépôt.\n",
-                  encoding="utf-8"
-              )
-          else:
-              # Choix stable pour la semaine : évite de choisir une autre fiche à chaque relance.
-              import datetime
-              week = datetime.date.today().isocalendar().week
-              candidates = sorted(set(candidates), key=lambda p: str(p).lower())
-              path = candidates[week % len(candidates)]
-              source = path.read_text(encoding="utf-8", errors="ignore")
-              title_match = re.search(r"<title[^>]*>(.*?)</title>", source, re.I | re.S)
-              title = html.unescape(re.sub(r"<[^>]+>", " ", title_match.group(1))).strip() if title_match else path.stem.replace("-", " ").replace("_", " ")
-              text = re.sub(r"(?is)<(script|style).*?>.*?</\1>", " ", source)
-              text = re.sub(r"(?i)<br\s*/?>|</p>|</h[1-6]>|</li>", "\n", text)
-              text = html.unescape(re.sub(r"<[^>]+>", " ", text))
-              lines = [re.sub(r"\s+", " ", line).strip() for line in text.splitlines()]
-              lines = [line for line in lines if len(line) > 45 and "http" not in line.lower()]
-              bio = " ".join(lines)
-              bio = re.sub(r"\s+", " ", bio).strip()
-              bio = bio[:1200].rsplit(" ", 1)[0] if len(bio) > 1200 else bio
-              url = "https://memoiredesdeportes.fr/" + (str(path).replace("\\", "/").removeprefix("./"))
-              slides = [
-                  "TU SAVAIS ?\nDerrière chaque matricule, une vie.",
-                  title + "\nUn portrait à redécouvrir.",
-                  bio[:350] if bio else "Retrouvons le parcours de cette personne à partir des informations conservées dans sa fiche.",
-                  "Transmettre ces histoires, c'est préserver la mémoire des déportés.",
-                  "Découvre d'autres portraits sur memoiredesdeportes.fr\nSite gratuit et sans publicité."
-              ]
-              out = [
-                  "# Publication TikTok — brouillon à vérifier",
-                  "",
-                  f"**Biographie choisie :** {title}",
-                  f"**Fichier source :** [{path}]({url})",
-                  "",
-                  "> Vérifie le texte et les dates dans la fiche d'origine avant publication. Ce brouillon est généré automatiquement et n'est pas publié sur TikTok.",
-                  "",
-                  "## Carrousel",
-              ]
-              for i, slide in enumerate(slides, 1):
-                  out += ["", f"### Diapositive {i}", "", slide]
-              out += [
-                  "", "## Légende proposée", "",
-                  f"Une vie, une histoire, une mémoire à transmettre. Découvre la fiche et les sources sur {url}",
-                  "Le mémorial est gratuit et sans publicité.",
-                  "", "## Hashtags", "",
-                  "#Memoire #Deportation #Histoire #SecondeGuerreMondiale #DevoirDeMemoire #TuSavais",
-                  "", "## Vérifications avant publication", "",
-                  "- [ ] Vérifier le nom, les dates et les informations dans la fiche source.",
-                  "- [ ] Vérifier les droits d'utilisation des photos.",
-                  "- [ ] Ajouter le lien du site à la bio TikTok si nécessaire.",
-                  "- [ ] Publier manuellement après vérification."
-              ]
-              Path("publication-tiktok.md").write_text("\n".join(out) + "\n", encoding="utf-8")
+              raise SystemExit("Aucune fiche biographique candidate trouvée : aucun texte n'a été inventé.")
 
+          week = datetime.date.today().isocalendar().week
+          path = candidates[week % len(candidates)]
+          source = path.read_text(encoding="utf-8", errors="ignore")
+
+          title_match = re.search(r"<h1\b[^>]*>(.*?)</h1>", source, re.I | re.S)
+          if not title_match:
+              title_match = re.search(r"<title\b[^>]*>(.*?)</title>", source, re.I | re.S)
+          title = html.unescape(re.sub(r"<[^>]+>", " ", title_match.group(1))).strip() if title_match else path.stem.replace("-", " ").replace("_", " ")
+
+          # Garder le contenu éditorial et écarter la navigation et les scripts.
+          body = re.search(r"<main\b[^>]*>(.*?)</main>", source, re.I | re.S)
+          content = body.group(1) if body else source
+          content = re.sub(r"(?is)<(script|style|nav|header|footer|aside|noscript)\b[^>]*>.*?</\1>", " ", content)
+          paragraphs = re.findall(r"(?is)<p\b[^>]*>(.*?)</p>", content)
+          if paragraphs:
+              raw_parts = paragraphs
+          else:
+              content = re.sub(r"(?i)<br\s*/?>|</li>|</h[2-6]>", "\\n", content)
+              raw_parts = content.splitlines()
+
+          cleaned = []
+          boilerplate = (
+              "mémoire des déportés", "retour à l'accueil", "navigation principale",
+              "photothèque", "mairies partenaires", "site gratuit et sans publicité",
+              "tous droits réservés", "rechercher dans les fiches"
+          )
+          for part in raw_parts:
+              part = re.sub(r"(?is)<(script|style)\b[^>]*>.*?</\1>", " ", part)
+              part = html.unescape(re.sub(r"<[^>]+>", " ", part))
+              part = re.sub(r"\s+", " ", part).strip()
+              if len(part) < 35 or "http://" in part.lower() or "https://" in part.lower():
+                  continue
+              if any(phrase in part.lower() for phrase in boilerplate):
+                  continue
+              cleaned.append(part)
+
+          biography = re.sub(r"\s+", " ", " ".join(cleaned)).strip()
+          if len(biography) < 120:
+              raise SystemExit(f"Texte biographique insuffisant dans {path}; aucun brouillon générique n'a été fabriqué.")
+
+          # Un seul bloc de texte, sans diapositives, légende séparée, hashtags ni emojis.
+          biography = biography[:2800].rsplit(" ", 1)[0] if len(biography) > 2800 else biography
+          source_url = "https://memoiredesdeportes.fr/" + str(path).replace("\\", "/").removeprefix("./")
+          post = (
+              "TU SAVAIS ? " + title + " : " + biography +
+              " Pour préserver la mémoire des déportés et transmettre leurs histoires, "
+              "retrouve les biographies sur Mémoire des Déportés : " + source_url
+          )
+          Path("publication-tiktok.txt").write_text(post + "\n", encoding="utf-8")
+          print(f"Texte unique préparé depuis : {path}")
+          print(f"Longueur : {len(post)} caractères")
           PY
 
-      - name: Afficher le brouillon dans le résumé GitHub
-        run: cat publication-tiktok.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Afficher le texte unique dans le résumé GitHub
+        run: cat publication-tiktok.txt >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Conserver le brouillon en téléchargement
+      - name: Conserver le texte en téléchargement
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
-          name: brouillon-tiktok-memorial
-          path: publication-tiktok.md
+          name: texte-unique-tiktok-memorial
+          path: publication-tiktok.txt
           if-no-files-found: error
           retention-days: 30
