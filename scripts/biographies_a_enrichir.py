@@ -15,7 +15,7 @@ OUT = ROOT / "rapports"
 PROFILE_DIRS = ("hommes", "femmes")
 NON_PROFILE = {"index.html","femmes.html","hommes.html","base-documentaire.html","photos.html","tiktok.html","a-propos.html","mairies-partenaires.html","contact.html","convoi-des-31000.html","convoi-des-45000.html","carte-camps.html","carte-parcours.html","sitemap.html"}
 MATRICULE_RE = re.compile(r"(?<!\d)(?:31|45|46)\d{3}(?!\d)")
-MAX_LIVE_SEARCHES = 20
+MAX_LIVE_SEARCHES = 20  # Rotation quotidienne pour couvrir progressivement les fiches
 SOURCE_SEARCHES = [
     ("Convoi 77", "site:convoi77.org"),
     ("Mémoire Vive", "site:memoire-vive.org"),
@@ -23,6 +23,9 @@ SOURCE_SEARCHES = [
     ("Arolsen Archives", "site:arolsen-archives.org"),
     ("USHMM", "site:ushmm.org"),
     ("FranceArchives", "site:francearchives.gouv.fr"),
+    ("Mémorial de la Shoah", "site:memorialdelashoah.org"),
+    ("Déportés politiques à Auschwitz", "site:deportes-politiques-auschwitz.fr"),
+    ("Archives nationales", "site:archives-nationales.culture.gouv.fr"),
 ]
 class ProfileParser(HTMLParser):
     def __init__(self):
@@ -82,8 +85,12 @@ def parse(path):
     source_words=re.search(r"\b(source|sources|bibliographie|archives|référence|références|source photo|crédit photographique)\b",text,re.I)
     external_links=[u for u in parser.links if urlparse(u).scheme in ("http","https") and urlparse(u).netloc and "memoiredesdeportes.fr" not in urlparse(u).netloc]
     if not source_words and not external_links:signals.append("aucune source externe repérée automatiquement")
-    if not re.search(r"\b(naissance|né[e]? le|né[e]? à|naît)\b",text,re.I):signals.append("naissance/date ou lieu de naissance non repéré")
-    if not re.search(r"\b(décédé[e]?|mort[e]?|tué[e]?|survivant[e]?|survécu|libéré[e]?|disparu[e]?)\b",text,re.I):signals.append("issue du parcours non repérée")
+    if not re.search(r"\b(naissance|né[e]? le|né[e]? à|naît|né[e]? en)\b",text,re.I):signals.append("naissance/date ou lieu de naissance non repéré")
+    if not re.search(r"\b(décédé[e]?|mort[e]?|tué[e]?|survivant[e]?|survécu|libéré[e]?|disparu[e]?|rentré[e]?)\b",text,re.I):signals.append("issue du parcours non repérée")
+    if not re.search(r"\b(arrêté[e]?|arrestation|rafle|incarcéré[e]?|emprisonné[e]?)\b",text,re.I):signals.append("arrestation ou détention non repérée")
+    if not re.search(r"\b(convoi|parti[e]? de|départ de|transport[e]? le)\b",text,re.I):signals.append("convoi ou départ non repéré")
+    if not re.search(r"\b(camp|Auschwitz|Buchenwald|Ravensbrück|Dachau|Mauthausen|Neuengamme|Sachsenhausen|Bergen-Belsen|Flossenbürg)\b",text,re.I):signals.append("camp ou lieu de détention non repéré")
+    if not re.search(r"\b(profession|ouvrier|ouvrière|employé[e]?|instituteur|institutrice|étudiant[e]?|métier)\b",text,re.I):signals.append("profession ou activité non repérée")
     if not parser.images:signals.append("aucune image intégrée")
     elif all(not alt.strip() for _,alt in parser.images):signals.append("images sans texte alternatif")
     return title,text,signals,external_links,match.group(0) if match else ""
@@ -114,20 +121,30 @@ def main():
         seen.add(identity)
         if signals:candidates.append({"priority":len(signals),"sort":title.casefold(),"path":path.relative_to(ROOT).as_posix(),"title":title,"signals":signals,"external_links":external_links,"text_len":len(text),"matricule":matricule})
     candidates.sort(key=lambda x:(-x["priority"],x["sort"],x["path"]))
+    from datetime import date
     live_errors=0
-    for item in candidates[:MAX_LIVE_SEARCHES]:
+    if candidates:
+        start = (date.today().toordinal() * MAX_LIVE_SEARCHES) % len(candidates)
+        ordered = candidates[start:] + candidates[:start]
+        selected_paths = {item['path'] for item in ordered[:min(len(candidates), MAX_LIVE_SEARCHES)]}
+    else:
+        selected_paths = set()
+    for item in candidates:
+        if item['path'] not in selected_paths:
+            continue
         query='"'+item["title"].replace('"'," ")+'"'
         if item["matricule"]:query+=" "+item["matricule"]
         results,error=search_web(query+" déportation Auschwitz")
         item["web_results"]=results;item["search_error"]=error
         if error:live_errors+=1
         time.sleep(0.8)
-    for item in candidates[MAX_LIVE_SEARCHES:]:
-        item["web_results"]=[];item["search_error"]="Recherche web réelle limitée aux 20 fiches prioritaires par exécution"
+    for item in candidates:
+        if item["path"] not in selected_paths:
+            item["web_results"]=[];item["search_error"]="Fiche programmée dans une prochaine rotation quotidienne de recherche web"
     md=["# Biographies à enrichir — recherches web quotidiennes","",
         "> Rapport indicatif en lecture seule. Les signaux automatiques ne prouvent pas qu'une information manque. Les résultats web sont des pistes à vérifier, pas des faits validés.","",
         f"- Biographies analysées : **{analysed}**",f"- Fiches avec au moins un point à examiner : **{len(candidates)}**",
-        f"- Fiches prioritaires recherchées sur le web aujourd'hui : **{min(len(candidates),MAX_LIVE_SEARCHES)}**",f"- Recherches web sans réponse exploitable : **{live_errors}**","","## Fiches à examiner",""]
+        f"- Fiches recherchées sur le web aujourd'hui : **{len(selected_paths)}**",f"- Recherches web sans réponse exploitable : **{live_errors}**","","## Fiches à examiner",""]
     rows=[]
     for item in candidates:
         query=item["title"]+(" "+item["matricule"] if item["matricule"] else "")+" déportation Auschwitz"
