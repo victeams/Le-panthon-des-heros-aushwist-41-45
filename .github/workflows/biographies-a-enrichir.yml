@@ -4,6 +4,10 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "15 6 * * *"
+  push:
+    paths:
+      - "scripts/biographies_a_enrichir.py"
+      - ".github/workflows/biographies-a-enrichir.yml"
 
 permissions:
   contents: read
@@ -14,14 +18,26 @@ concurrency:
 
 jobs:
   rapport:
-    name: Générer la liste des biographies à examiner
+    name: Repérer les manques et préparer les pistes web
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - name: Récupérer le dépôt sans modifier le site
+      - name: Récupérer le dépôt en lecture seule
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - name: Installer Python
         uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.12"
-      - name: Produire le rapport en lecture seule
-        run: python scripts/biographies_a_enrichir.py >> "$GITHUB_STEP_SUMMARY"
+      - name: Analyser les biographies et rechercher des sources en ligne
+        run: python scripts/biographies_a_enrichir.py > /tmp/biographies-a-enrichir-summary.md
+      - name: Ajouter le résumé au journal GitHub
+        run: cat /tmp/biographies-a-enrichir-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Conserver le rapport détaillé et le tableau CSV
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: biographies-a-enrichir-et-recherches-web
+          path: |
+            rapports/biographies-a-enrichir.md
+            rapports/biographies-a-enrichir.csv
+          if-no-files-found: error
+          retention-days: 30
