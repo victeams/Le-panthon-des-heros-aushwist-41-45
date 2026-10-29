@@ -1,18 +1,5 @@
 [
   {
-    "name": "31 836 ?",
-    "file": "31-836-31000.html",
-    "group": "femmes",
-    "matricule": null,
-    "subtitle": "Convoi 31000",
-    "status": "Notice commémorative",
-    "status_class": "other",
-    "portrait": null,
-    "portrait_alt": "Photographie non retrouvée pour 31 836 ?",
-    "description": "Portrait et biographie de 31 836 ?, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
-    "search": "31 836 convoi 31000 notice commemorative"
-  },
-  {
     "name": "31 843 ?",
     "file": "31-843-31000.html",
     "group": "femmes",
@@ -11607,6 +11594,19 @@
     "portrait_alt": "Photographie de Mathieu FILLOUX",
     "description": "Portrait et biographie de Mathieu FILLOUX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "mathieu filloux 45542 matricule 45542 notice commemorative"
+  },
+  {
+    "name": "Matricule 31836",
+    "file": "31-836-31000.html",
+    "group": "femmes",
+    "matricule": "31836",
+    "subtitle": "Matricule 31836",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": null,
+    "portrait_alt": "Photographie individuelle non retrouvée pour la déportée portant le matricule 31836",
+    "description": "Notice mémorielle consacrée au matricule 31836 du convoi des 31000, déporté à Auschwitz-Birkenau le 24 janvier 1943. Identité personnelle non retrouvée…",
+    "search": "matricule 31836 31836 matricule 31836 notice commemorative"
   },
   {
     "name": "Maurice AUVRAY",
