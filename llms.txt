@@ -1,0 +1,29 @@
+# Mémoire des Déportés
+
+> Mémorial numérique indépendant consacré aux personnes déportées pendant la Seconde Guerre mondiale, à leurs parcours et à la transmission de leur mémoire.
+
+## Présentation
+
+Mémoire des Déportés rassemble des fiches biographiques, des photographies historiques et des ressources documentaires. Le projet est conduit à titre bénévole. Les informations sont présentées avec leurs références lorsqu'elles sont disponibles ; les éléments incertains doivent rester identifiés comme tels.
+
+Le site s'adresse aux familles, chercheurs, enseignants, généalogistes et lecteurs qui souhaitent retrouver une personne, consulter un parcours ou approfondir un sujet historique.
+
+## Ressources principales
+
+- [Accueil et recherche de biographies](https://memoiredesdeportes.fr/)
+- [Biographies des femmes du convoi des 31 000](https://memoiredesdeportes.fr/femmes.html)
+- [Biographies des hommes des convois des 45 000](https://memoiredesdeportes.fr/hommes.html)
+- [Base documentaire sur Auschwitz](https://memoiredesdeportes.fr/base-documentaire.html)
+- [Photothèque historique](https://memoiredesdeportes.fr/photos.html)
+- [Sources documentaires des femmes](https://memoiredesdeportes.fr/sources-femmes.html)
+- [Sources documentaires des hommes](https://memoiredesdeportes.fr/sources-hommes.html)
+- [Page consacrée à l'Aktion T4](https://memoiredesdeportes.fr/aktion-t4.html)
+- [Contact et signalement d'une correction](https://memoiredesdeportes.fr/contact.html)
+
+## Principes de consultation
+
+Une fiche constitue un point de départ documentaire et ne remplace pas la consultation des archives citées. Les dates, identités, matricules, convois et lieux doivent être rapprochés de leurs sources. Une information non confirmée ne doit pas être présentée comme certaine. Les photographies doivent être consultées avec leur notice, leur attribution et leurs conditions d'utilisation.
+
+## Langue et accès
+
+Le contenu principal est rédigé en français. Les pages publiques sont accessibles sans compte.
