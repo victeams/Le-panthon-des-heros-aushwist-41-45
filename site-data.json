@@ -33,7 +33,7 @@
     "subtitle": "Matricule 45310",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/abel-buisson-45310.jpg",
+    "portrait": "assets/portraits/abel-buisson-45310.jpg",
     "portrait_alt": "Photographie de Abel BUISSON",
     "description": "Portrait et biographie de Abel BUISSON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "abel buisson 45310 matricule 45310 notice commemorative"
@@ -488,7 +488,7 @@
     "subtitle": "Matricule 45643",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/albert-guillermou-45643.jpg",
+    "portrait": "assets/portraits/albert-guillermou-45643.jpg",
     "portrait_alt": "Photographie de Albert GUILLERMOU",
     "description": "Portrait et biographie de Albert GUILLERMOU, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "albert guillermou 45643 matricule 45643 notice commemorative"
@@ -1021,7 +1021,7 @@
     "subtitle": "Matricule 45169",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/andre-amiard-45169.jpg",
+    "portrait": "assets/portraits/andre-amiard-45169.jpg",
     "portrait_alt": "Photographie de André AMIARD",
     "description": "Portrait et biographie de André AMIARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre amiard 45169 matricule 45169 notice commemorative"
@@ -1567,7 +1567,7 @@
     "subtitle": "Matricule 46011",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/andre-pradelles-46011.jpg",
+    "portrait": "assets/portraits/andre-pradelles-46011.jpg",
     "portrait_alt": "Photographie de André PRADELLES",
     "description": "Portrait et biographie de André PRADELLES, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "andre pradelles 46011 matricule 46011 notice commemorative"
@@ -1892,7 +1892,7 @@
     "subtitle": "Matricule 46261",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/antoine-sue-46261.jpg",
+    "portrait": "assets/portraits/antoine-sue-46261.jpg",
     "portrait_alt": "Photographie de Antoine SUE",
     "description": "Portrait et biographie de Antoine SUE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "antoine sue 46261 matricule 46261 notice commemorative"
@@ -2321,7 +2321,7 @@
     "subtitle": "Matricule 45341",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/bernard-castille-45341.jpg",
+    "portrait": "assets/portraits/bernard-castille-45341.jpg",
     "portrait_alt": "Photographie de Bernard CASTILLE",
     "description": "Portrait et biographie de Bernard CASTILLE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "bernard castille 45341 matricule 45341 notice commemorative"
@@ -3127,7 +3127,7 @@
     "subtitle": "Matricule 45731",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/constant-launay-45731.jpg",
+    "portrait": "assets/portraits/constant-launay-45731.jpg",
     "portrait_alt": "Photographie de Constant LAUNAY",
     "description": "Portrait et biographie de Constant LAUNAY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "constant launay 45731 matricule 45731 notice commemorative"
@@ -3296,7 +3296,7 @@
     "subtitle": "Matricule 31820",
     "status": "Morte en déportation",
     "status_class": "death",
-    "portrait": "portraits/denise_moret_31820.jpg",
+    "portrait": "assets/portraits/denise-moret-31820.jpg",
     "portrait_alt": "Portrait documenté de Denise MORET",
     "description": "Portrait et biographie de Denise MORET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "denise moret 31820 matricule 31820 morte en deportation"
@@ -3790,7 +3790,7 @@
     "subtitle": "Matricule 46094",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/emile-saloy-46094.jpg",
+    "portrait": "assets/portraits/emile-saloy-46094.jpg",
     "portrait_alt": "Photographie de Émile SALOY",
     "description": "Portrait et biographie de Émile SALOY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "emile saloy 46094 matricule 46094 notice commemorative"
@@ -3868,7 +3868,7 @@
     "subtitle": "Matricule 45459",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/emmanuel-desbiot-45459.jpg",
+    "portrait": "assets/portraits/emmanuel-desbiot-45459.jpg",
     "portrait_alt": "Photographie de Emmanuel DESBIOT",
     "description": "Portrait et biographie de Emmanuel DESBIOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "emmanuel desbiot 45459 matricule 45459 notice commemorative"
@@ -3907,7 +3907,7 @@
     "subtitle": "Matricule 45623",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/ernest-gourichon-45623.jpg",
+    "portrait": "assets/portraits/ernest-gourichon-45623.jpg",
     "portrait_alt": "Photographie de Ernest GOURICHON",
     "description": "Portrait et biographie de Ernest GOURICHON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "ernest gourichon 45623 matricule 45623 notice commemorative"
@@ -4037,7 +4037,7 @@
     "subtitle": "Matricule 45207",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/eugene-beaudoin-45207.jpg",
+    "portrait": "assets/portraits/eugene-beaudoin-45207.jpg",
     "portrait_alt": "Photographie de Eugène BEAUDOIN",
     "description": "Portrait et biographie de Eugène BEAUDOIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "eugene beaudoin 45207 matricule 45207 notice commemorative"
@@ -4128,7 +4128,7 @@
     "subtitle": "Matricule 45561",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/eugene-friot-45561.jpg",
+    "portrait": "assets/portraits/eugene-friot-45561.jpg",
     "portrait_alt": "Photographie de Eugène FRIOT",
     "description": "Portrait et biographie de Eugène FRIOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "eugene friot 45561 matricule 45561 notice commemorative"
@@ -4258,7 +4258,7 @@
     "subtitle": "Matricule 46136",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/eugene-thepot-46136.jpg",
+    "portrait": "assets/portraits/eugene-thepot-46136.jpg",
     "portrait_alt": "Photographie de Eugène THÉPOT",
     "description": "Portrait et biographie de Eugène THÉPOT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "eugene thepot 46136 matricule 46136 notice commemorative"
@@ -4492,7 +4492,7 @@
     "subtitle": "Matricule 45256",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/fernand-blanchard-45256.jpg",
+    "portrait": "assets/portraits/fernand-blanchard-45256.jpg",
     "portrait_alt": "Photographie de Fernand BLANCHARD",
     "description": "Portrait et biographie de Fernand BLANCHARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "fernand blanchard 45256 matricule 45256 notice commemorative"
@@ -4960,7 +4960,7 @@
     "subtitle": "Matricule 46190",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/francois-viaud-46190.jpg",
+    "portrait": "assets/portraits/francois-viaud-46190.jpg",
     "portrait_alt": "Photographie de François VIAUD",
     "description": "Portrait et biographie de François VIAUD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "francois viaud 46190 matricule 46190 notice commemorative"
@@ -5077,7 +5077,7 @@
     "subtitle": "Matricule 46052",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/gabriel-rey-46052.jpg",
+    "portrait": "assets/portraits/gabriel-rey-46052.jpg",
     "portrait_alt": "Photographie de Gabriel REY",
     "description": "Portrait et biographie de Gabriel REY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "gabriel rey 46052 matricule 46052 notice commemorative"
@@ -5103,7 +5103,7 @@
     "subtitle": "Matricule 46264",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/gabriel-torralba-46264.jpg",
+    "portrait": "assets/portraits/gabriel-torralba-46264.jpg",
     "portrait_alt": "Photographie de Gabriel TORRALBA",
     "description": "Portrait et biographie de Gabriel TORRALBA, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "gabriel torralba 46264 matricule 46264 notice commemorative"
@@ -5285,7 +5285,7 @@
     "subtitle": "Matricule 45305",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/georges-brumm-45305.jpg",
+    "portrait": "assets/portraits/georges-brumm-45305.jpg",
     "portrait_alt": "Photographie de Georges BRUMM",
     "description": "Portrait et biographie de Georges BRUMM, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "georges brumm 45305 matricule 45305 notice commemorative"
@@ -5415,7 +5415,7 @@
     "subtitle": "Matricule 45555",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/georges-fouret-45555.jpg",
+    "portrait": "assets/portraits/georges-fouret-45555.jpg",
     "portrait_alt": "Photographie de Georges FOURET",
     "description": "Portrait et biographie de Georges FOURET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "georges fouret 45555 matricule 45555 notice commemorative"
@@ -5714,7 +5714,7 @@
     "subtitle": "Matricule 46326",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/georges-thorez-46326.jpg",
+    "portrait": "assets/portraits/georges-thorez-46326.jpg",
     "portrait_alt": "Photographie de Georges THOREZ",
     "description": "Portrait et biographie de Georges THOREZ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "georges thorez 46326 matricule 46326 notice commemorative"
@@ -6221,7 +6221,7 @@
     "subtitle": "Matricule 46205",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/hai-king-wang-46205.jpg",
+    "portrait": "assets/portraits/hai-king-wang-46205.jpg",
     "portrait_alt": "Photographie de Haï-King WANG",
     "description": "Portrait et biographie de Haï-King WANG, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "hai king wang 46205 matricule 46205 notice commemorative"
@@ -7482,7 +7482,7 @@
     "subtitle": "Matricule 45639",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/jean-guilbert-45639.jpg",
+    "portrait": "assets/portraits/jean-guilbert-45639.jpg",
     "portrait_alt": "Photographie de Jean GUILBERT",
     "description": "Portrait et biographie de Jean GUILBERT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean guilbert 45639 matricule 45639 notice commemorative"
@@ -7638,7 +7638,7 @@
     "subtitle": "Matricule 45862",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/jean-matrisciano-45862.jpg",
+    "portrait": "assets/portraits/jean-matrisciano-45862.jpg",
     "portrait_alt": "Photographie de Jean MATRISCIANO",
     "description": "Portrait et biographie de Jean MATRISCIANO, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean matrisciano 45862 matricule 45862 notice commemorative"
@@ -7807,7 +7807,7 @@
     "subtitle": "Matricule 46041",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/jean-reich-46041.jpg",
+    "portrait": "assets/portraits/jean-reich-46041.jpg",
     "portrait_alt": "Photographie de Jean REICH",
     "description": "Portrait et biographie de Jean REICH, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "jean reich 46041 matricule 46041 notice commemorative"
@@ -8223,7 +8223,7 @@
     "subtitle": "Matricule 46252",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/joseph-millerioux-46252.jpg",
+    "portrait": "assets/portraits/joseph-millerioux-46252.jpg",
     "portrait_alt": "Photographie de Joseph MILLERIOUX",
     "description": "Portrait et biographie de Joseph MILLERIOUX, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "joseph millerioux 46252 matricule 46252 notice commemorative"
@@ -8431,7 +8431,7 @@
     "subtitle": "Matricule 46214",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/julien-aligny-46214.jpg",
+    "portrait": "assets/portraits/julien-aligny-46214.jpg",
     "portrait_alt": "Photographie de Julien ALIGNY",
     "description": "Portrait et biographie de Julien ALIGNY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "julien aligny 46214 matricule 46214 notice commemorative"
@@ -8938,7 +8938,7 @@
     "subtitle": "Matricule 46216",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/louis-armand-46216.jpg",
+    "portrait": "assets/portraits/louis-armand-46216.jpg",
     "portrait_alt": "Photographie de Louis ARMAND",
     "description": "Portrait et biographie de Louis ARMAND, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis armand 46216 matricule 46216 notice commemorative"
@@ -9081,7 +9081,7 @@
     "subtitle": "Matricule 45362",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/louis-chaussard-45362.jpg",
+    "portrait": "assets/portraits/louis-chaussard-45362.jpg",
     "portrait_alt": "Photographie de Louis CHAUSSARD",
     "description": "Portrait et biographie de Louis CHAUSSARD, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis chaussard 45362 matricule 45362 notice commemorative"
@@ -9185,7 +9185,7 @@
     "subtitle": "Matricule 46234",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/louis-faure-46234.jpg",
+    "portrait": "assets/portraits/louis-faure-46234.jpg",
     "portrait_alt": "Photographie de Louis FAURE",
     "description": "Portrait et biographie de Louis FAURE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis faure 46234 matricule 46234 notice commemorative"
@@ -9276,7 +9276,7 @@
     "subtitle": "Matricule 45650",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/louis-hamel-45650.jpg",
+    "portrait": "assets/portraits/louis-hamel-45650.jpg",
     "portrait_alt": "Photographie de Louis HAMEL",
     "description": "Portrait et biographie de Louis HAMEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "louis hamel 45650 matricule 45650 notice commemorative"
@@ -9887,7 +9887,7 @@
     "subtitle": "Matricule 46069",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/lucien-rosier-46069.jpg",
+    "portrait": "assets/portraits/lucien-rosier-46069.jpg",
     "portrait_alt": "Photographie de Lucien ROSIER",
     "description": "Portrait et biographie de Lucien ROSIER, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien rosier 46069 matricule 46069 notice commemorative"
@@ -9900,7 +9900,7 @@
     "subtitle": "Matricule 46106",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/lucien-siouville-46106.jpg",
+    "portrait": "assets/portraits/lucien-siouville-46106.jpg",
     "portrait_alt": "Photographie de Lucien SIOUVILLE",
     "description": "Portrait et biographie de Lucien SIOUVILLE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "lucien siouville 46106 matricule 46106 notice commemorative"
@@ -10407,7 +10407,7 @@
     "subtitle": "Matricule 45381",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/marcel-couillon-45381.jpg",
+    "portrait": "assets/portraits/marcel-couillon-45381.jpg",
     "portrait_alt": "Photographie de Marcel COUILLON",
     "description": "Portrait et biographie de Marcel COUILLON, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel couillon 45381 matricule 45381 notice commemorative"
@@ -10563,7 +10563,7 @@
     "subtitle": "Matricule 45656",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/marcel-hebrant-45656.jpg",
+    "portrait": "assets/portraits/marcel-hebrant-45656.jpg",
     "portrait_alt": "Photographie de Marcel HÉBRANT",
     "description": "Portrait et biographie de Marcel HÉBRANT, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel hebrant 45656 matricule 45656 notice commemorative"
@@ -10628,7 +10628,7 @@
     "subtitle": "Matricule 45749",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/marcel-leclercq-45749.jpg",
+    "portrait": "assets/portraits/marcel-leclercq-45749.jpg",
     "portrait_alt": "Photographie de Marcel LECLERCQ",
     "description": "Portrait et biographie de Marcel LECLERCQ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel leclercq 45749 matricule 45749 notice commemorative"
@@ -10654,7 +10654,7 @@
     "subtitle": "Matricule 45780",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/marcel-lenglet-45780.jpg",
+    "portrait": "assets/portraits/marcel-lenglet-45780.jpg",
     "portrait_alt": "Photographie de Marcel LENGLET",
     "description": "Portrait et biographie de Marcel LENGLET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel lenglet 45780 matricule 45780 notice commemorative"
@@ -10888,7 +10888,7 @@
     "subtitle": "Matricule 46118",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/marcel-starck-46118.jpg",
+    "portrait": "assets/portraits/marcel-starck-46118.jpg",
     "portrait_alt": "Photographie de Marcel STARCK",
     "description": "Portrait et biographie de Marcel STARCK, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "marcel starck 46118 matricule 46118 notice commemorative"
@@ -11928,7 +11928,7 @@
     "subtitle": "Matricule 45760",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/maurice-lefebvre-45760.jpg",
+    "portrait": "assets/portraits/maurice-lefebvre-45760.jpg",
     "portrait_alt": "Photographie de Maurice LEFEBVRE",
     "description": "Portrait et biographie de Maurice LEFEBVRE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice lefebvre 45760 matricule 45760 notice commemorative"
@@ -11954,7 +11954,7 @@
     "subtitle": "Matricule 45872",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/maurice-metais-45872.jpg",
+    "portrait": "assets/portraits/maurice-metais-45872.jpg",
     "portrait_alt": "Photographie de Maurice MÉTAIS",
     "description": "Portrait et biographie de Maurice MÉTAIS, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maurice metais 45872 matricule 45872 notice commemorative"
@@ -12149,7 +12149,7 @@
     "subtitle": "Matricule 45384",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/maxime-collet-45384.jpg",
+    "portrait": "assets/portraits/maxime-collet-45384.jpg",
     "portrait_alt": "Photographie de Maxime COLLET",
     "description": "Portrait et biographie de Maxime COLLET, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "maxime collet 45384 matricule 45384 notice commemorative"
@@ -12695,7 +12695,7 @@
     "subtitle": "Matricule 46017",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/pierre-primel-46017.jpg",
+    "portrait": "assets/portraits/pierre-primel-46017.jpg",
     "portrait_alt": "Photographie de Pierre PRIMEL",
     "description": "Portrait et biographie de Pierre PRIMEL, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "pierre primel 46017 matricule 46017 notice commemorative"
@@ -12825,7 +12825,7 @@
     "subtitle": "Matricule 45855",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/raoul-mary-45855.jpg",
+    "portrait": "assets/portraits/raoul-mary-45855.jpg",
     "portrait_alt": "Photographie de Raoul MARY",
     "description": "Portrait et biographie de Raoul MARY, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "raoul mary 45855 matricule 45855 notice commemorative"
@@ -12903,7 +12903,7 @@
     "subtitle": "Matricule 45446",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/raymond-delorme-45446.jpg",
+    "portrait": "assets/portraits/raymond-delorme-45446.jpg",
     "portrait_alt": "Photographie de Raymond DELORME",
     "description": "Portrait et biographie de Raymond DELORME, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "raymond delorme 45446 matricule 45446 notice commemorative"
@@ -13449,7 +13449,7 @@
     "subtitle": "Matricule 46090",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/rene-sale-46090.jpg",
+    "portrait": "assets/portraits/rene-sale-46090.jpg",
     "portrait_alt": "Photographie de René SALÉ",
     "description": "Portrait et biographie de René SALÉ, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "rene sale 46090 matricule 46090 notice commemorative"
@@ -13518,6 +13518,32 @@
     "portrait_alt": "Portrait de Renelde LEFEBVRE",
     "description": "Portrait et biographie de Renelde LEFEBVRE, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "renelde lefebvre 45761 matricule 45761 notice commemorative"
+  },
+  {
+    "name": "Répertoire des femmes du convoi des 31 000",
+    "file": "repertoire-femmes-matricules.html",
+    "group": "femmes",
+    "matricule": "31836",
+    "subtitle": "Matricule 31836",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": null,
+    "portrait_alt": null,
+    "description": "Parcourez les 224 entrées du répertoire des femmes par matricule ou recherchez un nom. Les intitulés et les liens renvoient aux fiches déjà publiées dans…",
+    "search": "repertoire des femmes du convoi des 31 000 31836 matricule 31836 notice commemorative"
+  },
+  {
+    "name": "Répertoire des hommes du convoi des 45 000",
+    "file": "repertoire-hommes-matricules.html",
+    "group": "hommes",
+    "matricule": "45159",
+    "subtitle": "Matricule 45159",
+    "status": "Notice commémorative",
+    "status_class": "other",
+    "portrait": null,
+    "portrait_alt": null,
+    "description": "Parcourez les 904 entrées du répertoire des hommes par matricule ou recherchez un nom. Les intitulés et les liens renvoient aux fiches déjà publiées dans…",
+    "search": "repertoire des hommes du convoi des 45 000 45159 matricule 45159 notice commemorative"
   },
   {
     "name": "Reyna Van DAM",
@@ -13631,7 +13657,7 @@
     "subtitle": "Matricule 45910",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/robert-moura-45910.jpg",
+    "portrait": "assets/portraits/robert-moura-45910.jpg",
     "portrait_alt": "Photographie de Robert MOURA",
     "description": "Portrait et biographie de Robert MOURA, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "robert moura 45910 matricule 45910 notice commemorative"
@@ -13813,7 +13839,7 @@
     "subtitle": "Convoi 45000",
     "status": "Notice commémorative",
     "status_class": "other",
-    "portrait": "portraits/roger-josselin-45000.jpg",
+    "portrait": "assets/portraits/roger-josselin-45000.jpg",
     "portrait_alt": "Photographie de Roger JOSSELIN",
     "description": "Portrait et biographie de Roger JOSSELIN, dans le mémorial numérique consacré aux résistants et déportés de la Seconde Guerre mondiale.",
     "search": "roger josselin convoi 45000 notice commemorative"

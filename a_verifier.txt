@@ -1,8 +1,8 @@
 RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
-Femmes 31000 : 224
-Hommes 45000 : 904
-À vérifier : 80
+Femmes 31000 : 225
+Hommes 45000 : 905
+À vérifier : 84
 
 IMAGE MANQUANTE — 31-836-31000.html
 IMAGE MANQUANTE — 31-843-31000.html
@@ -69,6 +69,8 @@ IMAGE MANQUANTE — noemie-durand-31727.html
 NON CLASSÉ — plaques-memorielles.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 IMAGE MANQUANTE — rachel-fernandes-31723.html
 IMAGE MANQUANTE — raymonde-georges-31000.html
+IMAGE MANQUANTE — repertoire-femmes-matricules.html
+IMAGE MANQUANTE — repertoire-hommes-matricules.html
 IMAGE MANQUANTE — rose_blanc_31652.html
 IMAGE MANQUANTE — simone-miternique-31000.html
 IMAGE MANQUANTE — simone_miternique_31709.html
@@ -84,3 +86,5 @@ IMAGE MANQUANTE — yvonne-courtillat-31799.html
 IMAGE MANQUANTE — yvonne-rose-llucia-31704.html
 IMAGE MANQUANTE — yvonne_souchaud_nee_houdayer_31791.html
 DOUBLON À VÉRIFIER — matricule 46177 — hommes/alexandre-varoteaux-46177.html / hommes/henri-varlet-46177.html
+DOUBLON À VÉRIFIER — matricule 31836 — 31-836-31000.html / repertoire-femmes-matricules.html
+DOUBLON À VÉRIFIER — matricule 45159 — hommes/marius-adam-45159.html / repertoire-hommes-matricules.html
