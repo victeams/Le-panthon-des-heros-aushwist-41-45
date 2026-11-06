@@ -14,7 +14,7 @@ EXCLUDED = {"404.html"}
 NON_PROFILE = {
     "index.html", "femmes.html", "hommes.html", "base-documentaire.html",
     "photos.html", "tiktok.html", "a-propos.html", "mairies-partenaires.html",
-    "contact.html", "convoi-des-31000.html", "convoi-des-45000.html", "nazisme.html",
+    "contact.html", "convoi-des-31000.html", "convoi-des-45000.html",
 }
 
 
