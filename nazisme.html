@@ -81,7 +81,7 @@ const groups=[
 {id:"bormann",name:"Martin Bormann",role:"Direction de la chancellerie du parti nazi",wiki:"Martin Bormann"},
 {id:"hess",name:"Rudolf Hess",role:"Dirigeant du parti nazi jusqu’à son vol vers le Royaume-Uni en 1941",wiki:"Rudolf Hess"},
 {id:"ribbentrop",name:"Joachim von Ribbentrop",role:"Ministre des Affaires étrangères",wiki:"Joachim von Ribbentrop"},
-{id:"spe er",name:"Albert Speer",role:"Ministre de l’Armement et de la Production de guerre",wiki:"Albert Speer"}]},
+{id:"speer",name:"Albert Speer",role:"Ministre de l’Armement et de la Production de guerre",wiki:"Albert Speer"}]},
 {id:"ss",title:"SS et appareil policier",description:"Structures centrales de la SS, de la police politique et de la sécurité.",people:[
 {id:"himmler",name:"Heinrich Himmler",role:"Reichsführer-SS ; chef de la police allemande à partir de 1936",wiki:"Heinrich Himmler"},
 {id:"heydrich",name:"Reinhard Heydrich",role:"Chef du RSHA ; acteur central de la politique de persécution et du génocide",wiki:"Reinhard Heydrich"},
@@ -138,10 +138,11 @@ const r=await fetch(api);if(!r.ok)throw new Error("Crédits image indisponibles"
 const data=await r.json(),page=Object.values(data.query.pages)[0],info=page.imageinfo&&page.imageinfo[0];
 if(!info)throw new Error("Notice de fichier absente");
 const m=info.extmetadata||{},get=k=>m[k]&&m[k].value?m[k].value.replace(/<[^>]*>/g," ").replace(/\s+/g," ").trim():"";
-const license=get("LicenseShortName")||get("UsageTerms")||"Licence non précisée";
-const author=get("Artist")||get("Credit")||"Auteur non précisé";
+const license=get("LicenseShortName")||get("UsageTerms");
+const author=get("Artist")||get("Credit");
 const filePage=info.descriptionurl||("https://commons.wikimedia.org/wiki/"+encodeURIComponent(title.replace(/ /g,"_")));
-if(!get("LicenseShortName")&&!get("UsageTerms")&&!/public domain|domaine public/i.test(get("Copyrighted")||""))throw new Error("Licence non vérifiée");
+if(!license)throw new Error("Licence non vérifiée");
+if(!author)throw new Error("Auteur ou crédit non vérifié");
 return {thumb:info.thumburl||info.url,author,license,filePage,licenseUrl:get("LicenseUrl")};
 }
 async function showPerson(p){
