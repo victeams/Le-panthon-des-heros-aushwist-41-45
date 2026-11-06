@@ -47,7 +47,7 @@ footer{padding:24px;text-align:center;border-top:1px solid var(--line);color:var
 <section aria-label="Direction du régime">
 <div class="leader">
 <button class="leader-card" data-person="hitler" type="button">
-<div class="avatar" id="leader-avatar">AH</div>
+<div class="avatar" id="leader-avatar">AH</div><img id="leader-image" alt="Portrait d’Adolf Hitler" hidden>
 <strong>Adolf Hitler</strong><small>Chef du régime nazi · 1933–1945</small>
 </button>
 </div>
@@ -110,8 +110,9 @@ function normalize(s){return String(s||"").normalize("NFD").replace(/[\u0300-\u0
 function makePersonButton(p){
 const b=document.createElement("button");b.type="button";b.className="person";b.dataset.person=p.id;b.dataset.search=normalize(p.name+" "+p.role+" "+p.group);
 const avatar=document.createElement("span");avatar.className="avatar";avatar.textContent=p.name.split(" ").map(x=>x[0]).slice(0,2).join("");
+const portrait=document.createElement("img");portrait.alt="Portrait de "+p.name;portrait.hidden=true;portrait.loading="lazy";
 const t=document.createElement("span"),strong=document.createElement("strong"),small=document.createElement("small");
-strong.textContent=p.name;small.textContent=p.role;t.append(strong,small);b.append(avatar,t);b.addEventListener("click",()=>showPerson(p));return b;
+strong.textContent=p.name;small.textContent=p.role;t.append(strong,small);b.append(portrait,avatar,t);loadPortraitInto(p,portrait,avatar);b.addEventListener("click",()=>showPerson(p));return b;
 }
 function render(){
 branches.replaceChildren();const q=normalize(search.value),selected=filter.value;
@@ -123,6 +124,7 @@ section.append(h,desc,list);branches.append(section);
 }
 groups.forEach(g=>{const o=document.createElement("option");o.value=g.id;o.textContent=g.title;filter.append(o)});
 filter.addEventListener("change",render);search.addEventListener("input",render);render();
+loadPortraitInto(allPeople[0],document.getElementById("leader-image"),document.getElementById("leader-avatar"));
 document.querySelector('[data-person="hitler"]').addEventListener("click",()=>showPerson(allPeople[0]));
 document.getElementById("close-detail").addEventListener("click",()=>{panel.hidden=true});
 async function fetchSummary(lang,title){
@@ -132,7 +134,8 @@ if(!r.ok)throw new Error("Notice Wikipédia indisponible");return await r.json()
 }
 async function fetchImageLicense(imageUrl){
 const parts=new URL(imageUrl).pathname.split("/").filter(Boolean);
-const fileName=decodeURIComponent(parts.length>=2?parts[parts.length-2]:parts[parts.length-1]);
+const thumbIndex=parts.indexOf("thumb");
+const fileName=decodeURIComponent(thumbIndex>=0?parts[thumbIndex+3]:parts[parts.length-1]);
 const title="File:"+fileName;
 const api="https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*&prop=imageinfo&iiprop=url%7Cextmetadata&titles="+encodeURIComponent(title);
 const r=await fetch(api);if(!r.ok)throw new Error("Crédits image indisponibles");
@@ -146,24 +149,48 @@ if(!license)throw new Error("Licence non vérifiée");
 if(!author)throw new Error("Auteur ou crédit non vérifié");
 return {thumb:info.thumburl||info.url,author,license,filePage,licenseUrl:get("LicenseUrl")};
 }
+const portraitCache=new Map();
+async function getPersonRecord(p){
+if(portraitCache.has(p.wiki))return portraitCache.get(p.wiki);
+const pending=(async()=>{
+let data,lang="fr";
+try{data=await fetchSummary("fr",p.wiki)}catch(e){lang="en";data=await fetchSummary("en",p.wiki)}
+let rights=null;
+if(data.thumbnail&&data.thumbnail.source){try{rights=await fetchImageLicense(data.thumbnail.source)}catch(e){rights=null}}
+return {data,lang,rights};
+})();
+portraitCache.set(p.wiki,pending);
+try{return await pending}catch(e){portraitCache.delete(p.wiki);throw e}
+}
+async function loadPortraitInto(p,img,placeholder){
+try{
+const record=await getPersonRecord(p);
+if(!record.rights)return;
+img.src=record.rights.thumb;img.title="Crédit : "+record.rights.author+" · Licence : "+record.rights.license;
+img.hidden=false;placeholder.hidden=true;
+img.addEventListener("error",()=>{img.hidden=true;placeholder.hidden=false},{once:true});
+}catch(e){}
+}
 async function showPerson(p){
 panel.hidden=false;document.getElementById("detail-name").textContent=p.name;document.getElementById("detail-role").textContent=p.role+(p.group?" · "+p.group:"");
 const summaryEl=document.getElementById("detail-summary"),img=document.getElementById("detail-image"),placeholder=document.getElementById("detail-placeholder"),credit=document.getElementById("image-credit"),sources=document.getElementById("detail-sources");
-summaryEl.textContent="Chargement de la notice Wikipédia…";sources.replaceChildren();img.hidden=true;img.removeAttribute("src");placeholder.hidden=false;placeholder.textContent=p.name.split(" ").map(x=>x[0]).slice(0,2).join("");credit.textContent="Aucun portrait affiché tant que les crédits et la licence ne peuvent pas être vérifiés.";
+summaryEl.textContent="Chargement de la notice Wikipédia…";sources.replaceChildren();img.hidden=true;img.removeAttribute("src");placeholder.hidden=false;placeholder.textContent=p.name.split(" ").map(x=>x[0]).slice(0,2).join("");credit.textContent="Portrait en cours de vérification documentaire.";
 panel.scrollIntoView({behavior:"smooth",block:"start"});
-let data,lang="fr";
-try{data=await fetchSummary("fr",p.wiki)}catch(e){lang="en";try{data=await fetchSummary("en",p.wiki)}catch(err){summaryEl.textContent="La notice Wikipédia n’a pas pu être chargée. Consultez les liens de référence ci-dessous.";addSource(sources,"Article Wikipédia français","https://fr.wikipedia.org/wiki/"+encodeURIComponent(p.wiki.replace(/ /g,"_")));return}}
+let record;
+try{record=await getPersonRecord(p)}catch(e){summaryEl.textContent="La notice Wikipédia n’a pas pu être chargée. Consultez les liens de référence ci-dessous.";addSource(sources,"Article Wikipédia français","https://fr.wikipedia.org/wiki/"+encodeURIComponent(p.wiki.replace(/ /g,"_")));return}
+const data=record.data,lang=record.lang;
 summaryEl.textContent=data.extract||"Aucun résumé disponible dans cette langue.";
 const articleUrl=data.content_urls&&data.content_urls.desktop?data.content_urls.desktop.page:"https://"+lang+".wikipedia.org/wiki/"+encodeURIComponent(p.wiki.replace(/ /g,"_"));
 addSource(sources,"Article Wikipédia ("+lang+")",articleUrl);
 addSource(sources,"Historique des auteurs et versions",articleUrl.replace("/wiki/","/w/index.php?title=")+"&action=history");
 addSource(sources,"Licence du texte : CC BY-SA 4.0","https://creativecommons.org/licenses/by-sa/4.0/deed.fr");
-if(data.thumbnail&&data.thumbnail.source){
-try{const rights=await fetchImageLicense(data.thumbnail.source);img.src=rights.thumb;img.alt="Portrait de "+p.name+" — crédit : "+rights.author;img.hidden=false;placeholder.hidden=true;
+if(record.rights){
+const rights=record.rights;img.src=rights.thumb;img.alt="Portrait de "+p.name+" — crédit : "+rights.author;img.hidden=false;placeholder.hidden=true;
 credit.textContent="Auteur / crédit : "+rights.author+" · Licence : "+rights.license+" · ";
 const a=document.createElement("a");a.href=rights.filePage;a.target="_blank";a.rel="noopener";a.textContent="Notice du fichier";credit.append(a);
 if(rights.licenseUrl){credit.append(document.createTextNode(" · "));const l=document.createElement("a");l.href=rights.licenseUrl;l.target="_blank";l.rel="noopener";l.textContent="Texte de la licence";credit.append(l)}
-}catch(e){credit.textContent="Portrait non affiché : les informations de licence et de crédit n’ont pas pu être vérifiées.";}}
+img.addEventListener("error",()=>{img.hidden=true;placeholder.hidden=false;credit.textContent="Portrait indisponible ; consultez la notice du fichier Wikimedia Commons."},{once:true});
+}else{credit.textContent="Portrait non affiché : les informations de licence et de crédit n’ont pas pu être vérifiées."}
 }
 function addSource(list,label,url){const li=document.createElement("li"),a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener";a.textContent=label;li.append(a);list.append(li)}
 </script>
