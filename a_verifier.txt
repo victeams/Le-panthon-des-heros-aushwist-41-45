@@ -2,7 +2,7 @@ RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
 Femmes 31000 : 225
 Hommes 45000 : 905
-À vérifier : 86
+À vérifier : 105
 
 IMAGE MANQUANTE — 31-836-31000.html
 IMAGE MANQUANTE — 31-843-31000.html
@@ -32,6 +32,7 @@ NON CLASSÉ — enfants/public/googleee168e6072006973.html — aucun matricule 3
 IMAGE MANQUANTE — felicia-dite-lucia-felicja-rostkowska-31701.html
 IMAGE MANQUANTE — felicienne-bierge-31734.html
 IMAGE MANQUANTE — fernande-laurent-31748.html
+NON CLASSÉ — france.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 IMAGE MANQUANTE — gabrielle-bergin-31798.html
 IMAGE MANQUANTE — georgette_bret_nee_fourcade_31747.html
 IMAGE MANQUANTE — germaine-berger-31842.html
@@ -71,6 +72,24 @@ IMAGE MANQUANTE — noemie-durand-31727.html
 NON CLASSÉ — plaques-memorielles.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 IMAGE MANQUANTE — rachel-fernandes-31723.html
 IMAGE MANQUANTE — raymonde-georges-31000.html
+NON CLASSÉ — regions/auvergne-rhone-alpes.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/bourgogne-franche-comte.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/bretagne.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/centre-val-de-loire.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/corse.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/grand-est.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/guadeloupe.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/guyane.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/hauts-de-france.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/ile-de-france.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/la-reunion.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/martinique.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/mayotte.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/normandie.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/nouvelle-aquitaine.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/occitanie.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/pays-de-la-loire.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
+NON CLASSÉ — regions/provence-alpes-cote-d-azur.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 IMAGE MANQUANTE — repertoire-femmes-matricules.html
 IMAGE MANQUANTE — repertoire-hommes-matricules.html
 IMAGE MANQUANTE — rose_blanc_31652.html
