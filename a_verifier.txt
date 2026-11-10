@@ -2,7 +2,7 @@ RAPPORT AUTOMATIQUE DU CLASSEMENT
 ================================
 Femmes 31000 : 225
 Hommes 45000 : 905
-À vérifier : 85
+À vérifier : 86
 
 IMAGE MANQUANTE — 31-836-31000.html
 IMAGE MANQUANTE — 31-843-31000.html
@@ -51,6 +51,7 @@ IMAGE MANQUANTE — leona-bouillard-31815.html
 IMAGE MANQUANTE — lina_kuhn_ou_kuhne_31795.html
 IMAGE MANQUANTE — lucie_mansuy_31648.html
 IMAGE MANQUANTE — lucienne-dite-lulu-thevenin-31642.html
+NON CLASSÉ — lyon-rhone-1939-1945.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 IMAGE MANQUANTE — madeleine_damous_nee_demiot_31690.html
 NON CLASSÉ — mairies.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
 NON CLASSÉ — mairies-partenaires.html — aucun matricule 31xxx, 45xxx ou 46xxx reconnu
